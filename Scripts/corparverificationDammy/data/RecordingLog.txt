@@ -1,0 +1,957 @@
+[API Trapper      ( 478:1f5c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1e18:1794)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (13fc: d8c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (13fc:1058)] ------------------------------------------------------------------------------------------
+[Network Analyzer (13fc:1058)] Load Network Traffic Analyzers:
+[Network Analyzer (13fc:1058)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (13fc:1058)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (13fc:1058)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (13fc:1058)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (13fc:1058)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (13fc:1058)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (13fc:1058)]     Analyzer Module: local_server (value=)
+[Network Analyzer (13fc:1058)] ------------------------------------------------------------------------------------------
+[Network Analyzer (13fc:1b14)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1058)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1058)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /"   
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Client -> Server @ : 313 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 3752 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/css/aui.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (13fc: 4bc)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1154)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1058)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: f40)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 13098 bytes  (Service=HTTP)
+[Network Analyzer (13fc: 4bc)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/css/main.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1395140322000"   
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Client -> Server @ : 465 bytes (Service=HTTP)
+[Network Analyzer (13fc:1154)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/css/main.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (13fc:1058)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/js/barebone.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.barebone.files&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Client -> Server @ : 547 bytes (Service=HTTP)
+[Network Analyzer (13fc: f40)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /image/company_logo?img_id=0&t=1546936904601"   
+[Network Analyzer (13fc:1b14)]   (Sid:  5) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid:  6) Client -> Server @ : 481 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Server -> Client : 9968 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 14559 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 13099 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 14590 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  5) Server -> Client : 3795 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  6) Server -> Client : 752 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 4043 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1083 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/color-base/color-base-min.js&/html/js/aui/event-touch/event-touch-min.js&/html/js/liferay/dockbar.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Client -> Server @ : 569 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 2757 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/widget-base/assets/skins/sam/widget-base.css&/html/js/aui/widget-stack/assets/skins/sam/widget-stack.css"   
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Client -> Server @ : 553 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/css/aui/alloy-font-awesome/font/fontawesome-alloy.eot?"   
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Client -> Server @ : 452 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 804 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 15945 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/base-core/base-core-min.js&/html/js/aui/base-observable/base-observable-min.js&/html/js/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/html/js/aui/aui-widget-toggle/aui-widget-toggle-min.js&/html/js/aui/base-build/base-build-min.js&/html/js/aui/widget-position/widget-position-min.js&/html/js/aui/widget-stack/widget-stack-min.js&/html/js/aui/widget-position-align/widget-position-align-min.js&/html/js/aui/widget-position-constrain/widget-position-constrain-min.js&/html/js/aui/widget-stdmod/widget-stdmod-min.js&/html/js/aui/aui-overlay-base-deprecated/aui-overlay-base-deprecated-min.js&/html/js/aui/aui-overlay-mask-deprecated/aui-overlay-mask-deprecated-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Client -> Server @ : 1139 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 7665 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 7608 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/event-move/event-move-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 589 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css"   
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Client -> Server @ : 503 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 646 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/images/favicon.ico"   
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Client -> Server @ : 332 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Client -> Server @ : 523 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/liferay/language.js&/html/js/aui/querystring-stringify/querystring-stringify-min.js&/html/js/aui/aui-io-request/aui-io-request-min.js&/html/js/liferay/store.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Client -> Server @ : 782 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Server -> Client : 1697 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 406 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 5697 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/language.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 865 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css"   
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Client -> Server @ : 600 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 2239 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/hudcrumbs.js&/html/js/aui/async-queue/async-queue-min.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/liferay/navigation_interaction.js&/html/js/aui/aui-parse-content/aui-parse-content-min.js&/html/js/liferay/portlet_url.js&/html/js/aui/aui-loading-mask-deprecated/aui-loading-mask-deprecated-min.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Client -> Server @ : 1380 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/liferay/sign_in_modal.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Client -> Server @ : 1171 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Server -> Client : 11258 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 7265 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 2903 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/querystring-parse/querystring-parse-min.js&/html/js/aui/aui-url/aui-url-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Client -> Server @ : 547 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Server -> Client : 2052 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1154)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (1e18: 6a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1e18: 6a4)] Load Network Traffic Analyzers:
+[Network Analyzer (1e18: 6a4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1e18: 6a4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1e18: 6a4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1e18: 6a4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1e18: 6a4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1e18: 6a4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1e18: 6a4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1e18: 6a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1e18:1648)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/node.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (13fc:1154)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (13fc:1b14)] "POST /c/portal/login?p_l_id=12008&windowState=exclusive"   
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Server -> Client : 860 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 637 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /web/guest/2?p_p_id=58&p_p_lifecycle=0&p_p_state=exclusive&p_p_mode=view&saveLastPath=false&_58_struts_action=%2Flogin%2Flogin"   
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Client -> Server @ : 533 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 1724 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/images/common/openid.gif"   
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Client -> Server @ : 451 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/images/spacer.png"   
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Client -> Server @ : 444 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 779 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /sprite/html/themes/classic/images/common/_sprite.png"   
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Server -> Client : 669 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 11669 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/escape/escape-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Client -> Server @ : 489 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Server -> Client : 804 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 3293 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/aui/resize-base/assets/skins/sam/arrows.png"   
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Client -> Server @ : 458 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Server -> Client : 800 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (1e18: 6a4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (1e18: 6a4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (13fc:1b14)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1e18: 9c4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (13fc: f78)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1e18:1868)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: 448)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (1e18:1868)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (13fc: 448)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1e18:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Web Request      (13fc:1b14)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1e18:1648)]   (Sid:  2) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 429 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 10707 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1256 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 429 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 10152 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 12371 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 13464 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 892 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 8012 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 7920 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 256 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 5500 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1620 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 6976 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 3808 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 10828 bytes  (Service=HTTP)
+[Web Request      (1e18:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1e18:1648)]   (Sid:  2) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 14276 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 429 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 7923 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 4176 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 5568 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 8780 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2308 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 8352 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 429 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 10707 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 8284 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 8284 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2716 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 5364 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 6892 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2716 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1393 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2783 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 3836 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2716 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2716 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 4176 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 4176 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 4176 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (13fc: de8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (1e18: 19c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1393 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1393 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 4175 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 4175 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 5568 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 8352 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Server -> Client : 104 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 5568 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1324 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Server -> Client : 8368 bytes  (Service=HTTP)
+[Network Analyzer (13fc: de8)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1e18: 994)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: de8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (1e18: 994)] Request Connection: Remote Server @ 27.34.251.200:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (13fc:1b14)]   (Sid: 11) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (13fc: de8)] Request Connection: Remote Server @ 27.34.251.200:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (13fc:1b14)]   (Sid: 12) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 12) Server -> Client : 201 bytes  (Service=HTTP)
+[Web Request      (1e18:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1e18:1648)]   (Sid:  3) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1e18: 19c)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1e18:1648)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (1e18:1648)]   (Sid:  4) Client -> Server @ : 238 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (13fc:1b14)]   (Sid: 12) Client -> Server @ : 259 bytes (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  3) Server -> Client : 201 bytes  (Service=HTTP)
+[Web Request      (1e18:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1e18:1648)]   (Sid:  3) Client -> Server @ : 259 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 11) Server -> Client : 465 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 11) Server -> Client : 2094 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 12) Server -> Client : 201 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  3) Server -> Client : 201 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  4) Server -> Client : 465 bytes  (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  4) Server -> Client : 2094 bytes  (Service=HTTP)
+[Net An. Error    (1e18: 9c4)] SSLAccept(ssl_id = 2161126106432 = 000001F72D276540) Failed, ctx = 000001F72A8159D0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1e18: 9c4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (13fc: f78)] SSLAccept(ssl_id = 192657216 = 0B7BB740) Failed, ctx = 0B930A20, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (13fc: f78)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (13fc:1b14)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1e18:1648)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Web Request      (13fc:1b14)] "POST /web/guest/2?p_p_id=58&p_p_lifecycle=1&p_p_state=exclusive&p_p_mode=view&_58_struts_action=%2Flogin%2Flogin"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 765 bytes (Service=HTTP)
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 861 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /c"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 549 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 566 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 548 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 5880 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/everything.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.everything.files&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 680 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /image/user_male_portrait?img_id=0&t=1546936904601"   
+[Network Analyzer (13fc:1b14)]   (Sid: 14) Client -> Server @ : 585 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /notifications-portlet/notifications/css/main.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1545498430000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 15) Client -> Server @ : 625 bytes (Service=HTTP)
+[Network Analyzer (13fc: b44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc: b44)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 5829 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 14) Server -> Client : 1866 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 15) Server -> Client : 1916 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 7288 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /notifications-portlet/notifications/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6201&t=1545498430000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Client -> Server @ : 626 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 1078 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 13152 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 10732 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/color-base/color-base-min.js&/html/js/aui/base-core/base-core-min.js&/html/js/aui/base-observable/base-observable-min.js&/html/js/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/html/js/aui/aui-widget-toggle/aui-widget-toggle-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 834 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1277 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 14) Connection Terminated (by Server)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 652 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/liferay/language.js&/html/js/liferay/navigation.js&/html/js/liferay/store.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Client -> Server @ : 828 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 406 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 9071 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/hudcrumbs.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/liferay/navigation_interaction.js&/html/js/liferay/portlet_url.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Client -> Server @ : 1526 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/liferay/sign_in_modal.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Client -> Server @ : 1185 bytes (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1ed0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 7265 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 950 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Server -> Client : 2242 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 5805 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Server -> Client : 6419 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 355 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 41 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 676 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 246 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 676 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (13fc:1154)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1154)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-proxy/dd-proxy-min.js&/html/js/aui/sortable/sortable-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Client -> Server @ : 699 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Server -> Client : 7 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/dockbar_keyboard_interaction.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Client -> Server @ : 672 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Server -> Client : 1381 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Client -> Server @ : 676 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 676 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 275 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Server -> Client : 355 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Server -> Client : 308 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1024 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /group/control_panel?refererPlid=12008&doAsGroupId=10181&controlPanelCategory=current_site.configuration"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 665 bytes (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (1e18:1648)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 486 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (13fc:1ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Web Request      (13fc:1b14)] "GET /group/control_panel?refererPlid=12008&doAsGroupId=10181&controlPanelCategory=current_site.configuration&p_p_id=165"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 676 bytes (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (13fc:1ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 7217 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/css/aui.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 5840 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1395140322000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Client -> Server @ : 752 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/portlet/sites_admin/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (13fc: f40)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc: 9b0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc: 448)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1154)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1274)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 2656 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/everything.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.everything.files&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Client -> Server @ : 773 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Server -> Client : 4339 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Server -> Client : 688 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /notifications-portlet/notifications/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545498430000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Client -> Server @ : 783 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc: f40)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 769 bytes (Service=HTTP)
+[Network Analyzer (13fc: 448)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/css/aui.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer (13fc: 9b0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/spacer.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 24) Client -> Server @ : 732 bytes (Service=HTTP)
+[Network Analyzer (13fc:1154)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/portlet/help.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Client -> Server @ : 738 bytes (Service=HTTP)
+[Network Analyzer (13fc:1274)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /opensocial-portlet/editor.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Client -> Server @ : 718 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8749 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Server -> Client : 2600 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Server -> Client : 1915 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 14559 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 2124 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 14559 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 24) Server -> Client : 670 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Server -> Client : 3711 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 1270 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 1969 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 12888 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 2596 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8436 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 512 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/favicon.ico"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 506 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/css/aui/alloy-font-awesome/font/fontawesome-alloy.eot?"   
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 740 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1697 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /sprite/html/icons/_sprite.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 718 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/classic/images/arrows/13_left.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Client -> Server @ : 734 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /sprite/html/themes/control_panel/images/common/_sprite.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Client -> Server @ : 747 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/common/open_window.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Client -> Server @ : 744 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8725 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 1912 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 1345 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 8749 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Server -> Client : 1098 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 8760 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/custom/search_panel_icon.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Client -> Server @ : 750 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 1136 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 1255 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 4056 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-event-delegate-change/aui-event-delegate-change-min.js&/html/js/aui/aui-event-delegate-submit/aui-event-delegate-submit-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Client -> Server @ : 881 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 390 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 1768 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 1858 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/tabview/assets/skins/sam/tabview.css&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css&/html/js/aui/aui-tree-view/assets/skins/sam/aui-tree-view.css&/html/js/aui/datatable-base/assets/skins/sam/datatable-base.css&/html/js/aui/aui-datatable-core/assets/skins/sam/aui-datatable-core.css"   
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Client -> Server @ : 1198 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 677 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Client -> Server @ : 810 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-char-counter/aui-char-counter-min.js&/html/js/aui/widget-parent/widget-parent-min.js&/html/js/aui/tabview-base/tabview-base-min.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/aui/tabview/tabview-min.js&/html/js/aui/aui-tabview/aui-tabview-min.js&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/aui/querystring-parse/querystring-parse-min.js&/html/js/aui/aui-url/aui-url-min.js&/html/js/aui/escape/escape-min.js&/html/js/aui/history-base/history-base-min.js&/html/js/aui/history-html5/history-html5-min.js&/html/js/aui/history-hash/history-hash-min.js&/html/js/aui/history-hash-ie/history-hash-ie-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 1653 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/datasource-local/datasource-local-min.js&/html/js/aui/datasource-io/datasource-io-min.js&/html/js/aui/datasource-get/datasource-get-min.js&/html/js/aui/datasource-function/datasource-function-min.js&/html/js/aui/cache-base/cache-base-min.js&/html/js/aui/datasource-cache/datasource-cache-min.js&/html/js/aui/dataschema-base/dataschema-base-min.js&/html/js/aui/dataschema-json/dataschema-json-min.js&/html/js/aui/datasource-jsonschema/datasource-jsonschema-min.js&/html/js/aui/dataschema-xml/dataschema-xml-min.js&/html/js/aui/datasource-xmlschema/datasource-xmlschema-min.js&/html/js/aui/dataschema-array/dataschema-array-min.js&/html/js/aui/datasource-arrayschema/datasource-arrayschema-min.js&/html/js/aui/dataschema-text/dataschema-text-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Client -> Server @ : 1627 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/datasource-textschema/datasource-textschema-min.js&/html/js/aui/datasource-polling/datasource-polling-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/aui-autosize-deprecated/aui-autosize-deprecated-min.js&/html/js/aui/aui-form-field-deprecated/aui-form-field-deprecated-min.js&/html/js/aui/aui-form-textfield-deprecated/aui-form-textfield-deprecated-min.js&/html/js/aui/aui-form-textarea-deprecated/aui-form-textarea-deprecated-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-form-combobox-deprecated/aui-form-combobox-deprecated-min.js&/html/js/aui/aui-autocomplete-deprecated/aui-autocomplete-deprecated-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Client -> Server @ : 1635 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-live-search-deprecated/aui-live-search-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/aui/aui-template-deprecated/aui-template-deprecated-min.js&/html/js/aui/anim-base/anim-base-min.js&/html/js/aui/anim-node-plugin/anim-node-plugin-min.js&/html/js/aui/aui-state-interaction-deprecated/aui-state-interaction-deprecated-min.js&/html/js/aui/aui-button-item-deprecated/aui-button-item-deprecated-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Client -> Server @ : 1649 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-data-set-deprecated/aui-data-set-deprecated-min.js&/html/js/aui/aui-textboxlist-deprecated/aui-textboxlist-deprecated-min.js&/html/js/liferay/service_datasource.js&/html/js/liferay/asset_tags_selector.js&/html/js/aui/aui-tree-data/aui-tree-data-min.js&/html/js/aui/aui-tree-io/aui-tree-io-min.js&/html/js/aui/aui-tree-paginator/aui-tree-paginator-min.js&/html/js/aui/aui-tree-node/aui-tree-node-min.js&/html/js/aui/dd-proxy/dd-proxy-min.js&/html/js/aui/aui-tree-view/aui-tree-view-min.js&/html/js/liferay/asset_categories_selector.js&/html/js/liferay/input_move_boxes.js&/html/js/liferay/language.js&/html/js/aui/model/model-min.js&/html/js/aui/model-list/model-list-min.js&/html/js/aui/datatable-core/datatable-core-min.js&/html/js/aui/view/view-min.js&/html/js/aui/datatable-head/datatable-head-min.js&/html/js/aui/datatable-body/datatable-body-min.js&/html/js/aui/datatable-table/datatable-table-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 1660 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/datatable-base/datatable-base-min.js&/html/js/aui/aui-datatable-core/aui-datatable-core-min.js&/html/js/liferay/search_container.js&/html/js/liferay/store.js&/html/js/liferay/util_list_fields.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Client -> Server @ : 945 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Server -> Client : 3369 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Server -> Client : 406 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Server -> Client : 7265 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 7265 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Server -> Client : 5111 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 8724 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 14565 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 3594 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Server -> Client : 1918 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Server -> Client : 5303 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1620 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/aui/jsonp/jsonp-min.js&/html/js/aui/jsonp-url/jsonp-url-min.js&/html/js/aui/yql/yql-min.js&/html/js/aui/yql-jsonp/yql-jsonp-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 1021 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 3741 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/overlay/assets/skins/sam/overlay.css"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 767 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 790 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 276 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 677 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/anim-color/anim-color-min.js&/html/js/aui/anim-xy/anim-xy-min.js&/html/js/aui/anim-curve/anim-curve-min.js&/html/js/aui/anim-easing/anim-easing-min.js&/html/js/aui/anim-scroll/anim-scroll-min.js&/html/js/aui/aui-overlay-context-panel-deprecated/aui-overlay-context-panel-deprecated-min.js&/html/js/liferay/message.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 1067 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1102 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/custom/panel_close.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 744 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1313 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 395 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 790 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 26) Connection Terminated (by Server)
+[Web Request      (13fc:1b14)] "GET /group/control_panel/manage?p_p_auth=LNpeqsjv&p_p_id=178&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&doAsGroupId=10181&refererPlid=12008&controlPanelCategory=current_site.configuration"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 865 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Server -> Client : 40 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 790 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Client -> Server @ : 276 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 10695 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/portlet/mobile_device_rules/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 855 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/common/tool.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 812 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1208 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1247 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 899 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 123 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-widget-trigger/aui-widget-trigger-min.js&/html/js/aui/aui-widget-position-align-suggestion/aui-widget-position-align-suggestion-min.js&/html/js/aui/aui-popover/aui-popover-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 1532 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 7417 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/util_list_fields.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 849 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 944 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css&/html/js/aui/datatable-base/assets/skins/sam/datatable-base.css&/html/js/aui/aui-datatable-core/assets/skins/sam/aui-datatable-core.css"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 1054 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 2081 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 885 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/aui/escape/escape-min.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 1752 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 798 bytes  (Service=HTTP)
+[Network Analyzer (13fc: 258)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/language.js&/html/js/aui/model/model-min.js&/html/js/aui/model-list/model-list-min.js&/html/js/aui/datatable-core/datatable-core-min.js&/html/js/aui/view/view-min.js&/html/js/aui/datatable-head/datatable-head-min.js&/html/js/aui/datatable-body/datatable-body-min.js&/html/js/aui/datatable-table/datatable-table-min.js&/html/js/aui/datatable-base/datatable-base-min.js&/html/js/aui/aui-datatable-core/aui-datatable-core-min.js&/html/js/liferay/search_container.js&/html/js/liferay/store.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 1318 bytes (Service=HTTP)
+[Network Analyzer (13fc: 258)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 10769 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 4201 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-live-search-deprecated/aui-live-search-deprecated-min.js&/html/js/aui/anim-base/anim-base-min.js&/html/js/aui/anim-color/anim-color-min.js&/html/js/aui/anim-xy/anim-xy-min.js&/html/js/aui/anim-curve/anim-curve-min.js&/html/js/aui/anim-easing/anim-easing-min.js&/html/js/aui/anim-node-plugin/anim-node-plugin-min.js&/html/js/aui/anim-scroll/anim-scroll-min.js&/html/js/aui/aui-overlay-context-panel-deprecated/aui-overlay-context-panel-deprecated-min.js&/html/js/liferay/message.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 1364 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 865 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 275 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 2489 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 395 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 865 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Client -> Server @ : 247 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /group/control_panel/manage?p_p_id=152&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&doAsGroupId=10181&refererPlid=12008&controlPanelCategory=current_site.configuration"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 922 bytes (Service=HTTP)
+[Network Analyzer (13fc:1274)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 28) Client -> Server @ : 865 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 28) Client -> Server @ : 275 bytes (Service=HTTP)
+[Network Analyzer (13fc:1274)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (13fc:1274)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 7217 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/portlet/workflow_definitions/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1680 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1274)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/common/pages.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Client -> Server @ : 795 bytes (Service=HTTP)
+[Network Analyzer (13fc:1274)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1058)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1f78)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/blogs/blogs.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 794 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Server -> Client : 395 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 1252 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.132
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1388 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Server -> Client : 1253 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (13fc:1274)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/common/history.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 797 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/common/conversation.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Client -> Server @ : 802 bytes (Service=HTTP)
+[Network Analyzer (13fc:1058)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (13fc:1f78)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (13fc:1ed0)] Request Connection: Remote Server @ 10.10.10.51:80   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css&/html/js/aui/datatable-base/assets/skins/sam/datatable-base.css&/html/js/aui/aui-datatable-core/assets/skins/sam/aui-datatable-core.css"   
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Client -> Server @ : 1143 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/themes/control_panel/images/common/clip.png"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 794 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 1338 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 1146 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 928 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Server -> Client : 2921 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Client -> Server @ : 867 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/aui/escape/escape-min.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 1730 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/liferay/language.js&/html/js/aui/model/model-min.js&/html/js/aui/model-list/model-list-min.js&/html/js/aui/datatable-core/datatable-core-min.js&/html/js/aui/view/view-min.js&/html/js/aui/datatable-head/datatable-head-min.js&/html/js/aui/datatable-body/datatable-body-min.js&/html/js/aui/datatable-table/datatable-table-min.js&/html/js/aui/datatable-base/datatable-base-min.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Client -> Server @ : 1707 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-datatable-core/aui-datatable-core-min.js&/html/js/liferay/search_container.js&/html/js/liferay/store.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Client -> Server @ : 915 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Server -> Client : 392 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Server -> Client : 406 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Server -> Client : 2273 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 13105 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 14565 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Server -> Client : 2698 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 6421 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 847 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 276 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 847 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 40 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 847 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 277 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 355 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 669 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 847 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 277 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 41 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 847 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 41 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 1097 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (13fc:1b14)]   (Sid: 12) Connection Terminated (by Client)
+[Web Request      (13fc:1b14)] "POST /group/control_panel/manage?p_auth=98UwHOXH&p_p_id=152&p_p_lifecycle=1&p_p_state=maximized&p_p_mode=view&doAsGroupId=10181&refererPlid=12008&controlPanelCategory=current_site.configuration&_152_struts_action=%2Fworkflow_definition_links%2Fedit_workflow_definition_link"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 1481 bytes (Service=HTTP)
+[Network Analyzer (1e18:1648)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1e18:1648)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 7217 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 222 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Client -> Server @ : 963 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/liferay/language.js&/html/js/liferay/store.js"   
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 1103 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Server -> Client : 798 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Server -> Client : 4190 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 943 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 275 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Server -> Client : 354 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Server -> Client : 41 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 943 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Server -> Client : 395 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 943 bytes (Service=HTTP)
+[Web Request      (13fc:1b14)] "POST /poller/receive"   
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Server -> Client : 663 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 31) Connection Terminated (by Server)
+[Web Request      (13fc:1b14)] "GET /c/portal/logout"   
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Client -> Server @ : 844 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 1058 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 74 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /c"   
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 661 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /c/portal/layout"   
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Client -> Server @ : 521 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 522 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /web/guest/2"   
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 3502 bytes  (Service=HTTP)
+[Web Request      (13fc:1b14)] "GET /html/js/liferay/available_languages.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"   
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Client -> Server @ : 631 bytes (Service=HTTP)
+[Network Analyzer (13fc:1b14)]   (Sid: 32) Server -> Client : 798 bytes  (Service=HTTP)

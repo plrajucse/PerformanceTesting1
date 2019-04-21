@@ -1,0 +1,85 @@
+Virtual User Script started at: 1/23/2019 1:35:32 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\WtsScriptingChalleges8\DownloadPdf\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_custom_request("cran.r-project.org") started  	[MsgId: MMSG-26355]
+Action.c(10): web_custom_request("cran.r-project.org") was successful, 458 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(20): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(22): web_custom_request("R.css") started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_custom_request("R.css") was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_custom_request("logo.html") started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_custom_request("logo.html") was successful  	[MsgId: MMSG-26390]
+Action.c(41): web_custom_request("banner.shtml") started  	[MsgId: MMSG-26355]
+Action.c(41): Registering web_custom_request("banner.shtml") was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_custom_request("navbar.html") started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_custom_request("navbar.html") was successful  	[MsgId: MMSG-26390]
+Action.c(61): web_custom_request("favicon.ico") started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_custom_request("favicon.ico") was successful  	[MsgId: MMSG-26390]
+Action.c(70): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(70): web_concurrent_end was successful, 8714 body bytes, 1622 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): web_custom_request("Rlogo.svg") started  	[MsgId: MMSG-26355]
+Action.c(72): web_custom_request("Rlogo.svg") was successful, 2693 body bytes, 290 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Transaction "1_transaction" started.
+Action.c(87): web_custom_request("Manuals") started  	[MsgId: MMSG-26355]
+Action.c(87): web_custom_request("Manuals") was successful, 2032 body bytes, 339 header bytes  	[MsgId: MMSG-26386]
+Action.c(97): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 0.6601 Wasted Time: 0.0547).
+Action.c(104): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(104): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(105): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(105): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(107): web_custom_request("PDF") started  	[MsgId: MMSG-26355]
+Action.c(107): web_custom_request("PDF") was successful, 620443 body bytes, 296 header bytes  	[MsgId: MMSG-26386]
+Action.c(116): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+Action.c(116): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_custom_request("cran.r-project.org") started  	[MsgId: MMSG-26355]
+Action.c(10): web_custom_request("cran.r-project.org") was successful, 458 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(20): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(22): web_custom_request("R.css") started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_custom_request("R.css") was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_custom_request("logo.html") started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_custom_request("logo.html") was successful  	[MsgId: MMSG-26390]
+Action.c(41): web_custom_request("banner.shtml") started  	[MsgId: MMSG-26355]
+Action.c(41): Registering web_custom_request("banner.shtml") was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_custom_request("navbar.html") started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_custom_request("navbar.html") was successful  	[MsgId: MMSG-26390]
+Action.c(61): web_custom_request("favicon.ico") started  	[MsgId: MMSG-26355]
+Action.c(61): Registering web_custom_request("favicon.ico") was successful  	[MsgId: MMSG-26390]
+Action.c(70): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(70): web_concurrent_end was successful, 8714 body bytes, 1622 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): web_custom_request("Rlogo.svg") started  	[MsgId: MMSG-26355]
+Action.c(72): web_custom_request("Rlogo.svg") was successful, 2693 body bytes, 290 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): Notify: Transaction "1_transaction" started.
+Action.c(87): web_custom_request("Manuals") started  	[MsgId: MMSG-26355]
+Action.c(87): web_custom_request("Manuals") was successful, 2032 body bytes, 339 header bytes  	[MsgId: MMSG-26386]
+Action.c(97): Notify: Transaction "1_transaction" ended with a "Pass" status (Duration: 0.6655 Wasted Time: 0.0656).
+Action.c(104): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(104): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(105): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(105): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(107): web_custom_request("PDF") started  	[MsgId: MMSG-26355]
+Action.c(107): web_custom_request("PDF") was successful, 620443 body bytes, 296 header bytes  	[MsgId: MMSG-26386]
+Action.c(116): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+Action.c(116): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

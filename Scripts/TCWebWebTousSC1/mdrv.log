@@ -1,0 +1,22 @@
+Virtual User Script started at : 2019-02-12 11:35:03
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: Chromium 63.0.3239.132, initialized on 2019/02/12 at 11:35:03 (1549951503.658s)
+
+Running Vuser...
+Starting iteration 1.
+t=00001887ms: Step 1: Navigate to "http://127.0.0.1:1080/webtours/" started    [MsgId: MMSG-205180]
+t=00003905ms: Step 1: Navigate to http://127.0.0.1:1080/webtours/ successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+t=00004423ms: Step 2: Click on Username textbox started    [MsgId: MMSG-205180]
+t=00004808ms: Step 2: Click on Username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00005322ms: Step 3: Type jojo in Username textbox started    [MsgId: MMSG-205180]
+t=00007110ms: Step 3: Type jojo in Username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00007631ms: Step 4: Click on Password passwordbox started    [MsgId: MMSG-205180]
+t=00007972ms: Step 4: Click on Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00008495ms: Step 5: Type **** in Password passwordbox started    [MsgId: MMSG-205180]
+t=00009693ms: Step 5: Type **** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00010209ms: Step 6: Double click on Login button started    [MsgId: MMSG-205180]
+t=00011051ms: Step 6: Double click on Login button successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+t=00011561ms: Step 7: Click on SignOff Button image started    [MsgId: MMSG-205180]
+t=00012286ms: Step 7: Click on SignOff Button image successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

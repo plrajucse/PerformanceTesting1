@@ -1,0 +1,32 @@
+Virtual User Script started at : 2019-02-12 22:45:58
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: Chromium 63.0.3239.132, initialized on 2019/02/12 at 22:45:58 (1549991758.233s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Transaction 1 Launch" started.
+t=00002377ms: Step 1: Navigate to "http://127.0.0.1:1080/webtours/" started    [MsgId: MMSG-205180]
+t=00003697ms: Step 1: Navigate to http://127.0.0.1:1080/webtours/ successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+t=00003722ms: Step 2: Verify Welcome to the Web Tours site's Visible Text contains Welcome to the Web Tours site started    [MsgId: MMSG-205180]
+t=00004083ms: Step 2: Verify Welcome to the Web Tours site's Visible Text contains Welcome to the Web Tours site successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00004107ms: Step 3: Wait until iMatix Corporation link exists started    [MsgId: MMSG-205180]
+t=00004447ms: Step 3: Wait until iMatix Corporation link exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1 Launch" ended with a "Pass" status (Duration: 2.0930 Think Time: 0.0240 Wasted Time: 1.0150).
+t=00004472ms: Step 5: Wait 3 seconds started    [MsgId: MMSG-205180]
+t=00007686ms: Step 5: Wait 3 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 3 Login" started.
+t=00008209ms: Step 6: Type TC.getParam("pUserName") in Username textbox started    [MsgId: MMSG-205180]
+t=00008252ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00009667ms: Step 6: Type jojo in Username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00010186ms: Step 8: Type ****************... in Password passwordbox started    [MsgId: MMSG-205180]
+t=00010217ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00011828ms: Step 8: Type **** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00012349ms: Step 9: Click on Login button started    [MsgId: MMSG-205180]
+t=00013214ms: Step 9: Click on Login button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00013242ms: Step 10: Verify Welcome to the Web Tours site's Visible Text contains Using the menu started    [MsgId: MMSG-205180]
+t=00013553ms: Step 10: Verify Welcome to the Web Tours site's Visible Text contains Using the menu successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00013578ms: Step 11: Wait until Welcome to the Web Tours site  exists started    [MsgId: MMSG-205180]
+t=00013888ms: Step 11: Wait until Welcome to the Web Tours site  exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 3 Login" ended with a "Pass" status (Duration: 5.6990 Think Time: 0.0270 Wasted Time: 2.6780).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

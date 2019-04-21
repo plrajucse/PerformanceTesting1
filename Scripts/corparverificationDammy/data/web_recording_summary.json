@@ -1,0 +1,1212 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.ms-fontobject"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 28,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Jan-08-2019",
+    "RecordingDuration": 171718,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1546943475,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1231129,
+    "TotalBytesSent": 107075,
+    "TotalRequests": 123,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "shaft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "10.10.10.51",
+          "IncludeInScript": true,
+          "Name": "ed.shaft.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 15,
+              "EventId": 781,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 778,
+              "HttpStatus": 200,
+              "Size": 4483,
+              "URL": "http://ed.shaft.com/web/guest/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 776,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://ed.shaft.com/c/portal/layout"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 735,
+              "EventId": 774,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://ed.shaft.com/c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 771,
+              "HttpStatus": 200,
+              "Size": 73,
+              "URL": "http://ed.shaft.com/c/portal/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2781,
+              "EventId": 768,
+              "HttpStatus": 200,
+              "Size": 308,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2687,
+              "EventId": 766,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2500,
+              "EventId": 762,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 188,
+              "EventId": 759,
+              "HttpStatus": 200,
+              "Size": 5109,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/liferay/language.js&/html/js/liferay/store.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 187,
+              "EventId": 757,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 2297,
+              "EventId": 753,
+              "HttpStatus": 200,
+              "Size": 8395,
+              "URL": "http://ed.shaft.com/group/control_panel/manage?p_auth=98UwHOXH&p_p_id=152&p_p_lifecycle=1&p_p_state=maximized&p_p_mode=view&doAsGroupId=10181&refererPlid=12008&controlPanelCategory=current_site.configuration&_152_struts_action=%2Fworkflow_definition_links%2Fedit_workflow_definition_link"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2157,
+              "EventId": 746,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2531,
+              "EventId": 743,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2110,
+              "EventId": 740,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2390,
+              "EventId": 737,
+              "HttpStatus": 200,
+              "Size": 40,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2547,
+              "EventId": 732,
+              "HttpStatus": 200,
+              "Size": 309,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 250,
+              "EventId": 725,
+              "HttpStatus": 200,
+              "Size": 20445,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/aui/escape/escape-min.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 234,
+              "EventId": 722,
+              "HttpStatus": 200,
+              "Size": 21102,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/liferay/language.js&/html/js/aui/model/model-min.js&/html/js/aui/model-list/model-list-min.js&/html/js/aui/datatable-core/datatable-core-min.js&/html/js/aui/view/view-min.js&/html/js/aui/datatable-head/datatable-head-min.js&/html/js/aui/datatable-body/datatable-body-min.js&/html/js/aui/datatable-table/datatable-table-min.js&/html/js/aui/datatable-base/datatable-base-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 219,
+              "EventId": 720,
+              "HttpStatus": 200,
+              "Size": 1733,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-datatable-core/aui-datatable-core-min.js&/html/js/liferay/search_container.js&/html/js/liferay/store.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 717,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 938,
+              "EventId": 715,
+              "HttpStatus": 200,
+              "Size": 2388,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css&/html/js/aui/datatable-base/assets/skins/sam/datatable-base.css&/html/js/aui/aui-datatable-core/assets/skins/sam/aui-datatable-core.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 922,
+              "EventId": 713,
+              "HttpStatus": 200,
+              "Size": 361,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/common/clip.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 922,
+              "EventId": 711,
+              "HttpStatus": 200,
+              "Size": 580,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/common/conversation.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 922,
+              "EventId": 709,
+              "HttpStatus": 200,
+              "Size": 772,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/common/history.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 610,
+              "EventId": 702,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/common/pages.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 500,
+              "EventId": 700,
+              "HttpStatus": 200,
+              "Size": 822,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/blogs/blogs.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 625,
+              "EventId": 697,
+              "HttpStatus": 200,
+              "Size": 719,
+              "URL": "http://ed.shaft.com/html/portlet/workflow_definitions/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2110,
+              "EventId": 694,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 969,
+              "EventId": 686,
+              "HttpStatus": 200,
+              "Size": 9852,
+              "URL": "http://ed.shaft.com/group/control_panel/manage?p_p_id=152&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&doAsGroupId=10181&refererPlid=12008&controlPanelCategory=current_site.configuration"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2109,
+              "EventId": 681,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 676,
+              "HttpStatus": 200,
+              "Size": 9249,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-live-search-deprecated/aui-live-search-deprecated-min.js&/html/js/aui/anim-base/anim-base-min.js&/html/js/aui/anim-color/anim-color-min.js&/html/js/aui/anim-xy/anim-xy-min.js&/html/js/aui/anim-curve/anim-curve-min.js&/html/js/aui/anim-easing/anim-easing-min.js&/html/js/aui/anim-node-plugin/anim-node-plugin-min.js&/html/js/aui/anim-scroll/anim-scroll-min.js&/html/js/aui/aui-overlay-context-panel-deprecated/aui-overlay-context-panel-deprecated-min.js&/html/js/liferay/message.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 157,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 20044,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/aui/escape/escape-min.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 93,
+              "EventId": 670,
+              "HttpStatus": 200,
+              "Size": 11688,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/language.js&/html/js/aui/model/model-min.js&/html/js/aui/model-list/model-list-min.js&/html/js/aui/datatable-core/datatable-core-min.js&/html/js/aui/view/view-min.js&/html/js/aui/datatable-head/datatable-head-min.js&/html/js/aui/datatable-body/datatable-body-min.js&/html/js/aui/datatable-table/datatable-table-min.js&/html/js/aui/datatable-base/datatable-base-min.js&/html/js/aui/aui-datatable-core/aui-datatable-core-min.js&/html/js/liferay/search_container.js&/html/js/liferay/store.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 666,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 664,
+              "HttpStatus": 200,
+              "Size": 1548,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css&/html/js/aui/datatable-base/assets/skins/sam/datatable-base.css&/html/js/aui/aui-datatable-core/assets/skins/sam/aui-datatable-core.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 343,
+              "EventId": 662,
+              "HttpStatus": 200,
+              "Size": 405,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/util_list_fields.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 110,
+              "EventId": 657,
+              "HttpStatus": 200,
+              "Size": 12717,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-widget-trigger/aui-widget-trigger-min.js&/html/js/aui/aui-widget-position-align-suggestion/aui-widget-position-align-suggestion-min.js&/html/js/aui/aui-popover/aui-popover-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1422,
+              "EventId": 654,
+              "HttpStatus": 200,
+              "Size": 1051,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 828,
+              "EventId": 651,
+              "HttpStatus": 200,
+              "Size": 715,
+              "URL": "http://ed.shaft.com/html/portlet/mobile_device_rules/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 688,
+              "EventId": 649,
+              "HttpStatus": 200,
+              "Size": 641,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/common/tool.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 985,
+              "EventId": 646,
+              "HttpStatus": 200,
+              "Size": 11650,
+              "URL": "http://ed.shaft.com/group/control_panel/manage?p_p_auth=LNpeqsjv&p_p_id=178&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&doAsGroupId=10181&refererPlid=12008&controlPanelCategory=current_site.configuration"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2079,
+              "EventId": 643,
+              "HttpStatus": 200,
+              "Size": 40,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2281,
+              "EventId": 636,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 632,
+              "HttpStatus": 200,
+              "Size": 746,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/custom/panel_close.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 629,
+              "HttpStatus": 200,
+              "Size": 3482,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/anim-color/anim-color-min.js&/html/js/aui/anim-xy/anim-xy-min.js&/html/js/aui/anim-curve/anim-curve-min.js&/html/js/aui/anim-easing/anim-easing-min.js&/html/js/aui/anim-scroll/anim-scroll-min.js&/html/js/aui/aui-overlay-context-panel-deprecated/aui-overlay-context-panel-deprecated-min.js&/html/js/liferay/message.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 203,
+              "EventId": 627,
+              "HttpStatus": 200,
+              "Size": 145,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/overlay/assets/skins/sam/overlay.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 219,
+              "EventId": 624,
+              "HttpStatus": 200,
+              "Size": 4661,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/aui/jsonp/jsonp-min.js&/html/js/aui/jsonp-url/jsonp-url-min.js&/html/js/aui/yql/yql-min.js&/html/js/aui/yql-jsonp/yql-jsonp-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 422,
+              "EventId": 612,
+              "HttpStatus": 200,
+              "Size": 27324,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-data-set-deprecated/aui-data-set-deprecated-min.js&/html/js/aui/aui-textboxlist-deprecated/aui-textboxlist-deprecated-min.js&/html/js/liferay/service_datasource.js&/html/js/liferay/asset_tags_selector.js&/html/js/aui/aui-tree-data/aui-tree-data-min.js&/html/js/aui/aui-tree-io/aui-tree-io-min.js&/html/js/aui/aui-tree-paginator/aui-tree-paginator-min.js&/html/js/aui/aui-tree-node/aui-tree-node-min.js&/html/js/aui/dd-proxy/dd-proxy-min.js&/html/js/aui/aui-tree-view/aui-tree-view-min.js&/html/js/liferay/asset_categories_selector.js&/html/js/liferay/input_move_boxes.js&/html/js/liferay/language.js&/html/js/aui/model/model-min.js&/html/js/aui/model-list/model-list-min.js&/html/js/aui/datatable-core/datatable-core-min.js&/html/js/aui/view/view-min.js&/html/js/aui/datatable-head/datatable-head-min.js&/html/js/aui/datatable-body/datatable-body-min.js&/html/js/aui/datatable-table/datatable-table-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 422,
+              "EventId": 609,
+              "HttpStatus": 200,
+              "Size": 20538,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-char-counter/aui-char-counter-min.js&/html/js/aui/widget-parent/widget-parent-min.js&/html/js/aui/tabview-base/tabview-base-min.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/aui/tabview/tabview-min.js&/html/js/aui/aui-tabview/aui-tabview-min.js&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/aui/querystring-parse/querystring-parse-min.js&/html/js/aui/aui-url/aui-url-min.js&/html/js/aui/escape/escape-min.js&/html/js/aui/history-base/history-base-min.js&/html/js/aui/history-html5/history-html5-min.js&/html/js/aui/history-hash/history-hash-min.js&/html/js/aui/history-hash-ie/history-hash-ie-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 406,
+              "EventId": 607,
+              "HttpStatus": 200,
+              "Size": 7218,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/datasource-local/datasource-local-min.js&/html/js/aui/datasource-io/datasource-io-min.js&/html/js/aui/datasource-get/datasource-get-min.js&/html/js/aui/datasource-function/datasource-function-min.js&/html/js/aui/cache-base/cache-base-min.js&/html/js/aui/datasource-cache/datasource-cache-min.js&/html/js/aui/dataschema-base/dataschema-base-min.js&/html/js/aui/dataschema-json/dataschema-json-min.js&/html/js/aui/datasource-jsonschema/datasource-jsonschema-min.js&/html/js/aui/dataschema-xml/dataschema-xml-min.js&/html/js/aui/datasource-xmlschema/datasource-xmlschema-min.js&/html/js/aui/dataschema-array/dataschema-array-min.js&/html/js/aui/datasource-arrayschema/datasource-arrayschema-min.js&/html/js/aui/dataschema-text/dataschema-text-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 375,
+              "EventId": 603,
+              "HttpStatus": 200,
+              "Size": 13295,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/datasource-textschema/datasource-textschema-min.js&/html/js/aui/datasource-polling/datasource-polling-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/aui-autosize-deprecated/aui-autosize-deprecated-min.js&/html/js/aui/aui-form-field-deprecated/aui-form-field-deprecated-min.js&/html/js/aui/aui-form-textfield-deprecated/aui-form-textfield-deprecated-min.js&/html/js/aui/aui-form-textarea-deprecated/aui-form-textarea-deprecated-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-form-combobox-deprecated/aui-form-combobox-deprecated-min.js&/html/js/aui/aui-autocomplete-deprecated/aui-autocomplete-deprecated-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 359,
+              "EventId": 600,
+              "HttpStatus": 200,
+              "Size": 19327,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-live-search-deprecated/aui-live-search-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/aui/aui-template-deprecated/aui-template-deprecated-min.js&/html/js/aui/anim-base/anim-base-min.js&/html/js/aui/anim-node-plugin/anim-node-plugin-min.js&/html/js/aui/aui-state-interaction-deprecated/aui-state-interaction-deprecated-min.js&/html/js/aui/aui-button-item-deprecated/aui-button-item-deprecated-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 297,
+              "EventId": 597,
+              "HttpStatus": 200,
+              "Size": 2829,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/datatable-base/datatable-base-min.js&/html/js/aui/aui-datatable-core/aui-datatable-core-min.js&/html/js/liferay/search_container.js&/html/js/liferay/store.js&/html/js/liferay/util_list_fields.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 595,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 344,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 3064,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/tabview/assets/skins/sam/tabview.css&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css&/html/js/aui/aui-tree-view/assets/skins/sam/aui-tree-view.css&/html/js/aui/datatable-base/assets/skins/sam/datatable-base.css&/html/js/aui/aui-datatable-core/assets/skins/sam/aui-datatable-core.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 235,
+              "EventId": 590,
+              "HttpStatus": 200,
+              "Size": 1318,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-event-delegate-change/aui-event-delegate-change-min.js&/html/js/aui/aui-event-delegate-submit/aui-event-delegate-submit-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/custom/search_panel_icon.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 566,
+              "HttpStatus": 200,
+              "Size": 532,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/common/open_window.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 49402,
+              "URL": "http://ed.shaft.com/sprite/html/themes/control_panel/images/common/_sprite.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 559,
+              "HttpStatus": 200,
+              "Size": 1344,
+              "URL": "http://ed.shaft.com/html/themes/classic/images/arrows/13_left.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 28884,
+              "URL": "http://ed.shaft.com/sprite/html/icons/_sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 110,
+              "EventId": 555,
+              "HttpStatus": 200,
+              "Size": 77112,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/css/aui/alloy-font-awesome/font/fontawesome-alloy.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 46,
+              "EventId": 553,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 297,
+              "EventId": 522,
+              "HttpStatus": 200,
+              "Size": 697,
+              "URL": "http://ed.shaft.com/opensocial-portlet/editor.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 297,
+              "EventId": 520,
+              "HttpStatus": 200,
+              "Size": 3142,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/portlet/help.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 297,
+              "EventId": 518,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/images/spacer.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 282,
+              "EventId": 516,
+              "HttpStatus": 200,
+              "Size": 26912,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/css/aui.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 281,
+              "EventId": 514,
+              "HttpStatus": 200,
+              "Size": 1583,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 344,
+              "EventId": 512,
+              "HttpStatus": 200,
+              "Size": 15993,
+              "URL": "http://ed.shaft.com/html/themes/control_panel/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 281,
+              "EventId": 510,
+              "HttpStatus": 200,
+              "Size": 1312,
+              "URL": "http://ed.shaft.com/notifications-portlet/notifications/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545498430000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 507,
+              "HttpStatus": 200,
+              "Size": 143016,
+              "URL": "http://ed.shaft.com/html/js/everything.jsp?browserId=other&themeId=controlpanel&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.everything.files&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 2328,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 155,
+              "URL": "http://ed.shaft.com/html/portlet/sites_admin/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 2313,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 18084,
+              "URL": "http://ed.shaft.com/html/css/main.css?browserId=other&themeId=controlpanel&minifierType=css&languageId=en_US&b=6201&t=1395140322000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 479,
+              "HttpStatus": 200,
+              "Size": 19580,
+              "URL": "http://ed.shaft.com/group/control_panel?refererPlid=12008&doAsGroupId=10181&controlPanelCategory=current_site.configuration&p_p_id=165"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 1031,
+              "EventId": 473,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://ed.shaft.com/group/control_panel?refererPlid=12008&doAsGroupId=10181&controlPanelCategory=current_site.configuration"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2063,
+              "EventId": 468,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2219,
+              "EventId": 465,
+              "HttpStatus": 200,
+              "Size": 308,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 781,
+              "EventId": 463,
+              "HttpStatus": 200,
+              "Size": 842,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/dockbar_keyboard_interaction.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2891,
+              "EventId": 461,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 125,
+              "EventId": 458,
+              "HttpStatus": 200,
+              "Size": 2386,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-proxy/dd-proxy-min.js&/html/js/aui/sortable/sortable-min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2203,
+              "EventId": 454,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 2078,
+              "EventId": 449,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://ed.shaft.com/poller/receive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 125,
+              "EventId": 442,
+              "HttpStatus": 200,
+              "Size": 21903,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/hudcrumbs.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/liferay/navigation_interaction.js&/html/js/liferay/portlet_url.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 437,
+              "HttpStatus": 200,
+              "Size": 11886,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/liferay/sign_in_modal.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 433,
+              "HttpStatus": 200,
+              "Size": 8531,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/liferay/language.js&/html/js/liferay/navigation.js&/html/js/liferay/store.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 79,
+              "EventId": 430,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 425,
+              "HttpStatus": 200,
+              "Size": 3657,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/color-base/color-base-min.js&/html/js/aui/base-core/base-core-min.js&/html/js/aui/base-observable/base-observable-min.js&/html/js/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/html/js/aui/aui-widget-toggle/aui-widget-toggle-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 406,
+              "EventId": 401,
+              "HttpStatus": 200,
+              "Size": 469,
+              "URL": "http://ed.shaft.com/notifications-portlet/notifications/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6201&t=1545498430000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 562,
+              "EventId": 396,
+              "HttpStatus": 200,
+              "Size": 1312,
+              "URL": "http://ed.shaft.com/notifications-portlet/notifications/css/main.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1545498430000"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 563,
+              "EventId": 394,
+              "HttpStatus": 200,
+              "Size": 1355,
+              "URL": "http://ed.shaft.com/image/user_male_portrait?img_id=0&t=1546936904601"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 562,
+              "EventId": 391,
+              "HttpStatus": 200,
+              "Size": 143016,
+              "URL": "http://ed.shaft.com/html/js/everything.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.everything.files&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 171,
+              "EventId": 386,
+              "HttpStatus": 200,
+              "Size": 6861,
+              "URL": "http://ed.shaft.com/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 384,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://ed.shaft.com/c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 382,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://ed.shaft.com/web/guest/2?p_p_id=58&p_p_lifecycle=1&p_p_state=exclusive&p_p_mode=view&_58_struts_action=%2Flogin%2Flogin"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 672,
+              "EventId": 161,
+              "HttpStatus": 200,
+              "Size": 258,
+              "URL": "http://ed.shaft.com/html/js/aui/resize-base/assets/skins/sam/arrows.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 158,
+              "HttpStatus": 200,
+              "Size": 265,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/escape/escape-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 149,
+              "HttpStatus": 200,
+              "Size": 49385,
+              "URL": "http://ed.shaft.com/sprite/html/themes/classic/images/common/_sprite.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 147,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://ed.shaft.com/html/themes/classic/images/spacer.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 237,
+              "URL": "http://ed.shaft.com/html/themes/classic/images/common/openid.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 1245,
+              "URL": "http://ed.shaft.com/web/guest/2?p_p_id=58&p_p_lifecycle=0&p_p_state=exclusive&p_p_mode=view&saveLastPath=false&_58_struts_action=%2Flogin%2Flogin"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 141,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://ed.shaft.com/c/portal/login?p_l_id=12008&windowState=exclusive"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 312,
+              "EventId": 139,
+              "HttpStatus": 200,
+              "Size": 320,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/node.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 120,
+              "HttpStatus": 200,
+              "Size": 1512,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/querystring-parse/querystring-parse-min.js&/html/js/aui/aui-url/aui-url-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 234,
+              "EventId": 111,
+              "HttpStatus": 200,
+              "Size": 21307,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/hudcrumbs.js&/html/js/aui/async-queue/async-queue-min.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/liferay/navigation_interaction.js&/html/js/aui/aui-parse-content/aui-parse-content-min.js&/html/js/liferay/portlet_url.js&/html/js/aui/aui-loading-mask-deprecated/aui-loading-mask-deprecated-min.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 156,
+              "EventId": 107,
+              "HttpStatus": 200,
+              "Size": 15097,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js&/html/js/liferay/util_window.js&/html/js/liferay/sign_in_modal.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 105,
+              "HttpStatus": 200,
+              "Size": 1706,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 187,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 326,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/language.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 100,
+              "HttpStatus": 200,
+              "Size": 6617,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/transition/transition-min.js&/html/js/aui/aui-toggler-base/aui-toggler-base-min.js&/html/js/aui/aui-toggler-delegate/aui-toggler-delegate-min.js&/html/js/liferay/language.js&/html/js/aui/querystring-stringify/querystring-stringify-min.js&/html/js/aui/aui-io-request/aui-io-request-min.js&/html/js/liferay/store.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 97,
+              "HttpStatus": 200,
+              "Size": 404,
+              "URL": "http://ed.shaft.com/html/js/liferay/available_languages.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 47,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "http://ed.shaft.com/html/themes/classic/images/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 93,
+              "HttpStatus": 200,
+              "Size": 114,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/aui-toggler-base/assets/skins/sam/aui-toggler-base.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 1509,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/event-move/event-move-min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 265,
+              "EventId": 78,
+              "HttpStatus": 200,
+              "Size": 8585,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/base-core/base-core-min.js&/html/js/aui/base-observable/base-observable-min.js&/html/js/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/html/js/aui/aui-widget-toggle/aui-widget-toggle-min.js&/html/js/aui/base-build/base-build-min.js&/html/js/aui/widget-position/widget-position-min.js&/html/js/aui/widget-stack/widget-stack-min.js&/html/js/aui/widget-position-align/widget-position-align-min.js&/html/js/aui/widget-position-constrain/widget-position-constrain-min.js&/html/js/aui/widget-stdmod/widget-stdmod-min.js&/html/js/aui/aui-overlay-base-deprecated/aui-overlay-base-deprecated-min.js&/html/js/aui/aui-overlay-mask-deprecated/aui-overlay-mask-deprecated-min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 234,
+              "EventId": 71,
+              "HttpStatus": 200,
+              "Size": 77112,
+              "URL": "http://ed.shaft.com/html/themes/classic/css/aui/alloy-font-awesome/font/fontawesome-alloy.eot?"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 234,
+              "EventId": 69,
+              "HttpStatus": 200,
+              "Size": 273,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/widget-base/assets/skins/sam/widget-base.css&/html/js/aui/widget-stack/assets/skins/sam/widget-stack.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 3677,
+              "URL": "http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/color-base/color-base-min.js&/html/js/aui/event-touch/event-touch-min.js&/html/js/liferay/dockbar.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 719,
+              "EventId": 40,
+              "HttpStatus": 200,
+              "Size": 212,
+              "URL": "http://ed.shaft.com/html/themes/classic/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 719,
+              "EventId": 38,
+              "HttpStatus": 200,
+              "Size": 3284,
+              "URL": "http://ed.shaft.com/image/company_logo?img_id=0&t=1546936904601"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 719,
+              "EventId": 36,
+              "HttpStatus": 200,
+              "Size": 121687,
+              "URL": "http://ed.shaft.com/html/js/barebone.jsp?browserId=other&themeId=classic&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.barebone.files&languageId=en_US&b=6201&t=1395209624000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 750,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 18067,
+              "URL": "http://ed.shaft.com/html/css/main.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1395140322000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 704,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 15784,
+              "URL": "http://ed.shaft.com/html/themes/classic/css/main.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1844,
+              "EventId": 20,
+              "HttpStatus": 200,
+              "Size": 26912,
+              "URL": "http://ed.shaft.com/html/themes/classic/css/aui.css?browserId=other&themeId=classic&minifierType=css&languageId=en_US&b=6201&t=1545334001000"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 12,
+              "HttpStatus": 200,
+              "Size": 4464,
+              "URL": "http://ed.shaft.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 19
+}

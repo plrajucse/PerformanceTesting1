@@ -1,0 +1,378 @@
+[API Trapper      (2074: e74)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( c1c: b18)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( bc8:14c4)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( bc8: ed4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( bc8: ed4)] Load Network Traffic Analyzers:
+[Network Analyzer ( bc8: ed4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( bc8: ed4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( bc8: ed4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( bc8: ed4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( bc8: ed4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( bc8: ed4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( bc8: ed4)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( bc8: ed4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( bc8:1a78)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: ed4)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: ed4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( bc8: ed4)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Web Request      ( bc8:1a78)] "GET /webtours/"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer ( bc8: ed4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer ( bc8: ed4)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: ed4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( bc8:1a78)] "GET /webtours/header.html"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /webtours/images/webtours.png"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 106 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Client -> Server @ : 375 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/home.html"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /favicon.ico"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid:  2) Connection Terminated (by Server)
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Client -> Server @ : 578 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer ( bc8: f3c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: f3c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  4) Client -> Server @ : 475 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( bc8: 9e8)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: f3c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( bc8: ed4)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer ( bc8: 9e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( bc8: f3c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  5) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer ( bc8: ed4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid:  5) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  4) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( c1c:17cc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( c1c:17cc)] Load Network Traffic Analyzers:
+[Network Analyzer ( c1c:17cc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( c1c:17cc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( c1c:17cc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( c1c:17cc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( c1c:17cc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( c1c:17cc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( c1c:17cc)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( c1c:17cc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( c1c: 678)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Client -> Server @ : 497 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Client -> Server @ : 510 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( bc8: f3c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Server -> Client : 286 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( bc8: f3c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Server -> Client : 985 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/classes/"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/classes/"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( c1c:17cc)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( c1c:17cc)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( bc8:1870)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1870)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( c1c:15cc)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( bc8:1a78)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1d74)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( bc8:1a78)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( c1c:107c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( c1c:107c)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( c1c: 678)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( c1c: 678)]   (Sid:  2) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  2) Server -> Client : 336 bytes  (Service=HTTP)
+[Web Request      ( c1c: 678)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( c1c: 678)]   (Sid:  2) Client -> Server @ : 261 bytes (Service=HTTP)
+[Network Analyzer ( bc8:171c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( c1c: 678)]   (Sid:  2) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:171c)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid:  8) Client -> Server @ : 824 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 10) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 10) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  8) Server -> Client : 2700 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 10) Client -> Server @ : 261 bytes (Service=HTTP)
+[Network Analyzer ( c1c:107c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1a78)]   (Sid: 10) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer ( c1c:107c)] Request Connection: Remote Server @ 104.102.246.11:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( bc8:171c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:171c)] Request Connection: Remote Server @ 104.102.246.11:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( c1c: 678)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 8191 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Server -> Client : 648 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 394)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 394)] Request Connection: Remote Server @ 104.102.246.11:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 2720 bytes  (Service=HTTP)
+[Web Request      ( c1c: 678)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 9551 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c:2198)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1738)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c:2198)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1738)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( bc8:1a78)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 12) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Web Request      ( c1c: 678)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( c1c: 678)]   (Sid:  5) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Server -> Client : 617 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Server -> Client : 617 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid: 12) Server -> Client : 2559 bytes  (Service=HTTP)
+[Network Analyzer ( c1c: 678)]   (Sid:  5) Server -> Client : 2559 bytes  (Service=HTTP)
+[Net An. Error    ( c1c:15cc)] SSLAccept(ssl_id = 1868383626800 = 000001B30457A630) Failed, ctx = 000001B307113D00, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( c1c:15cc)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( bc8: 9e8)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: 9e8)] Request Connection: Remote Server @ 104.102.246.11:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( c1c: 678)]   (Sid:  1) Connection Terminated (by Client)
+[Web Request      ( bc8:1a78)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Server -> Client : 2008 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 13) Connection Terminated (by Server)
+[Net An. Error    ( bc8:1d74)] SSLAccept(ssl_id = 197220320 = 0BC157E0) Failed, ctx = 0BD68F88, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( bc8:1d74)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( bc8:1a78)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( bc8:1870)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1870)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 14) Client -> Server @ : 718 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 14) Server -> Client : 2962 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer ( bc8: e58)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: 9e8)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: e58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 15) Client -> Server @ : 874 bytes (Service=HTTP)
+[Network Analyzer ( bc8: 9e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid: 15) Server -> Client : 2840 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 15) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 15) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 15) Connection Terminated (by Server)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Client -> Server @ : 476 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Client -> Server @ : 478 bytes (Service=HTTP)
+[Network Analyzer ( bc8: 9e8)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: 9e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 17) Client -> Server @ : 461 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 17) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 17) Server -> Client : 2012 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 17) Client -> Server @ : 478 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 17) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer ( bc8:171c)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:2280)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:171c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 18) Client -> Server @ : 739 bytes (Service=HTTP)
+[Network Analyzer ( bc8:2280)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid: 18) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 18) Server -> Client : 2012 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer ( c1c: 678)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( c1c: 678)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( bc8:1a78)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( bc8:1a78)]   (Sid: 12) Connection Terminated (by Client)
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 19) Client -> Server @ : 749 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 19) Server -> Client : 3996 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1738)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8: 9e8)] Address lookup for PLRaju_Dell = 192.168.100.5
+[Network Analyzer ( bc8:1738)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      ( bc8:1a78)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Client -> Server @ : 666 bytes (Service=HTTP)
+[Network Analyzer ( bc8: 9e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Server -> Client : 1150 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      ( bc8:1a78)] "GET /WebTours/home.html"   
+[Network Analyzer ( bc8:1a78)]   (Sid: 21) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 21) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( bc8:1a78)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer ( bc8:1a78)]   (Sid: 20) Connection Terminated (by Server)

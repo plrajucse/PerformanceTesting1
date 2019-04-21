@@ -1,0 +1,31 @@
+var formSubmitted = false;
+
+<!-- If enter is pressed submit. Only used in password field	-->
+function checkCR(evt) {
+	var key;
+	
+	if(window.event) {
+		// for IE, e.keyCode or window.event.keyCode can be used
+		key = evt.keyCode;
+	}
+	else if(evt.which) {
+		// netscape
+		key = evt.which;
+	}
+	else {
+		// not supported..
+		key=0;
+	}
+
+	if (key == 13) {
+		login()
+		return false;
+	}
+	}
+
+function login() {
+	if (formSubmitted == false) {
+		formSubmitted = true;
+		document.frmLogin.submit();
+	}
+}

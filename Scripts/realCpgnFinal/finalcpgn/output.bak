@@ -1,0 +1,86 @@
+Virtual User Script started at: 1/31/2019 7:48:13 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\realCpgnFinal\finalcpgn\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(8): web_url("index.php") started  	[MsgId: MMSG-26355]
+Action.c(8): Found resource "http://18.222.58.52/web_css/generalFrame.css" in HTML "http://18.222.58.52/example4/index.php"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://18.222.58.52/web_pics/logo_capgemini.png" in HTML "http://18.222.58.52/example4/index.php"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://18.222.58.52/web_pics/logo_sogeti.png" in HTML "http://18.222.58.52/example4/index.php"  	[MsgId: MMSG-26659]
+Action.c(8): Notify: Saving Parameter "cSessionKey = 579256'".
+Action.c(8): web_url("index.php") was successful, 490657 body bytes, 1228 header bytes  	[MsgId: MMSG-26386]
+Action.c(20): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(26): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(26): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(30): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(30): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_url("Go shopping") started  	[MsgId: MMSG-26355]
+Action.c(35): Notify: Parameter Substitution: parameter "cSessionKey" =  "579256'"
+Action.c(35): Notify: Saving Parameter "cPageID2 = 7ba23e18-4afa-478e-807b-aedfa56e7a43".
+Action.c(35): Redirecting "http://18.222.58.52/example4/sessionhandler.php?type=new&sessionKey=579256'" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(35): To location "http://18.222.58.52/example4/shop.php?sessionKey=579256'&pageID=7ba23e18-4afa-478e-807b-aedfa56e7a43"  	[MsgId: MMSG-26693]
+Action.c(35): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "http://18.222.58.52/web_pics/logo_capgemini.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Resource "http://18.222.58.52/web_pics/logo_sogeti.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(35): Notify: Saving Parameter "cPageID1 = 65d25bef-d7e2-4ae1-be51-8ce432c94e57".
+Action.c(35): Notify: Saving Parameter "cPriceItem1 = 200000 ".
+Action.c(35): Notify: Saving Parameter "cName = f1fe974f-ba7c-4df6-aa1c-41c2b7261bbe".
+Action.c(35): web_url("Go shopping") was successful, 5938 body bytes, 752 header bytes  	[MsgId: MMSG-26386]
+Action.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(57): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(57): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(59): web_submit_data("cart.php") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "cSessionKey" =  "579256'"
+Action.c(59): Notify: Parameter Substitution: parameter "cPageID1" =  "65d25bef-d7e2-4ae1-be51-8ce432c94e57"
+Action.c(59): Notify: Parameter Substitution: parameter "cSessionKey" =  "579256'"
+Action.c(59): Notify: Parameter Substitution: parameter "cPageID2" =  "7ba23e18-4afa-478e-807b-aedfa56e7a43"
+Action.c(59): Notify: Parameter Substitution: parameter "cName" =  "f1fe974f-ba7c-4df6-aa1c-41c2b7261bbe"
+Action.c(59): Notify: Parameter Substitution: parameter "pQtyItem1" =  "6"
+Action.c(59): Notify: Parameter Substitution: parameter "cName" =  "f1fe974f-ba7c-4df6-aa1c-41c2b7261bbe"
+Action.c(59): Notify: Saving Parameter "cTotalPrice =  120000 ".
+Action.c(59): Notify: Saving Parameter "cPageID3 = 072c5fb6-8967-4ca7-8321-41626a8ce145".
+Action.c(59): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "http://18.222.58.52/web_pics/logo_capgemini.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "http://18.222.58.52/web_pics/logo_sogeti.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): web_submit_data("cart.php") was successful, 1621 body bytes, 333 header bytes  	[MsgId: MMSG-26386]
+Action.c(75): Notify: Parameter Substitution: parameter "pQtyItem1" =  "6"
+Action.c(76): Notify: Parameter Substitution: parameter "cPriceItem1" =  "200000 "
+Action.c(80): Total Price is 1200000
+Action.c(83): Notify: Saving Parameter "FinalTotPrice = 1200000".
+Action.c(89): Notify: Saving Parameter "cCheckOut = 1548944299".
+Action.c(91): web_url("Checkout") started  	[MsgId: MMSG-26355]
+Action.c(91): Notify: Parameter Substitution: parameter "cSessionKey" =  "579256'"
+Action.c(91): Notify: Parameter Substitution: parameter "cPageID3" =  "072c5fb6-8967-4ca7-8321-41626a8ce145"
+Action.c(91): Notify: Parameter Substitution: parameter "cCheckOut" =  "1548944299"
+Action.c(91): Notify: Parameter Substitution: parameter "cSessionKey" =  "579256'"
+Action.c(91): Notify: Parameter Substitution: parameter "cPageID1" =  "65d25bef-d7e2-4ae1-be51-8ce432c94e57"
+Action.c(91): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(91): Resource "http://18.222.58.52/web_pics/logo_capgemini.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(91): Resource "http://18.222.58.52/web_pics/logo_sogeti.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(91): web_url("Checkout") was successful, 1319 body bytes, 333 header bytes  	[MsgId: MMSG-26386]
+Action.c(105): web_url("Start a new Shopping tour") started  	[MsgId: MMSG-26355]
+Action.c(105): Notify: Parameter Substitution: parameter "cSessionKey" =  "579256'"
+Action.c(105): Notify: Parameter Substitution: parameter "cPageID3" =  "072c5fb6-8967-4ca7-8321-41626a8ce145"
+Action.c(105): Notify: Parameter Substitution: parameter "cCheckOut" =  "1548944299"
+Action.c(105): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(105): Resource "http://18.222.58.52/web_pics/logo_capgemini.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(105): Resource "http://18.222.58.52/web_pics/logo_sogeti.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(105): web_url("Start a new Shopping tour") was successful, 4736 body bytes, 333 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

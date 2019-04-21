@@ -1,0 +1,845 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-chrome-uma-reportinginfo",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-chrome-uma-log-sha1",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/proto"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 15,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-25-2019",
+    "RecordingDuration": 340063,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1551075242,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1958622,
+    "TotalBytesSent": 124161,
+    "TotalRequests": 68,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.26.163",
+          "IncludeInScript": true,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 32,
+              "EventId": 168,
+              "HttpStatus": 200,
+              "Size": 69547,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 132,
+              "HttpStatus": 200,
+              "Size": 69547,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.199.170",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 531,
+              "EventId": 656,
+              "HttpStatus": 200,
+              "Size": 1706,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINNzIuMC4zNjI2LjEwORonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgMl9ZGQyIEIAEgAigDGicICRABGhkKDQgJEAYYASIDMDAxMAEQERoCGAwlTWg-IgQgASACKAEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCfgAYaAhgMofZ_xyIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQv9YFGgIYDBSUSmUiBCABIAIoARopCAEQARobCg0IARAGGAEiAzAwMTABEPrMBRoCGAzN4UikIgQgASACKAEaJwgPEAEaGQoNCA8QBhgBIgMwMDEwARAtGgIYDCVJF9UiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEMDqBBoCGAxlsBeRIgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBCGFhoCGAzV2LC5IgQgASACKAQaJwgKEAgaGQoNCAoQCBgBIgMwMDEwARAFGgIYDEWpAPgiBCABIAIoARonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAIaAhgMmVCMSCIEIAEgAigGGigICBABGhoKDQgIEAYYASIDMDAxMAEQnAUaAhgMbKbYxiIEIAEgAigBGigIDRABGhoKDQgNEAYYASIDMDAxMAEQhiwaAhgM1rdOKCIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQxYsBGgIYDF_GE_oiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.35",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 275,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 272,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 828,
+              "EventId": 269,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 266,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 45,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=72"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.174",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 263,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clients4.google.com/rappor"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.174",
+          "IncludeInScript": true,
+          "Name": "clients1.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 297,
+              "EventId": 312,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ-6BqpjUql3EjLRij28skFBMZze1JBxv2G9gjLbEpj-MkFA=="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 47,
+              "EventId": 285,
+              "HttpStatus": 200,
+              "Size": 25,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ4G_wKD0sEP4jLa8HzIgkFA=="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 78,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZGKi0y_8h4o4jLZsq8vskIy24mq_zJBQTGeBv8Cg9LBD-Iy2vB8yIJBQ="
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.31.205",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 140,
+              "EventId": 34,
+              "HttpStatus": 200,
+              "Size": 197,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "borland.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "143.186.120.171",
+          "IncludeInScript": true,
+          "Name": "demo.borland.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 675,
+              "HttpStatus": 200,
+              "Size": 1686,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/signup.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 672,
+              "HttpStatus": 200,
+              "Size": 1666,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/login.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 669,
+              "HttpStatus": 200,
+              "Size": 2572,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/index.jsf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 188,
+              "EventId": 667,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/index.jsf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 663,
+              "HttpStatus": 200,
+              "Size": 2573,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/index.jsf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 625,
+              "EventId": 648,
+              "HttpStatus": 200,
+              "Size": 823,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/grid/grid3-hrow-over.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 515,
+              "EventId": 645,
+              "HttpStatus": 200,
+              "Size": 823,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/grid/row-over.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 642,
+              "HttpStatus": 200,
+              "Size": 868,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/grid/col-move-bottom.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 639,
+              "HttpStatus": 200,
+              "Size": 949,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/dd/drop-no.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 636,
+              "HttpStatus": 200,
+              "Size": 869,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/grid/col-move-top.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 172,
+              "EventId": 633,
+              "HttpStatus": 200,
+              "Size": 883,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/data/agentData.jsf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 630,
+              "HttpStatus": 200,
+              "Size": 875,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/panel/top-bottom.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 628,
+              "HttpStatus": 200,
+              "Size": 815,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/panel/left-right.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 626,
+              "HttpStatus": 200,
+              "Size": 836,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/grid/grid3-hrow.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 171,
+              "EventId": 623,
+              "HttpStatus": 200,
+              "Size": 1229,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/grid/grid3-hd-btn.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 1418,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/images/default/panel/corners-sprite.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 1125,
+              "EventId": 394,
+              "HttpStatus": 200,
+              "Size": 3863,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/javascript/agentTable.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1110,
+              "EventId": 362,
+              "HttpStatus": 200,
+              "Size": 31656,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/resources/css/ext-all.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 1078,
+              "EventId": 360,
+              "HttpStatus": 200,
+              "Size": 1408181,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/ext-all-debug.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 1079,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 97907,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/ext/adapter/ext/ext-base-debug.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 1047,
+              "EventId": 354,
+              "HttpStatus": 200,
+              "Size": 1601,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/javascript/serializer.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1047,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 1999,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 484,
+              "EventId": 335,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/css-nav.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 453,
+              "EventId": 327,
+              "HttpStatus": 200,
+              "Size": 20761,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/or.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 306,
+              "HttpStatus": 200,
+              "Size": 1676,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/search.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 203,
+              "EventId": 296,
+              "HttpStatus": 200,
+              "Size": 66027,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/tilesV.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 293,
+              "HttpStatus": 200,
+              "Size": 2447,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 290,
+              "HttpStatus": 200,
+              "Size": 1678,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/logout.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 287,
+              "HttpStatus": 200,
+              "Size": 1661,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/details.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 278,
+              "HttpStatus": 200,
+              "Size": 2570,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=640CA0D09C999AC7D77322298DD31929"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 254,
+              "HttpStatus": 404,
+              "Size": 1245,
+              "URL": "http://demo.borland.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 117,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 142,
+              "HttpStatus": 200,
+              "Size": 115,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 91,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 129,
+              "HttpStatus": 200,
+              "Size": 115,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 422,
+              "EventId": 119,
+              "HttpStatus": 200,
+              "Size": 115,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 406,
+              "EventId": 115,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 344,
+              "EventId": 113,
+              "HttpStatus": 200,
+              "Size": 121,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 344,
+              "EventId": 111,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 344,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 120,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 92,
+              "HttpStatus": 200,
+              "Size": 1878,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 120,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 88,
+              "HttpStatus": 200,
+              "Size": 64,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 218,
+              "EventId": 69,
+              "HttpStatus": 200,
+              "Size": 43800,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/header.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 67,
+              "HttpStatus": 200,
+              "Size": 900,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 187,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 62,
+              "HttpStatus": 200,
+              "Size": 2660,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 2799,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 171,
+              "EventId": 53,
+              "HttpStatus": 200,
+              "Size": 2594,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/profile.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 171,
+              "EventId": 50,
+              "HttpStatus": 200,
+              "Size": 1686,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=640CA0D09C999AC7D77322298DD31929"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 1641,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 41,
+              "HttpStatus": 200,
+              "Size": 1666,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=640CA0D09C999AC7D77322298DD31929"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 218,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 89281,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/images/tiles.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 30,
+              "HttpStatus": 200,
+              "Size": 2399,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/css/style.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 20,
+              "HttpStatus": 200,
+              "Size": 2626,
+              "URL": "http://demo.borland.com/InsuranceWebExtJS/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 5
+}

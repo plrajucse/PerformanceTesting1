@@ -1,0 +1,1246 @@
+var dat1 = new Date();
+var sreq = 0;
+var alphabets = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var alphaconts = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+//window.history.forward();
+//function noBack() {
+//    window.history.forward();
+//}
+function goToSettings() {
+    window.location.href = "settings";
+}
+
+$("#closeButton").click(function () {
+    $("#mobFreeNav").removeClass("visible");
+});
+
+$("#errorClose").click(function () {
+    $("#errorDiv").addClass("hidden");
+});
+$("#mobContactsClose").click(function () {
+    $("#divContacts").addClass("hidden");
+});
+$("#mobMessageClose").click(function () {
+    $("#div_msgs").addClass("hidden");
+});
+$("#mobEmojisClose").click(function () {
+    $("#div_smileys").addClass("hidden");
+});
+$("#successClose").click(function () {
+    $("#successDiv").addClass("hidden");
+});
+function displayAlert(message, mesType) {
+    if (mesType == "success") {
+        $("#errorDiv").addClass("hidden");
+        $("#successDiv").removeClass("hidden");
+        $("#successMes").html(message);
+    } else {
+        $("#errorDiv").removeClass("hidden");
+        $("#successDiv").addClass("hidden");
+        $("#errorMes").html(message);
+    }
+}
+function displayClose(mesType) {
+    if (mesType == "success") {
+        $("#successDiv").addClass("hidden");
+    } else {
+        $("#errorDiv").addClass("hidden");
+    }
+}
+function checkValidation(field, length) {
+    if (field.value.length > length) {
+        field.value = field.value.substring(0, length - 1);
+    }
+}
+$('#mobile, #message, #selGrpId').on("blur", function (e) {
+    var mobileNo = $("#mobile").val();
+    if (mobileNo != "") {
+        if (mobileNo.substring(0, 1) != 9 && mobileNo.substring(0, 1) != 8 && mobileNo.substring(0, 1) != 7 && mobileNo.substring(0, 1) != 6) {
+            $("#mobile").parent().parent().parent().find('b').html("Invalid Mobile Number").removeClass("hidden");
+            $("#addMobileMain").parent().parent().parent().find('b').html("Invalid Mobile Number").removeClass("hidden");
+            $("#mobile").focus();
+            $("#addMobileMain").focus();
+            var mes = "Please Enter Contact Name";
+            var mesType = "error";
+            displayErrorMsg(mes, "addNameMain", 'error');
+            return false;
+        }
+//                                            validLogin();
+    }
+});
+$('#addMobileMain, #selGrpId').on("blur", function (e) {
+    var mobileNo = $("#addMobileMain").val();
+    if (mobileNo != "") {
+        if (mobileNo.substring(0, 1) != 9 && mobileNo.substring(0, 1) != 8 && mobileNo.substring(0, 1) != 7 && mobileNo.substring(0, 1) != 6) {
+            $("#addMobileMain").parent().parent().parent().find('b').html("Invalid Mobile Number").removeClass("hidden");
+//            $("#addMobileMain").focus();
+            return false;
+        }
+//                                            validLogin();
+    }
+});
+$('#editMobile, #selGrpId').on("blur", function (e) {
+    var mobileNo = $("#editMobile").val();
+    if (mobileNo != "") {
+        if (mobileNo.substring(0, 1) != 9 && mobileNo.substring(0, 1) != 8 && mobileNo.substring(0, 1) != 7 && mobileNo.substring(0, 1) != 6) {
+            $("#editMobile").parent().parent().parent().find('b').html("Invalid Mobile Number").removeClass("hidden");
+//            $("#addMobileMain").focus();
+            return false;
+        }
+//                                            validLogin();
+    }
+});
+
+function addBorder(id) {
+    $("#" + id).addClass('error');
+}
+function removeBorder(id) {
+    $("#" + id).removeClass('error');
+}
+$("#mobile").keypress(function () {
+    $("#mobile").parent().parent().parent().find("b").addClass("hidden");
+});
+$("#sdate").keypress(function () {
+    $("#errDate").addClass("hidden");
+});
+$("#stime").keypress(function () {
+    $("#errTime").parent().parent().find("b").addClass("hidden");
+});
+$("#sdate").click(function () {
+    $("#errDate").addClass("hidden");
+});
+$("#stime").click(function () {
+    $("#errTime").addClass("hidden");
+});
+$("#nicName").keypress(function () {
+    $("#nicName").parent().parent().find("b").addClass("hidden");
+});
+$("#addNameMain").keypress(function () {
+    $("#addNameMain").parent().find("b").addClass("hidden");
+});
+$("#txtup").keypress(function () {
+    $("#txtup").parent().find("b").addClass("hidden");
+});
+$("#addMobileMain").keypress(function () {
+    $("#addMobileMain").parent().parent().find("b").addClass("hidden");
+});
+$("#message").keypress(function () {
+    $("#message").parent().parent().parent().find("b").addClass("hidden");
+    $("#message").removeClass("error");
+});
+$("#mobile").click(function () {
+    $("#mobile").parent().parent().parent().find("b").addClass("hidden");
+});
+$("#message").click(function () {
+    $("#message").parent().parent().parent().find("b").addClass("hidden");
+});
+$("#nicName").click(function () {
+    $("#nicName").parent().parent().find("b").addClass("hidden");
+});
+$("#addNameMain").click(function () {
+    $("#addNameMain").parent().find("b").addClass("hidden");
+});
+$("#optionshow").click(function () {
+    $("#optionshow").parent().find("b").addClass("hidden");
+});
+$("#addMobileMain").click(function () {
+    $("#addMobileMain").parent().parent().find("b").addClass("hidden");
+});
+$("#txtup").click(function () {
+    $("#txtup").parent().find("b").addClass("hidden");
+});
+
+function  showMenu() {
+    if ($("#feeddiv").is(':visible')) {
+        $("#feeddiv").hide();
+    }
+    if ($("#div_menu1").is(':visible')) {
+        $("#div_menu1").hide();
+    }
+    if ($("#div_menu").is(':hidden')) {
+        $("#div_menu").show();
+    } else {
+        $("#div_menu").hide();
+    }
+}
+function  showWallet() {
+    if ($("#feeddiv").is(':visible')) {
+        $("#feeddiv").hide();
+    }
+    if ($("#div_menu").is(':visible')) {
+        $("#div_menu").hide();
+    }
+    if ($("#div_menu1").is(':hidden')) {
+        $("#div_menu1").show();
+    } else {
+        $("#div_menu1").hide();
+    }
+}
+$("#addMoney").click(function () {
+    $("#wallet_div").show();
+    $("#pay_blur").show();
+
+    if ($("#div_menu1").is(':hidden')) {
+        $("#div_menu1").show();
+    } else {
+        $("#div_menu1").hide();
+    }
+});
+function closeDiv() {
+    $("#divPop").css("display", "none");
+    $("#divContacts").css("display", "none");
+    $("#div_smileys").css("display", "none");
+    $("#div_msgs").css("display", "none");
+    $("#wallet_div").css("display", "none");
+    $("#pay_blur").css("display", "none");
+    $("body").css({"overflow": "auto", "height": ""});
+}
+function closeDiv1() {
+    $("#divPop").css("display", "none");
+    $("#divContacts").css("display", "none");
+    $("#div_smileys").css("display", "none");
+    $("#div_msgs").css("display", "none");
+    $("#wallet_div").css("display", "none");
+    $("#pay_blur").css("display", "none");
+    $("body").css({"overflow": "auto", "height": ""});
+    var className = window.location.href.split("?");
+    var className1 = className[0].split("/");
+    var path = (className1[className1.length - 1]);
+    window.location.href = path;
+}
+//function closeWallet() {
+//    $("#divPop").css("display", "none");
+//    $("#divContacts").css("display", "none");
+//    $("#div_smileys").css("display", "none");
+//    $("#div_msgs").css("display", "none");
+//    $("#wallet_div").css("display", "none");
+//
+//    $("body").css({"overflow": "auto", "height": ""});
+//}
+
+var contacts;
+var groupContacts;
+var prevConct = "";
+var mob1 = "";
+if (contacts == undefined) {
+    getContacts();
+    setTimeout('getConts()', 1000);
+}
+function StringBuilder(value) {
+    this.strings = new Array("");
+    this.append(value);
+}
+StringBuilder.prototype.append = function (value) {
+    if (value) {
+        this.strings.push(value);
+    }
+}
+StringBuilder.prototype.clear = function () {
+    this.strings.length = 1;
+}
+StringBuilder.prototype.toString = function () {
+    return this.strings.join("");
+}
+var alphaData = new StringBuilder();
+var alphaDatam = new StringBuilder();
+var alphaData1 = new StringBuilder();
+var alphaAppend = new Array();
+var alphaContacts;
+var existsFlag = false;
+function searchContacts(e) {
+    var searchKey = $(e).val().toLowerCase();
+    var seachContacts;
+    seachContacts = $.grep(contacts, function (v) {
+        if (v.contactName.toLowerCase().indexOf(searchKey) >= 0) {
+            return v.contactName;
+        }
+    });
+    var markup = new StringBuilder();
+    var markupAdd = new StringBuilder();
+    var markupm = new StringBuilder();
+    var markup1 = new StringBuilder();
+    if (seachContacts.length != 0) {
+        for (var i = 0; i < seachContacts.length; i++) {
+            var str = seachContacts[i].contactName;
+            var ha = str.indexOf("'");
+            if (ha != -1) {
+                var spt = str.split("'");
+                str = spt.join(" ");
+                seachContacts[i].contactName = str;
+            }
+            ha = str.indexOf('"');
+            if (ha != -1) {
+                var spt = str.split('"');
+                str = spt.join(" ");
+                seachContacts[i].contactName = str;
+            }
+            markup.append("<li id='cont_" + seachContacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + seachContacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo.substring(2, 12) + "'>" + seachContacts[i].contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo.substring(2, 12) + "'></i></span><span class='u-n-c'><k id='contactName" + seachContacts[i].mobileNo.substring(2, 12) + "'>" + seachContacts[i].contactName + "</k><span class='u-ctm'>" + seachContacts[i].mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+            markupAdd.append("<li onclick=\"selectContact('" + seachContacts[i].contactName + "', '" + seachContacts[i].mobileNo + "', " + seachContacts[i].groupId + ", '" + ((seachContacts[i].gender == null || seachContacts[i].gender == undefined) ? 'M' : seachContacts[i].gender) + "', '" + seachContacts[i].contactName + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo + "'>" + seachContacts[i].contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo + "'></i></span><span class='u-n-c'><k id='name_'" + seachContacts[i].mobileNo + ">" + seachContacts[i].contactName + "</k><span class='u-ctm'>" + seachContacts[i].mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+//            markup.append("<p id='cont_" + seachContacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + seachContacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='contactName" + seachContacts[i].mobileNo.substring(2, 12) + "'>" + seachContacts[i].contactName + "</b><span>" + seachContacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+//            markupm.append("<p id='contm_" + seachContacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + seachContacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='contactName" + seachContacts[i].mobileNo.substring(2, 12) + "'>" + seachContacts[i].contactName + "</b><span>" + seachContacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+//            markup1.append("<p id='cont_" + seachContacts[i].mobileNo.substring(2, 12) + "' onclick=\"selectContact('" + seachContacts[i].contactName + "', '" + seachContacts[i].mobileNo.substring(2, 12) + "', " + seachContacts[i].groupId + ", '" + ((seachContacts[i].gender == null || seachContacts[i].gender == undefined) ? 'M' : seachContacts[i].gender) + "', '" + seachContacts[i].groupName + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='name_" + seachContacts[i].mobileNo.substring(2, 12) + "'>" + seachContacts[i].contactName + "</b><span>" + seachContacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+            //markup1.append("<li id=\"" + seachContacts[i].mobileNo.substring(2, 12) + "li\" onclick=\"selectContact('" + seachContacts[i].contactName + "', '" + seachContacts[i].mobileNo.substring(2, 12) + "', " + seachContacts[i].groupId + ", '" + ((seachContacts[i].gender == null || seachContacts[i].gender == undefined) ? 'M' : seachContacts[i].gender) + "', '" + seachContacts[i].groupName + "')\"><a><k id=\"name_" + seachContacts[i].mobileNo.substring(2, 12) + "\">" + seachContacts[i].contactName + "</k><k id=\"gender_" + seachContacts[i].mobileNo.substring(2, 12) + "\" style='display:none;'>" + seachContacts[i].gender + "</k><p>" + seachContacts[i].mobileNo + "</p></a><span class=\"time\"><input class=\"btn\" value=\"Edit\" type=\"button\"> </span></li>");
+        }
+        $("#contacts1").html(markup.toString());
+        $("#mobilecontacts1").html(markupm.toString());
+        $("#dispContacts").html(markup1.toString());
+        $("#contactsAdd").html(markupAdd.toString());
+    } else {
+        $("#contacts1").html("<div class='ctp-contacts' id='contactsDiv'><h4>No contacts available</h4></div>");
+        $("#mobilecontacts1").html("<div class='ctp-contacts' id='contactsDiv'><h4>No contacts available</h4></div>");
+        $("#dispContacts").html("<div class='ctp-contacts' id='contactsDiv'><h4>No contacts available</h4></div>");
+        $("#contactsAdd").html("<div class='ctp-contacts' id='contactsDiv'><h4>No contacts available</h4></div>");
+    }
+    if (alphaAppend.length > 0) {
+        for (var k = 0; k < alphaAppend.length; k++) {
+            $("#alpha" + alphaAppend[k].toUpperCase()).removeClass("selected");
+        }
+        alphaAppend.splice(0, alphaAppend.length);
+        alphaData = new StringBuilder();
+    }
+}
+function getContacts() {//to get phonebook contacts
+    if (contacts === undefined) {
+        $("#contacts1,#contactsAdd").html("<div class='ctp-contacts' id='contactsDiv'><h4>loading...</h4></div>");
+        $("#mobilecontacts1").html("<div class='ctp-contacts' id='contactsDiv'><h4>loading...</h4></div>");
+        $("#contacts1,#contactsAdd").css("color", "red");
+        $("#mobilecontacts1").css("color", "red");
+        $("#dispContacts").html("<div class='ctp-contacts' id='mobilecontactsDiv'><h4>loading...</h4></div>");
+        $("#dispContacts").css("color", "red");
+        $("#grp").html("All")
+//        var dat1 = new Date();
+        $.ajax({
+            url: "getContacts?token=" + $("Token").val(),
+            async: false,
+            cache: false,
+            success: function (data) {
+                if (data.status == "logout") {
+                    window.location = "Logout";
+                } else {
+                    if (JSON.parse(data.contacts).length != 0) {
+                        // contacts = data;
+//                        localStorage.setItem("contacts", data.contacts);
+//                        if (typeof (Storage) !== "undefined") {
+//                            contacts = localStorage.getItem("contacts");
+//                        } else {
+                            contacts = data.contacts;
+//                        }
+                    } else {
+//                        localStorage.setItem("contacts", data.contacts);
+//                        contacts = localStorage.getItem("contacts");
+                        $("#contacts1").html("<div class='ctp-contacts' id='contactsDiv'><h4 class='text-center'>No contacts </h4></div>");
+                        $("#mobilecontacts1").html("<div class='ctp-contacts' id='contactsDiv'><h4 class='text-center'>No contacts </h4></div>");
+                    }
+                }
+            }
+        });
+    }
+    getGroupContacts();
+}
+function getGroupContacts() {
+    // alert("getgroup");
+    if (groupContacts === undefined) {
+        $.ajax({
+            type: "POST",
+            url: "GroupContacts",
+            dataType: 'html',
+            async: false,
+            cache: false,
+            success: function (data) {
+                //alert("group contacts ;;;;;;;;;;;;;;" + data);
+                var jsonObj = eval("(" + data + ")");
+                var grNames = "";
+                //localStorage.setItem("groupNames", jsonObj.GroupNames);
+//                localStorage.setItem("groupContacts", data);
+//                groupContacts = localStorage.getItem("groupContacts");
+                groupContacts = data;
+
+            }
+        });
+    }
+}
+
+function getConts() {
+//    alert
+    if (contacts != 'nocontacts') {
+        contacts = $.parseJSON(contacts);
+    } else {
+        contacts = "nocontacts";
+    }
+    buildContacts();
+    buildGroupContacts();
+    if (contacts != "nocontacts") {
+//        loadWick();
+    }
+}
+function buildContacts() {
+    // alert(contacts.length);
+    if (contacts.length == 0) {
+        $("#div_contacts").html("<p class='t-c mt50 font-xlarge'>No Contacts</p>");
+        $("#contactsAdd").html("<p class='t-c mt50 font-xlarge'>No Contacts</p>");
+    } else {
+        var markup = new StringBuilder();
+        var markupm = new StringBuilder();
+        var markupAdd = new StringBuilder();
+        var contFirstLetter;
+        for (var i = 0; i < contacts.length; i++) {
+            contFirstLetter = contacts[i].contactName.substring(0, 1).toUpperCase();
+//            if (($.inArray(contFirstLetter, alphabets)) > -1)
+//            {
+//                $("#alpha" + contFirstLetter).addClass("active");
+//                $("#alphabet" + contFirstLetter).addClass("select");
+//            }
+            var str = contacts[i].contactName;
+            var ha = str.indexOf("'");
+            if (ha != -1) {
+                var spt = str.split("'");
+                str = spt.join(" ");
+                contacts[i].contactName = str
+            }
+            str = contacts[i].contactName;
+            ha = str.indexOf('"');
+            if (ha != -1) {
+                var spt = str.split('"');
+                str = spt.join(" ");
+                contacts[i].contactName = str
+            }
+            markup.append("<li id='cont_" + contacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + contacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo.substring(2, 12) + "'>" + contacts[i].contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo.substring(2, 12) + "'></i></span><span class='u-n-c'><k id='contactName" + contacts[i].mobileNo.substring(2, 12) + "'>" + contacts[i].contactName + "</k><span class='u-ctm'>" + contacts[i].mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+            markupAdd.append("<li onclick=\"selectContact('" + contacts[i].contactName + "', '" + contacts[i].mobileNo + "', " + contacts[i].groupId + ", '" + ((contacts[i].gender == null || contacts[i].gender == undefined) ? 'M' : contacts[i].gender) + "', '" + contacts[i].groupName + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo + "'>" + contacts[i].contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo + "'></i></span><span class='u-n-c'><k id='name_" + contacts[i].mobileNo + "'>" + contacts[i].contactName + "</k><span class='u-ctm'>" + contacts[i].mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+
+//            markup.append("<p id='cont_" + contacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + contacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='contactName" + contacts[i].mobileNo.substring(2, 12) + "'>" + contacts[i].contactName + "</b><span>" + contacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+//            markupm.append("<p id='contm_" + contacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + contacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='contactName" + contacts[i].mobileNo.substring(2, 12) + "'>" + contacts[i].contactName + "</b><span>" + contacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+//            markup1.append("<p id='cont_" + contacts[i].mobileNo.substring(2, 12) + "' onclick=\"selectContact('" + contacts[i].contactName + "', '" + contacts[i].mobileNo.substring(2, 12) + "', " + contacts[i].groupId + ", '" + ((contacts[i].gender == null || contacts[i].gender == undefined) ? 'M' : contacts[i].gender) + "', '" + contacts[i].groupName + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='name_" + contacts[i].mobileNo.substring(2, 12) + "'>" + contacts[i].contactName + "</b><span>" + contacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+            //markup1.append("<li id=\"" + contacts[i].mobileNo.substring(2, 12) + "li\" onclick=\"selectContact('" + contacts[i].contactName + "', '" + contacts[i].mobileNo.substring(2, 12) + "', " + contacts[i].groupId + ", '" + ((contacts[i].gender == null || contacts[i].gender == undefined) ? 'M' : contacts[i].gender) + "', '" + contacts[i].groupName + "')\"><a><k id=\"name_" + contacts[i].mobileNo.substring(2, 12) + "\">" + contacts[i].contactName + "</k><k id=\"gender_" + contacts[i].mobileNo.substring(2, 12) + "\" style='display:none;'>" + contacts[i].gender + "</k><p>" + contacts[i].mobileNo + "</p></a><span class=\"time\"><input class=\"btn\" value=\"Edit\" type=\"button\"> </span></li>");
+        }
+        $("#allContsCount").html("( " + contacts.length + " Contacts )")
+        $("#contacts1").html(markup.toString());
+        $("#mobilecontacts1").html(markupm.toString());
+        $("#contactsAdd").html(markupAdd.toString());
+    }
+}
+function buildGroupContacts() {
+    var jsonObj = eval("(" + groupContacts + ")");
+    var groupnames = jsonObj.GroupNames;
+    var grNames = "";
+    var groupContacts1 = jsonObj.GroupContacts;
+    if (groupnames != 'nogroups')
+    {
+        grNames += '<li onclick="showContacts(\'All\')"><a href="javascript:void(0);">All</a></li>';
+        for (var i = 0; i < groupnames.length; i++)
+        {
+            var group = groupnames[i];
+            var groupCont = groupContacts1[group.groupId];
+
+            if (groupCont == "nocontacts")
+            {
+                var length = 0;
+            } else
+            {
+                var length = groupCont.length;
+            }
+//            grNames += '<li><div class="group-title"><a onclick="showGroupContacts(' + group.groupId + ',\'' + group.groupName + '\')">' + group.groupName + '<span>( ' + length + ' )</span></div><div class="edit-delete"><i class="icon-complete"></i></a></div></li>';
+            grNames += '<li><a onclick="showGroupContacts(' + group.groupId + ',\'' + group.groupName + '\')">' + group.groupName + '<span>( ' + length + ' )</span></li>';
+        }
+        //alert("grName : :"+grNames);
+        $("#groupNames").prepend(grNames);
+        $("#mobilegroupNames").prepend(grNames);
+    } else
+    {
+
+    }
+}
+function showAllContacts() {
+    $("#grp").html("All");
+    $("#groupNames").hide();
+    $("#mobilegroupNames").hide();
+    buildContacts();
+}
+function showGroupContacts(groupId, grpName)
+{
+    $("#grp").html(grpName);
+    $("#alphabetdiv a").removeClass("active");
+    $("#alphabetdiv a").removeClass("select");
+    var contactData = new StringBuilder();
+    var contactDatam = new StringBuilder();
+    var contactData1 = new StringBuilder();
+    var contactDataAdd = new StringBuilder();
+    var jsonObj = eval("(" + groupContacts + ")");
+    var grpContacts = jsonObj.GroupContacts;
+    if (grpContacts[groupId].length != 0)
+    {
+        for (var i = 0; i < grpContacts[groupId].length; i++)
+        {
+            var j = parseInt(i) + parseInt(contacts.length);
+            var cont = grpContacts[groupId][i];
+
+            var contFirstLetter = cont.contactName.substring(0, 1).toUpperCase();
+            if (($.inArray(contFirstLetter, alphaconts)) > -1)
+            {
+                $("#alpha" + contFirstLetter.toUpperCase()).addClass("active");
+                $("#alphabet" + contFirstLetter.toUpperCase()).addClass("select");
+            }
+            var str = cont.contactName;
+            var ha = str.indexOf("'");
+            if (ha != -1) {
+                var spt = str.split("'");
+                str = spt.join(" ");
+                cont.contactName = str;
+            }
+            str = cont.contactName;
+            ha = str.indexOf('"');
+            if (ha != -1) {
+                var spt = str.split('"');
+                str = spt.join(" ");
+                cont.contactName = str;
+            }
+            contactData.append("<li id='cont_" + cont.mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + cont.mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i>" + cont.contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo.substring(2, 12) + "'></i></span><span class='u-n-c'><k id='contactName" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</k><span class='u-ctm'>" + cont.mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+            contactDataAdd.append("<li onclick=\"selectContact('" + cont.contactName + "', '" + cont.mobileNo + "', " + cont.groupId + ", '" + ((cont.gender == null || cont.gender == undefined) ? 'M' : cont.gender) + "', '" + cont.groupName + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo + "'>" + cont.contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo + "'></i></span><span class='u-n-c'>" + cont.contactName + "<span class='u-ctm'>" + cont.mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+//            contactData += "<p  id='cont_" + cont.mobileNo.substring(2, 12) + "'><a onclick=\"addContact('" + cont.mobileNo.substring(2, 12) + "');\"'><i></i><input type='hidden' id='groupid_" + i + "' value='" + groupId + "' /><b id='contactName" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</b><span id='mobile" + i + "'>" + cont.mobileNo.substring(2, 12) + "</span></a></p>";
+//            contactDatam += "<p  id='contm_" + cont.mobileNo.substring(2, 12) + "'><a onclick=\"addContact('" + cont.mobileNo.substring(2, 12) + "');\"'><i></i><input type='hidden' id='groupid_" + i + "' value='" + groupId + "' /><b id='contactName" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</b><span id='mobile" + i + "'>" + cont.mobileNo.substring(2, 12) + "</span></a></p>";
+//            contactData1 += ("<p  id='cont_" + cont.mobileNo.substring(2, 12) + "'><a onclick=\"selectContact('" + cont.contactName + "', '" + cont.mobileNo.substring(2, 12) + "', " + cont.groupId + ", '" + ((cont.gender == null || cont.gender == undefined) ? 'M' : cont.gender) + "', '" + cont.groupName + "');\"'><i></i><input type='hidden' id='groupid_" + i + "' value='" + groupId + "' /><b id='name_" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</b><span id='mobile" + i + "'>" + cont.mobileNo.substring(2, 12) + "</span></a></p>");
+            //contactData1 += ("<li id=\"" + cont.mobileNo.substring(2, 12) + "li\" onclick=\"selectContact('" + cont.contactName + "', '" + cont.mobileNo.substring(2, 12) + "', " + cont.groupId + ", '" + ((cont.gender == null || cont.gender == undefined) ? 'M' : cont.gender) + "', '" + cont.groupName + "')\"><a><k id=\"name_" + cont.mobileNo.substring(2, 12) + "\">" + cont.contactName + "</k><k id=\"gender_" + cont.mobileNo.substring(2, 12) + "\" style='display:none;'>" + cont.gender + "</k><p>" + cont.mobileNo + "</p></a><span class=\"time\"><input class=\"btn\" value=\"Edit\" type=\"button\"> </span></li>");
+        }
+        $("#contacts1").html('');
+        $("#contacts1").html(contactData.toString());
+        $("#mobilecontacts1").html(contactDatam.toString());
+        $("#contactsDiv").html(contactData.toString());
+        $("#dispContacts").html(contactData1.toString());
+        $("#contactsAdd").html(contactDataAdd.toString());
+
+    } else {
+        $("#contacts1").html('<h4>Contacts not found in this group</h4>');
+        $("#mobilecontacts1").html('<h4>Contacts not found in this group</h4>');
+        $("#contactsDiv").html('Contacts not found in this group');
+        $("#dispContacts").html('Contacts not found in this group');
+        $("#contactsAdd").html('Contacts not found in this group');
+    }
+
+    $("#grp").html(grpName);
+    $("#groupNames,#groupsPopUp,#groupNamesAdd,#mobilegroupNames,#mobilegroupNamesAdd").hide();
+}
+function getAlphaContacts(alpha, id) {
+    alphaContacts = "";
+    if (alphaAppend.indexOf(alpha) > -1) {
+        $("#alpha" + alpha.toUpperCase()).removeClass("selected");
+        $("#alphabet" + alpha.toUpperCase()).removeClass("active");
+        alphaAppend.splice(alphaAppend.indexOf(alpha), 1);
+        $("#contacts1").html("");
+        $("#mobilecontacts1").html("");
+        $("#dispContacts").html("");
+        alphaData = new StringBuilder();
+        alphaDatam = new StringBuilder();
+        alphaData1 = new StringBuilder();
+        for (var k = 0; k < alphaAppend.length; k++) {
+            //alphaContacts = "";
+            alphaContacts = $.grep(contacts, function (v) {
+                if (v.contactName.toLowerCase().substring(0, 1).indexOf(alphaAppend[k]) >= 0) {
+                    return v.contactName;
+                }
+            });
+            for (var a = 0; a < alphaContacts.length; a++) {
+//                alphaData.append("<p id='cont_" + alphaContacts[a].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + alphaContacts[a].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='contactName" + alphaContacts[a].mobileNo.substring(2, 12) + "'>" + alphaContacts[a].contactName + "</b><span>" + alphaContacts[a].mobileNo.substring(2, 12) + "</span></a></p>");
+//                alphaDatam.append("<p id=contm_'" + alphaContacts[a].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + alphaContacts[a].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='contactName" + alphaContacts[a].mobileNo.substring(2, 12) + "'>" + alphaContacts[a].contactName + "</b><span>" + alphaContacts[a].mobileNo.substring(2, 12) + "</span></a></p>");
+//                alphaData1.append("<p id='cont_" + alphaContacts[a].mobileNo.substring(2, 12) + "' onclick=\"selectContact('" + alphaContacts[a].contactName + "', '" + alphaContacts[a].mobileNo.substring(2, 12) + "', " + alphaContacts[a].groupId + ", '" + ((alphaContacts[a].gender == null || alphaContacts[a].gender == undefined) ? 'M' : alphaContacts[a].gender) + "', '" + alphaContacts[a].groupName + "');\" style=\"cursor:pointer;\"><a ><i class='icon-complete'></i><b id='name_" + alphaContacts[a].mobileNo.substring(2, 12) + "'>" + alphaContacts[a].contactName + "</b><span>" + alphaContacts[a].mobileNo.substring(2, 12) + "</span></a></p>");
+                //alphaData1.append("<li id=\"" + alphaContacts[a].mobileNo.substring(2, 12) + "li\" onclick=\"selectContact('" + alphaContacts[a].contactName + "', '" + alphaContacts[a].mobileNo.substring(2, 12) + "', " + alphaContacts[a].groupId + ", '" + ((alphaContacts[a].gender == null || alphaContacts[a].gender == undefined) ? 'M' : alphaContacts[a].gender) + "', '" + alphaContacts[a].groupName + "')\"><a><k id=\"name_" + alphaContacts[a].mobileNo.substring(2, 12) + "\">" + alphaContacts[a].contactName + "</k><k id=\"gender_" + alphaContacts[a].mobileNo.substring(2, 12) + "\" style='display:none;'>" + alphaContacts[a].gender + "</k><p>" + alphaContacts[a].mobileNo + "</p></a><span class=\"time\"><input class=\"btn\" value=\"Edit\" type=\"button\"> </span></li>");
+            }
+        }
+        if (alphaAppend.length > 0) {
+            $("#contacts1").html(alphaData.toString());
+            $("#mobilecontacts1").html(alphaDatam.toString());
+            $("#dispContacts").html(alphaData1.toString());
+        } else {
+            buildContacts();
+        }
+    } else {
+
+        alphaContacts = $.grep(contacts, function (v) {
+            if (v.contactName.toLowerCase().substring(0, 1).indexOf(alpha) >= 0) {
+                $("#alpha" + alpha.toUpperCase()).addClass("selected");
+                $("#alphabet" + alpha.toUpperCase()).addClass("active");
+                return v.contactName;
+            }
+        });
+        for (var i = 0; i < alphaContacts.length; i++) {
+//            alphaData.append("<p id='cont_" + alphaContacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + alphaContacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i></i><b id='contactName" + alphaContacts[i].mobileNo.substring(2, 12) + "'>" + alphaContacts[i].contactName + "</b><span>" + alphaContacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+//            alphaDatam.append("<p id='contm_" + alphaContacts[i].mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + alphaContacts[i].mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><a ><i></i><b id='contactName" + alphaContacts[i].mobileNo.substring(2, 12) + "'>" + alphaContacts[i].contactName + "</b><span>" + alphaContacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+//            alphaData1.append("<p id='cont_" + alphaContacts[i].mobileNo.substring(2, 12) + "' onclick=\"selectContact('" + alphaContacts[i].contactName + "', '" + alphaContacts[i].mobileNo.substring(2, 12) + "', " + alphaContacts[i].groupId + ", '" + ((alphaContacts[i].gender == null || alphaContacts[i].gender == undefined) ? 'M' : alphaContacts[i].gender) + "', '" + alphaContacts[i].groupName + "');\" style=\"cursor:pointer;\"><a ><i></i><b id='name_" + alphaContacts[i].mobileNo.substring(2, 12) + "'>" + alphaContacts[i].contactName + "</b><span>" + alphaContacts[i].mobileNo.substring(2, 12) + "</span></a></p>");
+            //alphaData1.append("<li id=\"" + alphaContacts[i].mobileNo.substring(2, 12) + "li\" onclick=\"selectContact('" + alphaContacts[i].contactName + "', '" + alphaContacts[i].mobileNo.substring(2, 12) + "', " + alphaContacts[i].groupId + ", '" + ((alphaContacts[i].gender == null || alphaContacts[i].gender == undefined) ? 'M' : alphaContacts[i].gender) + "', '" + alphaContacts[i].groupName + "')\"><a><k id=\"name_" + alphaContacts[i].mobileNo.substring(2, 12) + "\">" + alphaContacts[i].contactName + "</k><k id=\"gender_" + alphaContacts[i].mobileNo.substring(2, 12) + "\" style='display:none;'>" + alphaContacts[i].gender + "</k><p>" + alphaContacts[i].mobileNo + "</p></a><span class=\"time\"><input class=\"btn\" value=\"Edit\" type=\"button\"> </span></li>");
+        }
+        if (alphaData.toString() != "") {
+            $("#contacts1").html(alphaData.toString());
+            $("#mobilecontacts1").html(alphaDatam.toString());
+            $("#dispContacts").html(alphaData1.toString());
+            alphaAppend.push(alpha);
+        }
+    }
+}
+function showContacts(name)
+{
+    var activealph = new Array();
+    var contactData = new StringBuilder();
+    var contactDatam = new StringBuilder();
+    var contactData1 = new StringBuilder();
+    var contactDataAdd = new StringBuilder();
+    $("#alphabetdiv a").removeClass("active");
+    for (var i = 0; i < contacts.length; i++)
+    {
+        var cont = contacts[i];
+        var str = cont.contactName;
+        var ha = str.indexOf("'");
+        if (ha != -1) {
+            var spt = str.split("'");
+            str = spt.join(" ");
+            cont.contactName = str;
+        }
+        str = cont.contactName;
+        ha = str.indexOf("'");
+        if (ha != -1) {
+            var spt = str.split('"');
+            str = spt.join(" ");
+            cont.contactName = str;
+        }
+        var alpha = cont.contactName.substring(0, 1)
+        $("#alpha" + alpha.toUpperCase()).addClass("active");
+        $("#alphabet" + alpha.toUpperCase()).addClass("select");
+        contactData.append("<li id='cont_" + cont.mobileNo.substring(2, 12) + "' onclick=\"javascript:addContact('" + cont.mobileNo.substring(2, 12) + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo.substring(2, 12) + "'>" + cont.contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo.substring(2, 12) + "'></i></span><span class='u-n-c'><k id='contactName" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</k><span class='u-ctm'>" + cont.mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+        contactDataAdd.append("<li onclick=\"selectContact('" + cont.contactName + "', '" + cont.mobileNo + "', " + cont.groupId + ", '" + ((cont.gender == null || cont.gender == undefined) ? 'M' : cont.gender) + "', '" + cont.groupName + "');\" style=\"cursor:pointer;\"><span class='u-fn'><i id='cfl_" + contacts[i].mobileNo + "'>" + cont.contactName.charAt(0) + "</i><i class=\"fa fa-check\" style='display:none;' id='check_" + contacts[i].mobileNo + "'></i></span><span class='u-n-c'>" + cont.contactName + "<span class='u-ctm'>" + cont.mobileNo.substring(2, 12) + "</span></span><span class='more'><i class='fa more-icon'></i></span></li>");
+
+
+//        contactData += "<p id='cont_" + cont.mobileNo.substring(2, 12) + "'><a onclick=\"addContact('" + cont.mobileNo.substring(2, 12) + "');\"><i class='icon-complete'></i><b id='contactName" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</b><span id='mobile" + i + "'>" + cont.mobileNo.substring(2, 12) + "</span></a></p>";
+//        contactDatam += "<p id='contm_" + cont.mobileNo.substring(2, 12) + "'><a onclick=\"addContact('" + cont.mobileNo.substring(2, 12) + "');\"><i class='icon-complete'></i><b id='contactName" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</b><span id='mobile" + i + "'>" + cont.mobileNo.substring(2, 12) + "</span></a></p>";
+//        contactData1 += "<p id='cont_" + cont.mobileNo.substring(2, 12) + "'><a onclick=\"selectContact('" + cont.contactName + "', '" + cont.mobileNo.substring(2, 12) + "', " + cont.groupId + ", '" + ((cont.gender == null || cont.gender == undefined) ? 'M' : cont.gender) + "', '" + cont.groupName + "');\"><i class='icon-complete'></i><b id='name_" + cont.mobileNo.substring(2, 12) + "'>" + cont.contactName + "</b><span id='mobile" + i + "'>" + cont.mobileNo.substring(2, 12) + "</span></a></p>";
+        //contactData1 += "<li id=\"" + cont.mobileNo.substring(2, 12) + "li\" onclick=\"selectContact('" + cont.contactName + "', '" + cont.mobileNo.substring(2, 12) + "', " + cont.groupId + ", '" + ((cont.gender == null || cont.gender == undefined) ? 'M' : cont.gender) + "', '" + cont.groupName + "')\"><a><k id=\"name_" + cont.mobileNo.substring(2, 12) + "\">" + cont.contactName + "</k><k id=\"gender_" + cont.mobileNo.substring(2, 12) + "\" style='display:none;'>" + cont.gender + "</k><p>" + cont.mobileNo + "</p></a><span class=\"time\"><input class=\"btn\" value=\"Edit\" type=\"button\"> </span></li>"
+    }
+    $("#contacts1").html(contactData.toString());
+    $("#mobilecontacts1").html(contactData.toString());
+    $("#dispContacts").html(contactData1.toString());
+    $("#contactsAdd").html(contactDataAdd.toString());
+    $("#groupNames,#groupNamesAdd,#mobilegroupNames,#mobilegroupNamesAdd").hide();
+    $("#grp").html(name);
+
+}
+function loadWick() {
+    if (contacts != "nocontacts" && contacts != null) {
+        var x = new Array();
+        var j = 0;
+        for (var i = 0; i <= contacts.length - 1; i++)
+        {
+            x[j] = contacts[i].contactName + " <" + contacts[i].mobileNo.substring(2, 12) + ">";
+            j = j + 1;
+        }
+    } else
+    {
+        //alert("2");
+    }
+    $("#OrgSendMobileId").autocomplete({
+        source: function (req, responseFn) {
+            var re = $.ui.autocomplete.escapeRegex(req.term);
+            if ((re.charAt(0) == 9) || (re.charAt(0) == 8) || (re.charAt(0) == 7) || (re.charAt(0) == 6)) {
+                var matcher = new RegExp("^" + re, "i");
+                var a = $.grep(x, function (item, index) {
+                    var dat = item.split("<");
+                    return matcher.test(dat[1]);
+                });
+            } else {
+                var matcher = new RegExp("^" + re, "i");
+                var a = $.grep(x, function (item, index) {
+                    return matcher.test(item);
+                });
+            }
+            responseFn(a.slice(0, 15));
+        },
+        close: function (event, ui) {
+            //checkMobile();
+        }
+    });
+}
+function toggleContact(cname, cnumber, i) {
+    var val1 = $("#OrgSendMobileId").val();
+    if (prevConct != "") {
+        $("#" + prevConct).removeClass("active");
+    }
+    if ($("#" + cnumber + i).hasClass("active")) {
+        $("#" + cnumber + i).removeClass("active");
+        var st = $("#OrgSendMobileId").val();
+        st = st.replace("," + cname + " <" + cnumber + ">", "");
+        st = st.replace(cname + " <" + cnumber + ">", "");
+        if (st != "") {
+            if (st.substring(0, 1) == ",") {
+                st = st.substring(1, st.length);
+            }
+        }
+        $("#OrgSendMobileId").val(st);
+    } else {
+        if (val1 != "" && val1 != null) {
+            var conts = new Array();
+            $("#OrgSendMobileId").val(cname + " <" + cnumber + ">");
+        } else {
+            $("#OrgSendMobileId").val(cname + " <" + cnumber + ">");
+        }
+        $("#" + cnumber + i).addClass("active");
+    }
+    prevConct = cnumber + i;
+    //closeDiv('divContacts');
+}
+
+
+jQuery.fn.extend({
+    insertAtCaret: function (valueToInsertAtCaret) {
+        return this.each(function (i) {
+            if (document.selection) {
+                this.focus();
+                selection = document.selection.createRange();
+                selection.text = valueToInsertAtCaret;
+                this.focus();
+            } else if (this.selectionStart || this.selectionStart == "0") {
+                var startPosition = this.selectionStart;
+                var endPosition = this.selectionEnd;
+                var scrollTop = this.scrollTop;
+                this.value = this.value.substring(0, startPosition) + valueToInsertAtCaret + this.value.substring(endPosition, this.value.length);
+                this.focus();
+                this.selectionStart = startPosition + valueToInsertAtCaret.length;
+                this.selectionEnd = startPosition + valueToInsertAtCaret.length;
+                this.scrollTop = scrollTop;
+            } else {
+                this.value += valueToInsertAtCaret;
+                this.focus();
+            }
+        })
+    }
+});
+String.prototype.count = function (s1) {
+    return (this.length - this.replace(new RegExp(s1, "g"), '').length) / s1.length;
+}
+
+function countChars() {
+    if ($("#message").val() != undefined) {
+        var l = $("#msgLen").val();
+        var len = $("#message").val().length;
+        var commas;
+        var str = $("#message").val();
+        var dsr = navigator.userAgent.split("MSIE");
+        if (dsr[1] != undefined) {
+            commas = trim($("#message").val()).count('\n');
+        } else {
+            commas = $("#message").val().count('\n')
+            len = len + commas;
+        }
+        if (len <= l) {
+            $("#txt_sendsms_count").html((l - len));
+        } else {
+            $("#message").val(str.substr(0, str.length - 1));
+            if ((l - len) < 0) {
+                $("#txt_sendsms_count").html(0);
+            }
+        }
+    }
+}
+function detectmob() {
+    if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) || navigator.userAgent.match(/Opera Mini/i) || navigator.userAgent.match(/SamsungBrowser/i) || navigator.userAgent.match(/Mobile Safari/i)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function checkMobileNo() {
+    var reqMob = document.getElementById("mobile").value;
+    if (reqMob == 0) {
+        $("#mobile").focus();
+        $("#mobile").parent().parent().parent().find("b").html('Enter Valid Mobile Number.').removeClass("hidden");
+        var eTop = $('#mobile').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 200)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+//        $('html, body').animate({scrollTop: 0}, 'slow');
+        return false;
+    } else if (reqMob == "Mobile Number") {
+        $("#mobile").focus();
+        $("#mobile").parent().parent().parent().find("b").html('Enter Valid Mobile Number.').removeClass("hidden");
+        var eTop = $('#mobile').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 200)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+        return false;
+    } else if (reqMob.length != 10) {
+        $("#mobile").focus();
+        $("#mobile").parent().parent().parent().find("b").html('Enter Valid Mobile Number.').removeClass("hidden");
+        var eTop = $('#mobile').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 200)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+        return false;
+    } else if (reqMob.charAt(0) != 9 && reqMob.charAt(0) != 8 && reqMob.charAt(0) != 7 && reqMob.charAt(0) != 6) {
+        $("#mobile").focus();
+        $("#mobile").parent().parent().parent().find("b").html('Enter Valid Mobile Number.').removeClass("hidden");
+        var eTop = $('#mobile').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 200)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+        reqMob = "";
+        return false;
+    } else if (isNaN(reqMob)) {
+        $("#mobile").focus();
+        $("#mobile").parent().parent().parent().find("b").html('Enter Valid Mobile Number.').removeClass("hidden");
+        var eTop = $('#mobile').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 200)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+        return false;
+    } else {
+        return true;
+    }
+}
+function checkMessage() {
+    var reqMess = document.getElementById("message").value;
+    if (reqMess == 0 || reqMess === "" || reqMess === "Type your message here or use SMS greetings") {
+        $("#message").focus();
+        $("#message").parent().parent().parent().find("b").html("Please enter a message and then click on 'Send SMS'").removeClass("hidden");
+        var eTop = $('#message').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 350)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+        return false;
+    } else if (reqMess.length > 140) {
+        $("#message").focus();
+        $("#message").parent().parent().parent().find("b").html("Message length exceeding over allocated 140 characters.").removeClass("hidden");
+        var eTop = $('#message').offset().top;
+        if (detectmob()) {
+            $('html,body').animate({scrollTop: (eTop - eTop + 200)}, 'slow');
+        } else {
+            $('html,body').animate({scrollTop: (eTop - eTop + 70)}, 'slow');
+        }
+//        $("#message").focus().addClass("error");
+        return false;
+    } else {
+        return true;
+    }
+}
+function popBtnClick() {
+    $("body").css({"overflow": "auto", "height": ""});
+    $("#blackOverly").hide();
+}
+$('#ulCategories,#ulCategoriesMobile').change(function () {
+    sreq = 0;
+    var $this = $(this);
+    var catId = $this.val();
+    if (catId == "100123")
+        catId = -1;
+    //var catName=$this.text();
+    var catName = $(this).find('option:selected').text();
+    $("#catName").val(catName);
+//    alert("catName>>>"+catName+"\tcatId::"+catId)
+    if (catName && catName !== null) {
+        var parms1 = "id=" + dat1.getTime() + "&catName=" + catName + "&pageNo=0&totCount=0";
+        if (sreq == 0) {
+            $.ajax({
+                url: "getMsgGreatings",
+                type: 'post',
+                data: parms1,
+                dataType: 'JSON',
+                success: function (data) {
+                    if (data.status == "logout") {
+                        window.location = "Logout";
+                    } else {
+//                        $("#selCategoryName").html("<i class='icon-message'></i>" + catName);
+                        var data1 = data.messages.split("--901--");
+                        sreq = 1;
+                        $("#ulMsgs").html(data1[0]);
+                        $("#ulMsgsMobile").html(data1[0]);
+//
+//                        var viep = $(window).height();
+//                        $("#ulMsgs").height(viep - 153);
+                        $("#div_pagination").html(data1[1]);
+                        $("#div_paginationMobile").html(data1[1]);
+                    }
+                },
+                error: function (e) {
+                }
+            });
+        }
+    } else {
+        displayNotification("Select a category");
+    }
+});
+
+function changePageNo(pageNo, totCount, catName) {
+//    $("#ulMsgs").css("color", "red");
+    $("#ulMsgs").html("<center><b>Loading...!</b></center>");
+    var parms1 = "id=" + dat1.getTime() + "&catName=" + catName + "&pageNo=" + pageNo + "&totCount=" + totCount;
+    $.ajax({
+        url: "getMsgGreatings",
+        type: 'post',
+        data: parms1,
+        dataType: 'JSON',
+        success: function (data) {
+            if (data.status == "logout") {
+                window.location = "Logout";
+            } else {
+//                $("#selCategoryName").html("<i class='icon-message'></i>" + catName);
+                var data1 = data.messages.split("--901--");
+                sreq = 1;
+                $("#ulMsgs").html(data1[0]);
+//                $("#ulMsgsMobile").html(data1[0]);
+
+//                var viep = $(window).height();
+//                $("#ulMsgs").height(viep - 153);
+                $("#div_pagination").html(data1[1]);
+//                $("#div_paginationMobile").html(data1[1]);
+            }
+        },
+        error: function (e) {
+        }
+    });
+}
+function displayNotification(msg) {
+    $("#blackOverly").show();
+    $("body").css({"overflow": "hidden", "height": "100%"});
+    $("#popupcontent").html(msg);
+}
+function openDiv(id) {
+//    $("#divPop").css("display", "block");
+    //$("body").css({"overflow": "hidden", "height": "100%"});
+    var catId = $("#catId").val();
+    var catName = $("#catName").val();
+    if (id == "div_msgs") {
+        getpremess(catId, catName);
+        $("#div_smileys").addClass("hidden");
+        $("#divContacts").addClass("hidden");
+//        $("#divContacts").hide();
+        //$("#mobiledivContacts").addClass("hidden");
+        $("#contssmily").removeClass("active");
+        $("#conts").removeClass("active");
+        $("#contsmsg").addClass("active");
+    }
+    if (id == "div_smileys") {
+        $("#div_msgs").addClass("hidden");
+        $("#divContacts").addClass("hidden");
+        //$("#mobiledivContacts").addClass("hidden");
+        $("#contsmsg").removeClass("active");
+        $("#conts").removeClass("active");
+        $("#contssmily").addClass("active");
+    }
+    if (id == "divContacts") {
+        $("#div_msgs").addClass("hidden");
+//        $("#div_msgs").hide();
+        //$("#mobiledivContacts").addClass("hidden");
+        $("#div_smileys").addClass("hidden");
+        $("#contsmsg").removeClass("active");
+        $("#contssmily").removeClass("active");
+        $("#conts").addClass("active");
+    }
+    if (id == "mobiledivContacts") {
+        $("#divContacts").addClass("hidden");
+        $("#div_msgs").addClass("hidden");
+        $("#div_smileys").addClass("hidden");
+        $("#contsmsg").removeClass("active");
+        $("#contssmily").removeClass("active");
+        $("#conts").addClass("active");
+    }
+    if (id == "send-sms") {
+        window.location.href = "send-sms";
+    }
+    if (detectmob()) {
+        $("#" + id).addClass("messages-mobile");
+    }
+    $("#" + id).removeClass("hidden");
+//    $("#" + id).show();
+}
+
+var smsCategories = ["Anniversary", "April Fool`s Day", "Birthday", "Bakrid", "Christmas", "Congratulations", "Diwali", "Dussehra", "Fathers Day", "Friendship", "Friendship day",
+    "Ganesh Chaturthi", "Good Friday", "Good Morning", "Good Night", "Have a great day", "Holi", "Independence day", "Inspirational", "Jokes", "krishna Ashtami",
+    "Lohri", "Love", "Marriage", "Miss you", "Mothers Day", "New Year", "Puzzle SMS", "quotations", "Raksha Bandhan", "Ramdan Wishes", "Republic Day", "Sivaratri", "Sorry", "Sri Rama Navami","Teacher`s Day",
+    "Stay in Touch", "Thank you", "Valentine day","Good Bye 2018"];
+var smsCatLen = smsCategories.length;
+function loadSMSCats() {
+    var catData = "";
+    for (i = 0; i < smsCatLen; i++) {
+        catData += "<option value='" + smsCategories[i] + "' >" + smsCategories[i] + "</option>";
+        //<li onclick='javascript:loadGreetingsFor(\"" + smsCategories[i] + "\"," + i + ");'>" + smsCategories[i] + "</li>
+    }
+    $("#ulCategories").html(catData);
+    $("#ulCategoriesMobile").html(catData);
+}
+loadSMSCats();
+
+function getpremess(catid, catName) {
+//    if ($("#ulCategories").val() == "0") {
+    $("#ulCategories").val(catName);
+    $("#ulCategoriesMobile").val(catName);
+//    }
+    var cat;
+    if (catid == "[object HTMLSelectElement]") {
+        cat = catid.value;
+    } else if (catid == "[object]") {
+        cat = catid.value;
+    } else {
+        cat = catid;
+    }
+    if (cat != 0) {
+        var parms1 = "id=" + dat1.getTime() + "&catgid=" + cat + "&catName=" + catName + "&pageNo=0&totCount=0";
+        if (sreq == 0) {
+            $.ajax({
+                url: "getMsgGreatings",
+                type: 'post',
+                data: parms1,
+                dataType: 'JSON',
+                success: function (data) {
+                    if (data.status == "logout") {
+                        window.location = "Logout";
+                    } else {
+//                        $("#selCategoryName").html("<i class='icon-message'></i>" + catName);
+                        var data1 = data.messages.split("--901--");
+                        sreq = 1;
+                        $("#ulMsgs").html(data1[0]);
+                        $("#ulMsgsMobile").html(data1[0]);
+
+//                        var viep = $(window).height();
+//                        $("#ulMsgs").height(viep - 153);
+                        $("#div_pagination").html(data1[1]);
+                        $("#div_paginationMobile").html(data1[1]);
+                    }
+                },
+                error: function (e) {
+                }
+            });
+        }
+    } else {
+        displayNotification("Select a category");
+    }
+}
+function getpremess1(catName) {
+    var parms1 = "id=" + dat1.getTime() + "&catName=" + catName + "&pageNo=0&totCount=0";
+    if (sreq == 0) {
+        $.ajax({
+            url: "getMsgGreatings1",
+            type: 'post',
+            data: parms1,
+            dataType: 'JSON',
+            success: function (data) {
+                if (data.status == "logout") {
+                    window.location = "Logout";
+                } else {
+                    $("#smsContainer").html("<i class='icon-message'></i>" + catName);
+                    var data1 = data.messages.split("--901--");
+                    $("#smsContainer").html(data1[0]);
+
+//                    var viep = $(window).height();
+//                    $("#ulMsgs").height(viep - 153);
+                    $("#div_pagination").html(data1[1]);
+                }
+            },
+            error: function (e) {
+            }
+        });
+    }
+}
+function getInputMess1(sno) {
+    var sno_mess = $("#messid1_" + sno).val();
+    $("#message").val(sno_mess);
+    $("#message").focus();
+    $("#message").parent().parent().parent().find('b').addClass("hidden");
+    if (detectmob()) {
+        $("#div_msgs ").addClass("hidden");
+    } else {
+        $("#div_msgs ").removeClass("hidden");
+    }
+//    $("#greetingsPop ").modal("hide");
+    countChars();
+}
+function closeAll() {
+    $("#divPop, #div_menu, #div_smileys, #div_msgs, #div_smileys").addClass("hidden");
+    if (detectmob()) {
+        $("#divContacts").addClass("hidden");
+    } else {
+        $("#divContacts").removeClass("hidden");
+    }
+    //$("#mobiledivContacts").addClass("hidden");
+//    $('#mobileContactsPop').modal('hide');
+    $("body").css({"overflow": "auto", "height": ""});
+}
+$(document).on('keydown', function (e) {
+    if (e.keyCode === 27) { // ESC
+        closeAll();
+    }
+});
+
+function putSmiley(id) {
+    if ($("#message").val().length < 138) {
+        switch (id) {
+            case 1:
+                $("#message").insertAtCaret(":-)");
+                break;
+            case 2:
+                $("#message").insertAtCaret(":-D");
+                break;
+            case 3:
+                $("#message").insertAtCaret(":-P");
+                break;
+            case 4:
+                $("#message").insertAtCaret(";-)");
+                break;
+            case 5:
+                $("#message").insertAtCaret("B-)");
+                break;
+            case 6:
+                $("#message").insertAtCaret(":-o");
+                break;
+            case 7:
+                $("#message").insertAtCaret(":-*");
+                break;
+            case 8:
+                $("#message").insertAtCaret(":|");
+                break;
+            case 9:
+                $("#message").insertAtCaret(":-(");
+                break;
+            case 10:
+                $("#message").insertAtCaret(":'(");
+                break;
+            case 11:
+                $("#message").insertAtCaret(":@");
+                break;
+            case 12:
+                $("#message").insertAtCaret("<3");
+                break;
+        }
+        countChars();
+        $("#div_smileys").addClass("hidden");
+//        $('#smileysPop').modal('hide');
+//        closeAll();
+    }
+}
+
+countChars();
+
+function feedClick() {
+    $("#div_menu").hide();
+    $("#feeddiv").show();
+}
+
+$("#mobUserDis").click(function () {
+    $("#mobUserNav").removeClass("hidden");
+});
+
+$(document).click(function (event) {
+//    alert(event.target.id);
+    if (event.target.id != "groCons") {
+        $("#groupNames").hide();
+    }
+    if (event.target.id != "groConsAdd" && event.target.id != "createGrp" && event.target.id != "newGroupName" && event.target.id != "groupCan" && event.target.id != "groupSave") {
+        $("#groupNamesAdd").hide();
+    }
+    if (event.target.id != "mobUserDis") {
+        $("#mobUserNav").addClass("hidden");
+    }
+    if (event.target.id != "wReShowSpan" && event.target.id != "wReShowspan2" && event.target.id != "wReShowi") {
+        $("#wReShow").addClass("hidden");
+    }
+    if (event.target.id != "wReShowSpanm" && event.target.id != "wReShowspan2m" && event.target.id != "wReShowim") {
+        $("#wallDrop").addClass("hidden");
+    }
+});
+function showErrorMsg(msg) {
+    $("#blackOverly").show();
+    $("body").css({"overflow": "hidden", "height": "100%"});
+    $("#popupcontent").html(msg);
+}
+function getGroups() {
+    if ($("#groupNames").css("display") === "none" || $("#groupNamesAdd").css("display") === "none") {
+        $("#groupNames,#groupNamesAdd").show();
+    } else {
+        $("#groupNames,#groupNamesAdd").hide();
+    }
+}
+function getGroupsMobile() {
+    if ($("#mobilegroupNames").css("display") === "none" || $("#mobilegroupNamesAdd").css("display") === "none") {
+        $("#mobilegroupNames,#mobilegroupNamesAdd").show();
+    } else {
+        $("#mobilegroupNames,#mobilegroupNamesAdd").hide();
+    }
+}
+
+function loadDiv(tabname) {
+//alert("sssssssssss "+tabname);
+    /*if (tabname === "pHome") 
+     {
+     //   alert("sssseee");
+     
+     $("#smstab").hide();
+     
+     } else*/
+    {
+        // alert("sssseeewww")
+
+        $("#smstab").show();
+    }
+
+    window.location.href = tabname;
+
+}
+function loadPlDiv(tabname) {
+    window.location.href = tabname;
+
+}
+function trim(str) {
+    return str.replace(/(?:(?:^|\n)\s+|\s+(?:$|\n))/g, '').replace(/\s+/g, ' ');
+}
+
+function changeTab(stab) {
+    $("#sendSMSi").addClass("fa fa-circle-o");
+    $("#languageSMSi").addClass("fa fa-circle-o");
+    $("#freeGroupSMSi").addClass("fa fa-circle-o");
+    $("#futurei").addClass("fa fa-circle-o");
+    $("#sentSMSi").addClass("fa fa-circle-o");
+    $("#addressBooki").addClass("fa fa-circle-o");
+    $("#" + stab).addClass("fa fa-circle");
+
+}
+
+$("#mobile").keyup(function () {
+    //alert()
+    var inkey = document.getElementById('mobile').value;
+
+
+    var splChar = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+
+    var val = inkey.substring(inkey.length - 1, inkey.length);
+
+    var exi = splChar.indexOf(val);
+    //                alert(exi);
+
+    if (exi < 0) {
+
+        val = inkey.substring(0, inkey.length - 1);
+    } else {
+        return false;
+
+
+
+    }
+    $("#mobile").val(val)
+});
+$('#greetingsPop').on('shown.bs.modal', function (e) {
+    var catId = $("#catId").val();
+    var catName = $("#catName").val();
+    getpremess(catId, catName);
+});
+$('#mobileContactsPop').on('shown.bs.modal', function (e) {
+    //alert();
+    $('#mobilecontacts1').animate({scrollTop: 0}, 'fast');
+});
+$("#closeButton").click(function () {
+    $(".menu-wrap").removeClass("visible");
+    $("body").removeClass("show-menu");
+});

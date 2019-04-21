@@ -1,0 +1,215 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "range",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-range",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 9,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Jan-30-2019",
+    "RecordingDuration": 130062,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1548827343,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 650463,
+    "TotalBytesSent": 5785,
+    "TotalRequests": 14,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "18.222.58.52",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.222.58.52",
+          "IncludeInScript": true,
+          "Name": "18.222.58.52",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 953,
+              "EventId": 474,
+              "HttpStatus": 200,
+              "Size": 1319,
+              "URL": "http://18.222.58.52/example4/checkout.php?sessionKey=161503&pageID=107a0634-6846-4b0e-a6a5-f61b0c3b30a5&checkout=1548827484"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 466,
+              "HttpStatus": 404,
+              "Size": 1056,
+              "URL": "http://18.222.58.52/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 9531,
+              "EventId": 463,
+              "HttpStatus": 200,
+              "Size": 1617,
+              "URL": "http://18.222.58.52/example4/cart.php?sessionKey=161503&pageID=e5691867-a89b-4ae9-88ca-492775d03038"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 7797,
+              "EventId": 459,
+              "HttpStatus": 404,
+              "Size": 760,
+              "URL": "http://18.222.58.52/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1516,
+              "EventId": 346,
+              "HttpStatus": 206,
+              "Size": 3437,
+              "URL": "http://18.222.58.52/web_pics/pexels-photo-370799.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1000,
+              "EventId": 333,
+              "HttpStatus": 206,
+              "Size": 254166,
+              "URL": "http://18.222.58.52/web_pics/logo_capgemini.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 6828,
+              "EventId": 328,
+              "HttpStatus": 200,
+              "Size": 4828,
+              "URL": "http://18.222.58.52/example4/shop.php?sessionKey=161503&pageID=f343f416-56f0-4c13-8a39-5afd0fd9fb7a"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 8672,
+              "EventId": 322,
+              "HttpStatus": 302,
+              "Size": 1102,
+              "URL": "http://18.222.58.52/example4/sessionhandler.php?type=new&sessionKey=161503"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2156,
+              "EventId": 200,
+              "HttpStatus": 302,
+              "Size": 1102,
+              "URL": "http://18.222.58.52/example4/sessionhandler.php?type=new&sessionKey=161503"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 3671,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 144585,
+              "URL": "http://18.222.58.52/web_pics/pexels-photo-370799.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 2609,
+              "EventId": 27,
+              "HttpStatus": 200,
+              "Size": 3355,
+              "URL": "http://18.222.58.52/web_pics/logo_sogeti.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 453,
+              "EventId": 21,
+              "HttpStatus": 200,
+              "Size": 227386,
+              "URL": "http://18.222.58.52/web_pics/logo_capgemini.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 437,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 1014,
+              "URL": "http://18.222.58.52/web_css/generalFrame.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 3297,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 4736,
+              "URL": "http://18.222.58.52/example4/index.php"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 6
+}

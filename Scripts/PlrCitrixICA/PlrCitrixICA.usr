@@ -1,0 +1,61 @@
+[General]
+Type=Citrix_ICA
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=60
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ActiveTypes=Citrix_ICA
+AdditionalTypes=Citrix_ICA
+GenerateTypes=Citrix_ICA
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=en-IN
+[ExtraFiles]
+globals.h=
+Launch.ica=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="KWHotel Free"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"KWHotel Free"=

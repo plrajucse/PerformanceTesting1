@@ -1,0 +1,591 @@
+/****************Extra small devices (portrait phones, less than 576px)*******************/
+
+@media (max-width:575.98px) {
+    /*desktop hidden styles here*/
+    .fixed-top, .sidebar, .sidebar-rightsec {
+        display: none;
+    }
+    .sidebar-rightsec {
+        display: none;
+    }
+    .api-right-sidebar{
+        display: block;
+        width: 100%;
+    }
+    .contacts-mobile, .messages-mobile, .smilies-mobile {
+        width: 100%;
+        display: block;
+        background-color: #FFF;
+        z-index: 1;
+        margin-top: 80px;
+        -webkit-box-shadow: 0px -2px 5px -1px rgba(0,0,0,0.33);
+        -moz-box-shadow: 0px -2px 5px -1px rgba(0,0,0,0.33);
+        box-shadow: 0px -2px 5px -1px rgba(0,0,0,0.33);
+    }
+
+
+
+    /*page wrapper and page content styles starts here*/
+    .page-wrapper {
+        margin: 0 0px 0px 0px;
+        padding:15px;
+        width: 100%;
+    }
+    .sent-sms .page-wrapper {
+        width: 100%;
+    }
+    .container-wrapper {
+        padding: 0;
+    }
+    .content-block.d-table-cell {
+        display: block;
+    }
+    /*page wrapper and page content styles end here*/
+
+
+
+    /*middle content styles starts here*/
+    .content-block {
+        width: 100%;
+    }
+    .page-content {
+        margin-top: 0;
+    }
+    .header-block {
+        margin: 0;
+    }
+    /* .headline-mini {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    } */
+    .headeline {
+        font-size: 18px;
+        margin: 0 0 5px 0;
+    }
+    .groupsms-wrp .info-label-heavy {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .tags {
+        font-size: 14px;
+    }
+    .icon-smailey {
+        right: 12px;
+    }
+    .msg-block-right {
+        top: 6px;
+        right: 12px;
+    }
+    .tags-grp {
+        margin-bottom: 10px;
+    }
+    .info-label {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /*middle content styles end here*/
+
+
+
+    /**Advertaiser block*/
+    .adv-block {
+        width: 100%;
+        margin: 0 0;
+    }
+    .adv-block img {
+        max-width: 100%;
+    }
+    /**Advertaiser block*/
+
+
+    /**contact group popup styles start here*/
+
+    .show-hidden-small {
+        display: inline-block;
+    }
+    .sidebar-rightsec.contact-popup, .contact-popup {
+        display: block;
+        width: 90%;
+        height: 95vH;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        top: 15px;
+        right: 0;
+    }
+    .contact-popup .header-rightbar {
+        width: 90%;
+        height: 152px;
+        position: fixed;
+        background: #fff;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 15px;
+    }
+    .contact-popup .nav-h {
+        margin-top: 145px;
+    }
+    .alert-m {
+        display: block;
+        width: 100%;
+        left: 0;
+        right: 0;
+        position: relative;
+        top: 0;
+    }
+    .alert-m .alert-msg {
+        padding: 5px;
+        margin-top: 1px;
+    }
+    .add-crt-blk {
+        padding: 5px 8px 15px 8px;
+        margin-bottom: 0;
+    }
+    .alert-msg p {
+        font-size: 12px;
+    }
+    /**contact group popup styles end here*/
+
+    /* sent SMS styles start here */
+    .user-info, .msg-info {
+        width: 100%;
+        display: block;
+    }
+    .msg-info {
+        width: 100%;
+        padding: 20px 15px
+    }
+    .user-info {
+        padding: 15px 12px 0;
+    }
+    .user-info .circle {
+        right: -6px;
+        top: -10px;
+    }
+    .msgs-tabs, .tab-date {
+        display: block;
+        float: left;
+    }
+    .tab-date {
+        margin-top: 10px;
+    }
+    .msgs-doc {
+        margin: 30px 0px 15px;
+    }
+    .msg-info p {
+        font-size: 12px;
+    }
+    .msg-info .icon-double-check {
+        top: -22px;
+    }
+    /* sent SMS styles end here */
+
+
+    /* create contact list style */
+
+    /*mobile list points styles start here*/
+    .table thead tr th, .table tr td {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+    .download-sheet-doc {
+        bottom: 0;
+    }
+    .create-contact-contaner .content-block {
+        padding-bottom: 7em;
+    }
+    .contacts-upl-block {
+        margin-top: 30px;
+    }
+    .points-content {
+        width: 85%;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .list-points-m .icon-bull {
+        margin-right: 5px;
+        vertical-align: baseline;
+    }
+    /*mobile list points styles end here*/
+    /* create contact list styles end */
+   
+    .free-account, .business-account, .enterpraise{
+        width: 100%;
+        margin:0 0 20px 0;
+       
+    }
+    .free-account, .business-account{
+        min-height: auto;
+    }
+    .enterpraise{
+        min-height: auto;
+    }
+
+    .business .page-wrapper {
+        width: 100%;
+    }
+    .nav-tabs>li>a {
+        padding:10px 4px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .list-cell li {
+        display: table;
+        width: 100%;
+    }
+
+    .mdw-modal {
+        width: 90%;
+    }
+    .page-wrapper .header-title {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .pg-pricing .pricing-wrapper {
+        margin-left: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+ 
+    .upload-blk {
+        width: 90%;
+
+    }
+
+    .forgot-wrap .d-table > * {
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+
+
+    .forgot-wrap img{
+
+    }
+
+    .forgot-wrap .btn-outline{
+        padding: 11px 12px;
+        height:40px;
+
+    }
+
+    .captcha-row-m{
+        display:block;
+    }
+
+    .captcha-row-m #sendButton{
+        padding: 10px 8px;
+        font-size: 11px;
+    }
+
+    .captcha-row-m span{
+        display: block !important;
+        float: left;
+    }
+    .cpt-img-m{
+        width:113px;
+    }
+    .cpt-img-m img{
+        width:100%;
+        height:38px;
+    }
+
+    .captcha-row-m .btn-rf-m{
+        width:30px;
+        margin:0 5px 0px 0px;
+    }
+
+    .captcha-row-m .bt-send-m{
+        width:140px;
+
+    }
+
+    .msg-block .dropdown-wrap{
+        left:inherit;
+        right:0;
+        float:right;
+        padding-right: 20px;
+    }
+
+    #dateRangeDiv .s-dt {
+        margin-right: 6px;
+    }
+
+    .d-i-b-m > *{
+        display: inline-block;
+
+    }
+    .business-campaign .s-dt, .business-campaign .s-tm {
+        width: 48.5%;
+    }
+
+    #dateRangeDiv{
+        margin-bottom: 15px;
+    }
+
+    .btn-right-m{
+        width: auto;
+        float: right;
+    }
+
+
+    .addressbook-wrap .button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .addressbook-wrap .radio-inline {
+        margin-right: 10px;
+        font-size: 14px;
+    }    
+
+    .icon-list a {
+        display: block;
+        padding: 5px 10px;
+    }
+
+
+    .btn-md {
+        padding: 8px 16px;
+    }
+
+    .api-container .nav-tabs > li > a {
+        padding: 10px 17px;
+    }
+    /* Extension start From here */
+
+    .btn-ls-2{
+        width: 100%;
+        font-size: 16px;
+        color: #5d5d5d;
+        padding: 0 60px;
+
+    }
+    /* .payment-row-2{
+        margin: 0;
+        align-items:flex-start; 
+    } */
+    .payment-content{
+        margin: 0;
+    }
+    .icon-dbtc{
+        margin-right:10px;
+    }
+    .payment_op{
+        margin:5px 0 5px 0;
+    }
+    .paytm_ic{
+        margin-left: -40px;
+        padding: 0 5px;
+    }
+    .m-header-links a{
+        padding: 3px 2px;
+    }
+    .mobile-block-right{
+        padding: 0 0 0 24px;
+    }
+    .clse-btn{
+        visibility: visible;
+        padding: 6px 5px 0 0px;
+
+    }
+
+    .visible-xs {
+        display: block;
+
+        padding: 10px 18px 14px 18px;
+    }
+    .sidebar-rightsec .sidebar-nav{
+        padding-top: 0;
+    }
+    .sidebar-rightsec .nav-h{
+        padding-top:0;
+    }
+
+    .sidebar-rightsec .nav-h{
+        padding-top:0;
+    }
+
+    .header-block-right{
+        /* padding: 0px 15px 20px 15px; */
+    }
+    .smile-title{
+        /*position:relative;*/
+        padding: 12px 15px;
+    }
+    .wallet-pay{
+        width: 100%;
+    }
+    .api-form{
+        width: 100%;
+        vertical-align: middle;
+    }
+    .char-txt{
+        padding: 18px 0px 18px 10px;
+    }
+    .api-char-no{
+        padding: 4px 12px 0px 0;
+
+    }
+    .api-services{
+        height: 75px;
+    }
+    .show-stage h1 {
+        font-size: 24px;
+    }
+    .api-copy-btn{
+        width: 110px;
+    }
+    .api-request .button{
+        margin: 0px 15px 14px 0px;
+        width: 100%;
+    }
+    .smile-cls{
+        position: absolute;
+        top:0;
+        right:0;
+        padding: 16px 24px 0 0;
+
+    }
+    .smile-title h3{
+        margin-bottom:0;
+    }
+    .nav-bull-tabs:before{
+        width: 44%;
+    }
+    .b-dashboard input{
+        padding: 8px 0 8px 10px;
+    }
+    .otp-pop{
+        width:380px;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 400px){
+
+    .b-dashboard .b-dashboard-fields{
+        width: 100%;
+    }
+    .d-graph{
+        margin-top: 20px;
+    }
+    .d-piechart .pie-diagram{
+        padding: 20px 0px 20px 0;
+        margin: 0 auto;
+    }
+    .d-ud{
+        padding: 11px 8px;
+    }
+    .null-pie{
+        width: 290px;
+    }
+    .user-contact>.addon{
+        padding: 12px 10px;
+    }
+    .otp-pop{
+        width:300px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 575px)  {
+
+    .btn-ls-2{
+        padding: 0 90px;
+    }
+    .api-container .d-table-cell{
+        max-width: 400px
+    }
+    .selectdiv select{
+        width: 400px;
+    }
+    .msg-op{
+        padding: 0 0 60px 10px;
+    }
+    .m-header-links{
+        margin-left: 10px;
+    }
+
+
+}
+@media only screen and (max-width: 375px )  {
+    .api-container .d-table-cell{
+        max-width: 350px;
+    }
+    .selectdiv select{
+        width:350px;
+    }
+    .char-txt{
+        font-size: 10px;
+    }
+    .api-services{
+        height: 80px;
+    }
+    .msg-op{
+        padding: 0 0 60px 10px;
+    }
+    .nav-bull-tabs:before {
+        width: 50%;
+    }
+    .btn-ls-2{
+        font-size: 14px;
+        padding: 0 8px !important;
+    }
+    .way2-m{
+        margin-right: 5px;
+    }
+    .payment-content{
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 320px )  {
+    .selectdiv select{
+        width:300px;
+    }
+    .m-header-links .list-unstyled {
+        flex: inherit;
+    }
+    .char-txt{
+        padding: 20px 0px 18px 8px;
+        font-size: 10px;
+    }
+    .api-char-no{
+        padding: 12px 8px 0px 0;
+        font-size: 32px;
+    }
+    .api-services{
+        height: 90px;
+    }
+    .msg-op{
+        padding: 0 0 60px 10px;
+    }
+    .nav-bull-tabs:before {
+        width: 55%;
+    }
+    .d-ud{
+        padding: 3px 0px 3px 5px;
+    }
+    .d-piechart .pie-diagram{
+        padding: 15px 0px 15px 0;
+        margin:0 auto;
+    }
+    .ds-pc{
+        margin-left: 35px;
+    }
+    .b-dashboard input{
+        padding: 8px 60px 8px 10px;
+    }
+    .btn-ls-2{
+        font-size: 12px;
+        padding: 0 0px 0 8px !important;
+    }
+    .way2-m{
+        margin-right: 2px;
+    }
+}

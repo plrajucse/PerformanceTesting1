@@ -1,0 +1,98 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: webtours",
+                "infFile": "t2.inf",
+                "time": 1548414674516
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1548414687514
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t4.inf",
+                "time": 1548414695846
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t5.inf",
+                "time": 1548414713901
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t6.inf",
+                "time": 1548414721572
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t7.inf",
+                "time": 1548414723168
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t8.inf",
+                "time": 1548414724529
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t9.inf",
+                "time": 1548414727214
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t10.inf",
+                "time": 1548414729153
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Launch_chandra",
+                "rawStartTime": 1548414672016,
+                "rawEndTime": 1548414683158,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2719287872314453
+            },
+            {
+                "transactionName": "Login_chandra",
+                "rawStartTime": 1548414686542,
+                "rawEndTime": 1548414690012,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07980203628540039
+            },
+            {
+                "transactionName": "Login_jojo2",
+                "rawStartTime": 1548414694976,
+                "rawEndTime": 1548414697479,
+                "thinkTime": 0.0,
+                "wastedTime": 0.080322265625
+            },
+            {
+                "transactionName": "Login_jojo",
+                "rawStartTime": 1548414712638,
+                "rawEndTime": 1548414716025,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10594415664672852
+            },
+            {
+                "transactionName": "Logoff_jojo",
+                "rawStartTime": 1548414728190,
+                "rawEndTime": 1548414730555,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07156205177307129
+            }
+        ]
+    }
+]

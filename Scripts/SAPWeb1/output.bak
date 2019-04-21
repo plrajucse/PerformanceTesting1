@@ -1,0 +1,30 @@
+Virtual User Script started at: 2/19/2019 11:59:28 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\SAPWeb1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(8): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(10): Notify: Transaction "launch" started.
+Action.c(12): web_url("portal") started  	[MsgId: MMSG-26355]
+Action.c(12): Error -27794: Could not resolve address of host frhdstdrrgv02.main.glb.corp.local  	[MsgId: MERR-27794]
+Action.c(12): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+Action.c(12): Error -26377: No match found for the requested parameter "Corr_jsalt". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+Action.c(12): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(12): web_url("portal") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(12): Notify: Transaction "launch" ended with a "Fail" status (Duration: 0.8943 Wasted Time: 0.2158).
+Action.c(12): Notify: Transaction "launch" has 3 error message(s).
+Action.c(12): Notify: The 1st error message associated with transaction "launch" is "Error -27794: Could not resolve address of host frhdstdrrgv02.main.glb.corp.local"
+Action.c(12): Notify: The 2nd error message associated with transaction "launch" is "Error -26377: No match found for the requested parameter "Corr_jsalt". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+Action.c(12): Notify: The 3rd error message associated with transaction "launch" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

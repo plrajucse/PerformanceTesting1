@@ -1,0 +1,38 @@
+<link rel="stylesheet" type="text/css" href="../web_css/generalFrame.css" media="screen" /><div id="Div_Headbanner" class="Div_Headbanner" style="border-width:3px;border-style:groove"><div id="Div_Headbanner_CapLogo"        class="Div_CorpLogos" style="right:35px;width:280px"><img class="Img_CorpLogos" src="../web_pics/logo_capgemini.png"></img></div><div id="Div_Headbanner_SogLogo"        class="Div_CorpLogos" style="right:450px;width:280px"><img class="Img_CorpLogos" src="../web_pics/logo_sogeti.png" ></img></div><font color="Blue" size="5pt">Automated<br>LuP-Training<br>System</font><div id="Div_Headbanner_Menu_Examples"  class="Div_CorpLogos" style="left:230px; bottom:10px; position:absolute;"><a href="../web_public/examples.php">Examples</a></div><div id="Div_Headbanner_Menu_Assessment"  class="Div_CorpLogos" style="left:330px; bottom:10px; position:absolute;"><a href="../web_assessment/index.php">Assessment</a></div></div><div id="" class="Div_DataArea Div_deactive" style="top:120px;"><h1>LuP-Test example 4 Webshop</h1><b>Pre Runtime settings for Exercise1:</b><br>
+			* Create a new VuGen Project with name 'Example4_{YourName}_Exercise1'. Please replace {YourName} by the first 6 letters of your name.<br>
+			* There is more than one VuGen protocol available, that is theoretically able to fulfill the recommendations, described in further exercises of this example. Please start your script with a comment about which protocol you decided, why you choose the protocol, and why you did not use any other protocol.<br>
+			* Go to VuGen runtime settings and make sure that VuGen will use the following browser identification string within ALL requests of this project: 'VuGen_{YourName}'. Replace {YourName} by the first 6 letters of your name.<br>
+		  <br>
+		  <b>Exercise 1:</b><br>
+		    * Write a VuGen script that simulates the following usecase:<br>
+			Step1: Enter/Launch Base URL(Entry Point)<br>
+			Step2: Click the Link Go Shopping<br>
+			Step3: Enter the Qtty 10 for article 'Cookies' and click on 'Buy' button.<br>
+			Step4: After buying Cookies from the list, user should checkout from the application.<br>
+			Note: when User checkout from the application he/she should be able to access the link 'Start a new Shopping tour' with the message: “If you read this, you completed the entire usecase process, last request was 'checkout.php'.<br>
+			Great! You finished this example.”<br>
+		  <br>
+		  <b>Post Scripting:</b><br>
+			1. Use proper validation to verify the presence of text string and image on a page during run time and also mention the reason of response validation in LoadRunner under comment.<br>
+			2. Define useful delay between steps.<br>
+			3. Correlate dynamic vaues when required.<br>
+			4. Define transactions to measure the performance of the server.<br>
+			5. Use Error Handling Functions and also specify how Vusers handles errors during script execution under comment.<br>
+          <br>
+		  <b>Pre Runtime settings for Exercise2:</b><br>
+			* Write a new VuGen project with name 'Example4_{YourName}_Exercise2' that simulates the following usecase. Please replace {YourName} by the first 6 letters of your name.<br>
+			* Go to VuGen runtime settings and make sure that VuGen will use the following browser identification string within ALL requests of this project: 'VuGen_{YourName}'. Replace {YourName} by the first 6 letters of your name.<br>
+		  <br>
+		  <b>Exercise 2</b><br>
+			Step1: Enter/Launch Base URL(Entry Point)<br>
+			Step2: Click the Link Go Shopping<br>
+			Step3: Enter random Qtty (any digit between 1 - 999) of randomly selected article and click on the Buy button behind selected article.<br>
+			Step4: After buying first article from the list user should continue shopping for two more times. Note that you should be able to see a message like 'You succeed to put objects into your shopping cart'.<br>
+			Step5: Checkout your shopping cart.<br>
+			Note: When User checkout from the application he/she should be able to access the link 'Start a new Shopping tour' followed with the message: “If you read this, you completed the entire usecase process, last request was 'checkout.php'. Great! You finished this example.”<br>
+		  <br>
+		  <b>Post Scripting:</b><br>
+			1. Determine if a Vuser reaches a certain point during script execution.<br>
+			2. Use the statement to manipulate the date time stamp.<br>
+			3. Describe how do you debug a LoadRunner script under comment.<br>
+			4. Write total price of your purchase into Vugen log.<br><br><a href='sessionhandler.php?type=new&sessionKey=690895'>Go shopping</a><br></div><div id="Div_Footer" class="Div_Footer">(c) Marcel Jodorf - ALP Training System V.01</div>

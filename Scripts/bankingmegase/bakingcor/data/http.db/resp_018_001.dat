@@ -1,0 +1,1262 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+<title>Accounts / Deposit</title>
+<meta http-equiv="cache-control" content="no cache">
+<meta http-equiv="pragma" content="no cache">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style/detailstyle.css?version=8">
+<script src="js/common.js" language="javascript" type="text/javascript"></script>
+<script src="js/menu.js" language="javascript" type="text/javascript"></script>
+<script src="js/prototype.js" language="javascript" type="text/javascript"></script>
+
+
+<script type="text/javascript" language="JavaScript">
+	function selectAccount(sValue) {
+    sValue = sValue.split(':');
+		document.forms[0].df_curcode.value = sValue[1];
+	}
+	function selectBankCountry(sValue){
+		if (sValue=='')
+			return;
+	    sValue = sValue.split(':');
+			document.forms[0].bank_curcode.value = sValue[1];
+	}
+	function changeSenderType(lcSenderType) {
+		var obj;
+		switch(lcSenderType) {
+		case 'P':
+			obj = document.getElementById("PersonIDSelection");
+			obj.style.display = '';	
+			obj = document.getElementById("OrganisationIDSelection");
+			obj.style.display = 'none';
+			changeIDType(getCheckedValue(document.forms[0].df_personidtype));
+			break;
+		case 'O':
+			obj = document.getElementById("PersonIDSelection");
+			obj.style.display = 'none';	
+			obj = document.getElementById("OrganisationIDSelection");
+			obj.style.display = '';	
+			changeIDType(getCheckedValue(document.forms[0].df_organisationidtype));
+			break;
+		case 'C':
+			obj = document.getElementById("PersonIDSelection");
+			obj.style.display = 'none';	
+			obj = document.getElementById("OrganisationIDSelection");
+			obj.style.display = 'none';	
+		}
+	}
+	function changeIDType(lcIDType) {
+		var obj;
+		obj = document.getElementById("AddressID1");
+		obj.style.display = 'none';	
+		obj = document.getElementById("AddressID2");
+		obj.style.display = 'none';	
+		obj = document.getElementById("AddressID3");
+		obj.style.display = 'none';	
+		obj = document.getElementById("AddressID4");
+		obj.style.display = 'none';	
+		obj = document.getElementById("CorporateID");
+		obj.style.display = 'none';
+		obj = document.getElementById("CorporateCountry");
+		obj.style.display = 'none';
+		obj = document.getElementById("BirthID1");
+		obj.style.display = 'none';
+		obj = document.getElementById("BirthID2");
+		obj.style.display = 'none';
+
+		switch(lcIDType) {
+		case 'A':
+			obj = document.getElementById("AddressID1");
+			obj.style.display = '';	
+			obj = document.getElementById("AddressID2");
+			obj.style.display = '';	
+			obj = document.getElementById("AddressID3");
+			obj.style.display = '';	
+			obj = document.getElementById("AddressID4");
+			obj.style.display = '';	
+			break;
+		case 'B':	
+			obj = document.getElementById("BirthID1");
+			obj.style.display = '';
+			obj = document.getElementById("BirthID2");
+			obj.style.display = '';
+			break;
+		case 'C':	
+			obj = document.getElementById("CorporateID");
+			obj.style.display = '';
+			obj = document.getElementById("CorporateCountry");
+			obj.style.display = '';
+			break;
+		}
+	}
+	function help()
+	{
+		var left=(screen.availWidth-600)/2;
+		var top=(screen.availHeight-300)/2;
+		window.open("en/AccountDeposit_help.html","Help","resizable=yes,scrollbars=yes,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,width=600,height=300,left="+left+",top="+top);
+	}
+</script>
+</head>
+
+
+
+	<body class="bodytext" onload="changeSenderType('C');changeIDType('');selectBankCountry('');">
+
+
+
+
+<table class="grid">
+	
+	<tr>
+		<td class="menucolumn"><div class="menu" id="menuContainer">
+	<div class="menuComponent" style="height: 37px;">
+    	<a href="eNews.mws"><img border="0" src="images/menutop.gif" width="105" alt=""></a>
+    </div>
+
+    <div class="menuComponent" style="height: 5px;"></div>
+
+    <!-- ACCOUNTS (1) -->	
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(1);">Accounts</a>
+</div>
+
+    <div id="heading_1" class="menuComponent">
+    	<div class="menutext"><a href="AccountDeposit.mws">Deposit notification</a></div>
+        <div class="menutext"><a href="AccountProfile.mws">Profile</a></div>
+        <div class="menutext"><a href="PredefinedAccountMaint.mws">Predefined account</a></div>
+        <div class="menutext"><a href="AccountSummary.mws">Summaries</div>
+        <div class="menutext"><a href="AccountStatement.mws">Statements</a></div>
+       	<div class="menutext"><a href="AccountPortfolio.mws">Portfolio</a></div>
+        <div class="menutext"><a href="PendingSignatory.mws">Signatures</a></div>
+
+        <div class="menutext"><a href="AccountOpen.mws">Open</a></div>
+    </div>
+    <div class="menuComponent" style="height: 3px;"><!-- --></div>
+
+	<!-- INVESTMENTS (2) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(2);">Investments</a>
+</div>
+
+    <div id="heading_2" class="menuComponent" style="display: none;">
+        <div class="menutext"><a href="ProductInvestment.mws">Term deposits</a></div>
+    </div>
+    <div class="menuComponent" style="height: 3px;"><!-- --></div>
+
+<!-- ESCROW (11) -->	
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(11);">Escrow</a>
+</div>
+
+    <div id="heading_11" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="EscrowRequest.mws">Payment request</a></div>
+		<div class="menutext"><a href="EscrowAuthorise.mws">Authorise</a></div>
+		<div class="menutext"><a href="EscrowShipping.mws">Shipping</a></div>
+		<div class="menutext"><a href="EscrowHistory.mws">Review</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- MY CARDS (3) -->
+	<div class="menuComponent menuhead">
+<a href="javascript:selectHeading(3);">My Cards</a>
+</div>
+
+    <div id="heading_3" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="ActivateCard.mws">Activate card</a></div>
+		
+		
+		
+	</div>
+    <div class="menuComponent" style="height: 3px;"></div>
+	
+    <!-- TRANSFERS (4) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(4);">Transfers</a>
+</div>
+
+    <div id="heading_4" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="PayPredefinedAccount.mws">Bank withdrawal</a></div>
+		<div class="menutext"><a href="PayOwnAccount.mws">Own account</a></div>
+		<div class="menutext"><a href="PayOtherClient.mws">Other client</a></div>
+		
+		<div class="menutext"><a href="CardDeposit_V3.mws">Fund by card</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- PAYMENTS(5) -->
+  	<div class="menuComponent menuhead">
+<a href="javascript:selectHeading(5);">Payments</a>
+</div>
+
+    <div id="heading_5" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="PayWireTransfer.mws">Wire transfer</a></div>
+		<div class="menutext"><a href="PayBankDraft.mws">Banker's draft</a></div>
+  	</div>
+    <div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- CALCUCLATORS (6) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(6);">Calculators</a>
+</div>
+
+	<div id="heading_6" class="menuComponent" style="display: none;">
+    	<div class="menutext"><a href="CurrencyConvert.mws">Currencies</a></div>
+		<div class="menutext"><a href="LoanCalculator.mws">Loans</a></div>
+		<div class="menutext"><a href="FXRates.mws">FX Rates</a></div>
+		<div class="menutext"><a href="Holidays.mws">Holidays</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- STANDING ORDERS (7) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(7);">Standing orders</a>
+</div>
+
+    <div id="heading_7" class="menuComponent" style="display: none;">
+        <div class="menutext"><a href="StOrderOwnAccount.mws">Own account</a></div>
+		<div class="menutext"><a href="StOrderOtherClient.mws">Other client</a></div>
+ 		<div class="menutext"><a href="StOrderPredefinedAccount.mws">Predefined Account</a></div>
+		<div class="menutext"><a href="StOrderWireTransfer.mws">Wire transfer</a></div>
+		<div class="menutext"><a href="StOrderBankDraft.mws">Banker's draft</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- Referrals (8) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(8);">Referrals</a>
+</div>
+
+    <div id="heading_8" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="AgentReferralSummary.mws" class="menu">Referrals - Summary</a></div>
+		<div class="menutext"><a href="AgentReferralDetailed.mws" class="menu">Referrals - Detailed</a></div>
+		<div class="menutext"><a href="AgentReferralCommissions.mws" class="menu">Commissions</a></div>
+		<div class="menutext"><a href="AgentReferralCommissionSummary.mws" class="menu">Downline</a></div>
+		<div class="menutext"><a href="AgentClientPortfolio.mws" class="menu">Client portfolio</a></div>
+		
+ 		</div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- MAILBOX (9) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(9);">Mailbox (14198)</a>
+</div>
+
+    <div id="heading_9" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="Mailbox.mws">New message</a></div>
+		<div class="menutext"><a href="MailInbox.mws"><b>Inbox&nbsp;(14198)</b></a></div>
+		<div class="menutext"><a href="MailOutbox.mws">Outbox</a></div>
+		<div class="menutext"><a href="BuddyList.mws">Buddy list </a></div>
+ 	</div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- OTHER (10) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(10);">Other</a>
+</div>
+
+    <div id="heading_10" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="AccessLog.mws">Access log</a></div>
+		<div class="menutext"><a href="ChangeEntity.mws">Change client</a></div>
+		<div class="menutext"><a href="ChangePassword.mws">Change log-in</a></div>
+		<div class="menutext"><a href="SubUsers.mws">Sub-users</a></div>
+		<div class="menutext"><a href="Documents.mws">Documents</a></div>
+		<div class="menutext"><a href="eNews.mws">eNews</a></div>
+		<div class="menutext"><a href="Faq.mws">FAQ's</a></div>
+		
+  	</div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+	<div class="menuComponent menuhead"><a href="Logout.mws">Log out</a></div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+  	<div class="menuComponent" style="height: 6px;">
+    	<img border="0" src="images/menubottom.gif" width="105" alt="">
+    </div>
+</div></td>
+		<td class="contentcolumn">
+			<!-- The custom part of every html page starts here!!! -->
+			<form method="post" action="AccountDeposit.mws?action=save" name="accountdeposit" enctype="multipart/form-data">
+			<table border="0" cellpadding="3" cellspacing="0" width="100%" summary="">
+				<tr><td colspan="2">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%" summary="">
+					<tr>
+						<td class="headerblack" height="35" valign="middle">Accounts / Deposit</td>
+						<td align="right" class="text" valign="top">2019-01-03<br>Charles Windsor</td>
+						<td align="right" class="text" valign="top" width="3%"><a href="javascript:help()"><img src="images/help.gif" alt="" name="help" id="help" width="14" height="16" border="0"></a></td>
+					</tr>
+				</table>
+				</td></tr>
+				<tr><td colspan="2" class="subjectwhiteblue">Deposit information</td></tr>
+				<tr><td colspan="2" height="6"></td></tr>
+				
+
+				<tr>
+					<td align="right" width="30%" class="textgrey">Date of transmission:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senddate" value="2019-01-03" class="inputdefinition" size="12" style="width: 120">&nbsp;(yyyy-mm-dd)</td>
+				</tr>
+				<tr>
+					<td align="right" width="30%" class="textgrey">Type of deposit:&nbsp;</td>
+					<td width="70%" class="textgrey"><select size="1" name="df_type" class="inputdefinition" style="width: 295px">
+
+	<option value="W" selected>Wire Transfer</option>
+	<option value="C">Cheque</option>
+	<option value="O">Other</option>
+</select>
+</td>
+				</tr>
+				<tr>
+					<td align="right" width="30%" class="textgrey">Deposit to account:&nbsp;</td>
+					<td width="70%" class="textgrey"><SELECT NAME="df_tocliackey" SIZE="1" CLASS="inputdefinition" STYLE="width: 295px;" onChange="selectAccount(this.value);"><option selected value="7B5C5E3A-9BFA-4B60-B1AD-6BE17E3217A8:BSD">287-02-27-1-0002 - Current Account (0.00 CR)
+<option value="1D603CF4-5B49-4F37-94F1-C614460DB190:AUD">317-02-27-1-0003 - Current Account (56184.07 CR)
+<option value="4B8A4838-4FE7-4D64-8354-7EECE7EB5FB5:AUD">AUD-105-493189-3 - Escrow account (2096.16 CR)
+<option value="56162630-19E9-4692-8DE5-D76150EB169E:AUD">AUD-105-493189-6 - Escrow account (8299.20 CR)
+<option value="BC286BE5-4F51-4456-AE39-B96D3C1B4A4F:AUD">AUD-105-493189-7 - Escrow account (3970.78 CR)
+<option value="53C7C3A7-5D6C-4ABA-A17E-4BE48E5959BC:AWG">AWG-100-493189-12 - Executive Account (1825.89 CR)
+<option value="44D5A399-E020-477C-BCD6-084DB655AC5B:AWG">AWG-100-493189-15 - Executive Account (1046.87 CR)
+<option value="CC4439E2-D755-44D0-AB10-8E469EEC259A:BSD">BSD-100-493189-16 - Current Account (0.00 CR)
+<option value="CDFA2A32-83BC-467D-984C-41BD45C3CF84:BSD">BSD-100-493189-9 - Current Account (0.00 CR)
+<option value="5AAC8FD0-ECD5-4E40-A9F3-08355491F68E:BTC">BTC-100-493189-0736 - Current Account (0.000000 CR)
+<option value="DA555ED8-EFC2-407F-A4DF-8E22528ECFBC:BTC">BTC-100-493189-10 - Current Account (0.000000 CR)
+<option value="13FABDE5-E94F-4CE8-B68E-2525249911EA:CHF">CHF-100-493189-26 - Current Account (10999.59 CR)
+<option value="E519931E-4370-40C2-8897-5C1CA3527B8E:CHF">CHF-100-493189-27 - Current Account (5266.23 CR)
+<option value="AC549343-839B-46BA-B977-65FDC5ACD288:CHF">CHF-100-493189-28 - Current Account (213.08 CR)
+<option value="4C8AD806-5DAE-447E-837C-7FA1C34F1E1C:CHF">CHF-100-493189-29 - Current Account (0.00 CR)
+<option value="5AFF6CA8-4863-4652-963B-D2CF571A1201:CHF">CHF-101-493189-3 - My Value Account (838.76 CR)
+<option value="0043C9BF-5712-4751-80D8-154016D28DC8:CHF">CHF-101-493189-4 - My Value Account (0.00 CR)
+<option value="325F309A-3726-4EEE-AC2D-769E91FCE691:CHF">CHF-105-493189-10 - Escrow account (879.73 CR)
+<option value="F785F19D-C906-40FB-925B-F583CA745B73:CHF">CHF-105-493189-9 - Escrow account (0.00 CR)
+<option value="96937352-563B-493A-A30A-CE752E3936CD:EUR">EUR-100-493189-1 - Executive VIP Account (154074.41 CR)
+<option value="35899039-E2E9-47FE-8792-939FE4462189:EUR">EUR-105-493189-9138 - Escrow account (1981.09 CR)
+<option value="2896F792-4DD5-46D3-AB32-4F720BE67F1D:EUR">EUR-115-493189-1 - My Crystal account (6225.93 CR)
+<option value="D246354B-1442-4248-9B42-BFA7F1D2C092:EUR">EUR-115-493189-2 - My Crystal account (2041.92 CR)
+<option value="68CE8705-B769-408E-B682-37246E612C04:EUR">EUR-115-493189-3 - My Crystal account (1045.06 CR)
+<option value="F03B635B-0BAA-43AD-916A-7C0D2B985B30:EUR">EUR-145-493189-1 - Merchant Account (1216.37 CR)
+<option value="334AEAAE-7114-47A5-972E-2D85224147ED:EUR">EUR-145-493189-2 - Merchant Account (768.46 CR)
+<option value="BF22668E-F3B9-45C3-AACA-5435327273CD:EUR">EUR-340-493189-11 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="84254E67-742D-434D-82E4-17E39B144145:EUR">EUR-340-493189-12 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="74367200-DA47-4FF2-9733-20244E39010C:EUR">EUR-340-493189-13 - Investment deposit 1000 - 3 year (9900.00 CR)
+<option value="CB260D6E-2E10-44C2-AF43-35AB0574A0C8:EUR">EUR-340-493189-14 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="AFB4A28C-CDF8-485F-9813-1703E6FFCBED:EUR">EUR-340-493189-15 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="95440E5E-294C-409E-8B50-CE8A561075B4:EUR">EUR-340-493189-16 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="AFA047BC-8E60-4D58-A389-10789836A62F:EUR">EUR-340-493189-17 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="6A8E7ABF-DC8B-4363-A954-635FC4E17D2C:EUR">EUR-340-493189-18 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="E413A7F1-CDE5-4B8F-B9CB-095165412894:EUR">EUR-340-493189-19 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="51397CA6-9283-4458-9E24-019E65F06C70:EUR">EUR-340-493189-20 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="2DB08437-AB2F-4268-9792-B33A45D8E999:EUR">EUR-340-493189-21 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="928F0158-EC6C-4C56-966C-E47B3E350C83:EUR">EUR-340-493189-22 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="0898DB03-E47E-4458-B880-6DDCC52B3B25:EUR">EUR-340-493189-23 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="DDC041D5-1361-4DF5-836C-5A2CC6A4EFA8:EUR">EUR-340-493189-24 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="A345ECEB-D7A8-4B8E-B822-A012A5C4FB8B:EUR">EUR-340-493189-25 - Investment deposit 1000 - 3 year (20000.00 CR)
+<option value="1EC7E0A8-23E8-4F6B-A6A6-E7CC07E367F9:EUR">EUR-340-493189-26 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="3787BF5F-D517-4B64-BF2C-291A2BBBB88E:EUR">EUR-340-493189-27 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="0C02043B-82CB-40D4-AFEC-DC656B70290C:EUR">EUR-340-493189-28 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="481E2D8F-80B0-4ABD-B8D8-5733102E0124:EUR">EUR-340-493189-29 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="00F92E7A-2442-4F52-89AB-44B7E21690EC:EUR">EUR-340-493189-30 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="ED48FFC8-8E86-428E-BE04-C8F875397003:EUR">EUR-340-493189-31 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="C8972537-FD31-473F-BE26-3D302A397EBF:EUR">EUR-340-493189-32 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="8A798F10-C2DC-429F-ADFF-1744A46C4EEC:EUR">EUR-340-493189-33 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="56F3B23B-67A0-489E-95BB-76CCC66D19C2:EUR">EUR-340-493189-34 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="EE1034C2-8818-4C37-B18E-EB345FE4B278:EUR">EUR-340-493189-35 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="D5B4ED61-1BE6-4E32-89B2-3E0E07EC1EEB:EUR">EUR-340-493189-36 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="52B017F6-5999-4831-86EF-3450A2E5BEF4:EUR">EUR-340-493189-37 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="3ABECB63-8ABB-4333-BA5C-8C4686247C52:EUR">EUR-340-493189-38 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="D3313B78-13D7-49D2-8046-D6968373BA16:EUR">EUR-340-493189-39 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="465D4F81-1F47-4ADA-AAC3-19394210E969:EUR">EUR-340-493189-4 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="D1A8C6C7-9A26-4229-8B67-EF918D6EACFB:EUR">EUR-340-493189-40 - Investment deposit 1000 - 3 year (15000.00 CR)
+<option value="DDC47DFD-F853-4849-99D2-DD451A3095DD:EUR">EUR-340-493189-41 - Investment deposit 1000 - 3 year (15000.00 CR)
+<option value="D70A9E57-678D-41E2-9B4C-77E2A0EFA118:EUR">EUR-340-493189-42 - Investment deposit 1000 - 3 year (15000.00 CR)
+<option value="828B0BB2-519C-45DB-91C3-17815F838BC7:EUR">EUR-340-493189-43 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="5072C42D-76B1-4226-B02C-7A1DB4BC10F1:EUR">EUR-340-493189-44 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="0BBCBC68-C3DF-4698-A673-4012384FF9F0:EUR">EUR-340-493189-45 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="8E894B9A-06B0-4ADA-8446-7C466793960B:EUR">EUR-340-493189-46 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="E5D10256-DE92-44DA-85EE-1E95C6FE5162:EUR">EUR-340-493189-47 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="5A1AD094-E29F-4B8D-9FFC-67C5C645E4AA:EUR">EUR-340-493189-48 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="0CA4F10A-7E94-453C-B57C-0F3F0F78ADD0:EUR">EUR-340-493189-49 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="5EB497BE-F558-4BA1-BDB9-7CABA6594D95:EUR">EUR-340-493189-5 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="0C418471-DEF7-435C-A29C-C57EBACFDE86:EUR">EUR-340-493189-50 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="D3F5D8CC-36C1-4529-8F71-B75DB07A9818:EUR">EUR-340-493189-6 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="F970E168-3539-4B36-99C9-8644CD2C9EF8:EUR">EUR-340-493189-7 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="930FF09E-FF41-4242-9558-33C5FBDC6F32:EUR">EUR-340-493189-8 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="52495FF5-A25D-438B-AB10-CA3477DE093F:EUR">EUR-340-493189-9 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="0344BC4A-0881-457F-B438-A2006C299927:EUR">EUR-340-978-493189 - Investment deposit 1000 - 3 year (10000.00 CR)
+<option value="04822ED3-D1F5-4D94-8C47-74733D723313:EUR">EUR-340-978-493189-2 - Investment deposit 1000 - 3 year (0.00 CR)
+<option value="45135C34-C333-4CD2-8A5F-070B415FAB5B:GBP">GBP-100-493189-13 - Royal Account (28478.50 CR)
+<option value="04E68786-3F07-47CC-BB38-CB764EBCBC63:GBP">GBP-100-493189-14 - Royal Account (7653.25 CR)
+<option value="B23479DB-724F-45C9-8343-B0DAD0B7BD84:GBP">GBP-103-493189-1 - Payments Escrow Account (0.00 CR)
+<option value="32EAC169-D06C-4026-8C22-ADABC6698482:GBP">GBP-103-493189-2 - Payments Escrow Account (0.00 CR)
+<option value="0E99E725-1930-47BB-8E69-95E76FB8AF86:GBP">GBP-180-493189-1 - Social Loan account (8911.70 CR)
+<option value="E9F34509-EA33-4E72-90E4-1036C64F74AA:GBP">GBP-180-493189-2 - Social Loan account (0.00 CR)
+<option value="417E31DF-9CB8-40A3-9CF0-A4EB109F3BE6:KAS">KAS-100-493189-30 - Current Account (0.000000 CR)
+<option value="D63478BF-6389-4A09-8B13-FBD0D9B3109A:KAS">KAS-100-493189-31 - Current Account (0.000000 CR)
+<option value="5A5EEBF9-3E91-4C03-B21E-1B9943C314D2:AUD">Mary's college fund - Current Account (9168.77 CR)
+<option value="465AC04B-C0ED-414F-8E85-8EBA779F325F:SEK">SEK-100-493189-20 - Sparkonto (1068.60 CR)
+<option value="2318D144-4541-44FE-89D4-474F520A9EEB:SEK">SEK-100-493189-21 - Sparkonto (0.00 CR)
+<option value="1CBE002B-09A4-4C3A-96FB-44C594B89671:SEK">SEK-100-493189-22 - Sparkonto (0.00 CR)
+<option value="67EAFD61-312E-4BDA-8F7C-8121D8B86CB5:SEK">SEK-100-493189-23 - Sparkonto (106.10 CR)
+<option value="45CA76C7-2FE8-4ED8-862D-05E9F472E53F:SEK">SEK-100-752-493189 - Sparkonto (0.00 CR)
+<option value="1B22A3D5-6C9A-48B1-AB89-34CA382A47FA:SGD">SGD-100-493189-17 - Executive Account (5136.52 CR)
+<option value="6FE97BD5-E70E-4FBC-990D-716C79E78237:SGD">SGD-100-493189-24 - Executive Account (4148.72 CR)
+<option value="1BB21A58-B201-4B97-821A-D5221060435F:TST">TST-100-493189-18 - Current Account (0.00 CR)
+<option value="70FE966B-BE05-4A5A-92E4-22FD85B3CD2F:TST">TST-100-493189-19 - Current Account (0.00 CR)
+<option value="299C4873-A51C-497E-B1AA-BF0D0BF8056B:TST">TST-105-111-493189 - Escrow account (0.00 CR)
+<option value="DA038429-579B-4C0A-A477-4FF3C45A67FF:TST">TST-105-493189-8 - Escrow account (0.00 CR)
+<option value="6A1BB773-C25F-4E96-BDE6-B2190A0F9573:USD">USD-100-493189-2 - Current Account (97925.97 CR)
+<option value="7C54C47B-444A-4DD6-9B11-3CF39DD0B832:USD">USD-101-493189-2 - My Value Account (6931.39 CR)
+<option value="8429BA68-2773-4E3E-9C44-B443F59DA4C9:USD">USD-105-493189-1 - Escrow account (821.20 CR)
+<option value="8CDD9C0A-B66B-4CA8-9C0E-2F778AAFA4BF:USD">USD-105-493189-4 - Escrow account (10172.08 CR)
+<option value="8113EA40-B2A0-4EFD-A8F1-CBA74413927A:XAU">XAU-100-493189-11 - Current Account (1.951446 CR)
+<option value="A732C94A-7923-4555-B93E-81B5C05893A3:XAU">XAU-100-493189-25 - Current Account (0.000000 CR)
+<option value="C00EED8D-966C-4E96-B7CC-1353F04BF322:XAU">XAU-700-493189-1 - Gold Account (0.606355 CR)
+</SELECT></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%" class="textgrey">Amount:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_amount" maxlength="14" value="" class="text" size="12" style="width: 120px">&nbsp;<input type="text" name="df_curcode" value="BSD" class="text" size="9" readonly style="width: 60px"></td>
+				</tr>
+				<tr><td colspan="2" height="2"></td></tr>
+				<tr><td colspan="2" class="subjectwhiteblue">Upload file</td></tr>
+				<tr>
+					<td align="right" width="30%" class="textgrey">Select file to upload:&nbsp;</td>
+					<td colspan="2" class="textgrey"><input type="file" class="text" name="file" size="45"></td>
+				</tr>
+				<tr><td colspan="2" height="2"></td></tr>
+				<tr><td colspan="2" class="subjectwhiteblue">Deposit details</td></tr>
+				
+
+				<tr>
+					<td align="right" width="30%" class="textgrey">Sender:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="radio" name="df_sendertype" value="P" onClick="changeSenderType(this.value);" >Person&nbsp;&nbsp;&nbsp;<input type="radio" name="df_sendertype" value="O" onClick="changeSenderType(this.value);" >Organisation&nbsp;&nbsp;&nbsp;<input type="radio" name="df_sendertype" value="C" onClick="changeSenderType(this.value);" checked>Own bank account</td>
+				</tr>
+
+				<tr>
+					<td align="right" width="30%" class="textgrey">Senders name:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_sender" value="Charles Windsor" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+
+				<tr id="PersonIDSelection" style="display:none">
+					<td align="right" width="30%" class="textgrey">Identification type:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="radio" name="df_personidtype" value="A" onClick="changeIDType(this.value);" >Address&nbsp;&nbsp;&nbsp;<input type="radio" name="df_personidtype" value="B" onClick="changeIDType(this.value);" >Date of birth / Place of birth</td>
+				</tr>
+
+				<tr id="OrganisationIDSelection" style="display:none">
+					<td align="right" width="30%" class="textgrey">Identification type:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="radio" name="df_organisationidtype" value="A" onClick="changeIDType(this.value);" >Address&nbsp;&nbsp;&nbsp;<input type="radio" name="df_organisationidtype" value="C" onClick="changeIDType(this.value);" >Corporate #</td>
+				</tr>
+
+				<tr id="AddressID1" style="display:none">
+					<td align="right" width="30%" class="textgrey">Address line 1:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senderid_address1" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				<tr id="AddressID2" style="display:none">
+					<td align="right" width="30%" class="textgrey">Address line 2:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senderid_address2" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				<tr id="AddressID3" style="display:none">
+					<td align="right" width="30%" class="textgrey">Address line 3:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senderid_address3" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				<tr id="AddressID4" style="display:none">
+					<td align="right" width="30%" class="textgrey">Country:&nbsp;</td>
+					<td width="70%" class="textgrey"><SELECT NAME="df_senderid_address_country" SIZE="1" CLASS="inputdefinition" STYLE="width: 295px;"><option selected value="">Select...
+<option value="AL">Albania
+<option value="DZ">Algeria
+<option value="AS">American Samoa
+<option value="AD">Andorra
+<option value="AO">Angola
+<option value="AI">Anguilla
+<option value="AQ">Antartica
+<option value="AG">Antigua And Barbuda
+<option value="AR">Argentina
+<option value="AM">Armenia
+<option value="AW">Aruba
+<option value="AU">Australia
+<option value="AT">Austria
+<option value="AZ">Azerbaijan
+<option value="BS">Bahamas
+<option value="BH">Bahrain
+<option value="BD">Bangladesh
+<option value="BB">Barbados
+<option value="BY">Belarus
+<option value="BE">Belgium
+<option value="BZ">Belize
+<option value="BJ">Benin
+<option value="BM">Bermuda
+<option value="BT">Bhutan
+<option value="BO">Bolivia
+<option value="AN">Bonaire (Netherland Antilles)
+<option value="BA">Bosnia-Herzegovina
+<option value="BW">Botswana
+<option value="BV">Bouvet Island
+<option value="BR">Brazil
+<option value="IO">British Indian Ocean Territory
+<option value="VG">British Virgin Islands
+<option value="BN">Brunei Daressalam
+<option value="BG">Bulgaria
+<option value="BF">Burkina Faso
+<option value="BI">Burundi
+<option value="KH">Cambodia
+<option value="CM">Cameroon
+<option value="CA">Canada
+<option value="IC">Canary Islands
+<option value="CV">Cape Verde
+<option value="KY">Cayman Islands
+<option value="CF">Central African Republic
+<option value="TD">Chad
+<option value="CL">Chile
+<option value="CN">China People's Republic Of
+<option value="CX">Christmas Island
+<option value="CC">Cocos Islands
+<option value="CO">Colombia
+<option value="KM">Comoros
+<option value="CG">Congo
+<option value="CK">Cook Islands
+<option value="CR">Costa Rica
+<option value="HR">Croatia
+<option value="CU">Cuba
+<option value="CW">Curacao
+<option value="CY">Cyprus
+<option value="CZ">Czech Republic
+<option value="DK">Denmark
+<option value="DJ">Djibouti
+<option value="DM">Dominica
+<option value="DO">Dominican Republic
+<option value="TP">East Timor
+<option value="EC">Ecuador
+<option value="EG">Egypt
+<option value="SV">El Salvador
+<option value="GQ">Equatorial Guinea
+<option value="EE">Estonia
+<option value="ET">Ethiopia
+<option value="FK">Falkland Islands
+<option value="FO">Faroe Islands
+<option value="FJ">Fiji
+<option value="FI">Finland
+<option value="FR">France
+<option value="GF">French Guiana
+<option value="PF">French Polynesia
+<option value="TF">French Southern Territories
+<option value="GA">Gabon
+<option value="GM">Gambia
+<option value="GE">Georgia
+<option value="DE">Germany
+<option value="GH">Ghana
+<option value="GI">Gibraltar
+<option value="GB">Great Britain
+<option value="GR">Greece
+<option value="GL">Greenland
+<option value="GD">Grenada
+<option value="GP">Guadeloupe
+<option value="GU">Guam
+<option value="GT">Guatemala
+<option value="GN">Guinea
+<option value="GW">Guinea Bissau
+<option value="GY">Guyana
+<option value="HT">Haiti
+<option value="HM">Heard & Mcdonald Islands
+<option value="HN">Honduras
+<option value="HK">Hong Kong
+<option value="HU">Hungary
+<option value="IS">Iceland
+<option value="IN">India
+<option value="ID">Indonesia
+<option value="IR">Iran
+<option value="IQ">Iraq
+<option value="IE">Ireland
+<option value="IL">Israel
+<option value="IT">Italy
+<option value="CI">Ivory Coast
+<option value="JM">Jamaica
+<option value="JP">Japan
+<option value="JO">Jordan
+<option value="KZ">Kazakhstan
+<option value="KE">Kenya
+<option value="KI">Kiribati
+<option value="KP">Korea, Democratic Peoples Republic of
+<option value="KR">Korea, Republic of (South Korea)
+<option value="XK">Kosovo
+<option value="KW">Kuwait
+<option value="KG">Kyrgyz Republic
+<option value="LA">Laos
+<option value="LV">Latvia
+<option value="LB">Lebanon
+<option value="LS">Lesotho
+<option value="LR">Liberia
+<option value="LY">Libya
+<option value="LI">Lichtenstein
+<option value="LT">Lithuania
+<option value="LU">Luxembourg
+<option value="MO">Macau
+<option value="MK">Macedonia
+<option value="MG">Madagascar
+<option value="MW">Malawi
+<option value="MY">Malaysia
+<option value="MV">Maldives
+<option value="ML">Mali
+<option value="MT">Malta
+<option value="MH">Marshall Islands
+<option value="MQ">Martinique
+<option value="MR">Mauritania
+<option value="MU">Mauritius
+<option value="YT">Mayotte
+<option value="MX">Mexico
+<option value="FM">Micronesia
+<option value="MD">Moldova
+<option value="MC">Monaco
+<option value="MN">Mongolian Republic
+<option value="ME">Montenegro
+<option value="MS">Montserrat
+<option value="MA">Morocco
+<option value="MZ">Mozambique
+<option value="MM">Myanmar
+<option value="NA">Namibia
+<option value="NR">Nauru
+<option value="NP">Nepal
+<option value="NL">Netherlands
+<option value="NT">Neutral Zone
+<option value="NC">New Caledonia
+<option value="NZ">New Zealand
+<option value="NI">Nicaragua
+<option value="NE">Niger
+<option value="NG">Nigeria
+<option value="NU">Niue
+<option value="NF">Norfolk Island
+<option value="MP">Northern Mariana Islands
+<option value="NO">Norway
+<option value="OM">Oman
+<option value="PK">Pakistan
+<option value="PW">Palau
+<option value="PA">Panama
+<option value="PG">Papua New Guinea
+<option value="PY">Paraguay
+<option value="PE">Peru
+<option value="PH">Phillipines
+<option value="PN">Pitcairn Islands
+<option value="PL">Poland
+<option value="PT">Portugal
+<option value="PR">Puerto Rico
+<option value="QA">Qatar
+<option value="RE">Reunion
+<option value="RO">Romania
+<option value="RU">Russia
+<option value="RW">Rwanda
+<option value="SH">Saint Helena
+<option value="KN">Saint Kitts & Nevis
+<option value="LC">Saint Lucia
+<option value="SX">Saint Maarteen
+<option value="MF">Saint Martin
+<option value="PM">Saint Pierre & Miquelon
+<option value="VC">Saint Vincent & The Grenadines
+<option value="WS">Samoa
+<option value="SM">San Marino
+<option value="ST">Sao Tome & Principe
+<option value="SA">Saudi Arabia
+<option value="SN">Senegal
+<option value="RS">Serbia
+<option value="SC">Seychelles
+<option value="SL">Sierra Leone
+<option value="SG">Singapore
+<option value="SK">Slovakia
+<option value="SI">Slovenia
+<option value="SB">Solomon Islands
+<option value="SO">Somalia
+<option value="ZA">South Africa
+<option value="ES">Spain
+<option value="LK">Sri Lanka
+<option value="SD">Sudan
+<option value="SR">Suriname
+<option value="SJ">Svalbard & Jan Mayen Islands
+<option value="SZ">Swaziland
+<option value="SE">Sweden
+<option value="CH">Switzerland
+<option value="SY">Syrian Arab Republic
+<option value="TW">Taiwan
+<option value="TJ">Tajikistan
+<option value="TZ">Tanzania
+<option value="TH">Thailand
+<option value="TG">Togo
+<option value="TK">Tokelau
+<option value="TO">Tonga
+<option value="TT">Trinidad And Tobago
+<option value="TN">Tunisia
+<option value="TR">Turkey
+<option value="TM">Turkmenistan
+<option value="TC">Turks & Caicos Islands
+<option value="TV">Tuvalu
+<option value="UM">U.S. Minor Outlying Islands
+<option value="VI">U.S. Virgin Islands
+<option value="UG">Uganda
+<option value="UA">Ukraine
+<option value="AE">United Arab Emirates
+<option value="US">United States Of America
+<option value="UY">Uruguay
+<option value="UZ">Uzbekistan
+<option value="VU">Vanuatu
+<option value="VA">Vatican City State
+<option value="VE">Venezuela
+<option value="VN">Vietnam
+<option value="WF">Wallis & Futuna Islands
+<option value="EH">Western Sahara
+<option value="YE">Yemen
+<option value="YU">Yugoslavia
+<option value="ZR">Zaire
+<option value="ZM">Zambia
+<option value="ZW">Zimbabwe
+</SELECT></td>
+				</tr>
+
+				<tr id="CorporateID" style="display:none">
+					<td align="right" width="30%" class="textgrey">Company reg #&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senderid_coregnum" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				<tr id="CorporateCountry" style="display:none">
+					<td align="right" width="30%" class="textgrey">Country of registration&nbsp;</td>
+					<td width="70%" class="textgrey"><SELECT NAME="df_senderid_coregcountry" SIZE="1" CLASS="inputdefinition" STYLE="width: 295px;"><option selected value="">Select...
+<option value="AL">Albania
+<option value="DZ">Algeria
+<option value="AS">American Samoa
+<option value="AD">Andorra
+<option value="AO">Angola
+<option value="AI">Anguilla
+<option value="AQ">Antartica
+<option value="AG">Antigua And Barbuda
+<option value="AR">Argentina
+<option value="AM">Armenia
+<option value="AW">Aruba
+<option value="AU">Australia
+<option value="AT">Austria
+<option value="AZ">Azerbaijan
+<option value="BS">Bahamas
+<option value="BH">Bahrain
+<option value="BD">Bangladesh
+<option value="BB">Barbados
+<option value="BY">Belarus
+<option value="BE">Belgium
+<option value="BZ">Belize
+<option value="BJ">Benin
+<option value="BM">Bermuda
+<option value="BT">Bhutan
+<option value="BO">Bolivia
+<option value="AN">Bonaire (Netherland Antilles)
+<option value="BA">Bosnia-Herzegovina
+<option value="BW">Botswana
+<option value="BV">Bouvet Island
+<option value="BR">Brazil
+<option value="IO">British Indian Ocean Territory
+<option value="VG">British Virgin Islands
+<option value="BN">Brunei Daressalam
+<option value="BG">Bulgaria
+<option value="BF">Burkina Faso
+<option value="BI">Burundi
+<option value="KH">Cambodia
+<option value="CM">Cameroon
+<option value="CA">Canada
+<option value="IC">Canary Islands
+<option value="CV">Cape Verde
+<option value="KY">Cayman Islands
+<option value="CF">Central African Republic
+<option value="TD">Chad
+<option value="CL">Chile
+<option value="CN">China People's Republic Of
+<option value="CX">Christmas Island
+<option value="CC">Cocos Islands
+<option value="CO">Colombia
+<option value="KM">Comoros
+<option value="CG">Congo
+<option value="CK">Cook Islands
+<option value="CR">Costa Rica
+<option value="HR">Croatia
+<option value="CU">Cuba
+<option value="CW">Curacao
+<option value="CY">Cyprus
+<option value="CZ">Czech Republic
+<option value="DK">Denmark
+<option value="DJ">Djibouti
+<option value="DM">Dominica
+<option value="DO">Dominican Republic
+<option value="TP">East Timor
+<option value="EC">Ecuador
+<option value="EG">Egypt
+<option value="SV">El Salvador
+<option value="GQ">Equatorial Guinea
+<option value="EE">Estonia
+<option value="ET">Ethiopia
+<option value="FK">Falkland Islands
+<option value="FO">Faroe Islands
+<option value="FJ">Fiji
+<option value="FI">Finland
+<option value="FR">France
+<option value="GF">French Guiana
+<option value="PF">French Polynesia
+<option value="TF">French Southern Territories
+<option value="GA">Gabon
+<option value="GM">Gambia
+<option value="GE">Georgia
+<option value="DE">Germany
+<option value="GH">Ghana
+<option value="GI">Gibraltar
+<option value="GB">Great Britain
+<option value="GR">Greece
+<option value="GL">Greenland
+<option value="GD">Grenada
+<option value="GP">Guadeloupe
+<option value="GU">Guam
+<option value="GT">Guatemala
+<option value="GN">Guinea
+<option value="GW">Guinea Bissau
+<option value="GY">Guyana
+<option value="HT">Haiti
+<option value="HM">Heard & Mcdonald Islands
+<option value="HN">Honduras
+<option value="HK">Hong Kong
+<option value="HU">Hungary
+<option value="IS">Iceland
+<option value="IN">India
+<option value="ID">Indonesia
+<option value="IR">Iran
+<option value="IQ">Iraq
+<option value="IE">Ireland
+<option value="IL">Israel
+<option value="IT">Italy
+<option value="CI">Ivory Coast
+<option value="JM">Jamaica
+<option value="JP">Japan
+<option value="JO">Jordan
+<option value="KZ">Kazakhstan
+<option value="KE">Kenya
+<option value="KI">Kiribati
+<option value="KP">Korea, Democratic Peoples Republic of
+<option value="KR">Korea, Republic of (South Korea)
+<option value="XK">Kosovo
+<option value="KW">Kuwait
+<option value="KG">Kyrgyz Republic
+<option value="LA">Laos
+<option value="LV">Latvia
+<option value="LB">Lebanon
+<option value="LS">Lesotho
+<option value="LR">Liberia
+<option value="LY">Libya
+<option value="LI">Lichtenstein
+<option value="LT">Lithuania
+<option value="LU">Luxembourg
+<option value="MO">Macau
+<option value="MK">Macedonia
+<option value="MG">Madagascar
+<option value="MW">Malawi
+<option value="MY">Malaysia
+<option value="MV">Maldives
+<option value="ML">Mali
+<option value="MT">Malta
+<option value="MH">Marshall Islands
+<option value="MQ">Martinique
+<option value="MR">Mauritania
+<option value="MU">Mauritius
+<option value="YT">Mayotte
+<option value="MX">Mexico
+<option value="FM">Micronesia
+<option value="MD">Moldova
+<option value="MC">Monaco
+<option value="MN">Mongolian Republic
+<option value="ME">Montenegro
+<option value="MS">Montserrat
+<option value="MA">Morocco
+<option value="MZ">Mozambique
+<option value="MM">Myanmar
+<option value="NA">Namibia
+<option value="NR">Nauru
+<option value="NP">Nepal
+<option value="NL">Netherlands
+<option value="NT">Neutral Zone
+<option value="NC">New Caledonia
+<option value="NZ">New Zealand
+<option value="NI">Nicaragua
+<option value="NE">Niger
+<option value="NG">Nigeria
+<option value="NU">Niue
+<option value="NF">Norfolk Island
+<option value="MP">Northern Mariana Islands
+<option value="NO">Norway
+<option value="OM">Oman
+<option value="PK">Pakistan
+<option value="PW">Palau
+<option value="PA">Panama
+<option value="PG">Papua New Guinea
+<option value="PY">Paraguay
+<option value="PE">Peru
+<option value="PH">Phillipines
+<option value="PN">Pitcairn Islands
+<option value="PL">Poland
+<option value="PT">Portugal
+<option value="PR">Puerto Rico
+<option value="QA">Qatar
+<option value="RE">Reunion
+<option value="RO">Romania
+<option value="RU">Russia
+<option value="RW">Rwanda
+<option value="SH">Saint Helena
+<option value="KN">Saint Kitts & Nevis
+<option value="LC">Saint Lucia
+<option value="SX">Saint Maarteen
+<option value="MF">Saint Martin
+<option value="PM">Saint Pierre & Miquelon
+<option value="VC">Saint Vincent & The Grenadines
+<option value="WS">Samoa
+<option value="SM">San Marino
+<option value="ST">Sao Tome & Principe
+<option value="SA">Saudi Arabia
+<option value="SN">Senegal
+<option value="RS">Serbia
+<option value="SC">Seychelles
+<option value="SL">Sierra Leone
+<option value="SG">Singapore
+<option value="SK">Slovakia
+<option value="SI">Slovenia
+<option value="SB">Solomon Islands
+<option value="SO">Somalia
+<option value="ZA">South Africa
+<option value="ES">Spain
+<option value="LK">Sri Lanka
+<option value="SD">Sudan
+<option value="SR">Suriname
+<option value="SJ">Svalbard & Jan Mayen Islands
+<option value="SZ">Swaziland
+<option value="SE">Sweden
+<option value="CH">Switzerland
+<option value="SY">Syrian Arab Republic
+<option value="TW">Taiwan
+<option value="TJ">Tajikistan
+<option value="TZ">Tanzania
+<option value="TH">Thailand
+<option value="TG">Togo
+<option value="TK">Tokelau
+<option value="TO">Tonga
+<option value="TT">Trinidad And Tobago
+<option value="TN">Tunisia
+<option value="TR">Turkey
+<option value="TM">Turkmenistan
+<option value="TC">Turks & Caicos Islands
+<option value="TV">Tuvalu
+<option value="UM">U.S. Minor Outlying Islands
+<option value="VI">U.S. Virgin Islands
+<option value="UG">Uganda
+<option value="UA">Ukraine
+<option value="AE">United Arab Emirates
+<option value="US">United States Of America
+<option value="UY">Uruguay
+<option value="UZ">Uzbekistan
+<option value="VU">Vanuatu
+<option value="VA">Vatican City State
+<option value="VE">Venezuela
+<option value="VN">Vietnam
+<option value="WF">Wallis & Futuna Islands
+<option value="EH">Western Sahara
+<option value="YE">Yemen
+<option value="YU">Yugoslavia
+<option value="ZR">Zaire
+<option value="ZM">Zambia
+<option value="ZW">Zimbabwe
+</SELECT></td>
+				</tr>
+
+				<tr id="BirthID1" style="display:none">
+					<td align="right" width="30%" class="textgrey">Date of birth&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senderid_dob" value="" class="inputdefinition" size="12" style="width: 120">&nbsp;(yyyy-mm-dd)</td>
+				</tr>
+				<tr id="BirthID2" style="display:none">
+					<td align="right" width="30%" class="textgrey">Place of birth&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_senderid_birthplace" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				<tr><td colspan="2" height="2"></td></tr>
+				
+
+				
+
+				<tr>
+					<td align="right" width="30%" class="textgrey">Sending Bank:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_bank" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				
+
+				<tr>
+					<td align="right" width="30%" class="textgrey">Country of sending bank:&nbsp;</td>
+					<td width="70%" class="textgrey"><SELECT NAME="df_bank_country" SIZE="1" CLASS="inputdefinition" STYLE="width: 295px;" onChange="selectBankCountry(this.value);"><option selected value="">Select...
+<option value="AL:ALL">Albania
+<option value="DZ:DZD">Algeria
+<option value="AS:USD">American Samoa
+<option value="AD:EUR">Andorra
+<option value="AO:AOK">Angola
+<option value="AI:XCD">Anguilla
+<option value="AQ:">Antartica
+<option value="AG:XCD">Antigua And Barbuda
+<option value="AR:ARP">Argentina
+<option value="AM:RUR">Armenia
+<option value="AW:AWG">Aruba
+<option value="AU:AUD">Australia
+<option value="AT:EUR">Austria
+<option value="AZ:RUR">Azerbaijan
+<option value="BS:BSD">Bahamas
+<option value="BH:BHD">Bahrain
+<option value="BD:BDT">Bangladesh
+<option value="BB:BBD">Barbados
+<option value="BY:RUR">Belarus
+<option value="BE:EUR">Belgium
+<option value="BZ:BZD">Belize
+<option value="BJ:XOF">Benin
+<option value="BM:BMD">Bermuda
+<option value="BT:BTN">Bhutan
+<option value="BO:BOP">Bolivia
+<option value="AN:ANG">Bonaire (Netherland Antilles)
+<option value="BA:BAM">Bosnia-Herzegovina
+<option value="BW:BWP">Botswana
+<option value="BV:NOK">Bouvet Island
+<option value="BR:BRL">Brazil
+<option value="IO:USD">British Indian Ocean Territory
+<option value="VG:USD">British Virgin Islands
+<option value="BN:BND">Brunei Daressalam
+<option value="BG:BGN">Bulgaria
+<option value="BF:XOF">Burkina Faso
+<option value="BI:BIF">Burundi
+<option value="KH:KHR">Cambodia
+<option value="CM:XAF">Cameroon
+<option value="CA:CAD">Canada
+<option value="IC:EUR">Canary Islands
+<option value="CV:CVE">Cape Verde
+<option value="KY:KYD">Cayman Islands
+<option value="CF:XAF">Central African Republic
+<option value="TD:XAF">Chad
+<option value="CL:CLP">Chile
+<option value="CN:CNY">China People's Republic Of
+<option value="CX:AUD">Christmas Island
+<option value="CC:AUD">Cocos Islands
+<option value="CO:COP">Colombia
+<option value="KM:KMF">Comoros
+<option value="CG:CDF">Congo
+<option value="CK:NZD">Cook Islands
+<option value="CR:CRC">Costa Rica
+<option value="HR:HRK">Croatia
+<option value="CU:CUP">Cuba
+<option value="CW:ANG">Curacao
+<option value="CY:EUR">Cyprus
+<option value="CZ:CZK">Czech Republic
+<option value="DK:DKK">Denmark
+<option value="DJ:DJF">Djibouti
+<option value="DM:XCD">Dominica
+<option value="DO:DOP">Dominican Republic
+<option value="TP:IDR">East Timor
+<option value="EC:ECS">Ecuador
+<option value="EG:EGP">Egypt
+<option value="SV:SVC">El Salvador
+<option value="GQ:XAF">Equatorial Guinea
+<option value="EE:EEK">Estonia
+<option value="ET:ETB">Ethiopia
+<option value="FK:FKP">Falkland Islands
+<option value="FO:DKK">Faroe Islands
+<option value="FJ:FJD">Fiji
+<option value="FI:EUR">Finland
+<option value="FR:EUR">France
+<option value="GF:FRF">French Guiana
+<option value="PF:XPF">French Polynesia
+<option value="TF:EUR">French Southern Territories
+<option value="GA:XAF">Gabon
+<option value="GM:GMD">Gambia
+<option value="GE:GEL">Georgia
+<option value="DE:EUR">Germany
+<option value="GH:GHC">Ghana
+<option value="GI:GIP">Gibraltar
+<option value="GB:GBP">Great Britain
+<option value="GR:EUR">Greece
+<option value="GL:DKK">Greenland
+<option value="GD:XCD">Grenada
+<option value="GP:EUR">Guadeloupe
+<option value="GU:USD">Guam
+<option value="GT:GTQ">Guatemala
+<option value="GN:GNF">Guinea
+<option value="GW:GWP">Guinea Bissau
+<option value="GY:GYD">Guyana
+<option value="HT:HTG">Haiti
+<option value="HM:">Heard & Mcdonald Islands
+<option value="HN:HNL">Honduras
+<option value="HK:HKD">Hong Kong
+<option value="HU:HUF">Hungary
+<option value="IS:ISK">Iceland
+<option value="IN:INR">India
+<option value="ID:IDR">Indonesia
+<option value="IR:IRR">Iran
+<option value="IQ:IQD">Iraq
+<option value="IE:EUR">Ireland
+<option value="IL:ILS">Israel
+<option value="IT:EUR">Italy
+<option value="CI:XOF">Ivory Coast
+<option value="JM:JMD">Jamaica
+<option value="JP:JPY">Japan
+<option value="JO:JOD">Jordan
+<option value="KZ:KZT">Kazakhstan
+<option value="KE:KES">Kenya
+<option value="KI:AUD">Kiribati
+<option value="KP:KPW">Korea, Democratic Peoples Republic of
+<option value="KR:KRW">Korea, Republic of (South Korea)
+<option value="XK:EUR">Kosovo
+<option value="KW:KWD">Kuwait
+<option value="KG:KGS">Kyrgyz Republic
+<option value="LA:LAK">Laos
+<option value="LV:LVL">Latvia
+<option value="LB:LBP">Lebanon
+<option value="LS:LSL">Lesotho
+<option value="LR:LRD">Liberia
+<option value="LY:LYD">Libya
+<option value="LI:CHF">Lichtenstein
+<option value="LT:LTL">Lithuania
+<option value="LU:EUR">Luxembourg
+<option value="MO:MOP">Macau
+<option value="MK:MKD">Macedonia
+<option value="MG:MGF">Madagascar
+<option value="MW:MWK">Malawi
+<option value="MY:MYR">Malaysia
+<option value="MV:MVR">Maldives
+<option value="ML:MLF">Mali
+<option value="MT:EUR">Malta
+<option value="MH:USD">Marshall Islands
+<option value="MQ:EUR">Martinique
+<option value="MR:MRO">Mauritania
+<option value="MU:MUR">Mauritius
+<option value="YT:EUR">Mayotte
+<option value="MX:MXP">Mexico
+<option value="FM:USD">Micronesia
+<option value="MD:MDL">Moldova
+<option value="MC:EUR">Monaco
+<option value="MN:MNT">Mongolian Republic
+<option value="ME:EUR">Montenegro
+<option value="MS:XCD">Montserrat
+<option value="MA:MAD">Morocco
+<option value="MZ:MZM">Mozambique
+<option value="MM:MMK">Myanmar
+<option value="NA:NAD">Namibia
+<option value="NR:AUD">Nauru
+<option value="NP:NPR">Nepal
+<option value="NL:EUR">Netherlands
+<option value="NT:">Neutral Zone
+<option value="NC:XPF">New Caledonia
+<option value="NZ:NZD">New Zealand
+<option value="NI:NIC">Nicaragua
+<option value="NE:XOF">Niger
+<option value="NG:NGN">Nigeria
+<option value="NU:NZD">Niue
+<option value="NF:AUD">Norfolk Island
+<option value="MP:USD">Northern Mariana Islands
+<option value="NO:NOK">Norway
+<option value="OM:OMR">Oman
+<option value="PK:PKB">Pakistan
+<option value="PW:USD">Palau
+<option value="PA:PAB">Panama
+<option value="PG:PGK">Papua New Guinea
+<option value="PY:PYG">Paraguay
+<option value="PE:PEN">Peru
+<option value="PH:PHP">Phillipines
+<option value="PN:NZD">Pitcairn Islands
+<option value="PL:PLN">Poland
+<option value="PT:EUR">Portugal
+<option value="PR:USD">Puerto Rico
+<option value="QA:QAR">Qatar
+<option value="RE:EUR">Reunion
+<option value="RO:RON">Romania
+<option value="RU:RUR">Russia
+<option value="RW:RWF">Rwanda
+<option value="SH:SHP">Saint Helena
+<option value="KN:XCD">Saint Kitts & Nevis
+<option value="LC:XCD">Saint Lucia
+<option value="SX:ANG">Saint Maarteen
+<option value="MF:EUR">Saint Martin
+<option value="PM:EUR">Saint Pierre & Miquelon
+<option value="VC:XCD">Saint Vincent & The Grenadines
+<option value="WS:WST">Samoa
+<option value="SM:EUR">San Marino
+<option value="ST:">Sao Tome & Principe
+<option value="SA:SAR">Saudi Arabia
+<option value="SN:XOF">Senegal
+<option value="RS:RSD">Serbia
+<option value="SC:SCR">Seychelles
+<option value="SL:SLL">Sierra Leone
+<option value="SG:SGD">Singapore
+<option value="SK:EUR">Slovakia
+<option value="SI:EUR">Slovenia
+<option value="SB:SBD">Solomon Islands
+<option value="SO:SOS">Somalia
+<option value="ZA:ZAR">South Africa
+<option value="ES:EUR">Spain
+<option value="LK:LKR">Sri Lanka
+<option value="SD:SDD">Sudan
+<option value="SR:SRG">Suriname
+<option value="SJ:NOK">Svalbard & Jan Mayen Islands
+<option value="SZ:SZL">Swaziland
+<option value="SE:SEK">Sweden
+<option value="CH:CHF">Switzerland
+<option value="SY:SYP">Syrian Arab Republic
+<option value="TW:TWD">Taiwan
+<option value="TJ:">Tajikistan
+<option value="TZ:TZS">Tanzania
+<option value="TH:THB">Thailand
+<option value="TG:XOF">Togo
+<option value="TK:NZD">Tokelau
+<option value="TO:TOP">Tonga
+<option value="TT:TTD">Trinidad And Tobago
+<option value="TN:TND">Tunisia
+<option value="TR:TRL">Turkey
+<option value="TM:TMM">Turkmenistan
+<option value="TC:USD">Turks & Caicos Islands
+<option value="TV:TVD">Tuvalu
+<option value="UM:USD">U.S. Minor Outlying Islands
+<option value="VI:USD">U.S. Virgin Islands
+<option value="UG:UGS">Uganda
+<option value="UA:UAH">Ukraine
+<option value="AE:AED">United Arab Emirates
+<option value="US:USD">United States Of America
+<option value="UY:UYP">Uruguay
+<option value="UZ:UZS">Uzbekistan
+<option value="VU:VUF">Vanuatu
+<option value="VA:EUR">Vatican City State
+<option value="VE:VEB">Venezuela
+<option value="VN:VND">Vietnam
+<option value="WF:">Wallis & Futuna Islands
+<option value="EH:">Western Sahara
+<option value="YE:YER">Yemen
+<option value="YU:YUM">Yugoslavia
+<option value="ZR:ZRZ">Zaire
+<option value="ZM:ZMK">Zambia
+<option value="ZW:ZWD">Zimbabwe
+</SELECT></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%" class="textgrey">Local currency:&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="bank_curcode" value="" class="text" size="9" readonly style="width: 60px"></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%" class="textgrey">Payment for (own reference):&nbsp;</td>
+					<td width="70%" class="textgrey"><input type="text" name="df_reference" value="" class="inputdefinition" size="30" style="width: 295px"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="right" width="30%" class="textgrey">Comment to&nbsp;First National Bank Ltd:</td>
+					<td width="70%" class="textgrey"><textarea class="inputdefinitionmemo" name="df_notes" rows="6" style="width: 295px"></textarea></td>
+				</tr>
+				<tr><td colspan="2" height="6"></td></tr>
+				<tr>
+					<td width="30%" class="text">&nbsp;</td>
+					<td width="70%" class="text">
+						<div class="button"><a href="javascript:document.forms[0].submit();" class="button">Submit</a></div>
+					</td>
+				</tr>
+				
+			</table>
+			</form>
+			<!-- The custom part of every html page stops here!!! -->
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="footercontainer"><span class="copyrightblue">Copyright &copy;&nbsp;<a target="_blank" href="http://www.megasol.se" class="Copyright">Megasol Technologies</a> 2000-2019</span>&nbsp;<span class="copyrightred">All Rights Reserved CornicheNet</span></td>
+	</tr>
+</table>
+
+
+</body>
+
+</html>

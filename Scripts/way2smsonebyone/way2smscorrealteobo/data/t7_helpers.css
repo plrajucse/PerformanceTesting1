@@ -1,0 +1,622 @@
+/* ==========================================================================
+        HTML5 display definitions
+========================================================================== */
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+a {
+    cursor: pointer;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
+
+/* ==========================================================================
+        Margin helperes 
+========================================================================== */
+
+
+/* ------------ Top margins  ------------ */
+.mr-t10 {
+    margin-top: 10px;
+}
+.mr-t20 {
+    margin-top: 20px;
+}
+.mr-t30 {
+    margin-top: 30px;
+}
+.mr-t40 {
+    margin-top: 40px;
+}
+.mr-t50 {
+    margin-top: 50px;
+}
+
+/* ------------ Right margins  ------------ */
+.mr-r10 {
+    margin-right: 10px;
+}
+.mr-r20 {
+    margin-right: 20px;
+}
+.mr-r30 {
+    margin-right: 30px;
+}
+.mr-r40 {
+    margin-right: 40px;
+}
+.mr-r50 {
+    margin-right: 50px;
+}
+
+/* ------------ Bottom margins  ------------ */
+.mr-b10 {
+    margin-bottom: 10px;
+}
+.mr-b20 {
+    margin-bottom: 20px;
+}
+.mr-b30 {
+    margin-bottom: 30px;
+}
+.mr-b40 {
+    margin-bottom: 40px;
+}
+.mr-b50 {
+    margin-bottom: 50px;
+}
+
+/* ------------ Left margins  ------------ */
+.mr-l10 {
+    margin-left: 10px;
+}
+.mr-l20 {
+    margin-left: 20px;
+}
+.mr-l30 {
+    margin-left: 30px;
+}
+.mr-l40 {
+    margin-left: 40px;
+}
+.mr-l50 {
+    margin-left: 50px;
+}
+
+/* ------------ Round margins  ------------ */
+.mr10 {
+    margin: 10px;
+}
+.mr20 {
+    margin: 20px;
+}
+.mr30 {
+    margin: 30px;
+}
+.mr40 {
+    margin: 40px;
+}
+.mr50 {
+    margin: 50px;
+}
+
+
+/* ==========================================================================
+        Margin helperes
+========================================================================== */
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs {
+    position: absolute;
+}
+.pos-fixed {
+    position: fixed;
+}
+.pos-static {
+    position: static;
+}
+
+
+/* ==========================================================================
+        Text alignment and Format helperes
+========================================================================== */
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+
+
+/* ==========================================================================
+        Float helperes
+========================================================================== */
+
+.f-right {
+    float: right;
+}
+.f-left {
+    float: left;
+}
+.f-none {
+    float: none;
+}
+
+
+
+/* ==========================================================================
+        Form helperes
+========================================================================== */
+/*
+    .f-row, .f-input, .f-select, .f-textarea, .f-radio, .f-chkbox, .f-group, .f-group-bg
+*/
+
+.f-row {
+    margin: 20px 0;
+}
+
+/* ------------ Input Elements  ------------ */
+
+.ip-addon-left, .ip-addon-right {
+    width: 40px;
+}
+.ip-group, .ip-group-bg, .ip-group-sm, .ip-control, .ip-control-sm {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+}
+
+.ip-control {
+    padding: 12px 20px;
+}
+.ip-groups{
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+   
+}
+
+.ip-control-sm {
+    padding-left: 10px;
+    height: 40px;
+}
+.ip-group {
+    height: 60px;
+}
+.ip-group-sm {
+    height: 40px;
+}
+.ip-group, .ip-group-bg {
+    display: table;
+}
+
+.ip-group .ic, .ip-group-bg .ic {
+    padding: 16px 10px;
+    text-align: center;
+}
+.ip-group-bg {
+    border-width: 0;
+    background-color: #EEEEEE;
+}
+.ip-group-bg input[type="text"] {
+    background-color: transparent;
+    border-width: 0;
+}
+.ip-group > *, .ip-group-bg > * {
+    display: table-cell;
+    vertical-align: top;
+    /* height: 100%; */
+}
+
+
+
+.ip-border {
+    border: 1px solid #CCC !important;
+}
+
+
+
+/* ------------ SelectBoxes  ------------ */
+select option {
+    padding: 10px 0;
+    background:white;
+    color: #484848;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+select option:hover{
+background-color: #251766;
+color:white;
+}
+select:-moz-focusring {
+    /* Remove dots around select box from firefox */
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+option:not(:checked) {
+    /* prevent <option>s from becoming transparent as well */
+    color: black; 
+}
+
+
+.ip-select, .ip-select-md, .ip-select-sm, .ip-select-xs {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+    padding-left: 10px;
+    background: #fff;
+}
+.ip-select {
+    height: 60px;
+}
+.ip-select-md {
+    height: 40px;
+}
+.ip-select-sm {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+}
+.ip-select-xs {
+    height: 30px;
+}
+.select-sm {
+    font-size: 12px;
+    height: 28px;
+}
+
+/* ------------ Button styles  ------------ */
+.button-no-bg {
+    background: none;
+    color: #21175B;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    /* When inside css table cell without specific width with large text button comes into multiple lines to remove that */
+    white-space: nowrap;    
+}
+.button-default {
+    background-color: #251766;
+    color: #FFF;
+}
+.button-secondary {
+    background-color: #E14447;
+    color: #FFF;
+}
+.button-lg {
+    padding: 14px 20px;
+    min-width: 100px;
+}
+.button-sm {
+    padding: 4px;
+    font-size: 12px;
+}
+.btn-grp {
+    padding: 14px !important;
+}
+
+
+
+
+
+
+
+
+
+.input-right-icon {
+    padding-right: 50px;
+}
+
+.visible {
+    display: block !important;
+}
+button {
+    background-color: transparent;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.d-table {
+    display: table;
+    width: 100%;
+}
+.d-table > * {
+    display: table-cell;
+    vertical-align: top;
+}
+.min-width {
+    width: 1px;
+    /* Use this to apply minimum width for css table cell element 
+    when not using a fixed width to take padding as its width */     
+}
+
+
+.auto-complete {
+    top: 100%;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #CCC;
+    z-index: 9999;
+    background-color: #FFF;
+    left: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.auto-complete li {
+    padding: 10px 20px;
+}
+
+.border {
+    border: 1px solid #CCC !important;
+}
+
+
+
+/* ==========================================================================
+        Place Holder styles
+========================================================================== */
+
+::-webkit-input-placeholder { /* Chrome */
+    color: #b8b8bc;
+    font-weight: 300;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #b8b8bc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #D1D1D1;
+    font-weight: 200;
+    opacity: 1;
+}
+
+/* ------------ Remove outline from chrome  ------------ */
+a:focus, button:focus, input:focus, textarea:focus {
+    outline-style:none;
+    box-shadow:none;
+    /* border-color:transparent; */
+}
+select:focus {
+    outline:none;
+    box-shadow:none;
+}
+
+
+
+/* ==========================================================================
+        Simple CSS Tooltip
+========================================================================== */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip img {
+    opacity: 0.5;
+}
+
+/* ------------ Tooltip text  ------------ */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #fafafa;
+    color: #333;
+    border-radius: 2px;
+    border: solid 1px #ebebeb;
+    text-align: center;
+    padding: 2px 14px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -1px;
+    font-size: 12px;
+    min-width: 200px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+
+
+.block {
+    display: block;
+}
+.oh {
+    overflow: hidden;
+}
+.vm {
+    vertical-align: middle;
+}
+
+
+/* ==========================================================================
+        INFO BOXES
+========================================================================== */
+.info-empty {
+    padding: 20px;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+
+
+/* ==========================================================================
+        ICON STYLES
+========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+        UNSPECIFIC STYLES
+========================================================================== */
+
+.no-border {
+    border-width: 0;
+}
+
+
+/* ==========================================================================
+        RESPONSIVE HIDDEN CLASSES
+========================================================================== */
+
+/* Hide on Extra Small Devices To Large devices */
+@media (max-width: 1199.98px) {
+    .hide-xs-to-lg {
+        display: none !important;
+    }
+}
+
+/* Hide on Extra Small Devices To Medium devices */
+@media (max-width: 991.98px) {
+    .hide-xs-to-md {
+        display: none !important;
+    }
+}
+
+/* Hide on Extra Small Devices To Small devices */
+@media (max-width: 767.98px) {
+    .hide-xs-to-sm {
+        display: none !important;
+    }
+
+}
+
+
+/* Hide on Extra Lage devices only*/
+@media (min-width: 1120px) {
+    .hide-xlg {
+        display: none !important;
+    }
+}
+
+/* Hide on Large devices only*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hide-lg {
+        display: none !important;
+    }
+}
+/* Hide on Medium  devices only*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hide-md {
+        display: none !important;
+    }
+}
+
+/* Hide on Small  devices only*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hide-md {
+        display: none !important;
+    }    
+}
+
+/* Hide on Extra Small devices only */
+@media (max-width: 575.98px) {
+    .hide-xs {
+        display: none !important;
+    }    
+}
+
+/* Show on Extra Small devices only */
+@media (min-width: 576px) {
+    .visible-xs {
+        /* display: none !important; */
+    }
+}
+
+
+/* Show on Small and Medium devices only */
+/* Bydefault element should be hidden then using this helper class we can show on specific devices */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .visible-sm-md {
+        display: block !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .hide-md-up {
+        display: none !important;
+    }
+}
+
+
+
+/* ==========================================================================
+        ALERT MESSAGES
+========================================================================== */
+.msg {
+    padding: 10px 20px;
+}
+.msg-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.msg-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.msg-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.msg-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+
+
+
+/* ==========================================================================
+        HIDE ON PORTRAIT MODE
+========================================================================== */
+@media (orientation:portrait) {
+    .show-on-landscape {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #ff0;
+        display: none;
+    }
+}
+
+
+

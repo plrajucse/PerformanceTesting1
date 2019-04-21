@@ -1,0 +1,50 @@
+[
+    {
+        "actionName": "BookTicket",
+        "steps": [
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t19.inf",
+                "time": 1549645523841
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t20.inf",
+                "time": 1549645524053
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t21.inf",
+                "time": 1549645524241
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t22.inf",
+                "time": 1549645524506
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "CancelTicket",
+        "steps": [
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t23.inf",
+                "time": 1549645525022
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t24.inf",
+                "time": 1549645525500
+            }
+        ],
+        "transactions": []
+    }
+]

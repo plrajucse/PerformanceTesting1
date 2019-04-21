@@ -1,0 +1,41 @@
+Virtual User Script started at: 1/31/2019 10:01:27 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\beginnersExample1Cpgn\beginnersExample1Cpgn\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_url("index.php") started  	[MsgId: MMSG-26355]
+Action.c(7): Redirecting "http://18.222.58.52/example1/index.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(7): To location "http://18.222.58.52/example1/login.php"  	[MsgId: MMSG-26693]
+Action.c(7): Registered web_reg_find successful for "Text=Please Login" (count=1)  	[MsgId: MMSG-26364]
+Action.c(7): web_url("index.php") was successful, 298 body bytes, 808 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): index on successful.
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(29): web_submit_data("proceedLogin.php") started  	[MsgId: MMSG-26355]
+Action.c(29): Redirecting "http://18.222.58.52/example1/proceedLogin.php?I_uName=LuPUser_001&I_uPass=SuperSafe" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(29): To location "http://18.222.58.52/example1/main.php"  	[MsgId: MMSG-26693]
+Action.c(29): Registered web_reg_find successful for "Text=valid user session" (count=1)  	[MsgId: MMSG-26364]
+Action.c(29): web_submit_data("proceedLogin.php") was successful, 263 body bytes, 748 header bytes  	[MsgId: MMSG-26386]
+Action.c(44): proceedLogin on successful.
+Action.c(53): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(53): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_url("Logout") started  	[MsgId: MMSG-26355]
+Action.c(55): Redirecting "http://18.222.58.52/example1/logout.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(55): To location "http://18.222.58.52/example1/login.php"  	[MsgId: MMSG-26693]
+Action.c(55): Registered web_reg_find successful for "Text=access system" (count=1)  	[MsgId: MMSG-26364]
+Action.c(55): web_url("Logout") was successful, 315 body bytes, 749 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): Logout on successful.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,162 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/pdf"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 5,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Jan-23-2019",
+    "RecordingDuration": 153891,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1548222122,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 634340,
+    "TotalBytesSent": 2694,
+    "TotalRequests": 9,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "r-project.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "137.208.57.37",
+          "IncludeInScript": true,
+          "Name": "cran.r-project.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/pdf",
+              "DownloadTime": 468,
+              "EventId": 864,
+              "HttpStatus": 200,
+              "Size": 620443,
+              "URL": "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 850,
+              "HttpStatus": 200,
+              "Size": 2032,
+              "URL": "https://cran.r-project.org/manuals.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 328,
+              "EventId": 750,
+              "HttpStatus": 200,
+              "Size": 5430,
+              "URL": "https://cran.r-project.org/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 578,
+              "EventId": 746,
+              "HttpStatus": 200,
+              "Size": 539,
+              "URL": "https://cran.r-project.org/navbar.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 531,
+              "EventId": 730,
+              "HttpStatus": 200,
+              "Size": 2103,
+              "URL": "https://cran.r-project.org/banner.shtml"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 578,
+              "EventId": 720,
+              "HttpStatus": 200,
+              "Size": 2693,
+              "URL": "https://cran.r-project.org/Rlogo.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 291,
+              "URL": "https://cran.r-project.org/logo.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 531,
+              "EventId": 707,
+              "HttpStatus": 200,
+              "Size": 351,
+              "URL": "https://cran.r-project.org/R.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 703,
+              "HttpStatus": 200,
+              "Size": 458,
+              "URL": "https://cran.r-project.org/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

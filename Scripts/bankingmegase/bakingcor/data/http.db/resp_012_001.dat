@@ -1,0 +1,231 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>eNews</title>
+<meta http-equiv="cache-control" content="no cache">
+<meta http-equiv="pragma" content="no cache">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style/detailstyle.css?version=8">
+<script src="js/common.js" language="javascript" type="text/javascript"></script>
+<script src="js/menu.js" language="javascript" type="text/javascript"></script>
+<script src="js/prototype.js" language="javascript" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+	function help()
+	{
+		var left=(screen.availWidth-500)/2;
+		var top=(screen.availHeight-150)/2;
+		window.open("en/odrevnews_help.html","Help","resizable=yes,scrollbars=yes,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,width=500,height=150,left="+left+",top="+top);
+	}
+</script>
+</head>
+
+<body class="bodytext">
+
+
+<table class="grid">
+	
+	<tr>
+		<td class="menucolumn"><div class="menu" id="menuContainer">
+	<div class="menuComponent" style="height: 37px;">
+    	<a href="eNews.mws"><img border="0" src="images/menutop.gif" width="105" alt=""></a>
+    </div>
+
+    <div class="menuComponent" style="height: 5px;"></div>
+
+    <!-- ACCOUNTS (1) -->	
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(1);">Accounts</a>
+</div>
+
+    <div id="heading_1" class="menuComponent">
+    	<div class="menutext"><a href="AccountDeposit.mws">Deposit notification</a></div>
+        <div class="menutext"><a href="AccountProfile.mws">Profile</a></div>
+        <div class="menutext"><a href="PredefinedAccountMaint.mws">Predefined account</a></div>
+        <div class="menutext"><a href="AccountSummary.mws">Summaries</div>
+        <div class="menutext"><a href="AccountStatement.mws">Statements</a></div>
+       	<div class="menutext"><a href="AccountPortfolio.mws">Portfolio</a></div>
+        <div class="menutext"><a href="PendingSignatory.mws">Signatures</a></div>
+
+        <div class="menutext"><a href="AccountOpen.mws">Open</a></div>
+    </div>
+    <div class="menuComponent" style="height: 3px;"><!-- --></div>
+
+	<!-- INVESTMENTS (2) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(2);">Investments</a>
+</div>
+
+    <div id="heading_2" class="menuComponent" style="display: none;">
+        <div class="menutext"><a href="ProductInvestment.mws">Term deposits</a></div>
+    </div>
+    <div class="menuComponent" style="height: 3px;"><!-- --></div>
+
+<!-- ESCROW (11) -->	
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(11);">Escrow</a>
+</div>
+
+    <div id="heading_11" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="EscrowRequest.mws">Payment request</a></div>
+		<div class="menutext"><a href="EscrowAuthorise.mws">Authorise</a></div>
+		<div class="menutext"><a href="EscrowShipping.mws">Shipping</a></div>
+		<div class="menutext"><a href="EscrowHistory.mws">Review</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- MY CARDS (3) -->
+	<div class="menuComponent menuhead">
+<a href="javascript:selectHeading(3);">My Cards</a>
+</div>
+
+    <div id="heading_3" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="ActivateCard.mws">Activate card</a></div>
+		
+		
+		
+	</div>
+    <div class="menuComponent" style="height: 3px;"></div>
+	
+    <!-- TRANSFERS (4) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(4);">Transfers</a>
+</div>
+
+    <div id="heading_4" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="PayPredefinedAccount.mws">Bank withdrawal</a></div>
+		<div class="menutext"><a href="PayOwnAccount.mws">Own account</a></div>
+		<div class="menutext"><a href="PayOtherClient.mws">Other client</a></div>
+		
+		<div class="menutext"><a href="CardDeposit_V3.mws">Fund by card</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- PAYMENTS(5) -->
+  	<div class="menuComponent menuhead">
+<a href="javascript:selectHeading(5);">Payments</a>
+</div>
+
+    <div id="heading_5" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="PayWireTransfer.mws">Wire transfer</a></div>
+		<div class="menutext"><a href="PayBankDraft.mws">Banker's draft</a></div>
+  	</div>
+    <div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- CALCUCLATORS (6) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(6);">Calculators</a>
+</div>
+
+	<div id="heading_6" class="menuComponent" style="display: none;">
+    	<div class="menutext"><a href="CurrencyConvert.mws">Currencies</a></div>
+		<div class="menutext"><a href="LoanCalculator.mws">Loans</a></div>
+		<div class="menutext"><a href="FXRates.mws">FX Rates</a></div>
+		<div class="menutext"><a href="Holidays.mws">Holidays</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- STANDING ORDERS (7) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(7);">Standing orders</a>
+</div>
+
+    <div id="heading_7" class="menuComponent" style="display: none;">
+        <div class="menutext"><a href="StOrderOwnAccount.mws">Own account</a></div>
+		<div class="menutext"><a href="StOrderOtherClient.mws">Other client</a></div>
+ 		<div class="menutext"><a href="StOrderPredefinedAccount.mws">Predefined Account</a></div>
+		<div class="menutext"><a href="StOrderWireTransfer.mws">Wire transfer</a></div>
+		<div class="menutext"><a href="StOrderBankDraft.mws">Banker's draft</a></div>
+    </div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- Referrals (8) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(8);">Referrals</a>
+</div>
+
+    <div id="heading_8" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="AgentReferralSummary.mws" class="menu">Referrals - Summary</a></div>
+		<div class="menutext"><a href="AgentReferralDetailed.mws" class="menu">Referrals - Detailed</a></div>
+		<div class="menutext"><a href="AgentReferralCommissions.mws" class="menu">Commissions</a></div>
+		<div class="menutext"><a href="AgentReferralCommissionSummary.mws" class="menu">Downline</a></div>
+		<div class="menutext"><a href="AgentClientPortfolio.mws" class="menu">Client portfolio</a></div>
+		
+ 		</div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- MAILBOX (9) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(9);">Mailbox (14198)</a>
+</div>
+
+    <div id="heading_9" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="Mailbox.mws">New message</a></div>
+		<div class="menutext"><a href="MailInbox.mws"><b>Inbox&nbsp;(14198)</b></a></div>
+		<div class="menutext"><a href="MailOutbox.mws">Outbox</a></div>
+		<div class="menutext"><a href="BuddyList.mws">Buddy list </a></div>
+ 	</div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+
+    <!-- OTHER (10) -->
+    <div class="menuComponent menuhead">
+<a href="javascript:selectHeading(10);">Other</a>
+</div>
+
+    <div id="heading_10" class="menuComponent" style="display: none;">
+		<div class="menutext"><a href="AccessLog.mws">Access log</a></div>
+		<div class="menutext"><a href="ChangeEntity.mws">Change client</a></div>
+		<div class="menutext"><a href="ChangePassword.mws">Change log-in</a></div>
+		<div class="menutext"><a href="SubUsers.mws">Sub-users</a></div>
+		<div class="menutext"><a href="Documents.mws">Documents</a></div>
+		<div class="menutext"><a href="eNews.mws">eNews</a></div>
+		<div class="menutext"><a href="Faq.mws">FAQ's</a></div>
+		
+  	</div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+	<div class="menuComponent menuhead"><a href="Logout.mws">Log out</a></div>
+  	<div class="menuComponent" style="height: 3px;"></div>
+  	<div class="menuComponent" style="height: 6px;">
+    	<img border="0" src="images/menubottom.gif" width="105" alt="">
+    </div>
+</div></td>
+		<td class="contentcolumn">
+			<!-- The custom part of every html page starts here!!! -->
+			<table border="0" cellpadding="3" cellspacing="0" width="100%">
+				<tr><td colspan="3">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+					<td class="headerblack" height="35" valign="middle">Other / News</td>
+					<td align="right" class="text" valign="top">2019-01-03<br>Charles Windsor</td>
+					<td align="right" class="text" valign="top" width="3%"><a href="javascript:help()"><img src="images/help.gif" alt="" name="help" id="help" width="14" height="16" border="0"></a></td></tr>
+				</table>
+				</td></tr>
+				<tr><td colspan="3" class="subjectwhiteblue">Latest news</td></tr>
+				<tr><td colspan="3" height="6"></td></tr>
+				
+
+				<tr>
+								<td align="left" colspan="3" class="textgrey"><b>2016-09-06 -&nbsp;Work on Corniche 2017 is progressing:</b> <font color=red>We are pleased to report that most of the major decision-making with regards to the new Corniche has been completed and the frameworks used to produce and test the modules are well underway. While we cannot give a firm delivery date for the complete product, many of the background activities of Corniche are now managed routinely by the new Corniche Server. This provides better speed and a more flexible approach in the future.</font></td>
+							</tr>
+					
+
+				<tr>
+								<td align="left" colspan="3" class="text"><b>2013-10-02 -&nbsp;International compliance regulations to get tougher:</b> Banks are facing a rising legal requirement from governments to not only "know your customer" but also to know who is making payments to a customer and to whom the customer is making payments. As a result, banking software systems are being upgraded across the industry to require reporting to the bank of all incoming funds before they even arrive at the bank.<p>Our <b>Deposit Notification</b> allows you to comply with legal requirements in this respect. If someone wants to send funds to you, ensure that you have authorised it and completed a deposit notification defining who the payor is BEFORE the funds are sent to the bank.<p>If you do not do this, then no matter where you bank there is a high risk that the funds will be refused and returned from whence they came. This is one part of the international fight against money laundering of the proceeds of crime and the prevention of the funding of terrorism.</td>
+							</tr>
+					
+
+				<tr><td colspan="3" class="text"></td></tr>
+			</table>
+			<!-- The custom part of every html page stops here!!! -->
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="footercontainer"><span class="copyrightblue">Copyright &copy;&nbsp;<a target="_blank" href="http://www.megasol.se" class="Copyright">Megasol Technologies</a> 2000-2019</span>&nbsp;<span class="copyrightred">All Rights Reserved CornicheNet</span></td>
+	</tr>
+</table>
+
+
+</body>
+</html>

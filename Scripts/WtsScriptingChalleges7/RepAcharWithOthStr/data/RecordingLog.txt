@@ -1,0 +1,379 @@
+[API Trapper      (103c:12a4)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (11c4: d40)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( df4: f20)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( df4:15cc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( df4:15cc)] Load Network Traffic Analyzers:
+[Network Analyzer ( df4:15cc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( df4:15cc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( df4:15cc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( df4:15cc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( df4:15cc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( df4:15cc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( df4:15cc)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( df4:15cc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( df4:1648)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:15cc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:15cc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( df4:15cc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Web Request      ( df4:1648)] "GET /webtours/index.htm"   
+[Network Analyzer ( df4:1648)]   (Sid:  1) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer ( df4:15cc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer ( df4:15cc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:15cc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( df4:15cc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:15cc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( df4:1648)] "GET /webtours/header.html"   
+[Network Analyzer ( df4:1648)]   (Sid:  1) Client -> Server @ : 332 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( df4:1648)]   (Sid:  2) Client -> Server @ : 343 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer ( df4:1648)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /webtours/images/webtours.png"   
+[Network Analyzer ( df4:1648)]   (Sid:  1) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/home.html"   
+[Network Analyzer ( df4:1648)]   (Sid:  4) Client -> Server @ : 371 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( df4:1648)]   (Sid:  3) Client -> Server @ : 375 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  4) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  3) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( df4:1648)]   (Sid:  3) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  3) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /favicon.ico"   
+[Network Analyzer ( df4:1648)]   (Sid:  3) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  3) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( df4:15cc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:15cc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( df4:1648)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( df4:1648)]   (Sid:  5) Client -> Server @ : 575 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  5) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( df4:1648)]   (Sid:  5) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer ( df4: 9b0)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 9b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid:  5) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( df4:1648)]   (Sid:  6) Client -> Server @ : 475 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( df4:1648)]   (Sid:  5) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( df4: 9b0)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 890)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:15cc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 9b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( df4:1648)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( df4:1648)]   (Sid:  7) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer ( df4: 890)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid:  5) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( df4:15cc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( df4:1648)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( df4:1648)]   (Sid:  8) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( df4:1648)]   (Sid:  5) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  7) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  8) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  5) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  6) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (11c4:160c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (11c4:160c)] Load Network Traffic Analyzers:
+[Network Analyzer (11c4:160c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (11c4:160c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (11c4:160c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (11c4:160c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (11c4:160c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (11c4:160c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (11c4:160c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (11c4:160c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (11c4: 3dc)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Web Request      ( df4:1648)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( df4:1648)]   (Sid:  9) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  9) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( df4:1648)]   (Sid:  9) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer ( df4:1314)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:1314)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid:  9) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( df4:1648)]   (Sid: 10) Client -> Server @ : 498 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( df4:1648)]   (Sid:  9) Client -> Server @ : 510 bytes (Service=HTTP)
+[Network Analyzer ( df4:1314)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:1314)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid:  9) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( df4:1648)]   (Sid: 11) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 11) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 10) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 10) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( df4:1648)]   (Sid: 10) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 10) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/classes/"   
+[Network Analyzer ( df4:1648)]   (Sid: 10) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 10) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/classes/"   
+[Network Analyzer ( df4:1648)]   (Sid: 10) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 10) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( df4: 9b0)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 9b0)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (11c4:160c)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer (11c4:160c)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( df4:1130)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( df4:1648)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (11c4:161c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( df4:1648)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (11c4: d98)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 9b0)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer (11c4: d98)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( df4: 9b0)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      ( df4:1648)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Web Request      (11c4: 3dc)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( df4:1648)]   (Sid: 13) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Server -> Client : 1194 bytes  (Service=HTTP)
+[Web Request      (11c4: 3dc)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 13) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 13) Server -> Client : 1193 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( df4:1648)]   (Sid: 13) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Server -> Client : 1189 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 13) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 13) Server -> Client : 1189 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 8f4)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: ed8)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer (11c4: 8f4)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( df4: ed8)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (11c4: 3dc)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Client -> Server @ : 168 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( df4:1648)]   (Sid: 14) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 8216 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 6850 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 12330 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 6850 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 12358 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 10960 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 8220 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 13756 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 4222 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 6625 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1117 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 6850 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 4187 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 2813 bytes  (Service=HTTP)
+[Web Request      (11c4: 3dc)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer ( df4:1270)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:1270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      ( df4:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( df4:1648)]   (Sid: 14) Client -> Server @ : 211 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( df4:1648)]   (Sid: 15) Client -> Server @ : 831 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 15) Server -> Client : 2710 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 112 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 4278 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 5255 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 6906 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Server -> Client : 11145 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 12105 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Server -> Client : 2813 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 15) Connection Terminated (by Server)
+[Net An. Error    ( df4:1130)] SSLAccept(ssl_id = 192091096 = 0B7313D8) Failed, ctx = 0B6C7B50, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( df4:1130)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (11c4:161c)] SSLAccept(ssl_id = 2400061465104 = 0000022ECECFA210) Failed, ctx = 0000022ED1BB7250, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (11c4:161c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( df4:1648)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (11c4: 3dc)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (11c4: d98)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:1270)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer (11c4: d98)] Request Connection: Remote Server @ 49.44.113.228:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( df4:1270)] Request Connection: Remote Server @ 49.44.113.228:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (11c4: 3dc)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Web Request      ( df4:1648)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 8220 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2604 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 8220 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 13700 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 4077 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 13756 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Server -> Client : 6915 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 8220 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 5480 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 2740 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 4110 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 7995 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1370 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Server -> Client : 1435 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (11c4: 3dc)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( df4:1648)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (11c4: 3dc)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (11c4: 3dc)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( df4:1270)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 860)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:1270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      ( df4:1648)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( df4:1648)]   (Sid: 17) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer ( df4: 860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid: 17) Connection Terminated (by Client)
+[Web Request      ( df4:1648)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( df4:1648)]   (Sid: 18) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 18) Server -> Client : 2966 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer ( df4:1314)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4: 860)] Address lookup for PLRaju_Dell = 192.168.43.210
+[Network Analyzer ( df4:1314)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      ( df4:1648)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( df4:1648)]   (Sid: 19) Client -> Server @ : 877 bytes (Service=HTTP)
+[Network Analyzer ( df4: 860)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 2849 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( df4:1648)]   (Sid: 19) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( df4:1648)]   (Sid: 19) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( df4:1648)]   (Sid: 19) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      ( df4:1648)] "GET /WebTours/home.html"   
+[Network Analyzer ( df4:1648)]   (Sid: 20) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 20) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 1740 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( df4:1648)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer ( df4:1648)]   (Sid: 19) Connection Terminated (by Server)

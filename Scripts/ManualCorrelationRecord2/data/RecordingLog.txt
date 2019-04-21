@@ -1,0 +1,440 @@
+[API Trapper      ( f64: 9c0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( fd4:13e0)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( e9c:1388)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( e9c:1704)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e9c:1704)] Load Network Traffic Analyzers:
+[Network Analyzer ( e9c:1704)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( e9c:1704)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( e9c:1704)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( e9c:1704)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( e9c:1704)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( e9c:1704)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( e9c:1704)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( e9c:1704)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e9c:1584)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Net An. Warning  ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( e9c: c68)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: c68)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( e9c:1584)] "GET /webtours"   
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Client -> Server @ : 269 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Server -> Client : 506 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /webtours/"   
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Server -> Client : 663 bytes  (Service=HTTP)
+[Net An. Warning  ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( e9c:1584)] "GET /webtours/header.html"   
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Net An. Warning  ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( e9c:1704)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1704)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c:1704)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( e9c:1640)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Web Request      ( e9c:1584)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1640)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( e9c: c68)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Web Request      ( e9c:1584)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Client -> Server @ : 354 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer ( e9c: c68)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( e9c:1584)] "GET /webtours/images/webtours.png"   
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Client -> Server @ : 355 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Client -> Server @ : 375 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/home.html"   
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /favicon.ico"   
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( fd4:1730)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fd4:1730)] Load Network Traffic Analyzers:
+[Network Analyzer ( fd4:1730)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( fd4:1730)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( fd4:1730)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( fd4:1730)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( fd4:1730)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( fd4:1730)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( fd4:1730)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( fd4:1730)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fd4: 16c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4:1730)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4:1730)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( e9c: b68)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: b68)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( fd4: d08)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( e9c: e80)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( e9c:1584)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Client -> Server @ : 583 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Server -> Client : 694 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/nav.pl?username=jojo100&password=bean100"   
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( e9c:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c:17d8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Server -> Client : 1765 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/error.pl?error=badPassword"   
+[Network Analyzer ( e9c:1584)]   (Sid:  6) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  6) Server -> Client : 1253 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( fd4: 8cc)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4: 8cc)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( fd4: 16c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( fd4: 16c)]   (Sid:  2) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( e9c: e10)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: e10)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( fd4: 16c)]   (Sid:  2) Server -> Client : 336 bytes  (Service=HTTP)
+[Web Request      ( fd4: 16c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( fd4: 16c)]   (Sid:  2) Client -> Server @ : 261 bytes (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  2) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: ebc)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4: ebc)] Request Connection: Remote Server @ 23.217.53.30:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( e9c:1584)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( e9c:1584)]   (Sid:  7) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  7) Server -> Client : 336 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( e9c:1584)]   (Sid:  7) Client -> Server @ : 261 bytes (Service=HTTP)
+[Web Request      ( fd4: 16c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  7) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 12455 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2360 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c: e10)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4060 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c: e10)] Request Connection: Remote Server @ 23.217.53.30:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1140 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1880 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1220 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2680 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1220 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 3840 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 8712 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 9148 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5220 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 3124 bytes  (Service=HTTP)
+[Web Request      ( fd4: 16c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( e9c: ca8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4:1464)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4140 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( e9c: ca8)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( e9c:1584)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4:1464)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( e9c:1584)]   (Sid:  9) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4140 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4300 bytes  (Service=HTTP)
+[Web Request      ( fd4: 16c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( fd4: 16c)]   (Sid:  4) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1220 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2315 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  4) Server -> Client : 461 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  4) Server -> Client : 2094 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5600 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 6820 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 80 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Server -> Client : 5344 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  9) Server -> Client : 2555 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 8224 bytes  (Service=HTTP)
+[Net An. Error    ( fd4: d08)] SSLAccept(ssl_id = 1352711805936 = 0000013AF3E81BF0) Failed, ctx = 0000013AF1608420, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( fd4: d08)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      ( e9c:1584)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5075 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5520 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2680 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 8192 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2688 bytes  (Service=HTTP)
+[Network Analyzer ( fd4: 16c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 3260 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2600 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1580 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 5780 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 3080 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2680 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 4060 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 2680 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Server -> Client : 444 bytes  (Service=HTTP)
+[Net An. Error    ( e9c: e80)] SSLAccept(ssl_id = 196260112 = 0BB2B110) Failed, ctx = 0BB302B0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( e9c: e80)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( fd4: 16c)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( e9c:1584)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( fd4: 16c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer ( fd4: 16c)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1704)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: 614)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c:1704)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      ( e9c:1584)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( e9c:1584)]   (Sid: 10) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer ( e9c: 614)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( e9c:1584)]   (Sid: 10) Server -> Client : 692 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/nav.pl?username=jojo10&password=bean10"   
+[Network Analyzer ( e9c:1584)]   (Sid: 10) Client -> Server @ : 384 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/error.pl?error=badPassword"   
+[Network Analyzer ( e9c:1584)]   (Sid: 11) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 11) Server -> Client : 1253 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 10) Server -> Client : 1768 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1704)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: e10)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c:1704)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( e9c:1584)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Client -> Server @ : 604 bytes (Service=HTTP)
+[Network Analyzer ( e9c: e10)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 860 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Client -> Server @ : 493 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 1156 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Client -> Server @ : 517 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 519 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1640)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: e10)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Web Request      ( e9c:1584)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 985 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer ( e9c: e10)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:17d8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( e9c:1640)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      ( e9c:1584)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 510 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Client -> Server @ : 511 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 523 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 14) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 14) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 286 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/classes/"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/classes/"   
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer ( e9c:1584)]   (Sid: 13) Connection Terminated (by Server)
+[Web Request      ( e9c:1584)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Client -> Server @ : 842 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Server -> Client : 2707 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Client -> Server @ : 733 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Server -> Client : 2986 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer ( e9c: ca8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c:1704)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.24
+[Network Analyzer ( e9c: ca8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      ( e9c:1584)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Client -> Server @ : 891 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1704)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 2858 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      ( e9c:1584)] "GET /WebTours/home.html"   
+[Network Analyzer ( e9c:1584)]   (Sid: 18) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 18) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( e9c:1584)]   (Sid: 18) Connection Terminated (by Server)

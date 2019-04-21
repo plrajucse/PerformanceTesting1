@@ -1,0 +1,695 @@
+[API Trapper      ( a54: 85c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (10dc: e08)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( 514: a30)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 514: 83c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 514: 83c)] Load Network Traffic Analyzers:
+[Network Analyzer ( 514: 83c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 514: 83c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 514: 83c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 514: 83c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 514: 83c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 514: 83c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 514: 83c)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 514: 83c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 514:15e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:157c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514: 83c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:157c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 514: 83c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 514: f80)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: d08)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: c3c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514: c3c)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAXYJ5Kr9sH3CC7Hpcj3JjA%3D"   
+[Network Analyzer ( 514:15e8)]   (Sid:  3) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  3) Server -> Client : 787 bytes  (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAXYJ5Kr9sH3CC7Hpcj3JjA%3D"   
+[Network Analyzer ( 514:15e8)]   (Sid:  3) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  3) Server -> Client : 787 bytes  (Service=HTTP)
+[Network Analyzer ( 514:179c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:179c)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /RapidSSLRSACA2018.crl"   
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Client -> Server @ : 138 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16064 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 10752 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 12176 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 13408 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 16128 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1326 bytes  (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /RapidSSLRSACA2018.crl"   
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Client -> Server @ : 181 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Server -> Client : 2686 bytes  (Service=HTTP)
+[Net An. Error    ( 514: f80)] SSLAccept(ssl_id = 176914712 = 0A8B8118) Failed, ctx = 08E36330, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 514: f80)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 514: d08)] SSLAccept(ssl_id = 176725712 = 0A889ED0) Failed, ctx = 08E36330, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 514: d08)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 514:15e8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 514: 83c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514: 83c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 514: 6d4)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 6d4)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /SCP/Myhome.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Client -> Server @ : 278 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 3102 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Styles/SCPStyleSheet_1.css"   
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Client -> Server @ : 451 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514: 83c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:179c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:157c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514: c3c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:16e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 7446 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/Common/Settings.js"   
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Client -> Server @ : 471 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514: 83c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 514:179c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 514:157c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 514: c3c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 514:16e4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 3302 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/Common/Page.js"   
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Client -> Server @ : 467 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 7263 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/Messages.js"   
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Client -> Server @ : 464 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:1538)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:1538)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 2141 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Styles/calendar.css"   
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Client -> Server @ : 444 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/ViewMappings.js"   
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:  e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 1708 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /ScriptResource.axd?d=T8obKc66SYd4rpDCcGP5C6bTntNaOM0CVKbmDSizaMhCIPY9OFSvFduA8V0zU95zKfFoOYS_IE4jXjciFuFehC_ROwZcJeuICAszeeC-z_rz-c85hczFHJwbDILRinTQ5ujpCg2&t=ffffffffec54f2d7"   
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 11503 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:135c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:135c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /SCP/Myhome.aspx?_TSM_HiddenField_=ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField&_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1547e793-5b7e-48fe-8490-03a375b13a33%3a475a4ef5%3aeffe2a26%3a1d3ed089%3a5546a2b%3a497ef277%3aa43b07eb%3a751cdd15%3adfad98a5%3a3cf12cf1"   
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Client -> Server @ : 828 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:  e8)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /Styles/MenuStyle.css"   
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Client -> Server @ : 445 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 514: c3c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514: c3c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 556 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 7719 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514: 8ec)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 8ec)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: 760)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 760)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: e88)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: e88)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: 8b0)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 8b0)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: 658)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 658)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=vOPGRbuJxjZId4hlYom0cVvn81HUoDtqiaoxswsmvdHDzB4mgzQ4ZVwsGHLVbiZdMAROMEHWR9gr-TJ0SekDyOoeuLU1&t=634604622479085897"   
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/Common/Exception.js"   
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Client -> Server @ : 472 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/Common/Common.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /ScriptResource.axd?d=TYjWB56X67ABSEQXOTsmjGm1YazzdUPKPvr_TAA5lrvihMxT5QjZSE-xMSzIwNfaVrl54_Pn9QpF0uyqYYl4NBIxz3PL8oQ2s71Lv5cBbcAObr8kdGrq0-XMKqnleYA3JxmXaQ2&t=ffffffffec54f2d7"   
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=u5Z7Fs09HB94fZ46X7xln9hjg0smZLf0Xrnmnpt6G60B5l5zWu0A47S_b_zjXYxQz2z9anAMDmawGDyv6zjFz_Y7AEI1&t=634604622479085897"   
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Server -> Client : 4740 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Server -> Client : 6323 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Server -> Client : 1643 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Server -> Client : 3334 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Server -> Client : 14842 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/btnGo.png"   
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Client -> Server @ : 489 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Scripts/Login.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Client -> Server @ : 461 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Searchbox.png"   
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Client -> Server @ : 493 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Home-Page-LoginBG-New.JPG"   
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Client -> Server @ : 505 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/B_SignIn_Blank.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Client -> Server @ : 498 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Logo/Bescom_Logo.JPG"   
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Client -> Server @ : 500 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 6097 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Server -> Client : 3484 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Server -> Client : 1137 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Server -> Client : 3974 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Server -> Client : 2303 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Server -> Client : 2023 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/loading.gif"   
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Client -> Server @ : 491 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Styles/cssUpdateProgress.css"   
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Client -> Server @ : 453 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Scripts/jsUpdateProgress.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Client -> Server @ : 472 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Scripts/CommonJsFuncs.js"   
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Scripts/Messages/en-US/Messages.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Client -> Server @ : 479 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Customer_Service.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Client -> Server @ : 500 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/HomeLogo/Home-Page-Logo1.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Client -> Server @ : 508 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Server -> Client : 1076 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /images/Background.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Client -> Server @ : 494 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Server -> Client : 662 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Server -> Client : 9295 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Server -> Client : 597 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Server -> Client : 13943 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Server -> Client : 9490 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Server -> Client : 487 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 9028 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/fav%20icons/favicon.ico"   
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Client -> Server @ : 370 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer (10dc:13ec)] ------------------------------------------------------------------------------------------
+[Network Analyzer (10dc:13ec)] Load Network Traffic Analyzers:
+[Network Analyzer (10dc:13ec)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (10dc:13ec)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (10dc:13ec)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (10dc:13ec)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (10dc:13ec)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (10dc:13ec)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (10dc:13ec)]     Analyzer Module: local_server (value=)
+[Network Analyzer (10dc:13ec)] ------------------------------------------------------------------------------------------
+[Network Analyzer (10dc: c04)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (10dc:13ec)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer (10dc:13ec)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 514:14f4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:14f4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 514:1120)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: 83c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514: 83c)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 514:15e8)]   (Sid: 14) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 14) Server -> Client : 336 bytes  (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 514:15e8)]   (Sid: 14) Client -> Server @ : 261 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 14) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer ( 514:16e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:16e4)] Request Connection: Remote Server @ 184.26.162.32:80   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 12176 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 6712 bytes  (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 13600 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 80 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Server -> Client : 4184 bytes  (Service=HTTP)
+[Net An. Error    ( 514:1120)] SSLAccept(ssl_id = 191059864 = 0B635798) Failed, ctx = 0CC6F5A0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 514:1120)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 514:157c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( 514:157c)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 514:15e8)]   (Sid: 16) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 16) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 16) Server -> Client : 1203 bytes  (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "POST /SCP/Myhome.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Client -> Server @ : 4533 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "POST /SCP/Myhome.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Client -> Server @ : 4533 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 10) Connection Terminated (by Client)
+[Net An. Error    (10dc: da0)] SSL_connect(ssl_id = 2506018623056 = 000002477A598E50) Failed, ctx = 000002477A544D30, err = "SSLv3/TLS write client hello", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (10dc: da0)]   (Sid:  1) SSL handshake with remote server Failed!
+[Network Analyzer ( 514:15e8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( 514:15e8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( 514:16e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:16e4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( 514: 970)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 970)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Client -> Server @ : 572 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "POST /SCP/Myhome.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Client -> Server @ : 4533 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 9667 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /SCP/MyAccount/AccountSummary.aspx?Name=IAccountSummaryView"   
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Client -> Server @ : 995 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 2370 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/ViewMappings.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Client -> Server @ : 1022 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:14f4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:14f4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 514: 91c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 91c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /SCP/MyAccount/AccountSummary.aspx?_TSM_HiddenField_=ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField&_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1547e793-5b7e-48fe-8490-03a375b13a33%3a475a4ef5%3aeffe2a26%3a1d3ed089%3a5546a2b%3a497ef277%3aa43b07eb%3a751cdd15%3adfad98a5%3a3cf12cf1"   
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Client -> Server @ : 1400 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Server -> Client : 7719 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /SCP/Images/Searchbox.png"   
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Client -> Server @ : 1051 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:14f4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:169c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Server -> Client : 3943 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:17bc)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:16e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Web Request      ( 514:15e8)] "GET /Images/Corner_LNavi_RightB.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Client -> Server @ : 1057 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:157c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:14f4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 514:169c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 514: 684)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:169c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Server -> Client : 1122 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:16e4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 514:17bc)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( 514:157c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( 514: 684)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( 514:169c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( 514:1064)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:1064)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: f30)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: f30)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:1268)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:1268)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /Images/India_Rupee_Symbol_Transparent.gif"   
+[Network Analyzer ( 514:15e8)]   (Sid: 19) Client -> Server @ : 1068 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Scripts/AccountSummary.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 20) Client -> Server @ : 1024 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Corner_LNavi_LeftB.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 21) Client -> Server @ : 1056 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 19) Server -> Client : 438 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 20) Server -> Client : 1478 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 21) Server -> Client : 1083 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/minusbig.gif"   
+[Network Analyzer ( 514:15e8)]   (Sid: 20) Client -> Server @ : 1046 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514: 280)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 280)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:15e8)]   (Sid: 20) Server -> Client : 366 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/LNavi_Bg.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 22) Client -> Server @ : 1046 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 22) Server -> Client : 1346 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514: 500)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 500)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:1070)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:1070)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /Images/plusbig.gif"   
+[Network Analyzer ( 514:15e8)]   (Sid: 23) Client -> Server @ : 1045 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Corner_LNavi_Right.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 24) Client -> Server @ : 1056 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514: 5dc)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 5dc)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:15e8)]   (Sid: 23) Server -> Client : 368 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 24) Server -> Client : 816 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/Corner_LNavi_Left.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 25) Client -> Server @ : 1055 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 25) Server -> Client : 753 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/fav%20icons/favicon.ico"   
+[Network Analyzer ( 514:15e8)]   (Sid: 25) Client -> Server @ : 881 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 25) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /favicon.ico"   
+[Network Analyzer ( 514:15e8)]   (Sid: 24) Client -> Server @ : 862 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 24) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 24) Connection Terminated (by Client)
+[Web Request      ( 514:15e8)] "GET /SCP/MyAccount/BillingHistory.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid: 23) Client -> Server @ : 1047 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer ( 514:15e8)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer ( 514:179c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:179c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( 514: 6e8)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 6e8)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /SCP/MyAccount/BillingHistory.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Client -> Server @ : 1047 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 13499 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=b8T9EZWx5ZjRrrY13AXkYLfhxAFasVGj7JRrClS95H6VuHQUsR6Ed60l-_XLa2tIRFCPf88jRT8NhUHOfvN3RMMRC0bzFUSdKiyhyMJmy0XY0oBILnn7o9N9cFgXyyTr1nd4lg2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Client -> Server @ : 1187 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:179c)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 4208 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:17bc)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:179c)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer ( 514:17bc)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( 514: dc4)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: dc4)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /scripts/ViewMappings.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 27) Client -> Server @ : 1056 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 27) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:1190)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:1190)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /SCP/MyAccount/BillingHistory.aspx?_TSM_HiddenField_=ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField&_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1547e793-5b7e-48fe-8490-03a375b13a33%3a475a4ef5%3aeffe2a26%3a8e94f951%3a1d3ed089%3a5546a2b%3a497ef277%3aa43b07eb%3a751cdd15%3adfad98a5%3a3cf12cf1"   
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Client -> Server @ : 1445 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Server -> Client : 10729 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Scripts/BillingHistory.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Server -> Client : 1271 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/btnBG_Medium.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Client -> Server @ : 1084 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=ZrXgO8Vg7CIRd8zcuA2cqJ7WUyVcs7lBho6lhIaM5L-GGlFoA6GuXYCMYSDRe7IcDMVIhFyl74KWMNvcgUKhHuUphM7DdhGkQhk1KGLJij4WpK4WVtOwZoDrm_540Ht1vpO99Q2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:16e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:17bc)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Server -> Client : 1117 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 611 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:16e4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( 514:17bc)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=Ums0SchNUyEoQ7iZAjDW-a0lbkZPuip7vEuepMUzLjUUAW1QqZmHKN1aWShyJvUzwBQaXID6KJjhckFp03GLL6x6krQoDTpSZ7uUgWdDXTuTtEgfnvEtGMKcHjGVWhorHCQz2g2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=Za6C1XmHHC_cFdVm63hkuq6yeDExl7o5yvlkYmb6Ul246oVtCkwFgaGPHjBw4-OvQV8h1CYelBzrTh-rHO2wqIRzuOqe_gMKQof-irTVih-T6a9u1fBDOZ4IDFi4uyvimZF7Lg2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:16e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:17bc)] Address lookup for DESKTOP-KHJQF8S = 192.168.100.4
+[Network Analyzer ( 514:15e8)]   (Sid: 28) Server -> Client : 421 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 26) Server -> Client : 354 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:16e4)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( 514:17bc)] Request Connection: Remote Server @ 59.144.45.217:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer ( 514: 4c0)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 4c0)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514: a68)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: a68)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 514:12c8)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514:12c8)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=7V5Mwc5uSM_04Jn4rF4TzX_NaiFlIBn5OniI2euEPvyNeigDWW1ku9qViu0GT4ydFBzsFFaqR0ir951C7hLRiRDXbHw_JaxPgvKedmbqFu6XczcpRYq1FdZ8nynZJRvCPCuCfw2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=jnwtibqZdAeHcDoPXxx-Pv_amV3AMyOYwUlQ6Z_6cfbf5UUzdbk_BxkE4WvfzJPvFNJHkhtXAFMo98jhQloanv_cMYNNZ9DZ53Wwd963t1WBkoj1Zr0jpDHcLKX-vX_ZDY3LQw2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=SzgztOGvMiHxeYbLhlbqVYHRwGRp_SGkuI1pa-dXu62TyoRGMo7or3jzuqMj7_tB93DUJ4oVN0K_Tg36T6kkM7GbYQoA0Cw3ZmnpEcA2MNtkvU4l8hEyvJksylChD6XBNuQa8g2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 31) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 31) Server -> Client : 415 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 606 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 419 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514: 84c)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:AES128-SHA)
+[Network Analyzer ( 514: 84c)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 514:15e8)] "GET /WebResource.axd?d=divSLWYuerwbJ19x97hd7yXMWmtFkesyBTYERdYI2H_Sdmom5Ij6RDMlCPiXV5ImanY67zZAi0rvqDQDHWftmR7WaFJu38rGrhjniJs6gI7XZBNAF-9Ph2tBQM18uY-bAksqPg2&t=634151363400000000"   
+[Network Analyzer ( 514:15e8)]   (Sid: 32) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 32) Server -> Client : 364 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /favicon.ico"   
+[Network Analyzer ( 514:15e8)]   (Sid: 32) Client -> Server @ : 921 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 32) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 32) Connection Terminated (by Client)
+[Web Request      ( 514:15e8)] "POST /SCP/MyAccount/ViewBill.aspx?Billid=827877603540&AccountId=8278745000"
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Client -> Server @ : 1214 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Client -> Server @ : 16355 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Client -> Server @ : 16355 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Client -> Server @ : 7201 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 6047 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/ViewMappings.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Client -> Server @ : 1091 bytes (SSL)(Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /SCP/MyAccount/ViewBill.aspx?_TSM_HiddenField_=ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField&_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1547e793-5b7e-48fe-8490-03a375b13a33%3a475a4ef5%3aeffe2a26%3a1d3ed089%3a5546a2b%3a497ef277%3aa43b07eb%3a751cdd15%3adfad98a5%3a3cf12cf1"   
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Client -> Server @ : 1463 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 7719 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /Images/btnBG_Large.jpg"   
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Client -> Server @ : 1118 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 1092 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 30) Connection Terminated (by Client)
+[Web Request      ( 514:15e8)] "GET /SessionTimeOut.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Client -> Server @ : 1102 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 650 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /SCP/Myhome.aspx"   
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 3102 bytes (SSL) (Service=HTTP)
+[Web Request      ( 514:15e8)] "GET /scripts/ViewMappings.js"   
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Client -> Server @ : 1049 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Server -> Client : 1428 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 514:15e8)]   (Sid: 29) Connection Terminated (by Client)

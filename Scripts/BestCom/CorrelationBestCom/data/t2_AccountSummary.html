@@ -1,0 +1,26 @@
+﻿function SelectFavorite(gridAcctList, chkBox, txtAccountID, accNo) {
+    var tableElement = document.getElementById(gridAcctList);
+    var accountID = document.getElementById(txtAccountID);
+    var curCheckBox = document.getElementById(chkBox);
+    for (var i = 0; i < tableElement.rows.length; i++) {
+        var rowElem = tableElement.rows[i];
+        for (var col = 0; col < rowElem.cells[0].childNodes.length; col++) {
+            var ctrl = rowElem.cells[0].childNodes[col];
+            if (ctrl != null && ctrl.type == "checkbox") {
+                if (ctrl.id != curCheckBox.id) {
+                    ctrl.checked = false
+                }
+            }
+        }
+    }
+    accountID.value = accNo;
+    return true
+}
+
+function openPopUpDetails(strAccountNumber,intRowIndex) {
+    if (strAccountNumber != null) {
+        var url = "../MyAccount/AccountDetails.aspx?AccountId=" + strAccountNumber + "&RowIndex ="+ intRowIndex;
+        window.open(url, "AccountDetails", "left=300,top=80,width=600,height=270,toolbar=no,menubar=no,location=no,resizable=no,scrollbars=yes,status=no");
+        return false
+    } else return false
+}

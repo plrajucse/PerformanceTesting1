@@ -1,0 +1,21 @@
+Virtual User Script started at: 1/17/2019 5:30:30 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\lrContinueOnError\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(6): Warning -32999: Invalid scheme (not "http:" / "https:" / "ws:" / "wss:") in "1http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MWAR-32999]
+Action.c(6): Error -32999: Invalid scheme (not "http:" / "https:" / "ws:" / "wss:") in "1http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MERR-32999]
+Action.c(6): web_url("index.htm") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

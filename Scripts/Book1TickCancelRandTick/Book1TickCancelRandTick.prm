@@ -1,0 +1,16 @@
+[parameter:pRandomCancel]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="2"
+MinValue="1"
+OriginalValue="4"
+ParamName="pRandomCancel"
+Type="Random"
+[parameter:pRandomTicket]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="5"
+MinValue="1"
+OriginalValue="1"
+ParamName="pRandomTicket"
+Type="Random"

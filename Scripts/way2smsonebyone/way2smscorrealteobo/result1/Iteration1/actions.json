@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.way2sms.com",
+                "infFile": "t1.inf",
+                "time": 1546415345801
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t2.inf",
+                "time": 1546415346143
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: collect",
+                "infFile": "t3.inf",
+                "time": 1546415346453
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: re-login",
+                "infFile": "t4.inf",
+                "time": 1546415346667
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: send-sms",
+                "infFile": "t5.inf",
+                "time": 1546415347570
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: getContacts",
+                "infFile": "t6.inf",
+                "time": 1546415347891
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: GroupContacts",
+                "infFile": "t7.inf",
+                "time": 1546415348246
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: container.html",
+                "infFile": "t8.inf",
+                "time": 1546415348587
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: container.html_2",
+                "infFile": "t9.inf",
+                "time": 1546415348673
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: v2_4",
+                "infFile": "t10.inf",
+                "time": 1546415349270
+            }
+        ],
+        "transactions": []
+    }
+]

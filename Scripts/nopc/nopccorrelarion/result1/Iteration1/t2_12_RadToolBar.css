@@ -1,0 +1,27 @@
+﻿#wrapper
+{
+    background: transparent url('Img/shim.gif') no-repeat;
+    height: 33px;
+    position: relative;
+}
+ 
+#mainToolBarWrapper
+{
+    position: absolute;
+}
+ 
+#subToolBarWrapper
+{
+    position: absolute;
+    top: 136px;
+    left: 184px;
+    width: 491px;
+}
+ 
+.QueryString
+{
+    border: 1px solid #B7B7BA;
+    width: 125px;
+    height: 20px;
+    line-height: 20px;
+}

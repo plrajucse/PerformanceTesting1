@@ -1,0 +1,86 @@
+[API Trapper      ( cd8:10b0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( 568: ad0)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (1210: 3a0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (1210: 9ec)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1210: 9ec)] Load Network Traffic Analyzers:
+[Network Analyzer (1210: 9ec)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1210: 9ec)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1210: 9ec)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1210: 9ec)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1210: 9ec)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1210: 9ec)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1210: 9ec)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1210: 9ec)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1210:12ec)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.18
+[Network Analyzer (1210: e84)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.18
+[Network Analyzer (1210: 9ec)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.18
+[Network Analyzer (1210: e84)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1210:12ec)] "GET http://localhost:1080/webtours"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 296 bytes (Service=HTTP)
+[Network Analyzer (1210: 9ec)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 506 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/webtours/"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 297 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 663 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/webtours/header.html"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 350 bytes (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/webtours/images/hp_logo.png"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 381 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 297 bytes  (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 601 bytes  (Service=HTTP)
+[Network Analyzer (1210: 9ec)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.18
+[Web Request      (1210:12ec)] "GET http://localhost:1080/webtours/images/webtours.png"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer (1210: 9ec)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 299 bytes  (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 4187 bytes  (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 402 bytes (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/home.html"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 398 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 1755 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/images/mer_login.gif"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 413 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/favicon.ico"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 258 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "POST http://localhost:1080/cgi-bin/login.pl"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 852 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 507 bytes (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 1749 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/images/flights.gif"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 531 bytes (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/images/itinerary.gif"   
+[Network Analyzer (1210:12ec)]   (Sid:  3) Client -> Server @ : 533 bytes (Service=HTTP)
+[Network Analyzer (1210:1028)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.18
+[Network Analyzer (1210: ed0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.18
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/images/in_home.gif"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 531 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (1210:1028)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/images/signoff.gif"   
+[Network Analyzer (1210:12ec)]   (Sid:  2) Client -> Server @ : 531 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  2) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (1210: ed0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 1159 bytes  (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  3) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (1210:12ec)]   (Sid:  3) Client -> Server @ : 519 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  3) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1210:12ec)]   (Sid:  3) Client -> Server @ : 399 bytes (Service=HTTP)
+[Web Request      (1210:12ec)] "GET http://localhost:1080/WebTours/home.html"   
+[Network Analyzer (1210:12ec)]   (Sid:  1) Client -> Server @ : 495 bytes (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  3) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (1210:12ec)]   (Sid:  1) Server -> Client : 194 bytes  (Service=HTTP)

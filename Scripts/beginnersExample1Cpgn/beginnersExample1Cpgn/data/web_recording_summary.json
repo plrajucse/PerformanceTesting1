@@ -1,0 +1,137 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 5,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Jan-31-2019",
+    "RecordingDuration": 228563,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1548909849,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 2986,
+    "TotalBytesSent": 2625,
+    "TotalRequests": 8,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "18.222.58.52",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.222.58.52",
+          "IncludeInScript": true,
+          "Name": "18.222.58.52",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 4297,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 298,
+              "URL": "http://18.222.58.52/example1/login.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2360,
+              "EventId": 155,
+              "HttpStatus": 302,
+              "Size": 17,
+              "URL": "http://18.222.58.52/example1/logout.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 146,
+              "HttpStatus": 404,
+              "Size": 1056,
+              "URL": "http://18.222.58.52/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 4469,
+              "EventId": 144,
+              "HttpStatus": 200,
+              "Size": 243,
+              "URL": "http://18.222.58.52/example1/main.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 6672,
+              "EventId": 142,
+              "HttpStatus": 302,
+              "Size": 20,
+              "URL": "http://18.222.58.52/example1/proceedLogin.php?I_uName=LuPUser_001&I_uPass=SuperSafe"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 281,
+              "EventId": 17,
+              "HttpStatus": 404,
+              "Size": 1054,
+              "URL": "http://18.222.58.52/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2671,
+              "EventId": 15,
+              "HttpStatus": 200,
+              "Size": 298,
+              "URL": "http://18.222.58.52/example1/login.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2484,
+              "EventId": 13,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://18.222.58.52/example1/index.php"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

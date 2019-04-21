@@ -1,0 +1,1148 @@
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="%2fSCP%2fMyAccount%2fAccountSummary.aspx%3fName%3dIAccountSummaryView">here</a>.</h2>
+</body></html>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_ctl00_Head1"><meta name="robots" content="noindex" /><title>
+	Consumer Portal - BESCOM
+</title><link id="ctl00_ctl00_Link1" rel="shortcut icon" href="../Images/fav%20icons/favicon.ico" type="image/x-icon" /><link id="ctl00_ctl00_Link2" rel="icon" href="../Images/fav%20icons/favicon.ico" type="image/ico" /><link id="ctl00_ctl00_SCPStyleSheet" href="../Styles/SCPStyleSheet_1.css" rel="stylesheet" type="text/css" /><link href="../Styles/calendar.css" rel="stylesheet" type="text/css" /><link href="../Styles/MenuStyle.css" rel="stylesheet" type="text/css" />     
+
+    <script type="text/javascript">     
+        
+        function CloseDiv() 
+        {
+            var divName = document.getElementById('ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_fadingDiv');
+            divName.style.visibility = 'hidden';
+            var CheckTimer = document.getElementById('ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_CheckTimer');
+            CheckTimer.value = 'Y';
+        }
+
+        function SetSelectedVal() {
+            var dropdown = document.getElementById('ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_ddlNetwork');
+            var hiddnField = document.getElementById('ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_dropdownSelectedValue');
+            hiddnField.value = dropdown.selectedIndex;
+        }
+
+        function ScrollDown() {
+            var objDiv = document.getElementById('ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_divAlert');
+            alert('Test');
+            objDiv.scrollTop = objDiv.scrollHeight;
+        }
+        
+         function openMyHome() 
+         {        
+            try {
+                
+                var url = "../Myhome.aspx";
+                window.open(url);
+                return false;
+            }
+            catch (e) {
+            }
+            return false;
+        }
+
+        var col = new String();
+        var x = 1; var y;
+        var f = 1; var t;
+        function blink() {
+            if (x % 2) {
+                col = "rgb(46,139,87)";
+                
+            }
+            else {
+                //col = "rgb(144,238,144)";
+                col = "rgb(122,170,27)";
+            }
+            if (f % 2) {
+                colf = "rgb(122,0,40)";
+
+            }
+            else {
+                //col = "rgb(144,238,144)";
+                colf = "rgb(255,64,31)";
+            }  
+            var QuickPayment = document.getElementById("ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkQuickPayment");
+
+            if (QuickPayment != null) {
+                QuickPayment.style.color = col; x++;
+            }
+            var FTNewconnection = document.getElementById("ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_LinkFastTrackNewconnection");
+
+            if (FTNewconnection != null) {
+                FTNewconnection.style.color = colf; f++;
+            }
+
+            if (x > 2) { x = 1 };
+            if (f > 2) { f = 1 };
+            setTimeout("blink()", 500);
+        }               
+
+    </script>
+
+    <style type="text/css">
+        .primaryStaticMenu
+        {
+            background-color: #35453B;
+            float: right;
+        }
+        .primaryStaticMenuItem
+        {
+            width: 7em;
+            background-color: #35453B;
+            border-width: 1px;
+            border-color: #efefef #aaab9c #ccc #efefef;
+            border-style: solid;
+            color: #777777;
+            padding: 0.5em .2em 0.5em .1em;
+            font-size: 13px;
+            font-family: Arial;
+            font-variant: small-caps;
+            height: 30px;
+            font-weight: bold;
+            color: White;
+        }
+        .primaryStaticHover
+        {
+            background: #f0e7d7;
+        }
+        .primaryDynamicMenu
+        {
+            background-color: #35453B;
+            border-bottom: solid 1px #ccc;
+        }
+        .primaryDynamicMenuItem
+        {
+            width: 6em;
+            background-color: #35453B;
+            color: #777;
+            padding: 0.5em 0 0.5em 1em;
+            border-width: 1px;
+            border-color: #f7f2ea #aaab9c #f7f2ea #efefef;
+            border-style: solid;
+        }
+        .primaryDynamicHover
+        {
+            background: #f0e7d7;
+        }
+        .secondaryLevelOne
+        {
+            background-color: #35453B;
+            background-repeat: repeat-x;
+            margin: -.1em 0em 0em 0em;
+            padding: 5px 0 0 1px;
+            width: 23em;
+            height: 25px;
+            font-size: 11px;
+            font-family: Arial;
+            text-align: left;
+            font-variant: small-caps;
+            font-weight: bold;
+            color: White;
+        }
+        .secondaryStaticHover
+        {
+            color: #800000;
+        }
+    </style>
+</head>
+<body id="masterBody" onload="blink();">
+    <form name="aspnetForm" method="post" action="Myhome.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="masterPageId" id="masterPageId" value="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder" />
+<input type="hidden" name="ErrorLabelId" id="ErrorLabelId" value="ctl00_ctl00_MasterPageContentPlaceHolder_lblErrorMessage" />
+<input type="hidden" name="ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField" id="ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM3OTQ5NDc2Mw9kFgJmD2QWAmYPZBYEAgEPZBYCAgQPFgIeBGhyZWYFIC4uLy4uL1N0eWxlcy9TQ1BTdHlsZVNoZWV0XzEuY3NzZAIDD2QWCgIBD2QWAmYPZBYKAgEPFgIeBWNsYXNzBQ5TSUxvZ29MYXlvdXRfMWQCAw9kFgICAQ8PFgIeBFRleHQFFEJFU0NPTSBPbmxpbmUgUG9ydGFsZGQCBQ9kFgICAQ8PZBYCHglvbmtleWRvd24FNnJldHVybiBmbkRlZmF1bHRDbGljaygnY3RsMDBfY3RsMDBfc2l0ZVNlYXJjaF9idG5HbycpOxYUAgEPFgYeBXRpdGxlBQRIb21lHglpbm5lcmh0bWwFBEhvbWUeB1Zpc2libGVoZAICDxYCHwZoZAIEDxYCHwUFF1J1bGVzICZhbXA7IFJlZ3VsYXRpb25zZAIHDxYCHwUFDlByaXZhY3kgUG9saWN5ZAIKDxYEHwUFA0ZBUR8EBQNGQVFkAgwPFggfAAUfaHR0cDovL2Jlc2NvbS5vcmcvZW4vY29udGFjdHVzLx8FBQpDb250YWN0IFVzHwQFCkNvbnRhY3QgVXMeB29uY2xpY2sFFnJldHVybiBmbkNhbmNlbENsaWNrKClkAg4PFgQfBQUQQXNzb2NpYXRlZCBTaXRlcx8EBRBBc3NvY2lhdGVkIFNpdGVzZAIQDxYEHwUFB1NpdGVtYXAfBAUHU2l0ZW1hcGQCEQ8WAh8GaGQCEw8WBB8FBQZMb2dvdXQfBmhkAgkPDxYEHwIFDUJhY2sgVG8gQWRtaW4fBmhkZAILDw8WAh8CBVxPbmxpbmUgUGF5bWVudCwgQWNjb3VudCBSZWdpc3RyYXRpb24gYW5kIFNlcnZpY2UgUmVxdWVzdHMgYXJlIGVuYWJsZWQgaW4gdGhpcyBPbmxpbmUgUG9ydGFsLmRkAgMPZBYCAgEPZBYEZg9kFgYCAQ8PFgIfBmhkFgICAQ8WAh8FBaeEAQo8dGFibGUgd2lkdGg9JzIzMCcgYm9yZGVyPScwJyBjZWxsc3BhY2luZz0nMCcgY2VsbHBhZGRpbmc9JzAnPgoJPHRyPgoJCTx0ZCBjbGFzcz0nTGVmdE5hdlRvcExlZnRDb3JuZXInPjwvdGQ+CgkJPHRkIGNsYXNzPSdMZWZ0TmF2VG9wQmdDb2xvcic+PC90ZD4KCQk8dGQgY2xhc3M9J0xlZnROYXZUb3BSaWdodENvcm5lcic+PC90ZD4KCTwvdHI+Cgk8dHI+CgkJPHRkIGNvbHNwYW49JzMnIGNsYXNzPSdMZWZ0TmF2TWlkZGxlJyB2YWxpZ249J21pZGRsZSc+CgkJPHRhYmxlIGlkPSdMZWZ0Rmx5b3V0MV90YmxOYXZpZ2F0aW9uJyBjZWxscGFkZGluZz0nMCcgYm9yZGVyPScwJyBjZWxsc3BhY2luZz0nMCcgc3R5bGU9J21hcmdpbi10b3A6LTJweCcgd2lkdGg9JzEwMCUnPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfMCcgc3R5bGU9J2Rpc3BsYXk6YmxvY2s7dmlzaWJpbGl0eTp2aXNpYmxlOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMSc+PGEgaHJlZj0nL1NDUC9DdXN0b21lclNlcnZpY2UvTXlTZXJ2aWNlLmFzcHgnIHRhcmdldD0nX3BhcmVudCcgY2xhc3M9J2Nsc3BsdXNtYXJrJyB0aXRsZT0nTXkgU2VydmljZXMnIHRhYmluZGV4PSc2NScgb25jbGljaz0nc3dpdGNoTm9kZSh0aGlzKTsgcmV0dXJuIHRydWU7Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDE1MnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvQ3VzdG9tZXJTZXJ2aWNlLyc+TXkgU2VydmljZXM8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzBfMCcgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvQ3VzdG9tZXJTZXJ2aWNlL1NlcnZpY2VSZXF1ZXN0cy5hc3B4P05hbWU9SU1ldGVyU2hpZnRpbmdWaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdNZXRlciBTaGlmdCcgdGFiaW5kZXg9JzY2Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvQ3VzdG9tZXJTZXJ2aWNlL1NlcnZpY2VzL01ldGVyU2hpZnQvJyB0aXRsZT0nTWV0ZXIgU2hpZnQnPk1ldGVyIFNoaWZ0PC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8wXzEnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlUmVxdWVzdHMuYXNweD9OYW1lPUlUYXJpZmZDaGFuZ2VWaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdUYXJpZmYgQ2hhbmdlJyB0YWJpbmRleD0nNjcnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9DdXN0b21lclNlcnZpY2UvU2VydmljZXMvVGFyaWZmQ2hhbmdlLycgdGl0bGU9J1RhcmlmZiBDaGFuZ2UnPlRhcmlmZiBDaGFuZ2U8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzBfMicgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvQ3VzdG9tZXJTZXJ2aWNlL1NlcnZpY2VSZXF1ZXN0cy5hc3B4P05hbWU9SUxvYWRSZWR1Y3Rpb25WaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdMb2FkIFJlZHVjdGlvbicgdGFiaW5kZXg9JzY4Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvQ3VzdG9tZXJTZXJ2aWNlL1NlcnZpY2VzL0xvYWRSZWR1Y3Rpb24vJyB0aXRsZT0nTG9hZCBSZWR1Y3Rpb24nPkxvYWQgUmVkdWN0aW9uPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8wXzMnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlUmVxdWVzdHMuYXNweD9OYW1lPUlMb2FkRW5oYW5jZW1lbnRWaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdMb2FkIEVuaGFuY2VtZW50JyB0YWJpbmRleD0nNjknPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9DdXN0b21lclNlcnZpY2UvU2VydmljZXMvTG9hZEVuaGFuY2VtZW50LycgdGl0bGU9J0xvYWQgRW5oYW5jZW1lbnQnPkxvYWQgRW5oYW5jZW1lbnQ8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzBfNCcgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvT3JkZXIvTG9nQ29tcGxhaW50c2FuZFNlcnZpY2VzLmFzcHg/T3JkZXJUeXBlPVNSJmFtcDtDYXRlZ29yeT1TRUxGLU1SJyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdTZWxmIE1ldGVyIFJlYWQnIHRhYmluZGV4PSc3MCc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlcy9TZWxmTWV0ZXJSZWFkLycgdGl0bGU9J1NlbGYgTWV0ZXIgUmVhZCc+U2VsZiBNZXRlciBSZWFkPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8wXzUnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL09yZGVyL0xvZ0NvbXBsYWludHNhbmRTZXJ2aWNlcy5hc3B4P09yZGVyVHlwZT1TUiZhbXA7Q2F0ZWdvcnk9Q0lfQklMTCcgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nU2l4IE1vbnRocyBCaWxsIFN0YXRlbWVudCcgdGFiaW5kZXg9JzcxJz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvQ3VzdG9tZXJTZXJ2aWNlL1NlcnZpY2VzL0JpbGxTdGF0ZW1lbnQvJyB0aXRsZT0nU2l4IE1vbnRocyBCaWxsIFN0YXRlbWVudCc+U2l4IE1vbnRocyBCaWxsIFN0YXRlbWVudDwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfMF82JyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9DdXN0b21lclNlcnZpY2UvU2VydmljZVJlcXVlc3RzLmFzcHg/TmFtZT1JRGlzY29ubmVjdGlvblZpZXcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J0Rpc2Nvbm5lY3Rpb24nIHRhYmluZGV4PSc3Mic+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlcy9EaXNjb25uZWN0aW9uLycgdGl0bGU9J0Rpc2Nvbm5lY3Rpb24nPkRpc2Nvbm5lY3Rpb248L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzBfNycgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvQ3VzdG9tZXJTZXJ2aWNlL1NlcnZpY2VSZXF1ZXN0cy5hc3B4P05hbWU9SVNvbGFyUmViYXRlVmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nU29sYXIgUmViYXRlJyB0YWJpbmRleD0nNzMnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9DdXN0b21lclNlcnZpY2UvU2VydmljZXMvU29sYXJSZWJhdGUvJyB0aXRsZT0nU29sYXIgUmViYXRlJz5Tb2xhciBSZWJhdGU8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzEnIHN0eWxlPSdkaXNwbGF5OmJsb2NrO3Zpc2liaWxpdHk6dmlzaWJsZTsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDEnPjxhIGhyZWY9Jy9TQ1AvQ3VzdG9tZXJTZXJ2aWNlL1RyYWNrZXIuYXNweD9JZD1TUicgdGFyZ2V0PSdfcGFyZW50JyBjbGFzcz0nY2xzcGx1c21hcmsnIHRpdGxlPSdUcmFjayBTZXJ2aWNlIFJlcXVlc3RzJyB0YWJpbmRleD0nNzQnIG9uY2xpY2s9J3N3aXRjaE5vZGUodGhpcyk7IHJldHVybiB0cnVlOyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxNTJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrU2VydmljZXMvJz5UcmFjayBTZXJ2aWNlIFJlcXVlc3RzPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8xXzAnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlUmVxdWVzdHNUcmFja2VyLmFzcHg/TmFtZT1JVHJhY2tNZXRlclNoaWZ0UmVxdWVzdFZpZXcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J01ldGVyIFNoaWZ0JyB0YWJpbmRleD0nNzUnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9UcmFja1NlcnZpY2VzL01ldGVyU2hpZnQvJyB0aXRsZT0nTWV0ZXIgU2hpZnQnPk1ldGVyIFNoaWZ0PC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8xXzEnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlUmVxdWVzdHNUcmFja2VyLmFzcHg/TmFtZT1JVHJhY2tUYXJpZmZDaGFuZ2VSZXF1ZXN0VmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nVGFyaWZmIENoYW5nZScgdGFiaW5kZXg9Jzc2Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvVHJhY2tTZXJ2aWNlcy9UYXJpZmZDaGFuZ2UvJyB0aXRsZT0nVGFyaWZmIENoYW5nZSc+VGFyaWZmIENoYW5nZTwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfMV8yJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9DdXN0b21lclNlcnZpY2UvU2VydmljZVJlcXVlc3RzVHJhY2tlci5hc3B4P05hbWU9SVRyYWNrTG9hZFJlZHVjdGlvblJlcXVlc3RWaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdMb2FkIFJlZHVjdGlvbicgdGFiaW5kZXg9Jzc3Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvVHJhY2tTZXJ2aWNlcy9Mb2FkUmVkdWN0aW9uLycgdGl0bGU9J0xvYWQgUmVkdWN0aW9uJz5Mb2FkIFJlZHVjdGlvbjwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfMV8zJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9DdXN0b21lclNlcnZpY2UvU2VydmljZVJlcXVlc3RzVHJhY2tlci5hc3B4P05hbWU9SVRyYWNrTG9hZEVuaGFuY2VtZW50UmVxdWVzdFZpZXcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J0xvYWQgRW5oYW5jZW1lbnQnIHRhYmluZGV4PSc3OCc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrU2VydmljZXMvTG9hZEVuaGFuY2VtZW50LycgdGl0bGU9J0xvYWQgRW5oYW5jZW1lbnQnPkxvYWQgRW5oYW5jZW1lbnQ8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzFfNCcgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvT3JkZXIvT3JkZXJTdGF0dXNSZWdpc3RlcmVkLmFzcHg/T3JkZXJUeXBlPVNSJmFtcDtDYXRlZ29yeT1TRUxGLU1SJyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdTZWxmIE1ldGVyIFJlYWQnIHRhYmluZGV4PSc3OSc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrU2VydmljZXMvU2VsZk1ldGVyUmVhZC8nIHRpdGxlPSdTZWxmIE1ldGVyIFJlYWQnPlNlbGYgTWV0ZXIgUmVhZDwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfMV81JyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9PcmRlci9PcmRlclN0YXR1c1JlZ2lzdGVyZWQuYXNweD9PcmRlclR5cGU9U1ImYW1wO0NhdGVnb3J5PUNJX0JJTEwnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J1NpeCBNb250aHMgQmlsbCBTdGF0ZW1lbnQnIHRhYmluZGV4PSc4MCc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrU2VydmljZXMvQmlsbFN0YXRlbWVudC8nIHRpdGxlPSdTaXggTW9udGhzIEJpbGwgU3RhdGVtZW50Jz5TaXggTW9udGhzIEJpbGwgU3RhdGVtZW50PC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8xXzYnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlUmVxdWVzdHNUcmFja2VyLmFzcHg/TmFtZT1JVHJhY2tEaXNjb25uZWN0aW9uUmVxdWVzdFZpZXcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J0Rpc2Nvbm5lY3Rpb24nIHRhYmluZGV4PSc4MSc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrU2VydmljZXMvRGlzY29ubmVjdGlvbi8nIHRpdGxlPSdEaXNjb25uZWN0aW9uJz5EaXNjb25uZWN0aW9uPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8xXzcnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0N1c3RvbWVyU2VydmljZS9TZXJ2aWNlUmVxdWVzdHNUcmFja2VyLmFzcHg/TmFtZT1JVHJhY2tTb2xhclJlYmF0ZVJlcXVlc3RWaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdTb2xhciBSZWJhdGUnIHRhYmluZGV4PSc4Mic+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrU2VydmljZXMvU29sYXJSZWJhdGUvJyB0aXRsZT0nU29sYXIgUmViYXRlJz5Tb2xhciBSZWJhdGU8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzInIHN0eWxlPSdkaXNwbGF5OmJsb2NrO3Zpc2liaWxpdHk6dmlzaWJsZTsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDEnPjxhIGhyZWY9Jy9TQ1AvQ3VzdG9tZXJTZXJ2aWNlL0NvbXBsYWludHMuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyBjbGFzcz0nY2xzcGx1c21hcmsnIHRpdGxlPSdDb21wbGFpbnRzJyB0YWJpbmRleD0nODMnIG9uY2xpY2s9J3N3aXRjaE5vZGUodGhpcyk7IHJldHVybiB0cnVlOyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxNTJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0NvbXBsYWludHMvJz5Db21wbGFpbnRzPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl8yXzAnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL09yZGVyL0xvZ0NvbXBsYWludHNhbmRTZXJ2aWNlcy5hc3B4P09yZGVyVHlwZT1DTVAmYW1wO0NhdGVnb3J5PUNJX0JJTExJTkcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J0JpbGxpbmcgUmVsYXRlZCcgdGFiaW5kZXg9Jzg0Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvQ29tcGxhaW50cy9CaWxsaW5nUmVsYXRlZC8nIHRpdGxlPSdCaWxsaW5nIFJlbGF0ZWQnPkJpbGxpbmcgUmVsYXRlZDwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfMycgc3R5bGU9J2Rpc3BsYXk6YmxvY2s7dmlzaWJpbGl0eTp2aXNpYmxlOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMSc+PGEgaHJlZj0nL1NDUC9DdXN0b21lclNlcnZpY2UvVHJhY2tlci5hc3B4P0lkPUNNJyB0YXJnZXQ9J19wYXJlbnQnIGNsYXNzPSdjbHNwbHVzbWFyaycgdGl0bGU9J1RyYWNrIENvbXBsYWludHMnIHRhYmluZGV4PSc4NScgb25jbGljaz0nc3dpdGNoTm9kZSh0aGlzKTsgcmV0dXJuIHRydWU7Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDE1MnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvVHJhY2tDb21wbGFpbnRzLyc+VHJhY2sgQ29tcGxhaW50czwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfM18wJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9PcmRlci9PcmRlclN0YXR1c1JlZ2lzdGVyZWQuYXNweD9PcmRlclR5cGU9Q01QJmFtcDtDYXRlZ29yeT1DSV9CSUxMSU5HJyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdCaWxsaW5nIFJlbGF0ZWQnIHRhYmluZGV4PSc4Nic+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL1RyYWNrQ29tcGxhaW50cy9UcmFja0JpbGxpbmdSZWxhdGVkLycgdGl0bGU9J0JpbGxpbmcgUmVsYXRlZCc+QmlsbGluZyBSZWxhdGVkPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl80JyBzdHlsZT0nZGlzcGxheTpibG9jazt2aXNpYmlsaXR5OnZpc2libGU7Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwxJz48YSBocmVmPScvU0NQL015QWNjb3VudC9NeUFjY291bnQuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyBjbGFzcz0nY2xzcGx1c21hcmsnIHRpdGxlPSdNeSBBY2NvdW50JyB0YWJpbmRleD0nODcnIG9uY2xpY2s9J3N3aXRjaE5vZGUodGhpcyk7IHJldHVybiB0cnVlOyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxNTJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL015QWNjb3VudC8nPk15IEFjY291bnQ8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzRfMCcgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvTXlBY2NvdW50L0FjY291bnRTdW1tYXJ5LmFzcHgnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J0FjY291bnQgU3VtbWFyeScgdGFiaW5kZXg9Jzg4Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDEzMnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvTXlBY2NvdW50L0FjY291bnRTdW1tYXJ5LycgdGl0bGU9J0FjY291bnQgU3VtbWFyeSc+QWNjb3VudCBTdW1tYXJ5PC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl80XzEnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL015QWNjb3VudC9WaWV3QmlsbC5hc3B4JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdWaWV3IEJpbGwnIHRhYmluZGV4PSc4OSc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL015QWNjb3VudC9WaWV3QmlsbC8nIHRpdGxlPSdWaWV3IEJpbGwnPlZpZXcgQmlsbDwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfNF8yJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9NeUFjY291bnQvUGF5QmlsbEhvbWUuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nUGF5IEJpbGwnIHRhYmluZGV4PSc5MCc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL015QWNjb3VudC9QYXlCaWxsLycgdGl0bGU9J1BheSBCaWxsJz5QYXkgQmlsbDwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfNF8zJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9NeUFjY291bnQvQmlsbGluZ0hpc3RvcnkuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nQmlsbGluZyBhbmQgUGF5bWVudCBIaXN0b3J5JyB0YWJpbmRleD0nOTEnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9NeUFjY291bnQvUGF5bWVudE9wdGlvbnMvQmlsbGluZ0hpc3RvcnkvJyB0aXRsZT0nQmlsbGluZyBhbmQgUGF5bWVudCBIaXN0b3J5Jz5CaWxsaW5nIGFuZCBQYXltZW50IEhpc3Rvcnk8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzRfNCcgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvVXNhZ2VIaXN0b3J5L1VzYWdlSGlzdG9yeS5hc3B4JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdDb25zdW1wdGlvbiBIaXN0b3J5JyB0YWJpbmRleD0nOTInPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9NeUFjY291bnQvVXNhZ2VIaXN0b3J5LycgdGl0bGU9J0NvbnN1bXB0aW9uIEhpc3RvcnknPkNvbnN1bXB0aW9uIEhpc3Rvcnk8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzRfNScgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvVXNhZ2VIaXN0b3J5L0NvbnN1bXB0aW9uQ2FsY3VsYXRvci5hc3B4JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdDb25zdW1wdGlvbiBDYWxjdWxhdG9yJyB0YWJpbmRleD0nOTMnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9NeUFjY291bnQvQ29uc3VtcHRpb25DYWxjdWxhdG9yLycgdGl0bGU9J0NvbnN1bXB0aW9uIENhbGN1bGF0b3InPkNvbnN1bXB0aW9uIENhbGN1bGF0b3I8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzUnIHN0eWxlPSdkaXNwbGF5OmJsb2NrO3Zpc2liaWxpdHk6dmlzaWJsZTsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDEnPjxhIGhyZWY9Jy9TQ1AvVXNlclNldHVwTWFuYWdlbWVudC9NeVByb2ZpbGUuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyBjbGFzcz0nY2xzcGx1c21hcmsnIHRpdGxlPSdNeSBQcm9maWxlJyB0YWJpbmRleD0nOTQnIG9uY2xpY2s9J3N3aXRjaE5vZGUodGhpcyk7IHJldHVybiB0cnVlOyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxNTJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL015UHJvZmlsZS8nPk15IFByb2ZpbGU8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzVfMCcgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvVXNlclNldHVwTWFuYWdlbWVudC9VcGRhdGVQcm9maWxlLmFzcHgnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J1VwZGF0ZSBQcm9maWxlJyB0YWJpbmRleD0nOTUnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9NeVByb2ZpbGUvUmVnaXN0ZXJVcGRhdGVQcm9maWxlJyB0aXRsZT0nVXBkYXRlIFByb2ZpbGUnPlVwZGF0ZSBQcm9maWxlPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl81XzEnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL1VzZXJTZXR1cE1hbmFnZW1lbnQvQ2hhbmdlQ3JlZGVudGlhbHMuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nQ2hhbmdlIENyZWRlbnRpYWxzJyB0YWJpbmRleD0nOTYnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9NeVByb2ZpbGUvQ2hhbmdlQ3JlZGVudGlhbHMvJyB0aXRsZT0nQ2hhbmdlIENyZWRlbnRpYWxzJz5DaGFuZ2UgQ3JlZGVudGlhbHM8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzVfMicgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvVXNlclNldHVwTWFuYWdlbWVudC9EZXJlZ2lzdGVyQWNjb3VudFVzZXIuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nRGVyZWdpc3RlciBVc2VySWQnIHRhYmluZGV4PSc5Nyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL015UHJvZmlsZS9EZXJlZ2lzdGVyQWNjb3VudFVzZXIvJyB0aXRsZT0nRGVyZWdpc3RlciBVc2VySWQnPkRlcmVnaXN0ZXIgVXNlcklkPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl82JyBzdHlsZT0nZGlzcGxheTpibG9jazt2aXNpYmlsaXR5OnZpc2libGU7Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwxJz48YSBocmVmPScvU0NQL0Zhc3RUcmFja1NlcnZpY2VzL015RmFzdFNlcnZpY2UuYXNweCcgdGFyZ2V0PSdfcGFyZW50JyBjbGFzcz0nY2xzcGx1c21hcmsnIHRpdGxlPSdGYXN0IFRyYWNrIFNlcnZpY2VzJyB0YWJpbmRleD0nOTgnIG9uY2xpY2s9J3N3aXRjaE5vZGUodGhpcyk7IHJldHVybiB0cnVlOyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxNTJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0Zhc3RUcmFja1NlcnZpY2VzLyc+RmFzdCBUcmFjayBTZXJ2aWNlczwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfNl8wJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9GYXN0VHJhY2tTZXJ2aWNlcy9GYXN0U2VydmljZVJlcXVlc3RzLmFzcHg/TmFtZT1JTmFtZUNoYW5nZVZpZXcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J05hbWUgQ2hhbmdlJyB0YWJpbmRleD0nOTknPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9GYXN0VHJhY2tTZXJ2aWNlcy9GYXN0U2VydmljZXMvTmFtZUNoYW5nZS8nIHRpdGxlPSdOYW1lIENoYW5nZSc+TmFtZSBDaGFuZ2U8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzZfMScgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvRmFzdFRyYWNrU2VydmljZXMvRmFzdFNlcnZpY2VSZXF1ZXN0cy5hc3B4P05hbWU9SVRhcmlmZkNoYW5nZVZpZXcnIHRhcmdldD0nX3BhcmVudCcgdGl0bGU9J1RhcmlmZiBDaGFuZ2UnIHRhYmluZGV4PScxMDAnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9GYXN0VHJhY2tTZXJ2aWNlcy9GYXN0U2VydmljZXMvVGFyaWZmQ2hhbmdlLycgdGl0bGU9J1RhcmlmZiBDaGFuZ2UnPlRhcmlmZiBDaGFuZ2U8L3NwYW4+PC9hPjwvdGQ+PC90cj48dHIgaWQ9J0xlZnRGbHlvdXQxX3RyXzZfMicgc3R5bGU9J2Rpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbjsnPjx0ZCB3aWR0aD0nMjEyJyBjbGFzcz0nY2xzTE5MZXZlbDInPjxhIGhyZWY9Jy9TQ1AvRmFzdFRyYWNrU2VydmljZXMvRmFzdFNlcnZpY2VSZXF1ZXN0cy5hc3B4P05hbWU9SUxvYWRSZWR1Y3Rpb25WaWV3JyB0YXJnZXQ9J19wYXJlbnQnIHRpdGxlPSdMb2FkIFJlZHVjdGlvbicgdGFiaW5kZXg9JzEwMSc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0Zhc3RUcmFja1NlcnZpY2VzL0Zhc3RTZXJ2aWNlcy9Mb2FkUmVkdWN0aW9uLycgdGl0bGU9J0xvYWQgUmVkdWN0aW9uJz5Mb2FkIFJlZHVjdGlvbjwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfNl8zJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9GYXN0VHJhY2tTZXJ2aWNlcy9GYXN0U2VydmljZVJlcXVlc3RzLmFzcHg/TmFtZT1JTG9hZEVuaGFuY2VtZW50VmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nTG9hZCBFbmhhbmNlbWVudCcgdGFiaW5kZXg9JzEwMic+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0Zhc3RUcmFja1NlcnZpY2VzL0Zhc3RTZXJ2aWNlcy9Mb2FkRW5oYW5jZW1lbnQvJyB0aXRsZT0nTG9hZCBFbmhhbmNlbWVudCc+TG9hZCBFbmhhbmNlbWVudDwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfNycgc3R5bGU9J2Rpc3BsYXk6YmxvY2s7dmlzaWJpbGl0eTp2aXNpYmxlOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMSc+PGEgaHJlZj0nL1NDUC9GQVNUVFJBQ0tTRVJWSUNFUy9UcmFja2VyLmFzcHg/SWQ9U1InIHRhcmdldD0nX3BhcmVudCcgY2xhc3M9J2Nsc3BsdXNtYXJrJyB0aXRsZT0nVHJhY2sgRmFzdCBUcmFjayBTZXJ2aWNlcycgdGFiaW5kZXg9JzEwMycgb25jbGljaz0nc3dpdGNoTm9kZSh0aGlzKTsgcmV0dXJuIHRydWU7Jz48c3BhbiBzdHlsZT0nV0lEVEg6IDE1MnB4JyBjbGFzcz0nY2xzTGlua1NwYW4nIGlkPScvRkFTVFRSQUNLU0VSVklDRVMvJz5UcmFjayBGYXN0IFRyYWNrIFNlcnZpY2VzPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl83XzAnIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0ZBU1RUUkFDS1NFUlZJQ0VTL1NlcnZpY2VSZXF1ZXN0c1RyYWNrZXIuYXNweD9OYW1lPUlUcmFja05hbWVDaGFuZ2VSZXF1ZXN0VmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nTmFtZSBDaGFuZ2UnIHRhYmluZGV4PScxMDQnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9GQVNUVFJBQ0tTRVJWSUNFUy9OYW1lQ2hhbmdlLycgdGl0bGU9J05hbWUgQ2hhbmdlJz5OYW1lIENoYW5nZTwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfN18xJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9GQVNUVFJBQ0tTRVJWSUNFUy9TZXJ2aWNlUmVxdWVzdHNUcmFja2VyLmFzcHg/TmFtZT1JVHJhY2tUYXJpZmZDaGFuZ2VSZXF1ZXN0VmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nVGFyaWZmIENoYW5nZScgdGFiaW5kZXg9JzEwNSc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0ZBU1RUUkFDS1NFUlZJQ0VTL1RhcmlmZkNoYW5nZS8nIHRpdGxlPSdUYXJpZmYgQ2hhbmdlJz5UYXJpZmYgQ2hhbmdlPC9zcGFuPjwvYT48L3RkPjwvdHI+PHRyIGlkPSdMZWZ0Rmx5b3V0MV90cl83XzInIHN0eWxlPSdkaXNwbGF5Om5vbmU7dmlzaWJpbGl0eTpoaWRkZW47Jz48dGQgd2lkdGg9JzIxMicgY2xhc3M9J2Nsc0xOTGV2ZWwyJz48YSBocmVmPScvU0NQL0ZBU1RUUkFDS1NFUlZJQ0VTL1NlcnZpY2VSZXF1ZXN0c1RyYWNrZXIuYXNweD9OYW1lPUlUcmFja0xvYWRSZWR1Y3Rpb25SZXF1ZXN0VmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nTG9hZCBSZWR1Y3Rpb24nIHRhYmluZGV4PScxMDYnPjxzcGFuIHN0eWxlPSdXSURUSDogMTMycHgnIGNsYXNzPSdjbHNMaW5rU3BhbicgaWQ9Jy9GQVNUVFJBQ0tTRVJWSUNFUy9Mb2FkUmVkdWN0aW9uLycgdGl0bGU9J0xvYWQgUmVkdWN0aW9uJz5Mb2FkIFJlZHVjdGlvbjwvc3Bhbj48L2E+PC90ZD48L3RyPjx0ciBpZD0nTGVmdEZseW91dDFfdHJfN18zJyBzdHlsZT0nZGlzcGxheTpub25lO3Zpc2liaWxpdHk6aGlkZGVuOyc+PHRkIHdpZHRoPScyMTInIGNsYXNzPSdjbHNMTkxldmVsMic+PGEgaHJlZj0nL1NDUC9GQVNUVFJBQ0tTRVJWSUNFUy9TZXJ2aWNlUmVxdWVzdHNUcmFja2VyLmFzcHg/TmFtZT1JVHJhY2tMb2FkRW5oYW5jZW1lbnRSZXF1ZXN0VmlldycgdGFyZ2V0PSdfcGFyZW50JyB0aXRsZT0nTG9hZCBFbmhhbmNlbWVudCcgdGFiaW5kZXg9JzEwNyc+PHNwYW4gc3R5bGU9J1dJRFRIOiAxMzJweCcgY2xhc3M9J2Nsc0xpbmtTcGFuJyBpZD0nL0ZBU1RUUkFDS1NFUlZJQ0VTL0xvYWRFbmhhbmNlbWVudC8nIHRpdGxlPSdMb2FkIEVuaGFuY2VtZW50Jz5Mb2FkIEVuaGFuY2VtZW50PC9zcGFuPjwvYT48L3RkPjwvdHI+CgkJPC90YWJsZT4KCQk8L3RkPgoJPC90cj4KCTx0cj4KCQk8dGQgY2xhc3M9J0xlZnROYXZCb3R0b21MZWZ0Q29ybmVyJz48L3RkPgoJCTx0ZCBjbGFzcz0nTGVmdE5hdlRvcEJnQ29sb3InPjwvdGQ+CgkJPHRkIGNsYXNzPSdMZWZ0TmF2Qm90dG9tUmlnaHRDb3JuZXInPjwvdGQ+Cgk8L3RyPgo8L3RhYmxlPmQCAw9kFgQCAQ9kFgICAQ8WAh8DBVNyZXR1cm4gZm5EZWZhdWx0Q2xpY2soJ2N0bDAwX2N0bDAwX01hc3RlclBhZ2VDb250ZW50UGxhY2VIb2xkZXJfdWNMb2dpbl9idG5Mb2dpbicpOxYCAgEPDxYEHghDc3NDbGFzcwUWbG9naW5fYmFja2dyb3VuZF9lbi1VUx4EXyFTQgICZBYcAgMPDxYCHwIFB1VzZXIgSURkZAIFDw9kFgIeCm9ua2V5cHJlc3MFHXJldHVybiBSZXN0cmljdFVzZXJJRChldmVudCk7ZAIHDw8WAh8CBQhQYXNzd29yZGRkAgkPD2QWAh8KBR1yZXR1cm4gUmVzdHJpY3RTcGFjZXMoZXZlbnQpO2QCDQ8QDxYIHghUYWJJbmRleAEBAB4NRGF0YVRleHRGaWVsZAUDS2V5Hg5EYXRhVmFsdWVGaWVsZAUFVmFsdWUeC18hRGF0YUJvdW5kZ2QQFQEKTXkgQWNjb3VudBUBCk15IEFjY291bnQUKwMBZxYBZmQCDw8QDxYEHgdUb29sVGlwBRNSZW1lbWJlciBteSBVc2VyIElEHwsBAgBkZGRkAhEPDxYCHwIFE1JlbWVtYmVyIG15IFVzZXIgSURkZAITDw8WBB8CBQdTaWduIEluHwsBAwAWBh8HBXZyZXR1cm4gZm5DaGVja01hbmRhdG9yeUxvZ2luKCdsb2dpbl90ZXh0Qm94X2Vycm9yJywnbG9naW5fdGV4dEJveCcsJ2N0bDAwX2N0bDAwX01hc3RlclBhZ2VDb250ZW50UGxhY2VIb2xkZXJfdWNMb2dpbicpHwoFTEtleURvd25IYW5kbGVyKCdjdGwwMF9jdGwwMF9NYXN0ZXJQYWdlQ29udGVudFBsYWNlSG9sZGVyX3VjTG9naW5fYnRuTG9naW4nKTsfAQUQU2lnbl9Jbl9CR19lbi1VU2QCFQ8WBB8FBRFGb3Jnb3QgUGFzc3dvcmQgPx4IdGFiaW5kZXgFATRkAhcPFgIfBQUQRm9yZ290IFVzZXIgSWQgP2QCGQ8PFgIfAgUKTmV3IFVzZXIgP2RkAhsPFgQfBQUWQ2xpY2sgaGVyZSB0byBSZWdpc3Rlch8QBQE1ZAIdDxYCHwUFDlVwZGF0ZSBQcm9maWxlZAIeDxYCHwUFEkNoYW5nZSBDcmVkZW50aWFsc2QCAw8WAh8CBUA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvU2NyaXB0cy9Mb2dpbi5qcyI+PC9zY3JpcHQ+ZAIFD2QWAmYPZBYIAgEPDxYCHwJlZGQCAw8PFgIfAgUGPGJyIC8+ZGQCBQ8PFgIfAgUIU01TIE5vLjpkZAIHDw8WAh8CBQY8YnIgLz5kZAIBD2QWBAIBD2QWAmYPZBYCAgEPDxYCHwZoZBYCAgEPZBYEZg8WAh8GaGQCAQ9kFgJmD2QWAgIBDw8WAh8CZWRkAgMPZBYWAgEPFgIeBXN0eWxlBT9iYWNrZ3JvdW5kLWltYWdlOnVybCgnLi4vSW1hZ2VzL0hvbWVMb2dvL0hvbWUtUGFnZS1Mb2dvMS5qcGcnKTtkAgMPDxYEHwIFE01ha2UgT25saW5lIFBheW1lbnQfCwEGAGRkAgUPDxYEHwIFEkhvdyB0byBnZXQgc3RhcnRlZB8GaGRkAg8PDxYEHwIFDEFwcGx5IE9ubGluZR8LAQcAZGQCEQ8WAh8GZ2QCEw8WAh8GZ2QCQw8PFgQfAgURT3RoZXIgSW5mb3JtYXRpb24fCwEIAGRkAkcPFgIfBwUWcmV0dXJuIG9wZW5Ub3ducygnLycpO2QCSQ8WAh8HBRVyZXR1cm4gb3BlblNET3MoJy8nKTtkAlEPFgIfBmdkAlMPFgIfBmdkAgcPZBYCZg9kFgICAQ9kFgICAg9kFgYCAQ8PFgIfAgUsQ29weXJpZ2h0IEAgQkVTQ09NIDIwMTQuIEFsbCByaWdodHMgcmVzZXJ2ZWRkZAIDDw8WAh8CBRlTaXRlIGJlc3Qgdmlld2VkIGluIElFIDEwZGQCBQ8WBB8FBQ1SYXRlIHRoZSBQYWdlHwcFInJldHVybiBvcGVuRmVlZGJhY2soJ015aG9tZScsJy8nKTtkAgsPFgIfAgVIPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL1NjcmlwdHMvQ29tbW9uSnNGdW5jcy5qcyI+PC9zY3JpcHQ+ZAINDxYCHwIFUjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii9TY3JpcHRzL01lc3NhZ2VzL2VuLVVTL01lc3NhZ2VzLmpzIj48L3NjcmlwdD5kGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBRxjdGwwMCRjdGwwMCRzaXRlU2VhcmNoJGJ0bkdvBTxjdGwwMCRjdGwwMCRNYXN0ZXJQYWdlQ29udGVudFBsYWNlSG9sZGVyJHVjTG9naW4kQ2hrUmVtZW1iZXImQf6Lopo6UoE4GctUcADomAT19A==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=vOPGRbuJxjZId4hlYom0cVvn81HUoDtqiaoxswsmvdHDzB4mgzQ4ZVwsGHLVbiZdMAROMEHWR9gr-TJ0SekDyOoeuLU1&amp;t=634604622479085897" type="text/javascript"></script>
+
+<script>var exceptionHandlingEnabled = true;</script><script>var appUrl = "";</script><script>var pageUrl = "SCP/Myhome.aspx";</script><script>var scriptsToLoad = "6";</script><script>var scriptsNotLoaded=false;var scriptInitFunctions=new Array();var currentScript=null;var prevOnError=window.onerror;if(exceptionHandlingEnabled){window.onerror=DefaultWindowErrorHandler}var scriptFilesNotLoaded=new Array();function DefaultWindowErrorHandler(msg,url,line){if(typeof(exceptionHandlingScriptLoaded)=="undefined"){CheckScriptLoad()}return true}function BeforeScriptInclude(scriptPath){currentScript=scriptPath}function ScriptStart(initFunction){currentScript=null;if(typeof(initFunction)=="function"){scriptInitFunctions[scriptInitFunctions.length]=initFunction}}function CheckScriptInclusion(){if(currentScript!=null){scriptsNotLoaded=true;scriptFilesNotLoaded[scriptFilesNotLoaded.length]=currentScript}}function InitializeScripts(){if(typeof(exceptionHandlingScriptLoaded)!="undefined"){InitializeErrorHandling(prevOnError)}if(scriptsNotLoaded&&!exceptionHandlingEnabled){window.onerror=DefaultWindowErrorHandler}if(!CheckScriptLoad())return;for(var i=0;i<scriptInitFunctions.length;i++){scriptInitFunctions[i]()}}function CheckScriptLoad(){if(scriptsNotLoaded){var msg="This page will not function correctly because the following script files were not included or have syntax errors.\n";for(var i=0;i<scriptFilesNotLoaded.length;i++){msg=msg+"\n"+scriptFilesNotLoaded[i]}alert(msg);return false}return true}</script><script src="/scripts/Common/Exception.js"></script><script src="/scripts/Common/Common.js"></script><script src="/scripts/Common/Settings.js"></script><script src="/scripts/Common/Page.js"></script><script src="/scripts/Messages.js"></script><script src="/scripts/ViewMappings.js"></script><input type="hidden" name="__DirtyFlag" id="__DirtyFlag" value="N" /><input type="hidden" name="__UipId" id="__UipId" value="026a4dda61bd43d6a2bd69cc543bee12" /><script>var uipId = "026a4dda61bd43d6a2bd69cc543bee12";</script>
+<script src="/ScriptResource.axd?d=TYjWB56X67ABSEQXOTsmjGm1YazzdUPKPvr_TAA5lrvihMxT5QjZSE-xMSzIwNfaVrl54_Pn9QpF0uyqYYl4NBIxz3PL8oQ2s71Lv5cBbcAObr8kdGrq0-XMKqnleYA3JxmXaQ2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=T8obKc66SYd4rpDCcGP5C6bTntNaOM0CVKbmDSizaMhCIPY9OFSvFduA8V0zU95zKfFoOYS_IE4jXjciFuFehC_ROwZcJeuICAszeeC-z_rz-c85hczFHJwbDILRinTQ5ujpCg2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="/SCP/Myhome.aspx?_TSM_HiddenField_=ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3a%3a1547e793-5b7e-48fe-8490-03a375b13a33%3a475a4ef5%3aeffe2a26%3a1d3ed089%3a5546a2b%3a497ef277%3aa43b07eb%3a751cdd15%3adfad98a5%3a3cf12cf1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwK1/v3dBwL78cLfDgLRucfIBwK73vWLDQL+/NgwAuD/66sHApT4yIAIBrfjqIVYSU4hHxWagzlhUYdMXEE=" />
+</div>   
+    <div align="center" id="ParentDiv">       
+        <table border="0" width="950px" id="BaseMasterTable" cellpadding="0px" cellspacing="0px">
+            <tr id="ctl00_ctl00_trsitesearch">
+	<td align="center" valign="top">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            
+                            <td id="ctl00_ctl00_tdLogoLayout" rowspan="3" width="11%" height="110px" align="left" valign="top" class="SILogoLayout_1">
+                            </td>
+	
+                            <td class="header">                                
+                                <a href="Myhome.aspx" id="ctl00_ctl00_aMyhome" title="Home" style="text-decoration:none">                            
+                                <span id="ctl00_ctl00_lblHeader" class="header">BESCOM Online Portal</span>
+                                </a> 
+                            </td>
+                            <td align="right" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="50%" align="right">
+                                    <tr>
+                                        <td>
+                                            
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+
+    <script type="text/javascript">
+        function inputFocus(i) {
+            if (i.value == i.defaultValue) { i.value = ""; i.style.color = "Black"; }
+        }
+        function inputBlur(i) {
+            if (i.value == "") { i.value = i.defaultValue; i.style.color = "Black"; }
+        } 
+        
+       function CheckSearch() 
+       {
+            var txtsearch = document.getElementById("ctl00_ctl00_siteSearch_txtsearch");
+            var lblErrorMessage = document.getElementById("ctl00_ctl00_siteSearch_lblSearchError");            
+            if(txtsearch !=null)
+            {
+                if(txtsearch.value.trim() =="" || txtsearch.value.trim()=="Site Search")
+                {
+                    lblErrorMessage.innerText ="Please enter site search text."
+                    return false;
+                }
+            }
+            
+            return true;
+       } 
+    </script>
+
+</head>
+<div id="ctl00_ctl00_siteSearch_pnlSiteSearch" onkeydown="return fnDefaultClick('ctl00_ctl00_siteSearch_btnGo');">
+		
+
+<table cellpadding="0" cellspacing="0" border="0" width="480px">
+    <tr>
+        <td align="right" valign="bottom">
+            <div id="header">           
+                 
+                 <a href="General/ConditionsofSupplyofElectricitywithIandIIAmendments.pdf" id="ctl00_ctl00_siteSearch_lnkRNR" target="_blank" class="SiteSearch">Rules &amp; Regulations</a><span id="ctl00_ctl00_siteSearch_Span1" class="SiteSearch">|</span>
+                <a href="General/PrivacyInfo.aspx" id="ctl00_ctl00_siteSearch_lnkPolicy" target="_self" class="SiteSearch">Privacy Policy</a><span id="ctl00_ctl00_siteSearch_Span2" class="SiteSearch">|</span>
+                <a href="General/FAQ.aspx" id="ctl00_ctl00_siteSearch_lnkFAQ" target="_self" class="SiteSearch" title="FAQ">FAQ</a><span class="SiteSearch">
+                        |</span> <a href="http://bescom.org/en/contactus/" id="ctl00_ctl00_siteSearch_lnkContactUs" target="_blank" class="SiteSearch" title="Contact Us" onclick="return fnCancelClick()">Contact Us</a><span class="SiteSearch">|</span> <a href="General/Affiliations.aspx" id="ctl00_ctl00_siteSearch_lnkAffilation" target="_self" class="SiteSearch" title="Associated Sites">Associated Sites</a><span class="SiteSearch">|</span> <a href="SiteMapOpen.aspx" id="ctl00_ctl00_siteSearch_lnkSiteMap" target="_self" class="SiteSearch" title="Sitemap">Sitemap</a> 
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td height="30" align="right" valign="middle" style="background-image: url('../Images/Searchbox.png');background-position:right; background-repeat: no-repeat">
+            
+            <table width="100%" border="0">
+                <tr>
+                <td width="230px"></td>
+                    <td align="left">
+                        <input name="ctl00$ctl00$siteSearch$txtsearch" type="text" value="Search" maxlength="200" id="ctl00_ctl00_siteSearch_txtsearch" class="SearchText" onfocus="inputFocus(this)" onblur="inputBlur(this)" style="border-width:0px;height:16px;width:200px;color:#888;" />
+                    </td>
+                    <td>
+                        <input type="image" name="ctl00$ctl00$siteSearch$btnGo" id="ctl00_ctl00_siteSearch_btnGo" src="../Images/btnGo.png" style="border-width:0px;" />
+                    </td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+</table>
+
+	</div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" style="padding-right: 10px">
+                                            <span id="ctl00_ctl00_lblUserName" class="userName"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" style="padding-right: 10px">
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="3">
+                                <noscript style="color: Red; font-family: Arial; font-size: small">
+                                    Javascript is disabled. Please enable.
+                                </noscript>                                                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="color:#FFFFFF;font-family:Arial;font-weight:bold;font-size:small">
+                                <marquee><span id="ctl00_ctl00_lblLiveTown">Online Payment, Account Registration and Service Requests are enabled in this Online Portal.</span></marquee>                                                              
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+</tr>
+
+            <tr>
+                <td style="height: 3px">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                 <div id="ctl00_ctl00_mainPanel" style="background-color:White;">
+	
+                    <table width="930px" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                        
+                        <tr>
+                            <td valign="top" style="width: 12px">
+                                &nbsp;&nbsp;
+                            </td>
+                            <td align="left" valign="top">
+                                <table width="915" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td>                                        
+                                            
+
+    <script type="text/javascript">
+
+        function AlertMessage() {
+
+            var txtUserName = document.getElementById("ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_ucLogin_txtUserName");
+            try 
+            {
+                alert("Please register and login to avail this service.");                               
+            }
+            catch (e) 
+            {
+            }
+
+            txtUserName.focus();
+
+            return false;
+        }
+        
+         function openLink(strLink) 
+         {
+            try {
+                window.open(strLink, "GeneralLinks", "left=0,top=0,width=1018px,height=710px,toolbar=no,menubar=no,location=no,resizable=no,scrollbars=yes,status=no");
+                return false;
+            }
+            catch (e) {
+            }
+            return false;
+        }                       
+                                    
+		var ModalProgress = 'ctl00_ctl00_MasterPageContentPlaceHolder_ModalProgress';       				
+	
+    </script>
+
+    <table border="0" cellspacing="0" cellpadding="0" width="915px">
+        <tr>
+            <td id="ctl00_ctl00_MasterPageContentPlaceHolder_LeftMenuNav" align="left" valign="top" bgcolor="#FFFFFF" width="233px" style="margin-left: 5px">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+
+
+
+<script language="javascript" type="text/javascript">
+
+    function capLock(evt) {
+        evt = (evt) ? evt : window.event
+
+        var charCode = (evt.which) ? evt.which : evt.keyCode
+
+        alert(evt.KeyData.ToString());
+
+        if (evt.KeyData.ToString() == "Capital") {
+            if (document.getElementById('divMayus').style.visibility == 'visible')
+                document.getElementById('divMayus').style.visibility = 'hidden';
+            else
+                document.getElementById('divMayus').style.visibility = 'visible';
+        }
+
+        if (charCode == 20)
+
+            if (document.getElementById('divMayus').style.visibility == 'visible')
+            document.getElementById('divMayus').style.visibility = 'hidden';
+        else
+            document.getElementById('divMayus').style.visibility = 'visible';
+    }
+
+    function KeyDownHandler(btn) {
+
+        // process only the Enter key
+        if (event.keyCode == 13) {
+            // cancel the default submit
+            event.returnValue = false;
+            event.cancel = true;
+            // submit the form by programmatically clicking the specified button
+            btn.click();
+        }
+    }        
+
+</script>
+
+<style type="text/css">
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    .balloon
+    {
+        background: url(   '../../Images/bkg_topofballoon.png' ) no-repeat #FFFFFF;
+        border-left: 0px solid #000000;
+        border-right: 0px solid #000000;
+        position: absolute;
+        width: 500px;
+        left: 200px;
+        top: 275px;
+    }
+    .balloon div
+    {
+        background: url(   '../../Images/bkg_topofballoon.png' ) no-repeat;
+        padding: 15px;
+    }
+</style>
+<div id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_Panel1" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_btnLogin')">
+		
+    <div id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_btnDefault" onkeydown="return fnDefaultClick('ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_btnLogin');">
+        <div id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_Panel2" class="login_background_en-US" style="height:181px;width:220px;background-image:url(../Images/Home-Page-LoginBG-New.JPG);">
+			
+            <table border="0" width="100%" cellpadding="2">
+                <tr>
+                    <td colspan="2" align="center">
+                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lblLoginError" class="ErrorMessage" style="font-weight:bold;background-color:White"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lblUserName" class="Loginsection" style="color:White;font-weight:bold;">User ID</span>
+                    </td>
+                    <td>
+                        <input name="ctl00$ctl00$MasterPageContentPlaceHolder$ucLogin$txtUserName" type="text" value="ruckman" maxlength="128" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_txtUserName" tabindex="1" class="Textbox" onkeypress="return RestrictUserID(event);" style="width:145px;" />
+                    </td>
+                </tr>
+                 <tr>
+            <td height="3px">
+            </td>
+        </tr>
+                <tr>
+                    <td align="right">
+                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lblPassword" class="Loginsection" style="color:White;font-weight:bold;">Password</span>
+                    </td>
+                    <td>
+                        <input name="ctl00$ctl00$MasterPageContentPlaceHolder$ucLogin$txtPassword" type="password" maxlength="20" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_txtPassword" tabindex="1" class="Textbox" onkeypress="return RestrictSpaces(event);" style="width:145px;" />
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <span class="Loginsection_lower" title="Remember my User ID"><input id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_ChkRemember" type="checkbox" name="ctl00$ctl00$MasterPageContentPlaceHolder$ucLogin$ChkRemember" tabindex="2" /></span>
+                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lblRemember" class="Loginsection_lower_italic" style="font-family: Arial;
+                            color: #FFFFFF;font-size:12px;font-weight:bold; font-style:italic">Remember my User ID</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <input type="submit" name="ctl00$ctl00$MasterPageContentPlaceHolder$ucLogin$btnLogin" value="Sign In" onclick="return fnCheckMandatoryLogin('login_textBox_error','login_textBox','ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin');" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_btnLogin" tabindex="3" onkeypress="KeyDownHandler('ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_btnLogin');" class="Sign_In_BG_en-US" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        
+                        
+                        <a href="UserSetupManagement/ForgotPassword.aspx?Name=IForgotPasswordView" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lnkForgoPassword" target="_self" style="font-family: Arial;
+                            color: #FFFFFF;font-size:12px;font-style:italic;font-weight:bold" class="Loginsection_lower_italic" tabindex="4">Forgot Password ?</a>
+                        <a href="UserSetupManagement/ForgotUserName.aspx?Name=IForgotUserNameView" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lnkbtnForgotUserName" style="font-family: Arial;
+                            color: #FFFFFF;font-size:12px;font-style:italic;font-weight:bold" class="Loginsection_lower_italic">Forgot User Id ?</a> 
+                    </td>
+                </tr>
+                  <tr>
+            <td height="5px">
+            </td>
+        </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lblNewUser" class="Loginsection_lower" style="font-family: Arial;font-size:12px;font-weight:bold; color: #FFFFFF;">New User ?</span>
+                        <a href="UserSetupManagement/Registration.aspx?Name=IRegistrationView" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lnkbtnRegister" target="_self" class="Loginsection_lower" style="font-family: Arial;
+                            color: #FFFFFF; font-size:12px; font-weight: bold" tabindex="5">Click here to Register</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    </td>
+                </tr>
+                  <tr>
+            <td height="5px">
+            </td>
+        </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="General/ServiceDescription.aspx?ServiceType=IUpdateProfileView" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lnkupdateprofile" target="_self" class="Loginsection_lower" style="font-family: Arial; color: #FFFFFF;font-size:12px; font-weight: bold">Update Profile</a><a href="General/ServiceDescription.aspx?ServiceType=IChangeCredentialView" id="ctl00_ctl00_MasterPageContentPlaceHolder_ucLogin_lnkchangecredentials" target="_self" class="Loginsection_lower" style="font-family: Arial; font-size:12px;color: #FFFFFF; font-weight: bold">Change Credentials</a>
+                    </td>
+                </tr>
+            </table>
+        
+		</div>
+    </div>
+
+	</div>
+<script type="text/javascript" src="/Scripts/Login.js"></script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 7px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="ctl00_ctl00_MasterPageContentPlaceHolder_ucContactUs_Panel2" style="width:220px;background-image:url(../Images/Customer_Service.jpg);height: 226px">
+		
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">       
+        <tr>
+            <td>
+                <div style="margin-left: 5px; text-align: center">
+                    <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucContactUs_lblReportPowerProblem" style="font-family: Arial; font-size: 12px;
+                        font-weight: normal; color: #FFFFFF"></span><br />
+                    <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucContactUs_lblReportPowerProblemNo" style="font-family: Arial;
+                        font-size: 12px; font-weight: bold; color: #FFFFFF"><br /></span>
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+         <td>
+            <div style="margin-left: 5px; text-align: center">
+                
+                <span id="ctl00_ctl00_MasterPageContentPlaceHolder_ucContactUs_lblsmsno" style="font-family: Arial; font-size: 12px;
+                    font-weight: bold; color: #FFFFFF"><br /></span>
+                
+            </div>
+        </td>
+        </tr>
+        <tr>
+            <td style="height: 40px">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+
+	</div>
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+	
+            <td id="ctl00_ctl00_MasterPageContentPlaceHolder_tdmainContent" valign="top">
+                <div id="ctl00_ctl00_MasterPageContentPlaceHolder_Update">
+		
+                        
+                    
+	</div>
+                
+    <table border="0">
+        <tr>
+            <td width="1px">
+                &nbsp;
+            </td>
+            <td id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_tdLogo" class="tdLogo" style="background-image:url('../Images/HomeLogo/Home-Page-Logo1.jpg');">
+            </td>
+	 
+        </tr>
+        <tr>
+            <td height="3px" colspan="2">
+            </td>
+        </tr>
+        <tr>
+            <td width="1px">
+            </td>
+            <td style="vertical-align: top; height: 100%">
+                <table border="0" width="697px" height="226px" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="Reportlabel" valign="top" width="28%" style="background-color: #ECFFFF">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkService" tabindex="6" class="Centertext">Make Online Payment</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px">
+                                            
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                 <tr>
+                                    <td height="15px">
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px">
+                                            <span id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_lblOnlinePayment" style="font-size: 11px; font-weight: normal;
+                                                color: #000101">click here for quick payment without   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp registration</span>                                          
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="8px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">                                       
+                                      <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkQuickPayment" href="MyAccount/QuickPayment.aspx" target="_self" style=" font-weight: bold; font-size: 20px;
+                                            color: #000101;background-image: url(../images/Background.jpg)">Online Payment</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="30px">
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td align="center">
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkPaymentStatus" href="MyAccount/LastTransactionStatus.aspx" target="_self" style="font-size: 11px; font-weight: bold; color: #000101"> <u>Last Online Payment Status </u></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="6px">
+                                    </td>
+                                </tr>
+                                <tr style="visibility: hidden">
+                                    <td align="center">
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_lnkECSRegistration" href="General/ServiceDescription.aspx?ServiceType=IECSRegistrationView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">ECS Registration</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="1px" style="background-color: White">
+                            &nbsp;&nbsp;
+                        </td>
+                        <td class="Reportlabel" width="23%" valign="top" style="background-color: #ECFFFF">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2">
+                                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkEnergyUse" tabindex="7" class="Centertext">Apply Online</span>
+                                    </td>
+                                </tr>
+                                
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trSpaceFastTrack">
+		<td colspan="2" height="6px">
+                                    </td>
+	</tr>
+	
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trFastTrackNewconnection">
+		<td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_LinkFastTrackNewconnection" href="FastTrackNewconnection/FastTrackServices.aspx" target="_self" style="font-size: 11px;
+                                                font-weight: bold;text-decoration:blink; color: #000101">Fast Track Services</a>
+                                        </div>
+                                    </td>
+	</tr>
+	
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkPayBill" href="General/ServiceDescription.aspx?ServiceType=PayBill" target="_self" style="font-family: Arial; font-size: 11px;
+                                                font-weight: bold; color: #000101">Pay Bill</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkComplaints" href="General/ServiceDescription.aspx?ServiceType=Complaints" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Consumer Complaints</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trSpace">
+		<td colspan="2" height="6px">
+                                    </td>
+	</tr>
+	
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trNewConnection">
+		<td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkApplyNewConnection" href="NewConnectionOthers/NewConnection.aspx" target="_self" style="font-size: 11px;
+                                                font-weight: bold; color: #000101">New Connection</a>
+                                        </div>
+                                    </td>
+	</tr>
+	
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkNameChange" href="General/ServiceDescription.aspx?ServiceType=INameChangeView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Name Change</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkTariffChange" href="General/ServiceDescription.aspx?ServiceType=ITariffChangeView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Tariff Change</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkLoadChange" href="General/ServiceDescription.aspx?ServiceType=ILoadReductionView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Load Change</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkMeterShifting" href="General/ServiceDescription.aspx?ServiceType=IMeterShiftingView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Meter Shifting</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkDisconnection" href="General/ServiceDescription.aspx?ServiceType=IDisconnectionView" target="_self" style="font-family: Arial; font-size: 11px; font-weight: bold; color: #000101">Surrender Installation</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_LinkSolarRebate" href="General/ServiceDescription.aspx?ServiceType=ISolarRebateView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Solar Rebate</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="1px" style="background-color: White">
+                            &nbsp;&nbsp;
+                        </td>
+                        <td class="Reportlabel" width="23%" valign="top" style="background-color: #ECFFFF">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2">
+                                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_lblTracker" class="Centertext">Track Online</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkViewBill" href="General/ServiceDescription.aspx?ServiceType=ViewBill" target="_self" style="font-family: Arial; font-size: 11px;
+                                                font-weight: bold; color: #000101">View Bill</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkConsumptionHistory" href="General/ServiceDescription.aspx?ServiceType=ConsumptionHistory" target="_self" style="font-size: 11px; font-weight: bold; color: #000101">Consumption History</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trTrackerSpace">
+		<td colspan="2" height="6px">
+                                    </td>
+	</tr>
+	
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trNewConnectionTracker">
+		<td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkNewConnectionTracker" href="NewConnectionOthers/NewConnectionTracker.aspx" target="_self" style="font-size: 11px; font-weight: bold; color: #000101">New Connection</a>
+                                        </div>
+                                    </td>
+	</tr>
+	
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkNameChangeTracker" href="General/ServiceDescription.aspx?ServiceType=NameChangeTracker" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Name Change</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkTariffChangeTracker" href="General/ServiceDescription.aspx?ServiceType=TariffChangeTracker" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Tariff Change</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkLoadChangeTracker" href="General/ServiceDescription.aspx?ServiceType=LoadChangeTracker" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Load Change</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkMeterShiftingTracker" href="General/ServiceDescription.aspx?ServiceType=MeterShiftingTracker" target="_self" style="font-family: Arial; font-size: 11px; font-weight: bold; color: #000101">Meter Shifting</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkDisconnectionTracker" href="General/ServiceDescription.aspx?ServiceType=TrackDisconnectionRequestView" target="_self" style="font-family: Arial; font-size: 11px; font-weight: bold; color: #000101">Surrender Installation</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="margin-left: 5px">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_LinkTrackSolarRebate" href="General/ServiceDescription.aspx?ServiceType=ITrackSolarRebateRequestView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Solar Rebate</a>                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                
+                            </table>
+                        </td>
+                        <td width="1px" style="background-color: White">
+                            &nbsp;&nbsp;
+                        </td>
+                        <td class="Reportlabel" valign="top" width="28%" style="background-color: #ECFFFF">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="margin-top: -10">
+                                        <span id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkOtherInfo" tabindex="8" class="Centertext">Other Information</span>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkMISReport" href="General/MISReports.aspx" target="_self" style="font-family: Arial; font-size: 11px;
+                                                font-weight: bold; color: #000101">MIS Reports</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a href="#" id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkTowns" target="_blank" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101" onclick="return openTowns('/');">RAPDRP Towns</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a href="#" id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkSDO" target="_blank" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101" onclick="return openSDOs('/');">RAPDRP Sub-Divisions</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkStreetLightProblem" href="CustomerService/StreetLightProblem.aspx?Name=IStreetLightProblemView" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Street Light Problem</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkEmergency" href="Order/LogComplaintsandServices.aspx?OrderType=CMP&amp;Category=CI_EMERGENCY" target="_self" style="font-family: Arial; font-size: 11px;
+                                                font-weight: bold; color: #000101">Emergency Contact</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" height="6px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_linkEmergencyTracker" href="Order/TrackEmergencyService.aspx" target="_self" style="font-family: Arial;
+                                                font-size: 11px; font-weight: bold; color: #000101">Emergency Contact Tracker</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trSpaceSDOLOgin">
+		<td colspan="2" height="6px">
+                                    </td>
+	</tr>
+	
+                                <tr id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_trLinkSDOLogin">
+		<td class="Reportlabel">
+                                        <div style="margin-left: 5px;">
+                                            <a id="ctl00_ctl00_MasterPageContentPlaceHolder_MasterPageContentPlaceHolder_LinkSDOLogin" href="CSR/SDOLogin.aspx" target="_self" style="font-family: Arial; font-size: 11px;
+                                                font-weight: bold; color: #000101">SDO Login</a>
+                                        </div>
+                                    </td>
+	</tr>
+	
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+                <div id="ctl00_ctl00_MasterPageContentPlaceHolder_panelUpdateProgress">
+		
+                    <div id="ctl00_ctl00_MasterPageContentPlaceHolder_UpdateProg1" style="display:none;">
+			
+                            <div style="position: relative; top: 30%; text-align: center;vertical-align:middle">
+                                <img src="../../Images/loading.gif" style="vertical-align: middle" alt="Processing" />
+                                Processing ...
+                            </div>
+                        
+		</div>
+                
+	</div>
+                
+            </td>
+	
+        </tr>
+    </table>
+    <link href="../../Styles/cssUpdateProgress.css" rel="stylesheet" type="text/css" />
+    <script src="../../Scripts/jsUpdateProgress.js" type="text/javascript"></script>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td valign="top" style="width: 7px">
+                                &nbsp;&nbsp;
+                            </td>
+                        </tr>
+                       
+                    </table>
+                    
+</div>                   
+                      
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr id="ctl00_ctl00_trfooter">
+	<td align="center">
+                    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Customer Portal - Home Page</title>
+</head>
+<body>
+<div id="ctl00_ctl00_footerSCP_mainPanel" style="background-color:#657383;">
+		
+    <table width="950" border="0" cellspacing="0" cellpadding="0" >
+        <tr>          
+            <td class="FooterContentLeft" >
+                &nbsp;<span id="ctl00_ctl00_footerSCP_lblCopyright" class="footer">Copyright @ BESCOM 2014. All rights reserved</span>
+            </td>
+            <td align="center" width="65%" class="footer">
+                <span id="ctl00_ctl00_footerSCP_lblCompatible">Site best viewed in IE 10</span>
+            
+            </td>
+            <td class="FooterContentRight">
+              
+                <a href="../Common/UserControls/#" id="ctl00_ctl00_footerSCP_lnkPageFeedback" target="_blank" class="footer" onclick="return openFeedback('Myhome','/');">Rate the Page</a>
+                        &nbsp;
+            </td>                              
+        </tr>
+    </table>
+    
+	</div>
+     
+</body>
+</html>
+                 
+                </td>
+</tr>
+
+            <tr>
+                <td align="center">
+                    <span id="ctl00_ctl00_bestViewLbl" class="footer"></span>
+                </td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="/Scripts/CommonJsFuncs.js"></script>
+        <script type="text/javascript" src="/Scripts/Messages/en-US/Messages.js"></script>
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_ctl00_MasterPageContentPlaceHolder_ToolkitScriptManager2_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":0,"dynamicLayout":true}, null, null, $get("ctl00_ctl00_MasterPageContentPlaceHolder_UpdateProg1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"ctl00_ctl00_MasterPageContentPlaceHolder_panelUpdateProgress","dynamicServicePath":"/SCP/Myhome.aspx","id":"ctl00_ctl00_MasterPageContentPlaceHolder_ModalProgress","repositionMode":1}, null, null, $get("ctl00_ctl00_MasterPageContentPlaceHolder_panelUpdateProgress"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.RoundedCornersBehavior, {"Radius":9,"id":"ctl00_ctl00_rce"}, null, null, $get("ctl00_ctl00_mainPanel"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.RoundedCornersBehavior, {"Radius":3,"id":"ctl00_ctl00_footerSCP_rce"}, null, null, $get("ctl00_ctl00_footerSCP_mainPanel"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

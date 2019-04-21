@@ -1,0 +1,32 @@
+Virtual User Script started at : 2019-02-12 14:39:14
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: Chromium 63.0.3239.132, initialized on 2019/02/12 at 14:39:14 (1549962554.536s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "launch" started.
+t=00002304ms: Step 1: Navigate to "http://127.0.0.1:1080/webtours/" started    [MsgId: MMSG-205180]
+t=00003716ms: Step 1: Navigate to http://127.0.0.1:1080/webtours/ successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+t=00003742ms: Step 2: Wait until This product uses parts...  exists started    [MsgId: MMSG-205180]
+t=00004128ms: Step 2: Wait until This product uses parts...  exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "launch" ended with a "Pass" status (Duration: 1.8440 Think Time: 0.0120 Wasted Time: 0.7390).
+Notify: Transaction "login" started.
+t=00004646ms: Step 4: Type TC.getParam("p_User") in Username textbox started    [MsgId: MMSG-205180]
+t=00004709ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00005887ms: Step 4: Type jojo in Username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00006407ms: Step 6: Type ******************** in Password passwordbox started    [MsgId: MMSG-205180]
+t=00006441ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00007854ms: Step 6: Type **** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00008377ms: Step 7: Click on Login button started    [MsgId: MMSG-205180]
+t=00009428ms: Step 7: Click on Login button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "login" ended with a "Pass" status (Duration: 4.8010 Wasted Time: 2.0910).
+Notify: Transaction "searchflight" started.
+t=00009946ms: Step 8: Click on Search Flights Button image started    [MsgId: MMSG-205180]
+t=00010811ms: Step 8: Click on Search Flights Button image successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "searchflight" ended with a "Pass" status (Duration: 0.8820 Wasted Time: 0.4490).
+t=00011328ms: Step 9: Click on findFlights button started    [MsgId: MMSG-205180]
+t=00012734ms: Step 9: Click on findFlights button successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+t=00013254ms: Step 10: Select Frankfurt from Arrival City  listbox started    [MsgId: MMSG-205180]
+t=00037195ms: Error -205177: Step 10: Select Frankfurt from Arrival City  listbox failed - Target object was not found. Identification Method: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

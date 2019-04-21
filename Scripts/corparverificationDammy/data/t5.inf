@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.txt
+URL1=http://ed.shaft.com/poller/receive
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=t5_RequestBody.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5.html
+URL2=http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/aui/dd-proxy/dd-proxy-min.js&/html/js/aui/sortable/sortable-min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,535 @@
+****** Start Log Message ******
+Web Recorder version : 12.60.971.0 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.60.971.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 13 ******
+GET /example1/index.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 18.222.58.52
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 13 Ended $$$$$$
+
+****** Response Header For Transaction With Id 13 ******
+HTTP/1.1 302 Found
+Date: Thu, 31 Jan 2019 04:45:13 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+X-Powered-By: PHP/7.2.2
+Set-Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: login.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 13 Ended $$$$$$
+
+****** Response Body For Transaction With Id 13 ******
+
+$$$$$$ Response Body For Transaction With Id 13 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 15 ******
+GET /example1/login.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 15 Ended $$$$$$
+
+****** Response Header For Transaction With Id 15 ******
+HTTP/1.1 200 OK
+Date: Thu, 31 Jan 2019 04:45:16 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+X-Powered-By: PHP/7.2.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 298
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 15 Ended $$$$$$
+
+****** Response Body For Transaction With Id 15 ******
+Welcom unidentified usery<br>Please Login to access system<br><br><form action="proceedLogin.php"><label for="L_uName">Username: <input id="I_uName" name="I_uName"> </label> <label for="L_uPass">Password:<input id="I_uPass" name="I_uPass"> </label><input type="submit" value="Login"></form>
+
+
+
+
+$$$$$$ Response Body For Transaction With Id 15 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 15 ****** (Location Flag : tFlagInsertEnd, Location ID : 15)
+	web_url("index.php",
+		"URL=http://18.222.58.52/example1/index.php",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 15 Ended $$$$$$
+
+****** Request Header For Transaction With Id 17 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 17 Ended $$$$$$
+
+****** Response Header For Transaction With Id 17 ******
+HTTP/1.1 404 Not Found
+Date: Thu, 31 Jan 2019 04:45:16 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+Vary: accept-language,accept-charset
+Accept-Ranges: bytes
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+
+
+$$$$$$ Response Header For Transaction With Id 17 Ended $$$$$$
+
+****** Response Body For Transaction With Id 17 ******
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Object not found!</title>
+<link rev="made" href="mailto:postmaster@localhost" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Object not found!</h1>
+<p>
+
+
+    The requested URL was not found on this server.
+
+  
+
+    If you entered the URL manually please check your
+    spelling and try again.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:postmaster@localhost">webmaster</a>.
+
+</p>
+
+<h2>Error 404</h2>
+<address>
+  <a href="/">18.222.58.52</a><br />
+  <span>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2</span>
+</address>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 17 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/example1/login.php
+Form: name= action=proceedLogin.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 142 ******
+GET /example1/proceedLogin.php?I_uName=LuPUser_001&I_uPass=SuperSafe HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://18.222.58.52/example1/login.php
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 142 Ended $$$$$$
+
+****** Response Header For Transaction With Id 142 ******
+HTTP/1.1 302 Found
+Date: Thu, 31 Jan 2019 04:48:00 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+X-Powered-By: PHP/7.2.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: main.php
+Content-Length: 20
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 142 Ended $$$$$$
+
+****** Response Body For Transaction With Id 142 ******
+<br>Login Successful
+$$$$$$ Response Body For Transaction With Id 142 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/example1/login.php
+Form: name= action=proceedLogin.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 144 ******
+GET /example1/main.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://18.222.58.52/example1/login.php
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 144 Ended $$$$$$
+
+****** Response Header For Transaction With Id 144 ******
+HTTP/1.1 200 OK
+Date: Thu, 31 Jan 2019 04:48:04 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+X-Powered-By: PHP/7.2.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 243
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 144 Ended $$$$$$
+
+****** Response Body For Transaction With Id 144 ******
+Here we are! You have a valid user session established and are inside our test application<br>Sadly there is no functionality inside this page, but login and logout should be enough for this first Example<br><br><a href='logout.php'>Logout</a>
+$$$$$$ Response Body For Transaction With Id 144 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/example1/login.php
+Form: name= action=proceedLogin.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 144 ****** (Location Flag : tFlagInsertEnd, Location ID : 144)
+	web_submit_data("proceedLogin.php",
+		"Action=http://18.222.58.52/example1/proceedLogin.php",
+		"Method=GET",
+		"EncType=",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://18.222.58.52/example1/login.php",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=I_uName", "Value=LuPUser_001", ENDITEM,
+		"Name=I_uPass", "Value=SuperSafe", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 144 Ended $$$$$$
+
+****** Request Header For Transaction With Id 146 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 146 Ended $$$$$$
+
+****** Response Header For Transaction With Id 146 ******
+HTTP/1.1 404 Not Found
+Date: Thu, 31 Jan 2019 04:48:05 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+Vary: accept-language,accept-charset
+Accept-Ranges: bytes
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+
+
+$$$$$$ Response Header For Transaction With Id 146 Ended $$$$$$
+
+****** Response Body For Transaction With Id 146 ******
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Object not found!</title>
+<link rev="made" href="mailto:postmaster@localhost" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Object not found!</h1>
+<p>
+
+
+    The requested URL was not found on this server.
+
+  
+
+    If you entered the URL manually please check your
+    spelling and try again.
+
+  
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:postmaster@localhost">webmaster</a>.
+
+</p>
+
+<h2>Error 404</h2>
+<address>
+  <a href="/">18.222.58.52</a><br />
+  <span>Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2</span>
+</address>
+</body>
+</html>
+
+
+$$$$$$ Response Body For Transaction With Id 146 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/example1/main.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 155 ******
+GET /example1/logout.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://18.222.58.52/example1/main.php
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 155 Ended $$$$$$
+
+****** Response Header For Transaction With Id 155 ******
+HTTP/1.1 302 Found
+Date: Thu, 31 Jan 2019 04:48:32 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+X-Powered-By: PHP/7.2.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: login.php
+Content-Length: 17
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 155 Ended $$$$$$
+
+****** Response Body For Transaction With Id 155 ******
+Logout successful
+$$$$$$ Response Body For Transaction With Id 155 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/example1/main.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 157 ******
+GET /example1/login.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://18.222.58.52/example1/main.php
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 18.222.58.52
+Connection: Keep-Alive
+Cookie: PHPSESSID=46cl1shsr813acb1klemjd6usr
+
+
+$$$$$$ Request Header For Transaction With Id 157 Ended $$$$$$
+
+****** Response Header For Transaction With Id 157 ******
+HTTP/1.1 200 OK
+Date: Thu, 31 Jan 2019 04:48:36 GMT
+Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2
+X-Powered-By: PHP/7.2.2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 298
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+$$$$$$ Response Header For Transaction With Id 157 Ended $$$$$$
+
+****** Response Body For Transaction With Id 157 ******
+Welcom unidentified usery<br>Please Login to access system<br><br><form action="proceedLogin.php"><label for="L_uName">Username: <input id="I_uName" name="I_uName"> </label> <label for="L_uPass">Password:<input id="I_uPass" name="I_uPass"> </label><input type="submit" value="Login"></form>
+
+
+
+
+$$$$$$ Response Body For Transaction With Id 157 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/example1/main.php
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 157 ****** (Location Flag : tFlagInsertEnd, Location ID : 157)
+	web_url("Logout",
+		"URL=http://18.222.58.52/example1/logout.php",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://18.222.58.52/example1/main.php",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 157 Ended $$$$$$
+

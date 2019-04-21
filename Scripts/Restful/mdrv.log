@@ -1,0 +1,145 @@
+Virtual User Script started at: 18-Feb-19 11:19:26 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Venky\Documents\VuGen\Scripts\Restful\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(10): web_rest("GET: https://reqres.in/api/users?page=2") started  	[MsgId: MMSG-26355]
+Action.c(10): Notify: Saving Parameter "C_BBM = 4".
+Action.c(10): Registered web_reg_find successful for "Text=total_pages" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): Notify: Saving Parameter "restcount = 1".
+Action.c(10): web_rest("GET: https://reqres.in/api/users?page=2") was successful, 221 body bytes, 567 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(16): web_rest("POST: https://reqres.in/api/users") started  	[MsgId: MMSG-26355]
+Action.c(16): Warning: The string '
+"name": "morpheus",
+"job": "leader"
+' with parameter delimiters is not a parameter.
+Action.c(16): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Action.c(16): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(16): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(16): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(16): Notify: ****************   End of messages from web_add_header   *****************
+Action.c(16): web_rest("POST: https://reqres.in/api/users") was successful, 84 body bytes, 539 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(34): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(34): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(35): web_add_header("Vary") started  	[MsgId: MMSG-26355]
+Action.c(35): web_add_header("Vary") was successful  	[MsgId: MMSG-26392]
+Action.c(38): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_rest("POST: http://jsonplaceholder.typicode.com/users") started  	[MsgId: MMSG-26355]
+Action.c(39): Warning: The string '
+"lat": "-37.3159",
+"lng": "81.1496"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Romaguera-Crona",
+"catchPhrase": "Multi-layered client-server neural-net",
+"bs": "harness real-time e-markets"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "-43.9509",
+"lng": "-34.4618"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Deckow-Crist",
+"catchPhrase": "Proactive didactic contingency",
+"bs": "synergize scalable supply-chains"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "-68.6102",
+"lng": "-47.0653"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Romaguera-Jacobson",
+"catchPhrase": "Face to face bifurcated interface",
+"bs": "e-enable strategic applications"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "29.4572",
+"lng": "-164.2990"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Robel-Corkery",
+"catchPhrase": "Multi-tiered zero tolerance productivity",
+"bs": "transition cutting-edge web services"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "-31.8129",
+"lng": "62.5342"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Keebler LLC",
+"catchPhrase": "User-centric fault-tolerant solution",
+"bs": "revolutionize end-to-end systems"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "-71.4197",
+"lng": "71.7478"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Considine-Lockman",
+"catchPhrase": "Synchronised bottom-line interface",
+"bs": "e-enable innovative applications"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "24.8918",
+"lng": "21.8984"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Johns Group",
+"catchPhrase": "Configurable multimedia task-force",
+"bs": "generate enterprise e-tailers"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "-14.3990",
+"lng": "-120.7677"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Abernathy Group",
+"catchPhrase": "Implemented secondary concept",
+"bs": "e-enable extensible e-tailers"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "24.6463",
+"lng": "-168.8889"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Yost and Sons",
+"catchPhrase": "Switchable contextually-based project",
+"bs": "aggregate real-time technologies"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"lat": "-38.2386",
+"lng": "57.2232"
+' with parameter delimiters is not a parameter.
+Action.c(39): Warning: The string '
+"name": "Hoeger LLC",
+"catchPhrase": "Centralized empowering task-force",
+"bs": "target end-to-end models"
+' with parameter delimiters is not a parameter.
+Action.c(39): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Action.c(39): Notify: ****************   End of messages from web_add_header   *****************
+Action.c(39): Notify: Saving Parameter "venkey = {\n  "id": 11\n}".
+Action.c(39): web_rest("POST: http://jsonplaceholder.typicode.com/users") was successful, 14 body bytes, 706 header bytes  	[MsgId: MMSG-26386]
+Action.c(277): Notify: Parameter Substitution: parameter "venkey" =  "{\n  "id": 11\n}"
+Action.c(277): Error: Fail to open file {
+  "id": 11
+}
+Action.c(277): Error: lr_eval_json failed
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 9952), ended OK."

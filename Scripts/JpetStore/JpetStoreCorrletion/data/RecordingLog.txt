@@ -1,0 +1,1158 @@
+[API Trapper      ( 4f0:1424)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( 994: bac)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( 974:1454)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 974: 4d0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 974: 4d0)] Load Network Traffic Analyzers:
+[Network Analyzer ( 974: 4d0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 974: 4d0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 974: 4d0)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 974: 4d0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 974: 4d0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 974: 4d0)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 974: 4d0)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 974: 4d0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 974: b68)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 4d0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17d8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 974: b68)] "GET /catalog"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 273 bytes (Service=HTTP)
+[Network Analyzer ( 974: 4d0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 5226 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 388 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  2) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer ( 974:10e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: e7c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 4d0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:10e8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  3) Client -> Server @ : 434 bytes (Service=HTTP)
+[Network Analyzer ( 974:17d8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  4) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: e7c)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  5) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: 4d0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  6) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1556 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 3354 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 888 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  2) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 831 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 438 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 704 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/fish_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  4) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  3) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  5) Server -> Client : 739 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  2) Client -> Server @ : 443 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/dogs_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  3) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  6) Server -> Client : 478 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/cats_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  5) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/birds_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  6) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 684 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/splash.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 436 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 872 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  3) Server -> Client : 901 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  5) Server -> Client : 841 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  6) Server -> Client : 904 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 669 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 435 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1685 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 2280 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 332 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 436 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 946 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /login"   
+[Network Analyzer ( 974: b68)]   (Sid:  4) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 411 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 2756 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid:  3) Client -> Server @ : 386 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  5) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  6) Client -> Server @ : 432 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  2) Client -> Server @ : 437 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 435 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  4) Client -> Server @ : 435 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  3) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 704 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 478 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  3) Server -> Client : 5936 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  5) Server -> Client : 4242 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  6) Server -> Client : 528 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  1) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  2) Client -> Server @ : 435 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  4) Client -> Server @ : 436 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 684 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid:  4) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 436 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Server -> Client : 946 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( 994: af4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 994: af4)] Load Network Traffic Analyzers:
+[Network Analyzer ( 994: af4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 994: af4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 994: af4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 994: af4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 994: af4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 994: af4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 994: af4)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 994: af4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 994: eec)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b58)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17d8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( 974: b68)] "POST /login"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 574 bytes (Service=HTTP)
+[Network Analyzer ( 974: b58)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 534 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /catalog"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 436 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 411 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid:  8) Client -> Server @ : 388 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 2002 bytes  (Service=HTTP)
+[Network Analyzer ( 974: e7c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 4d0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:10e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b58)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer ( 974: e7c)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  9) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: 4d0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 10) Client -> Server @ : 434 bytes (Service=HTTP)
+[Network Analyzer ( 974:10e8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 11) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer ( 974: b58)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 12) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 3808 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 4152 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 757 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  8) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 704 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 478 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 10) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 12) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 831 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  9) Client -> Server @ : 438 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/dogs_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 10) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/fish_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 11) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/cats_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 12) Client -> Server @ : 443 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 722 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/birds_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  8) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 872 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 841 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 10) Server -> Client : 901 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 12) Server -> Client : 1102 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/splash.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  9) Client -> Server @ : 436 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 11) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 904 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 435 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 9465 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 3900 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 6595 bytes  (Service=HTTP)
+[Network Analyzer ( 994: af4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 994: af4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 820 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 4220 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1792 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid:  9) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1382 bytes  (Service=HTTP)
+[Network Analyzer ( 974: f10)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: f10)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 994: bf4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 974:16e0)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 974: b68)] "GET /catalog/categories/FISH"   
+[Network Analyzer ( 974: b68)]   (Sid:  9) Client -> Server @ : 429 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1382 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1077 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid:  9) Client -> Server @ : 404 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  8) Client -> Server @ : 450 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 11) Client -> Server @ : 457 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 12) Client -> Server @ : 455 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 453 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 10) Client -> Server @ : 453 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 867 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  8) Client -> Server @ : 457 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 2326 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 1482 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 739 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 11) Client -> Server @ : 453 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid:  7) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 10) Server -> Client : 704 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  9) Server -> Client : 849 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 12) Server -> Client : 478 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 10) Client -> Server @ : 457 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 10) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 10) Server -> Client : 5215 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 10) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 10) Server -> Client : 1382 bytes  (Service=HTTP)
+[Network Analyzer ( 994: af4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 994: af4)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 994: eec)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 994: eec)]   (Sid:  2) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( 974:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17d8)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 994: eec)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  2) Server -> Client : 1099 bytes  (Service=HTTP)
+[Web Request      ( 994: eec)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 994: eec)]   (Sid:  2) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  2) Server -> Client : 1392 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  2) Server -> Client : 1167 bytes  (Service=HTTP)
+[Network Analyzer ( 994: af4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 994: af4)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid:  9) Connection Terminated (by Server)
+[Web Request      ( 974: b68)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 974: b68)]   (Sid: 14) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 14) Server -> Client : 465 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 14) Server -> Client : 2094 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 974: b68)]   (Sid: 14) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 14) Server -> Client : 2559 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( 974: 814)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 814)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 10) Connection Terminated (by Server)
+[Web Request      ( 974: b68)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 974: b68)]   (Sid: 15) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 429 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5271 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Web Request      ( 994: eec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 6992 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1696 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4548 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2476 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4244 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 974: b68)]   (Sid: 15) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 8624 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1108 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Web Request      ( 994: eec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 994: eec)]   (Sid:  3) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1889 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Server -> Client : 5488 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Server -> Client : 4923 bytes  (Service=HTTP)
+[Network Analyzer ( 994:174c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b58)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 994:174c)] Request Connection: Remote Server @ 23.217.53.22:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 974: b58)] Request Connection: Remote Server @ 23.217.53.22:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      ( 994: eec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Web Request      ( 974: b68)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 994: eec)]   (Sid:  4) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 5575 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2680 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 928 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2003 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 10595 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 6820 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 3660 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 6180 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      ( 994: eec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 6660 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 5360 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1220 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 445 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 3535 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 6820 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4060 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4060 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1220 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1220 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1140 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 9f8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Server -> Client : 5708 bytes  (Service=HTTP)
+[Net An. Error    ( 974:16e0)] SSLAccept(ssl_id = 195345248 = 0BA4BB60) Failed, ctx = 0BA4D8F0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 974:16e0)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( 974:17d8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      ( 974: b68)] "GET /catalog/products/FI-FW-02"   
+[Network Analyzer ( 974: b68)]   (Sid: 17) Client -> Server @ : 447 bytes (Service=HTTP)
+[Network Analyzer ( 974: 9f8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Server -> Client : 2328 bytes  (Service=HTTP)
+[Net An. Error    ( 994: bf4)] SSLAccept(ssl_id = 2558923613696 = 00000253CBBBA600) Failed, ctx = 00000253CBB22830, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 994: bf4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid: 18) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 1208 bytes  (Service=HTTP)
+[Network Analyzer ( 974:17d8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 2c0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 9f8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 682 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 17) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer ( 974:17d8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 994: eec)]   (Sid:  1) Connection Terminated (by Client)
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 19) Client -> Server @ : 452 bytes (Service=HTTP)
+[Network Analyzer ( 974: 2c0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 20) Client -> Server @ : 457 bytes (Service=HTTP)
+[Network Analyzer ( 974: 9f8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 21) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 22) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 18) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 2c0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b68)]   (Sid: 19) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 888 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 20) Server -> Client : 478 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 17) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 18) Server -> Client : 2149 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 19) Client -> Server @ : 456 bytes (Service=HTTP)
+[Network Analyzer ( 994: eec)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 22) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 21) Server -> Client : 704 bytes  (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 23) Client -> Server @ : 459 bytes (Service=HTTP)
+[Network Analyzer ( 974: 2c0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 24) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 19) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Server -> Client : 321 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 23) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 24) Server -> Client : 722 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 24) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 24) Server -> Client : 1382 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 814)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      ( 974: b68)] "GET /cart?add&itemId=EST-20"   
+[Network Analyzer ( 974: b68)]   (Sid: 25) Client -> Server @ : 446 bytes (Service=HTTP)
+[Network Analyzer ( 974: 814)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 409 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /cart"   
+[Network Analyzer ( 974: b68)]   (Sid: 25) Client -> Server @ : 428 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 405 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 2920 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid: 26) Client -> Server @ : 385 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 4246 bytes  (Service=HTTP)
+[Network Analyzer ( 974: 9f8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 25) Client -> Server @ : 438 bytes (Service=HTTP)
+[Network Analyzer ( 974: 2c0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 814)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 9f8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 27) Client -> Server @ : 436 bytes (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 28) Client -> Server @ : 431 bytes (Service=HTTP)
+[Network Analyzer ( 974: 2c0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 29) Client -> Server @ : 434 bytes (Service=HTTP)
+[Network Analyzer ( 974: 814)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 30) Client -> Server @ : 434 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 1556 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 26) Client -> Server @ : 438 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 888 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 25) Client -> Server @ : 434 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 478 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 27) Client -> Server @ : 435 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 528 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 28) Client -> Server @ : 438 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 29) Server -> Client : 704 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 30) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 321 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 28) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 436 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 946 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /my/orders/create?form"   
+[Network Analyzer ( 974: b68)]   (Sid: 28) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 343 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid: 27) Client -> Server @ : 402 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 29) Client -> Server @ : 448 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 26) Client -> Server @ : 451 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 30) Client -> Server @ : 455 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 25) Client -> Server @ : 453 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: cb8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 823 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 28) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 96 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 29) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 26) Server -> Client : 704 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 27) Client -> Server @ : 452 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 29) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer ( 974: cb8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 30) Server -> Client : 4220 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 31) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 30) Server -> Client : 22 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 32) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Server -> Client : 478 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 29) Server -> Client : 4814 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 29) Server -> Client : 1781 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 32) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 31) Server -> Client : 831 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 31) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 31) Server -> Client : 1382 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:1054)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 33)  PROXIED!
+[Web Request      ( 974: b68)] "POST /my/orders/create"   
+[Network Analyzer ( 974: b68)]   (Sid: 33) Client -> Server @ : 839 bytes (Service=HTTP)
+[Network Analyzer ( 974:1054)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 337 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 6809 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid: 33) Client -> Server @ : 397 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 34) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer ( 974: 9f8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:1054)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:10e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 9f8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 35) Client -> Server @ : 446 bytes (Service=HTTP)
+[Network Analyzer ( 974:1054)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 36)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 36) Client -> Server @ : 448 bytes (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 37) Client -> Server @ : 443 bytes (Service=HTTP)
+[Network Analyzer ( 974:10e8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 38)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 38) Client -> Server @ : 446 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 433 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 1556 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 33) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 34) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 34) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 34) Server -> Client : 888 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 35) Server -> Client : 704 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 34) Client -> Server @ : 446 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 35) Client -> Server @ : 447 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 36) Server -> Client : 478 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 37) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 38) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 34) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 35) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 1781 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 37) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 1382 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "POST /my/orders/create"   
+[Network Analyzer ( 974: b68)]   (Sid: 36) Client -> Server @ : 568 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 38) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 33) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 36) Server -> Client : 351 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /my/orders/1723"   
+[Network Analyzer ( 974: b68)]   (Sid: 34) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 34) Connection Terminated (by Server)
+[Web Request      ( 974: b68)] "GET /my/orders/1723"   
+[Network Analyzer ( 974: b68)]   (Sid: 35) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 35) Connection Terminated (by Server)
+[Web Request      ( 974: b68)] "GET /my/orders/1723"   
+[Network Analyzer ( 974: b68)]   (Sid: 37) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 8297 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid: 36) Client -> Server @ : 444 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 37) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer ( 974: e7c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:10e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 2c0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: e7c)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 39)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 39) Client -> Server @ : 495 bytes (Service=HTTP)
+[Network Analyzer ( 974:10e8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 40)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 40) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer ( 974: 2c0)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 41) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 36) Server -> Client : 1380 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 42) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 36) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 3354 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 36) Server -> Client : 2069 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 888 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 36) Client -> Server @ : 497 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 37) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 40) Server -> Client : 528 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 40) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 41) Server -> Client : 704 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/banner_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 41) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 36) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 40) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 42) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 41) Server -> Client : 6595 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 39) Server -> Client : 478 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 39) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 39) Server -> Client : 1382 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 36) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 40) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 42) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 41) Connection Terminated (by Server)
+[Network Analyzer ( 974: b68)]   (Sid: 39) Connection Terminated (by Server)
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:10e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      ( 974: b68)] "GET /logout"   
+[Network Analyzer ( 974: b68)]   (Sid: 43) Client -> Server @ : 419 bytes (Service=HTTP)
+[Network Analyzer ( 974:10e8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer ( 974: b68)]   (Sid: 43) Server -> Client : 553 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /catalog"   
+[Network Analyzer ( 974: b68)]   (Sid: 44) Client -> Server @ : 375 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 558 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 3664 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 2464 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 974: b68)]   (Sid: 43) Client -> Server @ : 388 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 44) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer ( 974: e7c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: 814)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:17e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974:10e8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.28
+[Network Analyzer ( 974: e7c)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/separator.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 45) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer ( 974:17e4)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 46)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 46) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974:10e8)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 47)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/cart.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 47) Client -> Server @ : 434 bytes (Service=HTTP)
+[Network Analyzer ( 974: 814)] Request Connection: Remote Server @ 54.156.199.167:80   (Service=)  (Sid= 48)  PROXIED!
+[Web Request      ( 974: b68)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 48) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 43) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 43) Server -> Client : 4060 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 3354 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 43) Server -> Client : 849 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 888 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 43) Client -> Server @ : 441 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 44) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 478 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 43) Server -> Client : 831 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 46) Server -> Client : 739 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 47) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 48) Server -> Client : 704 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/fish_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 43) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/dogs_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 44) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 45) Client -> Server @ : 438 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 46) Client -> Server @ : 443 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/cats_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 47) Client -> Server @ : 439 bytes (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/birds_icon.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 48) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 684 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 43) Server -> Client : 872 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 44) Server -> Client : 901 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 46) Server -> Client : 1102 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 47) Server -> Client : 841 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 48) Server -> Client : 904 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /images/splash.gif"   
+[Network Analyzer ( 974: b68)]   (Sid: 45) Client -> Server @ : 436 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 2760 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 820 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1300 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 992 bytes  (Service=HTTP)
+[Web Request      ( 974: b68)] "GET /favicon.ico"   
+[Network Analyzer ( 974: b68)]   (Sid: 45) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 974: b68)]   (Sid: 45) Server -> Client : 1382 bytes  (Service=HTTP)

@@ -1,0 +1,466 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-chrome-uma-reportinginfo",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-chrome-uma-log-sha1",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/proto"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 19,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jan-03-2019",
+    "RecordingDuration": 212110,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1546506572,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 325445,
+    "TotalBytesSent": 97287,
+    "TotalRequests": 30,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "megasol.se",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "62.109.53.196",
+          "IncludeInScript": true,
+          "Name": "banking.megasol.se",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 305,
+              "HttpStatus": 200,
+              "Size": 5393,
+              "URL": "http://banking.megasol.se/Logout.mws"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 922,
+              "EventId": 296,
+              "HttpStatus": 200,
+              "Size": 9637,
+              "URL": "http://banking.megasol.se/AccountDeposit.mws?action=save"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 546,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 54874,
+              "URL": "http://banking.megasol.se/AccountDeposit.mws"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 188,
+              "EventId": 170,
+              "HttpStatus": 200,
+              "Size": 1525,
+              "URL": "http://banking.megasol.se/style/buttons.css?version=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 3360,
+              "EventId": 163,
+              "HttpStatus": 200,
+              "Size": 2563,
+              "URL": "http://banking.megasol.se/images/menutop.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 3375,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 7101,
+              "URL": "http://banking.megasol.se/style/detailstyle.css?version=8"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 188,
+              "EventId": 131,
+              "HttpStatus": 200,
+              "Size": 127,
+              "URL": "http://banking.megasol.se/images/help.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 390,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 199803,
+              "URL": "http://banking.megasol.se/js/prototype.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 375,
+              "EventId": 123,
+              "HttpStatus": 200,
+              "Size": 1278,
+              "URL": "http://banking.megasol.se/js/menu.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 121,
+              "HttpStatus": 200,
+              "Size": 64,
+              "URL": "http://banking.megasol.se/images/menubottom.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 359,
+              "EventId": 119,
+              "HttpStatus": 200,
+              "Size": 1018,
+              "URL": "http://banking.megasol.se/js/common.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1031,
+              "EventId": 100,
+              "HttpStatus": 200,
+              "Size": 11181,
+              "URL": "http://banking.megasol.se/login.mws"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 67,
+              "HttpStatus": 404,
+              "Size": 1245,
+              "URL": "http://banking.megasol.se/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 562,
+              "EventId": 62,
+              "HttpStatus": 200,
+              "Size": 2726,
+              "URL": "http://banking.megasol.se/images/button.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 657,
+              "EventId": 49,
+              "HttpStatus": 200,
+              "Size": 1525,
+              "URL": "http://banking.megasol.se/style/buttons.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 938,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 991,
+              "URL": "http://banking.megasol.se/style/loginstyle.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 390,
+              "EventId": 36,
+              "HttpStatus": 200,
+              "Size": 134,
+              "URL": "http://banking.megasol.se/images/login_logo_bottom.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 375,
+              "EventId": 34,
+              "HttpStatus": 200,
+              "Size": 16681,
+              "URL": "http://banking.megasol.se/images/login_logo.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 343,
+              "EventId": 32,
+              "HttpStatus": 200,
+              "Size": 523,
+              "URL": "http://banking.megasol.se/js/login.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 437,
+              "EventId": 20,
+              "HttpStatus": 200,
+              "Size": 5393,
+              "URL": "http://banking.megasol.se/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.160.138",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 31,
+              "EventId": 289,
+              "HttpStatus": 200,
+              "Size": 1142,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChwKDGdvb2dsZWNocm9tZRIMNzEuMC4zNTc4Ljk4GicIARABGhkKDQgBEAYYASIDMDAxMAMQFBoCGAw2fpFRIgQgASACKAMaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARANGgIYDOUtBNsiBCABIAIoARopCAUQARobCg0IBRAGGAEiAzAwMTABEILaBRoCGAzLObuWIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARCUtQUaAhgMWMw4syIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQgqoFGgIYDCEct8UiBCABIAIoARonCA8QARoZCg0IDxAGGAEiAzAwMTABEBUaAhgMhuqQ0iIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQg8QEGgIYDMr0V5oiBCABIAIoARooCAEQCBoaCg0IARAIGAEiAzAwMTAEEMEVGgIYDDrC9IEiBCABIAIoBBonCAoQCBoZCg0IChAIGAEiAzAwMTABEAUaAhgMUvBjHiIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAYQAhoCGAwNQX4DIgQgASACKAYaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDnBBoCGAzHxayBIgQgASACKAEaKAgNEAEaGgoNCA0QBhgBIgMwMDEwARCPJBoCGAz3MtfYIgQgASACKAEaKAgOEAEaGgoNCA4QBhgBIgMwMDEwARDWZBoCGAy7qjkxIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.167.131",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 248,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 245,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 187,
+              "EventId": 242,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 239,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 203,
+              "EventId": 43,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=71"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.206",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clients4.google.com/rappor"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.206",
+          "IncludeInScript": true,
+          "Name": "clients1.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 31,
+              "EventId": 280,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZF5rA8hz5UP8jLSjZxBskIy3yuI1FJCMtLfH7HyQjLfocCTUkIy0PT3uJJCMt6gEl7SQjLY3PG6QkIy2-PvHIJCMtqLKkCCQjLZbDQ5EkIy0laFREJCMtyq_ixSQjLf0cRZskIy1Mw-49JCMtb7UkKSQjLd-KGWUkIy31akqAJCMtTtd2MSQjLUNt26wkFA=="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 266,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 31,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ31P6kH_iyl4jLXR0m7gkIy1yKGcIJCMtzRJUhCQjLUEWyrkkFA=="
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.77",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 140,
+              "EventId": 38,
+              "HttpStatus": 200,
+              "Size": 352,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=durations_metrics&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 3
+}

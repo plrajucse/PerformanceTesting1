@@ -1,0 +1,105 @@
+[API Trapper      (11fc: aa8)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (22f0:20d8)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( ff0:1518)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( ff0:1004)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( ff0:1004)] Load Network Traffic Analyzers:
+[Network Analyzer ( ff0:1004)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( ff0:1004)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( ff0:1004)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( ff0:1004)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( ff0:1004)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( ff0:1004)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( ff0:1004)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( ff0:1004)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( ff0:227c)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1004)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1004)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( ff0:1004)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Web Request      ( ff0:227c)] "GET /webtours/"   
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer ( ff0:1004)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:1004)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1004)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( ff0:227c)] "GET /webtours/header.html"   
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /webtours/images/webtours.png"   
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Client -> Server @ : 375 bytes (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /WebTours/home.html"   
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( ff0:227c)]   (Sid:  1) Connection Terminated (by Server)
+[WebMultiInProcNotify_x64:  (22f0:1ce0)] Insert Text Check: "Welcome "
+[Network Analyzer ( ff0:1004)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1a6c)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1004)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( ff0:227c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Client -> Server @ : 576 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( ff0:1a6c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( ff0:227c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Client -> Server @ : 480 bytes (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( ff0:227c)]   (Sid:  5) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:21fc)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1a6c)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:15dc)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1004)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1a6c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( ff0:227c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( ff0:227c)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( ff0:21fc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( ff0:227c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( ff0:227c)]   (Sid:  7) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer ( ff0:15dc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( ff0:227c)]   (Sid:  5) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  6) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  7) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:1004)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( ff0:227c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( ff0:227c)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( ff0:227c)]   (Sid:  8) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  8) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  6) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( ff0:227c)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( ff0:227c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( ff0:227c)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( ff0:227c)]   (Sid:  6) Connection Terminated (by Server)
+[WebMultiInProcNotify_x64:  (22f0:1ce0)] Insert Text Check: "reservation "
+[Web Request      ( ff0:227c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( ff0:227c)]   (Sid:  9) Client -> Server @ : 492 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  9) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( ff0:227c)]   (Sid:  9) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer ( ff0:1004)] Address lookup for PLRaju_Dell = 127.0.0.1
+[Network Analyzer ( ff0:1004)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( ff0:227c)]   (Sid:  9) Server -> Client : 1748 bytes  (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( ff0:227c)] "GET /WebTours/home.html"   
+[Network Analyzer ( ff0:227c)]   (Sid: 10) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( ff0:227c)]   (Sid: 10) Server -> Client : 194 bytes  (Service=HTTP)

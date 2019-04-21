@@ -1,0 +1,92 @@
+[
+    {
+        "actionName": "Book",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: webtours",
+                "infFile": "t1.inf",
+                "time": 1549124604564
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl_2",
+                "infFile": "t2.inf",
+                "time": 1549124605097
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1549124605544
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1549124605777
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1549124606796
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1549124607362
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: SignOff Button_2",
+                "infFile": "t7.inf",
+                "time": 1549124607772
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Cancel",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: webtours",
+                "infFile": "t8.inf",
+                "time": 1549124608015
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t9.inf",
+                "time": 1549124608439
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t10.inf",
+                "time": 1549124608983
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t11.inf",
+                "time": 1549124609279
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t12.inf",
+                "time": 1549124609567
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t13.inf",
+                "time": 1549124609945
+            }
+        ],
+        "transactions": []
+    }
+]

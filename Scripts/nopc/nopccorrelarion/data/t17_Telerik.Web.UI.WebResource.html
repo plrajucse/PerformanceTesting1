@@ -1,0 +1,11 @@
+if(typeof(Sys)!=='undefined')Sys.Application.notifyScriptLoaded();
+(function() {
+    function loadHandler() {
+        var hf = $get('RadScriptManager1_TSM');
+        if (!hf) return;
+        if (!hf._RSM_init) { hf._RSM_init = true; hf.value = ''; }
+        hf.value += ';';                                    
+        Sys.Application.remove_load(loadHandler);
+    };
+    Sys.Application.add_load(loadHandler);
+})();

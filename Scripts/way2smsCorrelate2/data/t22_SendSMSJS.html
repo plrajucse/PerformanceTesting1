@@ -1,0 +1,279 @@
+$("#free a").addClass("active");
+$("#sensms a").addClass("active");
+function detectBrowser() {
+    var isOpera = navigator.userAgent.indexOf('Opera') >= 0 || navigator.userAgent.indexOf('OPR') >= 0;
+    // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+    var isFirefox = typeof InstallTrigger !== 'undefined'; // Firefox 1.0+
+    var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    // At least Safari 3+: "[object HTMLElementConstructor]"
+    var isChrome = !!window.chrome; // Chrome 1+
+    var isIE = /*@cc_on!@*/false; // At least IE6
+
+    var browser1;
+    if ((/OPR[\/\s](\d+\.\d+)/.test(navigator.userAgent))) {
+        return "Opera";
+    } else if ((/OPERA[\/\s](\d+\.\d+)/.test(navigator.userAgent))) {
+        return "Opera";
+    } else if (isFirefox) {
+        return "FireFox";
+    } else if (isChrome) {
+        return "Chrome";
+    } else if (isIE) {
+        return "IE";
+    }
+}
+function sendMessage() {
+    if (navigator.onLine) {
+        var chkmb = checkMobileNo();
+        if (chkmb) {
+            var chkmess = checkMessage();
+            if (chkmess) {
+//                var browserName1 = detectBrowser();
+//                if (browserName1 == "Chrome" && is_private != 'private' && !detectmob()) {
+//                    $.ajax({
+//                        type: "POST",
+//                        url: "CheckWebMsgCount",
+//                        success: function (response) {
+//                            if (response == "limitExcess") {
+//                                detectExtension2("knlhpefpakgilecjmidpainkjlclbpej");
+//                            } else {
+//                                sendAjax();
+//                            }
+//                        }
+//                    });
+//                } else {
+                    sendAjax();
+//                }
+            }
+        }
+    } else {
+        $("#modal-netfail").removeClass("mdw-hide");
+        $("#modal-netfail").addClass("mdw-show");
+    }
+}
+
+function sendAjax() {
+    document.getElementById("sendButton").innerHTML = "Sending..";
+    document.getElementById("sendButton").disabled = true;
+    var Token = $("#Token").val();
+    var message = $("#message").val();
+    var toMobile = $("#mobile").val();
+    var ssaction = $("#ssaction").val();
+    var parms1 = "Token=" + Token + "&message=" + encodeURIComponent(message) + "&toMobile=" + toMobile + "&ssaction=" + ssaction;
+    $.ajax({
+        url: "smstoss",
+        type: 'post',
+        data: parms1,
+        success: function (data) {
+            document.getElementById("sendButton").innerHTML = "send sms";
+            document.getElementById("sendButton").disabled = false;
+            $("#message").val("");
+            $("#mobile").val("");
+            countChars();
+            if (data == "logout") {
+                window.location.href = "Logout";
+            } else {
+                window.scrollTo(0, 0);
+                if (parseInt(data) == 0) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Message Sent Successfully.";
+                    var mesType = "success";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 2) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Invalid Request.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 3) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Invalid receiver mobile number.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 5) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Message could not be sent as it contains some 'spam' words.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 6) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+//                                var mes = "Rejected : Can't submit your message, finished your day quota.";
+//                                var mesType = "error";
+//                                displayAlert(mes, mesType);
+//                                setTimeout(function () {
+//                                    displayClose(mesType);
+//                                }, 2500);
+                    $("#modal-dayLimit").addClass("mdw-show");
+                    $("#modal-dayLimit").removeClass("mdw-hide");
+//                                $("#freeDayQuota").modal('show');
+                } else if (parseInt(data) == 7) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Message can't be delivered. " + toMobile + " do not want to receive messages from you.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 8) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Delivery failed as " + toMobile + " has opted to WAY2SMS do not disturb registry.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 9) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Submission failed. Mobile nNumber is in DND.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500000);
+                } else if (parseInt(data) == 11) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Policy violation: Too many messages in a fixed interval please try later.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 12) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Submission Failed. Mobile Number is in DND.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else if (parseInt(data) == 13) {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "outdate.";
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 2500);
+                } else {
+                    $('html, body').animate({scrollTop: 0}, 'fast');
+                    var mes = "Message Failed due to unknown error. Status code" + parseInt(data);
+                    var mesType = "error";
+                    displayAlert(mes, mesType);
+                    setTimeout(function () {
+                        displayClose(mesType);
+                    }, 25000);
+                }
+                setTimeout(function () {
+                    if (parseInt(data) != 6) {
+                        window.location = window.location;
+                    }
+                }, 2500);
+            }
+        },
+        error: function (e) {
+        }
+    });
+}
+
+function closeExt() {
+    $("#modal-extension").addClass("mdw-hide")
+    $("#modal-extension").removeClass("mdw-show")
+    $("#mask").addClass("hidden");
+}
+
+function installExtn2() {
+    var chromeExtnUrl = "https://chrome.google.com/webstore/detail/knlhpefpakgilecjmidpainkjlclbpej";
+    chrome.webstore.install(chromeExtnUrl, extnInstallSucess2, extnIntallFailed2);
+}
+
+function extnInstallSucess2() {
+    var parms1 = "id=1";
+    $.ajax({
+        type: "POST",
+        url: "Way2smsExtnInstall",
+        data: parms1,
+        success: function (response) {
+        }
+    });
+    $("#modal-extension").addClass("mdw-hide")
+    $("#modal-extension").removeClass("mdw-show")
+    $("#mask").addClass("hidden");
+    sendAjax();
+//    $("#frame")[0].contentWindow.document.smsFrm.action = "./smstoss.action";
+//    $("#frame")[0].contentWindow.document.smsFrm.submit();
+}
+
+function extnIntallFailed2() {
+//                $("#divExtnPopup").hide();
+    var parms1 = "id=2";
+    $.ajax({
+        type: "POST",
+        url: "Way2smsExtnInstall",
+        data: parms1,
+        success: function (response) {
+        }
+    });
+//                $("#frame")[0].contentWindow.$("#divExtnPopup, #mask").addClass("hidden");
+//                $("#frame")[0].contentWindow.document.smsFrm.action = "./smstoss.action";
+//                $("#frame")[0].contentWindow.document.smsFrm.submit();
+}
+
+function addContact(mobile) {
+    mobile = "" + mobile;
+    if (mobile.length > 10) {
+        mobile = mobile.substr(mobile.length - 10);
+    }
+    $("#mobile").val(mobile);
+    $("#mobile").parent().parent().parent().find('b').addClass("hidden");
+    closeAll();
+}
+if (!detectmob()) {
+    $("#mobile").focus();
+}
+if (!detectmob()) {
+    $("#mobile").focus();
+    $("#mobile").focus(function () {
+        openDiv("divContacts");
+    });
+    $("#message").focus(function () {
+        openDiv("div_msgs");
+    });
+} else {
+    $("#sendAd").addClass("hidden");
+}
+
+function detectExtension2(extensionId) {
+    var browserName1 = window.parent.detectBrowser();
+    if (browserName1 == "Chrome" && is_private != 'private') {
+        var img;
+        img = new Image();
+        img.src = "chrome-extension://" + extensionId + "/way2sms_extension_icon_128.png";
+        img.onload = function () {
+            sendAjax();
+//            document.smsFrm.action = "./smstoss.action";
+//            document.getElementById("smsFrm").submit();
+            $("#modal-extension").removeClass("mdw-show")
+            $("#modal-extension").addClass("mdw-hide")
+            $("#mask").addClass("hidden");
+//                document.getElementById("extImgAd").style.display = "none";
+        };
+        img.onerror = function () {
+            $("#modal-extension").addClass("mdw-show")
+            $("#modal-extension").removeClass("mdw-hide")
+            $("#mask").removeClass("hidden");
+//                document.getElementById("extImgAd").style.display = "block";
+        };
+    }
+}

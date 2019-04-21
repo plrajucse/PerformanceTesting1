@@ -1,0 +1,30 @@
+Virtual User Script started at: 2/17/2019 8:09:29 PM
+Starting action vuser_init.
+Web Services replay version 12.60.0 for Windows 10; Toolkit: ".Net"; build 971
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\WebServices2\\default.cfg"
+Vuser directory: "C:\Users\Dell\Documents\VuGen\Scripts\WebServices2"
+Vuser output directory: "C:\Users\Dell\Documents\VuGen\Scripts\WebServices2\"
+LOCAL start date/time : 2019-02-17 20:09:29
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): Web service call "NumberToWords_101" started
+Action.c(5): Notify: Saving Parameter "NumberToWords_101_Response = <NumberToWords><NumberToWordsResult>one hundred </NumberToWordsResult></NumberToWords>".
+Action.c(5): Notify: Saving Parameter "response = <?xml version="1.0" encoding="utf-8"?>\r\n<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n  <soap:Body>\r\n    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">\r\n      <m:NumberToWordsResult>one hundred </m:NumberToWordsResult>\r\n    </m:NumberToWordsResponse>\r\n  </soap:Body>\r\n</soap:Envelope>".
+Action.c(5): Web service call "NumberToWords_101" was successful
+Action.c(18): Notify: Parameter Substitution: parameter "response" =  "<?xml version="1.0" encoding="utf-8"?>\r\n<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n  <soap:Body>\r\n    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">\r\n      <m:NumberToWordsResult>one hundred </m:NumberToWordsResult>\r\n    </m:NumberToWordsResponse>\r\n  </soap:Body>\r\n</soap:Envelope>"
+Action.c(18): Notify: Saving Parameter "OutputParam = one hundred ".
+Action.c(18): "lr_xml_get_values" succeeded, 1 match processed
+Action.c(23): Notify: Parameter Substitution: parameter "OutputParam" =  "one hundred "
+Action.c(23): Query result = one hundred 
+Action.c(29): Notify: Parameter Substitution: parameter "response" =  "<?xml version="1.0" encoding="utf-8"?>\r\n<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n  <soap:Body>\r\n    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">\r\n      <m:NumberToWordsResult>one hundred </m:NumberToWordsResult>\r\n    </m:NumberToWordsResponse>\r\n  </soap:Body>\r\n</soap:Envelope>"
+Action.c(29): "lr_xml_find" succeeded, 1 match processed
+Action.c(36): response success
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

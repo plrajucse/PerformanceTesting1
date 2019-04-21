@@ -1,0 +1,289 @@
+/*========= Height issues for for side menu============ */
+@media  only screen and (max-height:768px)  {
+
+    .mdw-modal .feed-back-body{
+        max-height: 420px !important;
+        overflow-y: scroll;
+        min-height: 300px !important;
+    }
+}
+
+@media  only screen and (max-height: 630px)  and (min-height:560px) {
+    .left-height-scroll{ 
+        overflow-y: scroll;
+        min-height: 130px;
+        max-height: 230px;
+        overflow-x: hidden;
+    }
+}  
+
+@media  only screen and (max-height: 559px) {
+    .left-height-scroll{
+        overflow-y: scroll;
+        min-height: 120px;
+        max-height: 140px;
+        overflow-x: hidden;
+    }
+
+    .mdw-modal .feed-back-body{
+        max-height: 340px !important;
+        overflow-y: scroll;
+        min-height: 100px !important;
+    }
+
+
+}
+
+/*========= Height issues for for side menu End here============ */
+@media only screen and (min-width: 300px) and (max-width: 768px){
+
+
+    .api-right-sidebar{
+        padding: 0 20px 0 20px;
+        width: 100%;
+        display: block;
+        position: inherit;
+        margin: 30px auto;
+
+    }
+    .api-program-wrapeer{
+        margin-left: 0;
+        margin-right: auto;
+        padding: 80px 20px 0 20px;
+        max-width: 100%;
+    }
+    .api-wrap .addon-btn-md, .api-wrap button.addon-btn-md{
+        padding: 20px 20px;
+    }
+    .char-txt{
+        padding: 24px 0px 24px 20px;
+    }
+
+}
+/**************** Small devices (landscape phones, less than 768px)*******************/
+@media (max-width:767.98px) {
+    .pg-static .sidebar, .pg-static .fixed-top {
+        display: none;
+    }
+    .pg-static .page-wrapper {
+        padding: 0 20px 0px 20px;
+        width: 100%;
+        margin: 0;
+    }
+    .pg-static .user-m {
+        display: none;
+    }
+
+
+    .page-wrapper {
+        width: 60%;
+    }
+    .s-dt, .s-tm {
+        width: 46%;
+    }
+    div.s-snd {
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* .sidebar-rightsec {
+        width: 40%;
+    } */
+    .menu a {
+        font-size: 14px;
+    }
+    .wallet-info {
+        padding: 10px 0px 0 0;
+        margin-bottom: 10px;
+    }
+    .tabs-header {
+        padding-bottom: 0;
+    }
+    .senders-id .page-wrapper {
+        width: 100%;
+    }
+    .business-reports .icon-date {
+        left: 20px;
+    }
+    .bs-points {
+        padding: 0 10px;
+    }
+
+    .pg-business .bs-wrapper {
+
+        margin-left: 0;
+    }
+    .bs-point {
+        flex: 0 0 100%;
+    }
+
+    .nav-bull-tabs ul li {
+        margin: 0 0;
+        padding:8px 18px;
+    }
+
+    .nav-bull-tabs:before{
+        width: 66%;
+    }
+
+
+    .list-content, .list-content-1 {
+        height: calc(40vH);
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    #appendUrl{
+        padding: 10px 13px;
+
+    }
+
+    .b-img-blk{
+        display: none;
+    }
+
+
+    .business.billing .page-wrapper {
+        padding-right: 20px;
+    }
+
+    .feed-back-body .label-small b {
+        font-size: 10px;
+    }
+
+    .feed-back-body .label-small {
+        font-size: 13px;
+    }
+
+
+    /*help center styles*/
+
+    .popup-section h3{
+        font-size: 15px;
+        padding: 30px 0 0 0;
+    }
+    .d-issues ul li{
+        font-size: 14px;
+    }
+
+    .d-issues ul li .fa-chevron-down{
+        right:8px;
+    }
+
+    pre.printcode{
+        width: 100%;
+    }
+
+    .api-container .d-table-cell {
+        vertical-align: top;
+        display: block;
+        max-width: 290px;
+    }
+    .api-left-sec {
+        width: 100%;
+        padding-right: 0;
+    }
+
+
+    #modal-feed .mdw-content .mdw-body{
+        max-height:360px;
+    }
+
+    #modal-feed .input-field-md, .input-form {
+        padding: 3px 20px;
+    }
+
+    #modal-feed .feed-back-body .label-small {
+        font-size: 12px;
+
+    }
+
+    #modal-feed .msg-block textarea{
+        height: 84px;
+    }
+
+    #modal-feed .addon-btn-md, #modal-feed button.addon-btn-md {
+        padding: 12px 20px;
+    }
+
+    #modal-feed .btn-ls {
+        padding: 11px 24px;
+    }
+
+    #modal-feed .mdw-content h3 {
+        padding: 8px 1em;
+    }
+
+    #modal-feed .close-btn {
+        font-size: 16px;
+        line-height: 18px;
+        color: #fff;
+        padding: 7px 12px
+    }
+
+
+    .api-wrap .page-wrapper {
+        max-width: inherit;
+        width: 100%;
+    }
+
+    .api-wrap .d-table{
+        display: block;
+    }
+
+    .input-field-group{
+        width: 95%;
+    }
+
+
+    .btn-lg{
+        min-width: inherit;
+        width: 100%;
+    }
+    /* Extension start from here */
+    .promote-campaign .tag-list{
+        width:100%;
+    }
+
+    .append-url{
+        padding:18px 12px !important;
+
+    }
+    .btn-ls-2{
+        padding: 0 10px !important;
+        width: 45% !important;
+    }
+    .b-dashboard .b-dashboard-fields{
+        width: 48%;
+        margin-right: 7px;
+        padding: 0 !important;
+    }
+    .b-dashboard .d-select i{
+        right: 5px !important;
+    }
+    .b-dashboard input{
+       padding: 8px 90px 8px 10px;
+    }
+    .b-dashboard-report{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .b-dashboard-table{
+        margin-top: 30px;
+    }
+    .b-dashboard .input-grp{
+        margin-bottom: 15px;
+    }
+    .d-graph{
+        width: 100%;
+        margin:0;
+        display:table-header-group;
+    }
+    .dashboard-ip-fields .input-grp {
+        margin-bottom: 15px !important;
+    }
+    .d-ddud{
+        position: static;
+    }
+  
+   
+}

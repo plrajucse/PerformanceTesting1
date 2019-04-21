@@ -1,0 +1,52 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: InsuranceWebExtJS",
+                "infFile": "t1.inf",
+                "time": 1551083975081
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t2.inf",
+                "time": 1551083975636
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: rappor",
+                "infFile": "t3.inf",
+                "time": 1551083975904
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: v2",
+                "infFile": "t5.inf",
+                "time": 1551083975956
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: index.jsf;jsessionid=2830B9C79D9665494C84CDDFF6B918CD",
+                "infFile": "t7.inf",
+                "time": 1551083976485
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: update2",
+                "infFile": "t8.inf",
+                "time": 1551083976944
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Borland_SC001_T001_LOGIN",
+                "rawStartTime": 1551083975986,
+                "rawEndTime": 1551083976485,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03325653076171875
+            }
+        ]
+    }
+]

@@ -1,0 +1,170 @@
+/////////////////////////////////////////////////////////////////////////////
+// LoadRunner : Multiprotocol Code generation Settings                     //
+// Mercury Interactive Corp.                                               //
+/////////////////////////////////////////////////////////////////////////////
+
+{{ ACTIVE PROTOCOLS LIST:
+    ( 1) Citrix_ICA  (name=Citrix_ICA)
+}}
+{{ FILTERING ORDER:
+    ( 1) CleanExtraEvents  (name=CleanExtraEvents)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : CleanExtraEvents_Init
+          Default    : CleanExtraEvents_DefaultProcess
+          Cleanup    : CleanExtraEvents_CleanUp
+                       
+    ( 2) ctrx_cleans_extra_http  (name=ctrx_cleans_extra_http)
+          State      : ON
+          Protocols  : HTTP,Ctrx
+          Module     : ctrx_filter.dll
+          Initialize : ctrx_cleans_extra_http_Init
+          Default    : ctrx_cleans_extra_http_DefaultProcess
+          Cleanup    : ctrx_cleans_extra_http_CleanUp
+                       
+    ( 3) ApiEventParser  (name=ApiEventParser)
+          State      : OFF
+          Protocols  : 
+          Module     : api_event_parser.dll
+          Initialize : ApiEventParser_Init
+          Default    : ApiEventParser_Default
+          Cleanup    : ApiEventParser_CleanUp
+                       
+    ( 4) MetadataInfo  (name=MetadataInfo)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : MetadataInfo_Init
+          Default    : MetadataInfo_DefaultProcess
+          Cleanup    : MetadataInfo_CleanUp
+                       
+    ( 5) *SECTION_DIVIDER_1  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    ( 6) *SECTION_DIVIDER_2  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    ( 7) CtrxFilter2  (name=Ctrx2)
+          State      : ON
+          Protocols  : Ctrx
+          Module     : ctrx_filter.dll
+          Initialize : Ctrx2_Init
+          Default    : CtrxFilter2_DefaultProcess
+          Cleanup    : Ctrx2_CleanUp
+                       
+    ( 8) *SECTION_DIVIDER_3  (name=Break)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    ( 9) CtrxFilter3  (name=Ctrx3)
+          State      : ON
+          Protocols  : Ctrx
+          Module     : ctrx_filter.dll
+          Initialize : Ctrx3_Init
+          Default    : CtrxFilter3_DefaultProcess
+          Cleanup    : Ctrx3_CleanUp
+                       
+    (10) *SECTION_DIVIDER_4  (name=Break)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : Break_Init
+          Default    : Break_DefaultProcess
+          Cleanup    : Break_CleanUp
+                       
+    (11) CleanDependentEvents  (name=CleanDependentEvents)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : CleanExtraEvents_Init
+          Default    : CleanExtraEvents_DefaultProcessPreScript
+          Cleanup    : CleanExtraEvents_CleanUp
+                       
+    (12) ThinkTime  (name=ThinkTime)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_com_filters.dll
+          Initialize : ThinkTime_Init
+          Default    : ThinkTime_DefaultProcess
+          Cleanup    : ThinkTime_CleanUp
+                       
+    (13) FixedThinkTime  (name=FixedThinkTime)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_com_filters.dll
+          Initialize : FixedThinkTime_Init
+          Default    : FixedThinkTime_DefaultProcess
+          Cleanup    : FixedThinkTime_CleanUp
+                       
+    (14) CAPI_CodeGen  (name=GenericCodeGen)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_basic_filters.dll
+          Initialize : GenericCodeGen_Init
+          Default    : GenericCodeGen_DefaultProcess
+          Cleanup    : GenericCodeGen_CleanUp
+                       
+    (15) C_CodeGen  (name=C_CodeGen)
+          State      : ON
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : C_CodeGen_Init
+          Default    : C_CodeGen_DefaultProcess
+          Cleanup    : C_CodeGen_CleanUp
+                       
+    (16) VBA_CodeGen  (name=VB_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : VBA_CodeGen_Init
+          Default    : VB_CodeGen_DefaultProcess
+          Cleanup    : VB_CodeGen_CleanUp
+                       
+    (17) VBS_CodeGen  (name=VB_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : VBS_CodeGen_Init
+          Default    : VB_CodeGen_DefaultProcess
+          Cleanup    : VB_CodeGen_CleanUp
+                       
+    (18) JS_CodeGen  (name=VB_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : JS_CodeGen_Init
+          Default    : VB_CodeGen_DefaultProcess
+          Cleanup    : VB_CodeGen_CleanUp
+                       
+    (19) DotNet_CodeGen  (name=DotNet_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : DotNet_CodeGen_Init
+          Default    : DotNet_CodeGen_DefaultProcess
+          Cleanup    : DotNet_CodeGen_CleanUp
+                       
+    (20) Java_CodeGen  (name=Java_CodeGen)
+          State      : OFF
+          Protocols  : 
+          Module     : lrc_code_gen_filter.dll
+          Initialize : Java_CodeGen_Init
+          Default    : Java_CodeGen_DefaultProcess
+          Cleanup    : Java_CodeGen_CleanUp
+                       
+}}

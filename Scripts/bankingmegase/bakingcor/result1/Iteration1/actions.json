@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: banking.megasol.se",
+                "infFile": "t1.inf",
+                "time": 1546516471945
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.mws",
+                "infFile": "t2.inf",
+                "time": 1546516474920
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: AccountDeposit.mws",
+                "infFile": "t5.inf",
+                "time": 1546516478232
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: AccountDeposit.mws_2",
+                "infFile": "t6.inf",
+                "time": 1546516479671
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Log out",
+                "infFile": "t7.inf",
+                "time": 1546516480230
+            }
+        ],
+        "transactions": []
+    }
+]

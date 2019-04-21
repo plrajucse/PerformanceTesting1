@@ -1,0 +1,150 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+	<title>Internet Client Log On</title>
+	<meta http-equiv="cache-control" content="no cache">
+	<meta http-equiv="pragma" content="no cache">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link rel="stylesheet" type="text/css" href="style/loginstyle.css">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<script src="js/login.js" language="javascript" type="text/javascript"></script>
+	<script type="text/javascript" language="JavaScript">
+	function FormFocus() {
+		document.frmLogin.df_username.focus();
+	}
+
+	function showError(nErrorNo) {
+		switch(nErrorNo)
+		{
+			case 1:
+				var lcMessage = 'You have not entered the correct username or password.'
+				break;
+			case 5:
+				var lcMessage = 'Failed to display SMS page.'
+				break;
+			case 6:
+				var lcMessage = 'Failed to send SMS with one-time password, validate your phone number with customer service.'
+				break;
+			case 7:
+				var lcMessage = 'Could not load your phone number for SMS password, contact customer service.'
+				break;
+			case 8:
+				var lcMessage = 'Incorrect SMS one-time password.'
+				break;
+			case 100: 
+				var lcMessage = 'Unknown error in BankID authentication.'
+				break;
+			case 101: 
+				var lcMessage = 'You are not a customer with us.'
+				break;
+			case 102: 
+				var lcMessage = 'Your BankID is not valid.'
+				break;
+			case 3005:
+				var lcMessage = 'Invalid human verification.'
+				break;
+			case 3006:
+				var lcMessage = 'Invalid human verification.'
+				break;
+			default:
+				var lcMessage = 'You have not entered the correct username or password.'
+				break;
+		}
+			
+		lcMessage = lcMessage.replace(/(<([^>]+)>)/ig,""); 
+		alert(lcMessage);
+	}
+	</script>
+</head>
+
+<body onLoad="FormFocus();">
+<!-- Table that fills the whole screen used to center the login window -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr><td align="center">
+	<!-- Table containing form data starts here ! -->
+	<form method="post" action="login.mws" name="frmLogin">
+	<input type="hidden" name="action" value="login">
+  <input type="hidden" name="logintoken" value="5DS0GZWNK"> 
+	<table border="0" cellpadding="0" cellspacing="0" width="319" class="textgrey">
+		<tr>
+			<td valign="top"><IMG src="images/login_logo.gif" border=0></td>
+		</tr>
+		<tr><td>
+			<table border="0" cellpadding="4" cellspacing="0" width="100%" class="text">
+				<tr>
+					<td width="6%"></td>
+					<td width="47%" class="textgrey">Username</td>
+					<td width="47%" class="textgrey">Idle log off</td>
+				</tr>
+				<tr>
+					<td width="6%"></td>
+					<td width="47%" class="textgrey"><b><input type="PASSWORD" name="df_username" value="DEMO" size="12" class="text" style="width: 125" tabindex="1" autocomplete="off"></b></td>
+					<td width="47%" class="textgrey"><select size="1" id="idletime" name="IdleTime" class="text" style="width: 100">
+	<option value="300">5 minutes</option>
+	<option value="600">10 minutes</option>
+	<option value="900" selected>15 minutes</option>
+	<option value="1800">30 minutes</option>
+	<option value="3600">1 hour</option>
+	<option value="7200">2 hours</option>
+	<option value="14400">4 hours</option>
+	<option value="28800">8 hours</option>
+</select>&nbsp;*</td>
+				</tr>
+				<tr>
+					<td width="6%"></td>
+					<td width="47%" class="textgrey">Password</td>
+					<td width="47%" class="textgrey">Language</td>
+				</tr>
+				<tr>
+					<td width="6%"></td>
+					<td width="47%" class="textgrey"><b><input tabindex="2" type="password" name="df_password" value="demo" onKeyPress="return checkCR(event);" class="text" size="12" style="width: 125" autocomplete="off"></b></td>
+					<td width="47%" class="textgrey"><script language="JavaScript" type="text/javascript">
+	function submitlang(i)
+	{
+		var language = i.options[i.selectedIndex].value;
+		location.href="changelanguage.mws?language=" + language;
+	}
+</script>
+
+<select size="1" name="Language" class="text" onChange="submitlang(this)" style="width: 100">
+	<option value="EN" selected>UK English</option>
+	<option value="US">US English</option>
+	<option value="FR">Francais</option>
+	<option value="DE">Deutsch</option>
+	<option value="ES">Español</option>
+	<option value="PT">Português</option>
+	<option value="SV">Svenska</option>
+</select>&nbsp;*</td>
+				</tr>
+				
+
+				<tr>
+					<td width="6%"></td>
+					<td width="47%" class="textgrey"></td>
+					<td width="47%" class="textgrey"><input type="checkbox" value=".T." name="savesettings">Remember * settings</td>
+				</tr>
+				<tr>
+					<td width="6%"></td>
+					<td width="47%" class="textgrey"></td>
+					<td width="47%" class="textgrey"><div class="button"><a href="javascript:login();" class="button">Submit</a></div></td>
+				</tr>
+				<tr><td colspan="3" height="5"></td></tr>
+			</table>
+		</td></tr>
+		<tr>
+			<td valign="top"><IMG src="images/login_logo_bottom.gif" border=0></td>
+		</tr>
+		<tr>
+			<td class="text" style="background-color:white;padding-left:4px;padding-top:3px;">Click&nbsp;<a href="onlineapplication.mws">here</a> to apply for an account with us.</td>
+		</tr>
+	</table>
+	</form>
+	<!-- Table containing form data stops here ! -->
+</td></tr>
+</table>
+</body>
+
+</html>

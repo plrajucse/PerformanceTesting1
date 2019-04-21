@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">   
+    <head>
+        <title>InsuranceWeb: Agent Lookup</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="cache-control" content="no-cache" />  
+        <meta http-equiv="expires" content="-1" />
+        <meta name="keywords" />
+        <meta name="description" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="javascript/menu.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header"><div xmlns="http://www.w3.org/1999/xhtml">
+    
+    <div id="header">
+      &nbsp; 
+    </div>
+    
+</div>
+            </div>
+            <div class="clear"></div>
+            <div id="navigation"><div xmlns="http://www.w3.org/1999/xhtml">
+    
+    <div id="nav">
+      <ul>
+        <li id="home"><a href="index.jsf">Home</a></li>        
+        <li>
+<form id="Linkform" name="Linkform" method="post" action="/InsuranceWebExtJS/agent_lookup.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="Linkform" value="Linkform" />
+
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var ps = pvp.split(',');for (var i = 0,ii = 0;i < ps.length;i++,ii++) {var p = document.createElement("input");p.type = "hidden";p.name = ps[i];p.value = ps[i + 1];f.appendChild(p);adp[ii] = p;i += 1;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('Linkform'),'Linkform:j_id6,Linkform:j_id6','');}return false">Account</a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4:j_id5" />
+</form></li>                
+        <li id="contact"><a href="contact.jsf">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div id="quicklink"><div xmlns="http://www.w3.org/1999/xhtml">
+<form id="quick-link" name="quick-link" method="post" action="/InsuranceWebExtJS/agent_lookup.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="quick-link" value="quick-link" />
+<select id="quick-link:jump-menu" name="quick-link:jump-menu" size="1" onchange="MM_jumpMenu('parent',this,0)">	<option value="#">Choose One</option>
+	<option value="quote_auto.jsf">Auto Quote</option>
+	<option value="agent_lookup.jsf">Agent Lookup</option>
+	<option value="agent_lookup_xml.jsf">Agent Lookup (XML)</option>
+	<option value="notImplYet.jsf">Term Life Quote</option>
+	<option value="notImplYet.jsf">Quote Homeowners</option>
+	<option value="notImplYet.jsf">Retrieve Saved Quote</option>
+	<option value="notImplYet.jsf">Report Claim</option>
+	<option value="notImplYet.jsf">Track Claim</option>
+</select><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4:j_id5" />
+</form>    
+</div>            
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="line"></div>
+    
+    <div id="left-nav">
+    	<img src="images/tilesV.png" />
+    </div>	
+    
+</div>
+            </div>
+            <div id="content-main">
+
+        <h1>Find an Insurance Co. Agent</h1>
+        <p>
+            Get in touch with an Insurance Co. agent<br /> who can help you make
+            decisions about your insurance and financial needs.
+        </p>
+        <br />
+<form id="zip-search" name="zip-search" method="post" action="/InsuranceWebExtJS/agent_lookup.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="zip-search" value="zip-search" />
+
+            <fieldset>
+                <legend> Search by Location </legend>
+                <div>
+                    <label for="zipode">Zip Code </label><input id="zip-search:zipcode" type="text" name="zip-search:zipcode" class="inputText" size="15" />
+                </div>
+                <div>
+                    <label for="search-zipcode">&nbsp;</label><input id="zip-search:search-zipcode" type="image" src="images/search.gif" name="zip-search:search-zipcode" alt="Location Search" class="cbutton" />
+                </div>
+            </fieldset><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4:j_id5" />
+</form>
+
+        <div align="center" style="margin: 10px;">
+            <img src="images/or.jpg" />
+        </div>
+<form id="name-search" name="name-search" method="post" action="/InsuranceWebExtJS/agent_lookup.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="name-search" value="name-search" />
+
+            <fieldset>
+                <legend> Search by Agent Name </legend>
+                <div>
+                    <label for="lastName">Last Name </label><input id="name-search:lastName" type="text" name="name-search:lastName" class="inputText" size="15" />
+                </div>
+                <div>
+                    <label for="search-name">&nbsp;</label><input id="name-search:search-name" type="image" src="images/search.gif" name="name-search:search-name" alt="Name Search" class="cbutton" />
+                </div>
+            </fieldset><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4:j_id5" />
+</form>
+        
+        <div align="center" style="margin: 10px;">
+            <img src="images/or.jpg" />
+        </div>
+<form id="show-all" name="show-all" method="post" action="/InsuranceWebExtJS/agent_lookup.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="show-all" value="show-all" />
+
+            <fieldset>
+                <legend> Show all agents </legend>
+                <div>
+                    <label for="search-all">&nbsp;</label><input id="show-all:search-all" type="image" src="images/search.gif" name="show-all:search-all" alt="Name Search" class="cbutton" />
+                </div>
+            </fieldset><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4:j_id5" />
+</form>
+         <div align="right" style="margin-top: 20px;">
+        	<a class="link-door" href="agent_lookup_standalone.jsf" target="_blank">open in new window</a>        
+		</div>
+            </div>
+            <div class="clear"></div>
+            <div id="footer"><div xmlns="http://www.w3.org/1999/xhtml">
+    
+    <div class="column-left">
+        This site is a fictitious representation<br />
+        of an online company for the purpose of demonstrating Borland Solutions
+    </div>
+    <div class="column-right">
+        <a href="index.jsf">Home</a> -        
+        <a href="webservices.jsf">Webservice</a> -
+        <!-- <a href="settings.jsf">Settings</a> - -->
+        <a href="contact.jsf">Contact Us</a>
+    </div>
+    
+</div>
+            </div>
+        </div> 
+    </body>
+</html>

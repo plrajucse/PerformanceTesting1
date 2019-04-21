@@ -1,0 +1,22 @@
+Virtual User Script started at: 1/25/2019 1:11:35 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\AScript3\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(7): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+PLRAJU.h(6): Notify: Transaction "Launch_{puser}" started.
+PLRAJU.h(8): web_reg_find started  	[MsgId: MMSG-26355]
+PLRAJU.h(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+PLRAJU.h(10): Notify: Transaction "Launch_{puser}" ended with a "Stop" status (Duration: 10.7325).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

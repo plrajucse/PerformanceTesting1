@@ -1,0 +1,61 @@
+[API Trapper      ( c38: 8f0)] Recording in 32-bit mode: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe
+[SapGui Recorder  ( ed8:1c68)] sapgui_open_connection_ex( ConnectionString="   /SAP_CODEPAGE=1100  /FULLMENU  10.10.10.20 85 /3 /UPDOWNLOAD_CP=2", Description="PLRAJUCST [10.10.10.20]", ConnectionID="con[1]")     ApplicationServer="cstehp5",
+[SapGui Recorder  ( ed8: ba8)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="resizeWorkingPane", Params={"138", "25", "False", LAST} )     ID="/app/con[1]/ses[0]/wnd[0]"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiTextField", Name="RSYST-BNAME", PropertyName="text", Value="shaft18" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/txtRSYST-BNAME"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiPasswordField", Name="RSYST-BCODE", PropertyName="text", Value="********" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiPasswordField", Name="RSYST-BCODE", MethodName="setFocus", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiPasswordField", Name="RSYST-BCODE", PropertyName="caretPosition", Value="6" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="sendVKey", Params={"0", LAST} )     ID="/app/con[1]/ses[0]/wnd[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=141, InterpretationTime=343 
+[SapGui Recorder  ( ed8:1c68)] sapgui_logon( SessionID="/app/con[1]/ses[0]", UserName="SHAFT18", Password="decrypt(*****)", Client="800", Language="EN" )
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiOkCodeField", Name="okcd", PropertyName="text", Value="AW01N" )     ID="/app/con[1]/ses[0]/wnd[0]/tbar[0]/okcd"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="sendVKey", Params={"0", LAST} )     ID="/app/con[1]/ses[0]/wnd[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=266, InterpretationTime=234 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="sendVKey", Params={"4", LAST} )     ID="/app/con[1]/ses[0]/wnd[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=641, InterpretationTime=484 
+[SapGui Recorder  ( ed8:1c68)] sapgui: Object(Type="GuiUserArea", Name="usr").verticalScrollbar.position = 0     ID="/app/con[1]/ses[0]/wnd[1]/usr"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiLabel", Name="lbl[6,3]", MethodName="setFocus", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[1]/usr/lbl[6,3]"
+[SapGui Recorder  ( ed8:1c68)] sapgui: Object(Type="GuiUserArea", Name="usr").verticalScrollbar.position = 0     ID="/app/con[1]/ses[0]/wnd[1]/usr"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiLabel", Name="lbl[6,3]", PropertyName="caretPosition", Value="15" )     ID="/app/con[1]/ses[0]/wnd[1]/usr/lbl[6,3]"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiModalWindow", Name="wnd[1]", MethodName="sendVKey", Params={"2", LAST} )     ID="/app/con[1]/ses[0]/wnd[1]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=16, InterpretationTime=93 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiCTextField", Name="ANLA-ANLN1", MethodName="setFocus", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/subIDC_SELECT1:AW01N:0201/ctxtANLA-ANLN1"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiCTextField", Name="ANLA-ANLN1", PropertyName="caretPosition", Value="0" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/subIDC_SELECT1:AW01N:0201/ctxtANLA-ANLN1"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="sendVKey", Params={"4", LAST} )     ID="/app/con[1]/ses[0]/wnd[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=1203, InterpretationTime=360 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiButton", Name="btn[0]", MethodName="press", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[1]/tbar[0]/btn[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=640, InterpretationTime=203 
+[SapGui Recorder  ( ed8:1c68)] sapgui: Object(Type="GuiUserArea", Name="usr").verticalScrollbar.position = 0     ID="/app/con[1]/ses[0]/wnd[1]/usr"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiLabel", Name="lbl[10,4]", MethodName="setFocus", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[1]/usr/lbl[10,4]"
+[SapGui Recorder  ( ed8:1c68)] sapgui: Object(Type="GuiUserArea", Name="usr").verticalScrollbar.position = 0     ID="/app/con[1]/ses[0]/wnd[1]/usr"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiLabel", Name="lbl[10,4]", PropertyName="caretPosition", Value="20" )     ID="/app/con[1]/ses[0]/wnd[1]/usr/lbl[10,4]"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiModalWindow", Name="wnd[1]", MethodName="sendVKey", Params={"2", LAST} )     ID="/app/con[1]/ses[0]/wnd[1]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=16, InterpretationTime=93 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiCTextField", Name="ANLA-ANLN2", MethodName="setFocus", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/subIDC_SELECT1:AW01N:0201/ctxtANLA-ANLN2"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiCTextField", Name="ANLA-ANLN2", PropertyName="caretPosition", Value="1" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/subIDC_SELECT1:AW01N:0201/ctxtANLA-ANLN2"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiMainWindow", Name="wnd[0]", MethodName="sendVKey", Params={"4", LAST} )     ID="/app/con[1]/ses[0]/wnd[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=31, InterpretationTime=219 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiButton", Name="btn[0]", MethodName="press", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[1]/tbar[0]/btn[0]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=15, InterpretationTime=63 
+[SapGui Recorder  ( ed8:1c68)] sapgui: Object(Type="GuiUserArea", Name="usr").verticalScrollbar.position = 0     ID="/app/con[1]/ses[0]/wnd[1]/usr"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiLabel", Name="lbl[15,3]", MethodName="setFocus", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[1]/usr/lbl[15,3]"
+[SapGui Recorder  ( ed8:1c68)] sapgui: Object(Type="GuiUserArea", Name="usr").verticalScrollbar.position = 0     ID="/app/con[1]/ses[0]/wnd[1]/usr"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GuiLabel", Name="lbl[15,3]", PropertyName="caretPosition", Value="9" )     ID="/app/con[1]/ses[0]/wnd[1]/usr/lbl[15,3]"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiModalWindow", Name="wnd[1]", MethodName="sendVKey", Params={"2", LAST} )     ID="/app/con[1]/ses[0]/wnd[1]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=31, InterpretationTime=203 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiTab", Name="IDC_BWERTE", MethodName="select", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/tabsIDC_TABSTRIP/tabpIDC_BWERTE"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=43908, InterpretationTime=4045 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiTab", Name="IDC_VERGLEICH", MethodName="select", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/tabsIDC_TABSTRIP/tabpIDC_VERGLEICH"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=1281, InterpretationTime=329 
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GridView", Name="shell", PropertyName="firstVisibleRow", Value="20" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/tabsIDC_TABSTRIP/tabpIDC_VERGLEICH/ssubIDC_SUBSCREEN:AW01N:0303/cntlIDC_GRID_VERGLEICH/shellcont/shell"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiTab", Name="IDC_PARAMETER", MethodName="select", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/tabsIDC_TABSTRIP/tabpIDC_PARAMETER"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=6360, InterpretationTime=249 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiButton", Name="%#AUTOTEXT001", MethodName="press", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/tabsIDC_TABSTRIP/tabpIDC_PARAMETER/ssubIDC_SUBSCREEN:AW01N:0304/btn%#AUTOTEXT001"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=4938, InterpretationTime=1890 
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GridView", Name="shell", PropertyName="currentCellRow", Value="3" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/cntlALVMASTER/shellcont/shell/shellcont[0]/shell/shellcont[0]/shell"
+[SapGui Recorder  ( ed8:1c68)] sapgui_set_property( Type="GridView", Name="shell", PropertyName="selectedRows", Value="3" )     ID="/app/con[1]/ses[0]/wnd[0]/usr/cntlALVMASTER/shellcont/shell/shellcont[0]/shell/shellcont[0]/shell"
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GridView", Name="shell", MethodName="doubleClickCurrentCell", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/usr/cntlALVMASTER/shellcont/shell/shellcont[0]/shell/shellcont[0]/shell"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=31, InterpretationTime=78 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiMenu", Name="Log off", MethodName="select", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[0]/mbar/menu[3]/menu[12]"
+[SapGui Recorder  ( ed8:1c68)] SapGui end request: SessionID="/app/con[1]/ses[0]", ResponseTime=16, InterpretationTime=109 
+[SapGui Recorder  ( ed8:1c68)] sapgui_call_method( Type="GuiButton", Name="SPOP-OPTION1", MethodName="press", Params={LAST} )     ID="/app/con[1]/ses[0]/wnd[1]/usr/btnSPOP-OPTION1"

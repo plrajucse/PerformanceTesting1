@@ -1,0 +1,1332 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 44,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Dec-31-2018",
+    "RecordingDuration": 139922,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1546252456,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 348658,
+    "TotalBytesSent": 60550,
+    "TotalRequests": 139,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "cfapps.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.156.199.167",
+          "IncludeInScript": true,
+          "Name": "jpetstore.cfapps.io",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 640,
+              "EventId": 978,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 375,
+              "EventId": 959,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "http://jpetstore.cfapps.io/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 312,
+              "EventId": 957,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://jpetstore.cfapps.io/images/birds_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 955,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "http://jpetstore.cfapps.io/images/cats_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 953,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://jpetstore.cfapps.io/images/reptiles_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 951,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "http://jpetstore.cfapps.io/images/dogs_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 949,
+              "HttpStatus": 200,
+              "Size": 439,
+              "URL": "http://jpetstore.cfapps.io/images/fish_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 947,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 500,
+              "EventId": 945,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 500,
+              "EventId": 943,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 516,
+              "EventId": 941,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 939,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 282,
+              "EventId": 937,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 469,
+              "EventId": 935,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 931,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 235,
+              "EventId": 928,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 485,
+              "EventId": 916,
+              "HttpStatus": 200,
+              "Size": 6095,
+              "URL": "http://jpetstore.cfapps.io/catalog"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 579,
+              "EventId": 914,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://jpetstore.cfapps.io/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 250,
+              "EventId": 902,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1469,
+              "EventId": 900,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 898,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 516,
+              "EventId": 896,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 894,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 892,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 890,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 516,
+              "EventId": 888,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 500,
+              "EventId": 886,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 313,
+              "EventId": 882,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 297,
+              "EventId": 879,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 868,
+              "HttpStatus": 200,
+              "Size": 9381,
+              "URL": "http://jpetstore.cfapps.io/my/orders/1723"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 864,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://jpetstore.cfapps.io/my/orders/create"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 250,
+              "EventId": 860,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 265,
+              "EventId": 855,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 853,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 282,
+              "EventId": 851,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 516,
+              "EventId": 849,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 734,
+              "EventId": 847,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 625,
+              "EventId": 845,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 563,
+              "EventId": 843,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 531,
+              "EventId": 841,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 562,
+              "EventId": 837,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 831,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 562,
+              "EventId": 820,
+              "HttpStatus": 200,
+              "Size": 6809,
+              "URL": "http://jpetstore.cfapps.io/my/orders/create"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 359,
+              "EventId": 806,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 484,
+              "EventId": 804,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 454,
+              "EventId": 802,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 799,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 797,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 795,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1157,
+              "EventId": 793,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1110,
+              "EventId": 790,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1109,
+              "EventId": 787,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1047,
+              "EventId": 785,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 516,
+              "EventId": 775,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 768,
+              "HttpStatus": 200,
+              "Size": 8097,
+              "URL": "http://jpetstore.cfapps.io/my/orders/create?form"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 329,
+              "EventId": 765,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 759,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 757,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 813,
+              "EventId": 755,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 813,
+              "EventId": 753,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 751,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 749,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 656,
+              "EventId": 747,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 640,
+              "EventId": 745,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 484,
+              "EventId": 738,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 484,
+              "EventId": 734,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 281,
+              "EventId": 721,
+              "HttpStatus": 200,
+              "Size": 8626,
+              "URL": "http://jpetstore.cfapps.io/cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 500,
+              "EventId": 719,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://jpetstore.cfapps.io/cart?add&itemId=EST-20"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 500,
+              "EventId": 705,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 609,
+              "EventId": 703,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 610,
+              "EventId": 701,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 813,
+              "EventId": 698,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 813,
+              "EventId": 695,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1156,
+              "EventId": 691,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1125,
+              "EventId": 689,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 797,
+              "EventId": 684,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 750,
+              "EventId": 681,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 907,
+              "EventId": 676,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 484,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 672,
+              "EventId": 658,
+              "HttpStatus": 200,
+              "Size": 5833,
+              "URL": "http://jpetstore.cfapps.io/catalog/products/FI-FW-02"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 250,
+              "EventId": 218,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 296,
+              "EventId": 215,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 213,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 211,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 209,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 328,
+              "EventId": 207,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 204,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 202,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 198,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 196,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 190,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 234,
+              "EventId": 185,
+              "HttpStatus": 200,
+              "Size": 4930,
+              "URL": "http://jpetstore.cfapps.io/catalog/categories/FISH"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 234,
+              "EventId": 181,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "http://jpetstore.cfapps.io/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 163,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "http://jpetstore.cfapps.io/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 161,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://jpetstore.cfapps.io/images/birds_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://jpetstore.cfapps.io/images/reptiles_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "http://jpetstore.cfapps.io/images/dogs_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "http://jpetstore.cfapps.io/images/cats_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 153,
+              "HttpStatus": 200,
+              "Size": 439,
+              "URL": "http://jpetstore.cfapps.io/images/fish_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 151,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 149,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 147,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 453,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 469,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 453,
+              "EventId": 141,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 453,
+              "EventId": 139,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 484,
+              "EventId": 135,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 132,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 235,
+              "EventId": 118,
+              "HttpStatus": 200,
+              "Size": 6349,
+              "URL": "http://jpetstore.cfapps.io/catalog"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1110,
+              "EventId": 116,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://jpetstore.cfapps.io/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 235,
+              "EventId": 100,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 265,
+              "EventId": 98,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 96,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 92,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 265,
+              "EventId": 88,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 83,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 235,
+              "EventId": 81,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 4190,
+              "URL": "http://jpetstore.cfapps.io/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 375,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "http://jpetstore.cfapps.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "http://jpetstore.cfapps.io/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 313,
+              "EventId": 53,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://jpetstore.cfapps.io/images/birds_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "http://jpetstore.cfapps.io/images/cats_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 49,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "http://jpetstore.cfapps.io/images/dogs_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 47,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "http://jpetstore.cfapps.io/images/reptiles_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 439,
+              "URL": "http://jpetstore.cfapps.io/images/fish_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "http://jpetstore.cfapps.io/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 703,
+              "EventId": 41,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "http://jpetstore.cfapps.io/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 719,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "http://jpetstore.cfapps.io/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 281,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "http://jpetstore.cfapps.io/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 703,
+              "EventId": 35,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://jpetstore.cfapps.io/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 703,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "http://jpetstore.cfapps.io/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 422,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "http://jpetstore.cfapps.io/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 500,
+              "EventId": 28,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "http://jpetstore.cfapps.io/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 22,
+              "HttpStatus": 200,
+              "Size": 5936,
+              "URL": "http://jpetstore.cfapps.io/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 500,
+              "EventId": 11,
+              "HttpStatus": 200,
+              "Size": 6095,
+              "URL": "http://jpetstore.cfapps.io/catalog"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 4
+}

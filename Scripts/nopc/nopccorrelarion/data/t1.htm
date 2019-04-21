@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Smart Office Suite - Login Page
+</title><meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+    <style type="text/css">
+.background_bg{
+	margin: auto;
+	width: 100%;
+	height:650px;
+	background-image: url(images/MainPage.jpg);
+	background-repeat: no-repeat;
+}
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=60);
+    opacity: 0.60;
+}
+.updateProgress
+{
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+.PopupPanel
+{
+    border: solid 1px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    z-index: 100;
+
+    height: 100px;
+    margin-top: -200px;
+
+    width: 300px;
+    margin-left: -300px;
+}
+</style>
+<link href="/WebResource.axd?d=jtLEWt33Y68lVz3dL7o0hDI5aFvRLsFHDS2A2bpw1KeiTXQkL-gRHutATFbLhYM34fx-zH-w-O9n7bO26JQ9Jwft5Zn4GSg8JmFfM_xyb8aJbGyIbwsIOeRnuqxgc9ablMwmkAr7L840Ta7AliqtYA2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=y8XS1sQkyCaUNHgwKH67defYES9ppmqNX68FBOtlCPZERZ2ohhb9GUEahQPGo1XG9nPSL_9WyNCykM80cbbtj2llHNffYeH0cdpPd_Cx5U0xhasnnvKZBYDxZLmakoqZ7OxzIv50qQ9soyc90jdg6gr-MM61b-OyB0WYo0JGUgoppW8QOR-VPBO1C7T3ywXy0&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=J-l8h-ueTOX_HktBRvKrfExqDmQqJ-2hxOXd0OXqP_0mZnKJzY7EoUBdB9u4yDrZED1dVCxRJX-5c-rxN8XsPkCJHxEuCMqrmnZJsIxg1HmGY5r12ipSx1jGh1qZ6CDqcNnS366eaxReGTNI0VSLqg2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=_OMbb5vGcHGHr_sD0X3DjVmqG2p7i0MzcXFF0QzQpXIz1xHwAZLJ7oLfTj2wSVmhO7Ea3E1uAl_qMPXO3FGbRGYy_-tKT2q999ad2w_ohj9g-Sg0mexpUxGp9iNpnl5h5ni0nU_FcrBWwbzx_us654qlOIsgNEkzspZoez6ZerQralG39jwF5W5VvfU88Tpi0&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=iuxbYvTwtOnjOi1vcBXMNkFYI5KcRGp1nFnaCdERchnImQB61Li9Iszi6F516-66_TmDc-NL8ovWPd8516UIUz_EEo_Y-jnIFbst1TBz2NkmgxpT8ljCVrUJPFn9ifHUajKN8zZbM2YprKlujrkwzg2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=Ik0AgivdyMr9UqLuXF2GnH0oTESxPCKjUivlMwChq0VGFLy15iu2uC_4306AxlsLgWfQqYjc5er64kEpQHXY7yP-PGQp1du_roCetfMthDry-O1rQ55pT7q-HBvx-i1foAs4o0XeT6gl-YP13x7tqMJWHWMNr7nIhqLWiYp9N9s1&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=iEZl8rGM2LVhVJmLCWpipE2NiSgZSZVpk_hWmSLpdBOYq_M-m3adtGa1qMGq0a6Figux1fjJ-ZfRWZxSIILj8gRSlqeSEppSqO85l_xTgjF32fmZoXSdsB2JQeyuaVUXBmYrvmY_SFiE_IEn8_zg5acwHDZcgSAOlu9Krlu7zgM1&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body>
+<form name="form1" method="post" action="./" id="form1">
+<div>
+<input type="hidden" name="RadScriptManager1_TSM" id="RadScriptManager1_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTIzMDUzMzY4Ng9kFgICAw9kFgYCAQ8UKwACFCsAAw8WAh4XRW5hYmxlQWpheFNraW5SZW5kZXJpbmdoZGRkZGQCBQ8PFgIfAGhkZAIHD2QWAgIFDzwrAAQBAA8WAh8AaGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYGBRFSYWRXaW5kb3dNYW5hZ2VyMQUJYnRuX0xvZ2luBQ1MaWNlbnNlRGlhbG9nBSJMaWNlbnNlRGlhbG9nJEMkYnRuX0VkaXRMaWNlbnNlS2V5BRdyYWR3aW5kb3dEcm9wQm94QWNjb3VudAUlcmFkd2luZG93RHJvcEJveEFjY291bnQkQyRidG5fRHJvcEJveCe6UyOz2BqnrhNmsVDtvd0y5kaj+Lx8SyxLcqQhHm5R" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=JZhhQCqgsAJD_2q9tbdMGtbl5_d4MMIKHUAE_KU4GTCR871NeM6A9TwmvQOiFmNhkNX7E646TchP2OWMZM_O0nkVp6xPY8E3NYnLJdya--Q1&amp;t=636776922783889403" type="text/javascript"></script>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ab7585254-495e-4311-9545-1f910247aca5%3aea597d4b%3ab25378d2%3bTelerik.Web.UI%2c+Version%3d2012.3.1016.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3aeedc0a8d-48b8-46b8-a699-de66b4bdef1e%3a16e4e7cd%3af7645509%3a24ee1bba%3a19620875%3a874f8ea2%3af46195d3%3a490a9d4e%3abd8f85e4%3aed16cbdc%3a7165f74" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA0luIFILlwLUbmqHgkxY2N/rhk/7H8U2jqIxIxRNXL2N5n8BByFF65aN5clBjwHOcVw1VqEhL0Qs5iJV9Ksp6V6u8NkUfktnoADBa1QkGvcAFjjfxHid+OUqHJEzikJUgNdEBv2i4eNmPUBhOVFmycR0Tzv/ViUPjHREy+Z4JLM2qNDtjTEgoN6GgRms4HWhqiyqILne/dBkrav3S3zbZWgueJDYARQm5AQ8aWQP3eCVxuFHpRK8jsv/Fk54tf2U0wcsjabME8n4qyyOfyNmjjxMzk/Id+LuKveaukQL2yRj9bLU3u0kmsvgaela8MIEyc=" />
+</div>
+    <div id="RadWindowManager1" style="display:none;">
+	<!-- 2012.3.1016.40 --><div id="RadWindowManager1_alerttemplate" style="display:none;">
+		<div class="rwDialogPopup radalert">			
+			<div class="rwDialogText">
+			{1}				
+			</div>
+			
+			<div>
+				<a  onclick="$find('{0}').close(true);"
+				class="rwPopupButton" href="javascript:void(0);">
+					<span class="rwOuterSpan">
+						<span class="rwInnerSpan">##LOC[OK]##</span>
+					</span>
+				</a>				
+			</div>
+		</div>
+		</div><div id="RadWindowManager1_prompttemplate" style="display:none;">
+		 <div class="rwDialogPopup radprompt">			
+			    <div class="rwDialogText">
+			    {1}				
+			    </div>		
+			    <div>
+				    <script type="text/javascript">
+				    function RadWindowprompt_detectenter(id, ev, input)
+				    {							
+					    if (!ev) ev = window.event;                
+					    if (ev.keyCode == 13)
+					    {															        
+					        var but = input.parentNode.parentNode.getElementsByTagName("A")[0];					        
+					        if (but)
+						    {							
+							    if (but.click) but.click();
+							    else if (but.onclick)
+							    {
+							        but.focus(); var click = but.onclick; but.onclick = null; if (click) click.call(but);							 
+							    }
+						    }
+					       return false;
+					    } 
+					    else return true;
+				    }	 
+				    </script>
+				    <input title="Enter Value" onkeydown="return RadWindowprompt_detectenter('{0}', event, this);" type="text"  class="rwDialogInput" value="{2}" />
+			    </div>
+			    <div>
+				    <a onclick="$find('{0}').close(this.parentNode.parentNode.getElementsByTagName('input')[0].value);"				
+					    class="rwPopupButton" href="javascript:void(0);" ><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
+				    <a onclick="$find('{0}').close(null);" class="rwPopupButton"  href="javascript:void(0);"><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
+			    </div>
+		    </div>				       
+		</div><div id="RadWindowManager1_confirmtemplate" style="display:none;">
+		<div class="rwDialogPopup radconfirm">			
+			<div class="rwDialogText">
+			{1}				
+			</div>						
+			<div>
+				<a onclick="$find('{0}').close(true);"  class="rwPopupButton" href="javascript:void(0);" ><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
+				<a onclick="$find('{0}').close(false);" class="rwPopupButton"  href="javascript:void(0);"><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
+			</div>
+		</div>		
+		</div><input id="RadWindowManager1_ClientState" name="RadWindowManager1_ClientState" type="hidden" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('RadScriptManager1', 'form1', [], [], [], 1000000, '');
+//]]>
+</script>
+
+
+      
+
+    <div id="ralp" class="RadAjax RadAjax_Office2007" style="display:none;">
+	<div class="raDiv">
+		
+    
+
+	</div><div class="raColor raTransp">
+
+	</div>
+</div>
+
+
+
+<div id="Div_Login" class="background_bg">
+       <table width="450px"  border="0" align="center">
+       <tr>
+       <td colspan="2">
+       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+       </td>
+       </tr>
+       
+                           
+                                        <tr>
+                                            <td>
+                                                <b>Login Name</b>
+                                            </td>
+                                            <td>
+                                                <input name="txt_Login" type="text" id="txt_Login" style="width:207px;margin-left: 0px" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <b>Password</b>
+                                            </td>
+                                            <td>
+                                                <input name="txt_Password" type="password" id="txt_Password" style="width:207px;" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="right">
+                                                <a id="btn_Login" class="RadButton RadButton_Default rbSkinnedButton" href="javascript:void(0)"><input class="rbDecorated" type="submit" name="btn_Login_input" id="btn_Login_input" value="Login" /><input id="btn_Login_ClientState" name="btn_Login_ClientState" type="hidden" /></a>
+                                            </td>
+                                        </tr>
+                                        
+                                         <tr>
+                                            <td colspan="2" align="right">
+                                                <a id="lnk_DatabaseSettings" href="DatabaseSettings.aspx">Database Settings</a> 
+                                            </td>
+                                        </tr>
+                                    <tr>
+                                            <td colspan="2">
+                                                <span id="lbl_error2" style="color:Red;"></span>
+                                            </td>
+                                        </tr>
+                        </table>
+    </div>
+    
+    
+    <div id="LicenseDialog" style="display:none;">
+	<div id="LicenseDialog_C">
+		
+            <table>
+                <tr>
+                    <td>
+                        Activation Code
+                    </td>
+                    <td>
+                        <input name="LicenseDialog$C$txt_ActivationCode" type="text" id="LicenseDialog_C_txt_ActivationCode" disabled="disabled" style="width:270px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        License Key
+                    </td>
+                    <td>
+                        <input name="LicenseDialog$C$txt_LicenseKey" type="text" id="LicenseDialog_C_txt_LicenseKey" style="width:270px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        <span id="LicenseDialog_C_lbl_LicenseMessage" style="color:Red;"></span>&nbsp;&nbsp;<a id="LicenseDialog_C_btn_EditLicenseKey" class="RadButton RadButton_Default rbSkinnedButton" href="javascript:void(0)"><input class="rbDecorated" type="submit" name="LicenseDialog$C$btn_EditLicenseKey_input" id="LicenseDialog_C_btn_EditLicenseKey_input" value="Save" /><input id="LicenseDialog_C_btn_EditLicenseKey_ClientState" name="LicenseDialog_C_btn_EditLicenseKey_ClientState" type="hidden" /></a>
+                        &nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span id="LicenseDialog_C_lbl_Error" style="color:Red;"></span>
+                    </td>
+                </tr>
+            </table>
+        
+	</div><input id="LicenseDialog_ClientState" name="LicenseDialog_ClientState" type="hidden" />
+</div>
+    
+
+
+     <div id="radwindowDropBoxAccount" style="display:none;">
+	<div id="radwindowDropBoxAccount_C">
+		
+            <table>
+                <tr>
+                    <td>
+                        User Name
+                    </td>
+                    <td>
+                        <input name="radwindowDropBoxAccount$C$txt_DropBoxUserName" type="text" id="radwindowDropBoxAccount_C_txt_DropBoxUserName" style="width:270px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>
+                        <input name="radwindowDropBoxAccount$C$txt_DropBoxPassword" type="password" id="radwindowDropBoxAccount_C_txt_DropBoxPassword" style="width:270px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr />
+                    </td>
+                </tr>
+                
+                  <tr>
+                    <td colspan="2" align="right">
+                        <a id="radwindowDropBoxAccount_C_btn_DropBox" class="RadButton RadButton_Default rbSkinnedButton" href="javascript:void(0)"><input class="rbDecorated" type="submit" name="radwindowDropBoxAccount$C$btn_DropBox_input" id="radwindowDropBoxAccount_C_btn_DropBox_input" value="Save DropBox Details" /><input id="radwindowDropBoxAccount_C_btn_DropBox_ClientState" name="radwindowDropBoxAccount_C_btn_DropBox_ClientState" type="hidden" /></a>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <span id="radwindowDropBoxAccount_C_lbl_DropBoxError" style="color:Red;"></span>
+                    </td>
+                </tr>
+            </table>
+        
+	</div><input id="radwindowDropBoxAccount_ClientState" name="radwindowDropBoxAccount_ClientState" type="hidden" />
+</div>
+
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindowManager, {"clientStateFieldID":"RadWindowManager1_ClientState","formID":"form1","iconUrl":"","minimizeIconUrl":"","name":"RadWindowManager1","skin":"Office2007","windowControls":"[]"}, null, null, $get("RadWindowManager1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxLoadingPanel, {"initialDelayTime":0,"isSticky":false,"minDisplayTime":0,"skin":"Office2007","transparency":0,"uniqueID":"ralp","zIndex":90000}, null, null, $get("ralp"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadButton, {"_postBackReference":"","clientStateFieldID":"btn_Login_ClientState","iconData":{},"imageData":{},"text":"Login","toggleStatesData":[],"uniqueGroupName":"","uniqueID":"btn_Login"}, null, null, $get("btn_Login"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadButton, {"_postBackReference":"","clientStateFieldID":"LicenseDialog_C_btn_EditLicenseKey_ClientState","iconData":{},"imageData":{},"text":"Save","toggleStatesData":[],"uniqueGroupName":"","uniqueID":"LicenseDialog$C$btn_EditLicenseKey"}, null, null, $get("LicenseDialog_C_btn_EditLicenseKey"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindow, {"_dockMode":true,"behaviors":5,"clientStateFieldID":"LicenseDialog_ClientState","formID":"form1","height":"190px","iconUrl":"","minimizeIconUrl":"","modal":true,"name":"LicenseDialog","skin":"Default","title":"Edit License Key","width":"400px"}, null, null, $get("LicenseDialog"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadButton, {"_postBackReference":"","clientStateFieldID":"radwindowDropBoxAccount_C_btn_DropBox_ClientState","iconData":{},"imageData":{},"text":"Save DropBox Details","toggleStatesData":[],"uniqueGroupName":"","uniqueID":"radwindowDropBoxAccount$C$btn_DropBox"}, null, null, $get("radwindowDropBoxAccount_C_btn_DropBox"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindow, {"_dockMode":true,"behaviors":5,"clientStateFieldID":"radwindowDropBoxAccount_ClientState","formID":"form1","height":"190px","iconUrl":"","minimizeIconUrl":"","modal":true,"name":"radwindowDropBoxAccount","skin":"Default","title":"DropBox Account","width":"400px"}, null, null, $get("radwindowDropBoxAccount"));
+});
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+        function EndRequestHandler(sender, args) {
+            if (args.get_error() != undefined) {
+
+                alert(args.get_error());
+                args.set_errorHandled(true);
+            }
+        }
+    </script>
+</body>
+</html>

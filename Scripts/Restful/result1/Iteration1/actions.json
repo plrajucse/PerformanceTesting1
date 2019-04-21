@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Rest Request: GET: https://reqres.in/api/users?page=2",
+                "infFile": "t1.inf",
+                "time": 1550468967285
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Rest Request: POST: https://reqres.in/api/users",
+                "infFile": "t2.inf",
+                "time": 1550468967637
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Rest Request: POST: http://jsonplaceholder.typicode.com/users",
+                "infFile": "t3.inf",
+                "time": 1550468968391
+            }
+        ],
+        "transactions": []
+    }
+]

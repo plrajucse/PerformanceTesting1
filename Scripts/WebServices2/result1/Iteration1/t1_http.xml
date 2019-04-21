@@ -1,0 +1,62 @@
+<?xml-stylesheet href="..\http.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\Micro Focus\LoadRunner\">
+  <http>
+    <request>
+      <header>POST /webservicesserver/NumberConversion.wso HTTP/1.1
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-cache
+SOAPAction: ""
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 1.1.4322.2032)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: www.dataaccess.com
+Content-Length: 734
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing"&gt;
+  &lt;soap:Header&gt;
+    &lt;wsa:Action&gt;
+    &lt;/wsa:Action&gt;
+    &lt;wsa:MessageID&gt;uuid:0194c5b9-aa68-46d0-b414-34094f5e0d48&lt;/wsa:MessageID&gt;
+    &lt;wsa:ReplyTo&gt;
+      &lt;wsa:Address&gt;http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous&lt;/wsa:Address&gt;
+    &lt;/wsa:ReplyTo&gt;
+    &lt;wsa:To&gt;https://www.dataaccess.com/webservicesserver/NumberConversion.wso&lt;/wsa:To&gt;
+  &lt;/soap:Header&gt;
+  &lt;soap:Body&gt;
+    &lt;NumberToWords xmlns="http://www.dataaccess.com/webservicesserver/"&gt;
+      &lt;ubiNum&gt;100&lt;/ubiNum&gt;
+    &lt;/NumberToWords&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</body>
+    </request>
+    <response>
+      <header>HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.0
+Web-Service: DataFlex 18.1
+Access-Control-Allow-Origin: http://www.dataaccess.com
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Headers: content-type
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+Date: Sun, 17 Feb 2019 14:39:42 GMT
+Content-Length: 312
+
+</header>
+      <body>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Body&gt;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;
+      &lt;m:NumberToWordsResult&gt;one hundred &lt;/m:NumberToWordsResult&gt;
+    &lt;/m:NumberToWordsResponse&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</body>
+    </response>
+  </http>
+</report>

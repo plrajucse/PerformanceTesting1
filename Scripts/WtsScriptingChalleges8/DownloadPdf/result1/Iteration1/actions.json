@@ -1,0 +1,28 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: cran.r-project.org",
+                "infFile": "t1.inf",
+                "time": 1548230734984
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: Manuals",
+                "infFile": "t5.inf",
+                "time": 1548230738075
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_transaction",
+                "rawStartTime": 1548230737417,
+                "rawEndTime": 1548230738077,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05469965934753418
+            }
+        ]
+    }
+]

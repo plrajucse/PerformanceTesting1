@@ -1,0 +1,203 @@
+jQuery(window).load(function() {
+
+	/* =========================================================
+	Accordion
+	============================================================ */
+
+    
+	var acc_wrapper=jQuery('.acc-wrapper');
+	if (acc_wrapper.length >0) 
+	{
+		jQuery('.acc-wrapper .accordion-container').hide();
+		jQuery.each(acc_wrapper, function(index, item){
+			jQuery(this).find(jQuery('.accordion-title')).first().addClass('active').next().show();
+			
+		});
+		jQuery('.accordion-title').on('click', function(e) {
+			if( jQuery(this).next().is(':hidden') ) {
+				jQuery(this).parent().find(jQuery('.active')).removeClass('active').next().slideUp(300);
+				jQuery(this).toggleClass('active').next().slideDown(300);
+			}
+			e.preventDefault();
+		});
+	}
+
+
+
+
+	var acc_wrapper2=jQuery('.acc-wrapper2');
+	if (acc_wrapper2.length >0) 
+	{
+		jQuery('.acc-wrapper2 .accordion-container2').hide();
+		jQuery.each(acc_wrapper2, function(index, item){
+			jQuery(this).find(jQuery('.accordion-title2')).eq(0).addClass('active').next().show();
+		});
+
+		jQuery('.accordion-title2').on('click', function(e) {
+			if( jQuery(this).next().is(':hidden') ) {
+				jQuery(this).parent().find(jQuery('.active')).removeClass('active').next().slideUp(300);
+				jQuery(this).toggleClass('active').next().slideDown(300);
+			}
+			e.preventDefault();
+		});
+	}
+
+
+
+/* =========================================================
+Create mobile menu
+============================================================ */
+
+    // Create the dropdown base
+    jQuery("<select />").appendTo("#main-menu");
+    jQuery("#main-menu select").attr("id","responsive-menu");
+		
+    // Create default option "Go to..."
+    jQuery("<option />", {
+        "selected": "selected",
+        "value"   : "",
+        "text"    : "Go to..."
+    }).appendTo("#main-menu select");
+		
+    // Populate dropdown with menu items
+    jQuery("#main-menu a").each(function() {
+        var el = jQuery(this);
+        jQuery("<option />", {
+            "value"   : el.attr("href"),
+            "text"    : el.text()
+        }).appendTo("#main-menu select");
+    });
+    jQuery("#responsive-menu").change(function() {
+        window.location = jQuery(this).find("option:selected").val();
+    });
+	
+
+/* =========================================================
+Create mobile menu
+============================================================ */
+
+    // Create the dropdown base
+    jQuery("<select />").appendTo("#top-nav");
+    jQuery("#top-nav select").attr("id","top-responsive-menu");
+		
+    // Create default option "Go to..."
+    jQuery("<option />", {
+        "selected": "selected",
+        "value"   : "",
+        "text"    : "Navigation..."
+    }).appendTo("#top-nav select");
+		
+    // Populate dropdown with menu items
+    jQuery("#top-nav a").each(function() {
+        var el = jQuery(this);
+        jQuery("<option />", {
+            "value"   : el.attr("href"),
+            "text"    : el.text()
+        }).appendTo("#top-nav select");
+    });
+    jQuery("#top-responsive-menu").change(function() {
+        window.location = jQuery(this).find("option:selected").val();
+    });
+	
+
+	
+	
+/* =========================================================
+Social icons hover
+============================================================ */
+
+    jQuery("#header-top .social-links a").mouseenter(function(){
+        jQuery(this).find('img').fadeTo(300, 0);
+    }).mouseleave(function(){
+        jQuery(this).find('img').fadeTo(300, 1);
+    });
+    jQuery("#footer-aside .social-links a").mouseenter(function(){
+        jQuery(this).find('img').fadeTo(300, 0);
+    }).mouseleave(function(){
+        jQuery(this).find('img').fadeTo(300, 1);
+    });	
+
+/* =========================================================
+Fix css
+============================================================ */
+
+    jQuery(".loading-gif").hide();
+    if(jQuery("#comments #respond").prev().find("li").length==0){
+        jQuery("#comments #respond").css("border-top","none");
+    };
+    jQuery('.h-post-item').parent().find('.pagination').css({
+        "border-top":"solid 1px #cccccc",
+        "padding-top":"5px"
+    });
+    jQuery(".container .kp-divider:last").remove();
+    jQuery("#main-nav ul li:first-child a").css("border-top","none");
+    jQuery("#main-nav ul ul li:first-child").css("margin-top",0);	
+    jQuery("#main-nav ul li:first-child").css("border-top","none");
+    jQuery("#footer-aside .footer-widget ul li:last-child").css("border-bottom","none");
+    jQuery("#sidebar .widget ul li:last-child").css("border-bottom","none");
+    jQuery(".vertical-widget li:first-child").css("margin-top",0);
+    jQuery("#top-nav ul li ul li:last-child").css("border-bottom","none");
+    jQuery(".h-post-item li:last-child").css({
+        "border-bottom":"none",
+        "padding-bottom":5
+    });	
+
+
+
+/* =========================================================
+prettyPhoto
+============================================================ */
+    jQuery("a[rel^='prettyPhoto']").prettyPhoto().mouseenter(function(){
+        jQuery(this).find('img').fadeTo(500, 0.8);
+    }).mouseleave(function(){
+        jQuery(this).find('img').fadeTo(400, 1.0);
+    });
+
+/* =========================================================
+Scroll to top
+============================================================ */
+    // scroll body to 0px on click
+    jQuery('#scroll-to-top').click(function () {
+        jQuery('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+
+/* =========================================================
+Remove Broken Images
+============================================================ */			
+	jQuery(window).bind('load', function() {
+		jQuery('img').each(function() {
+			if((typeof this.naturalWidth != "undefined" && this.naturalWidth == 0 ) || this.readyState == 'uninitialized' ) {
+				var parent = jQuery(this).parent();
+				if(  parent[0].tagName.toLowerCase() == 'a'){
+					parent.remove();
+				}else{
+					jQuery(this).remove();
+				}
+			}
+		});
+	});
+
+
+/* ======================
+New slider
+========================*/
+
+	
+/* =========================================================
+Home page slider
+============================================================ */
+	
+
+/*	jQuery('.flexslider').flexslider({
+	  animation: "slide",
+	  slideshow: true, 
+	  controlsContainer: ".flexslider-container"
+  });
+	
+
+	Cufon.replace('h1,h2,h3,h4,h5,h6, #main-nav li a, .newtrailer-text'); */
+
+});

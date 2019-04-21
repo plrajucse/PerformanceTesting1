@@ -1,0 +1,29 @@
+Virtual User Script started at: 2/17/2019 6:55:27 PM
+Starting action vuser_init.
+Web Services replay version 12.60.0 for Windows 10; Toolkit: "NotDefined"; build 971
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\WebServices1\\default.cfg"
+Vuser directory: "C:\Users\Dell\Documents\VuGen\Scripts\WebServices1"
+Vuser output directory: "C:\Users\Dell\Documents\VuGen\Scripts\WebServices1\"
+LOCAL start date/time : 2019-02-17 18:55:27
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_add_header("Accept-Encoding") started  	[MsgId: MMSG-26355]
+Action.c(4): web_add_header("Accept-Encoding") was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(5): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(5): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(8): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_custom_request("Frist Method") started  	[MsgId: MMSG-26355]
+Action.c(11): Notify: Saving Parameter "cResponse = one hundred ".
+Action.c(11): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://www.dataaccess.com/webservicesserver/NumberConversion.wso"  	[MsgId: MMSG-26548]
+Action.c(11): web_custom_request("Frist Method") was successful, 312 body bytes, 479 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

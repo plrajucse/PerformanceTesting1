@@ -1,0 +1,34 @@
+Virtual User Script started at: 1/30/2019 11:38:24 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\compareFinalCpgn\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_url("index.php") started  	[MsgId: MMSG-26355]
+Action.c(4): Found resource "http://18.222.58.52/web_css/generalFrame.css" in HTML "http://18.222.58.52/example4/index.php"  	[MsgId: MMSG-26659]
+Action.c(4): Found resource "http://18.222.58.52/web_pics/logo_capgemini.png" in HTML "http://18.222.58.52/example4/index.php"  	[MsgId: MMSG-26659]
+Action.c(4): Found resource "http://18.222.58.52/web_pics/logo_sogeti.png" in HTML "http://18.222.58.52/example4/index.php"  	[MsgId: MMSG-26659]
+Action.c(4): web_url("index.php") was successful, 490657 body bytes, 1356 header bytes  	[MsgId: MMSG-26386]
+Action.c(16): web_url("Go shopping") started  	[MsgId: MMSG-26355]
+Action.c(16): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(16): Found resource "http://18.222.58.52/example4/game-over.jpg" in HTML "http://18.222.58.52/example4/sessionhandler.php?type=new&sessionKey=161503"  	[MsgId: MMSG-26659]
+Action.c(16): web_url("Go shopping") was successful, 116836 body bytes, 679 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): web_submit_data("cart.php") started  	[MsgId: MMSG-26355]
+Action.c(28): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://18.222.58.52/example4/game-over.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): web_submit_data("cart.php") was successful, 1079 body bytes, 365 header bytes  	[MsgId: MMSG-26386]
+Action.c(45): web_url("Checkout") started  	[MsgId: MMSG-26355]
+Action.c(45): Resource "http://18.222.58.52/web_css/generalFrame.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(45): Resource "http://18.222.58.52/example4/game-over.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(45): web_url("Checkout") was successful, 135 body bytes, 363 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

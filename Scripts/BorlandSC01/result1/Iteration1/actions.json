@@ -1,0 +1,54 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: agent_lookup.jsf",
+                "infFile": "t9.inf",
+                "time": 1551083978150
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: agent_lookup.jsf_2",
+                "infFile": "t10.inf",
+                "time": 1551083980362
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: agentData.jsf",
+                "infFile": "t11.inf",
+                "time": 1551083980790
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: index.jsf",
+                "infFile": "t12.inf",
+                "time": 1551083981134
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Borland_SC001_T002_AgentLookUp",
+                "rawStartTime": 1551083976983,
+                "rawEndTime": 1551083978152,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14438772201538087
+            },
+            {
+                "transactionName": "Borland_SC001_T003_ShowAllAgents",
+                "rawStartTime": 1551083978154,
+                "rawEndTime": 1551083980791,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5111048221588135
+            },
+            {
+                "transactionName": "Borland_SC001_T004_Home",
+                "rawStartTime": 1551083980793,
+                "rawEndTime": 1551083981136,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06828784942626953
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[t1]
+FileName1=t1.htm
+URL1=http://banking.megasol.se/
+Total=4
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t1_login.html
+URL2=http://banking.megasol.se/js/login.js
+FileName3=t1_login_logo.gif
+URL3=http://banking.megasol.se/images/login_logo.gif
+FileName4=t1_login_logo_bottom.gif
+URL4=http://banking.megasol.se/images/login_logo_bottom.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

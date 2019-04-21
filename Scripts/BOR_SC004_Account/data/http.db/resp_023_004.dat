@@ -1,0 +1,26 @@
+Ext.onReady(function(){
+	
+	var birthdayHid  = Ext.get('signup:calendar').dom.value;
+
+	BirthDate = new Ext.form.DateField({
+    id: 'BirthDate',
+    fieldLabel: 'Birth date',
+    format: 'd/m/Y',                 // <---- Format d/m/Y, Y-m-d, y-m-d ...
+    allowBlank: false,
+    renderTo: 'birthDatePickerDIV',
+    listeners: {
+		select: function(picker,date) {
+		var d = new Date(date);
+		Ext.get('signup:calendar').set({value: d.format("d/m/Y")});
+		BirthDate.setValue(d.format("d/m/Y"));
+		}
+	}        
+	}
+    );
+			
+	
+	if(birthdayHid != ""){		
+		BirthDate.setValue(birthdayHid);
+	}
+	
+});

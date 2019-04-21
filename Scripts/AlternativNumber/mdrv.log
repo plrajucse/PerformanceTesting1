@@ -1,0 +1,74 @@
+Virtual User Script started at: 1/20/2019 4:10:50 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\AlternativNumber\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): Notify: Parameter Substitution: parameter "pIteration" =  "1"
+Action.c(10): Rejected 1
+Action.c(11): raju is bad boy
+Action.c(15): Notify: Parameter Substitution: parameter "pVuserId" =  "1"
+Action.c(20): Rejected 1
+Action.c(21): raju is bad boy
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(5): Notify: Parameter Substitution: parameter "pIteration" =  "2"
+Action.c(7): approved 2
+Action.c(8): raju is good boy
+Action.c(15): Notify: Parameter Substitution: parameter "pVuserId" =  "1"
+Action.c(20): Rejected 1
+Action.c(21): raju is bad boy
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(5): Notify: Parameter Substitution: parameter "pIteration" =  "3"
+Action.c(10): Rejected 3
+Action.c(11): raju is bad boy
+Action.c(15): Notify: Parameter Substitution: parameter "pVuserId" =  "1"
+Action.c(20): Rejected 1
+Action.c(21): raju is bad boy
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Action.c(5): Notify: Parameter Substitution: parameter "pIteration" =  "4"
+Action.c(7): approved 4
+Action.c(8): raju is good boy
+Action.c(15): Notify: Parameter Substitution: parameter "pVuserId" =  "1"
+Action.c(20): Rejected 1
+Action.c(21): raju is bad boy
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action.
+Action.c(5): Notify: Parameter Substitution: parameter "pIteration" =  "5"
+Action.c(10): Rejected 5
+Action.c(11): raju is bad boy
+Action.c(15): Notify: Parameter Substitution: parameter "pVuserId" =  "1"
+Action.c(20): Rejected 1
+Action.c(21): raju is bad boy
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Action.
+Action.c(5): Notify: Parameter Substitution: parameter "pIteration" =  "6"
+Action.c(7): approved 6
+Action.c(8): raju is good boy
+Action.c(15): Notify: Parameter Substitution: parameter "pVuserId" =  "1"
+Action.c(20): Rejected 1
+Action.c(21): raju is bad boy
+Ending action Action.
+Ending iteration 6.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 1084), ended OK."

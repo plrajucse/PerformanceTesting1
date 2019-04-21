@@ -1,0 +1,857 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="X-UA-Compatible" content="IE=8" /><title>
+	Smart Office Suite
+</title><link href="RadToolBar.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+		<script type="text/javascript">
+		    function buttonClicked(sender, args) {
+		        if (args.get_item().get_index() == 0)
+		            $find('AboutWindow').show();
+		    }
+
+		    function aboutWindowShow(sender) {
+		        if ($telerik.isIE7) {
+		            var content = sender.get_contentElement();
+		            content.style.cssText = content.style.cssText.replace(/filter.*?\;/ig, '');
+		        }
+		    }
+		</script>
+
+	
+
+    <style type="text/css">
+        /* RadPanelBar needs to know the height of the images to calculate 
+	       its height accordingly when the images are not loaded yet. */
+        
+        div.RadMenu .rmRootGroup .rmLast
+        {
+            float: right;
+        }
+        
+        div.RadMenu .rmGroup .rmLast
+        {
+            float: none;
+        }
+        
+        div.RadMenu .rmRootGroup .rmSecondLast
+        {
+            float: right;
+        }
+        
+        div.RadMenu .rmGroup .rmSecondLast
+        {
+            float: none;
+        }
+        
+        .RadPanelBar .rpImage
+        {
+            height: 19px;
+        }
+        .RadPanelBar .rpLevel1 .rpImage
+        {
+            height: 16px;
+        }
+        div.RadMenu
+        {
+            float: inherit;
+        }
+        
+     
+    </style>
+<link href="/WebResource.axd?d=n4OqQvUTPMYZwRKbLIl3AOKR_5rQXBM-UglyDkAJzurUztTO3bAQ-1CtOcNQUUUC6I6gB6iBQGcAo8XAuGB6h0nbRT8SRN1ZAJCVonqSA3qBKWM-EP3Jhq1yd0MEwR4xncOrALdoVfYnO8UqJ2UKXA2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=f6LAv8jgDiyayzSduVEPxhkmnNUfNffmyxNpHNPdVZij9srcNO4KUxaDAan-jikEDfaT0z0nEZV6RYGIDqUeHAypF5Tkwxuww9DTtWkyss1ZqK-d3NwDBHVP1CI442x5VtOGyuJZA4T_Gzu2CxjiOKegYa_2ZzQy8d_UFvbc-m3oC8X33nQU9F24Gp95mYS0QOSypV-IIIVoeIOINkNLoA2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=J-l8h-ueTOX_HktBRvKrfExqDmQqJ-2hxOXd0OXqP_0mZnKJzY7EoUBdB9u4yDrZED1dVCxRJX-5c-rxN8XsPkCJHxEuCMqrmnZJsIxg1HmGY5r12ipSx1jGh1qZ6CDqcNnS366eaxReGTNI0VSLqg2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=1LV1GtCCrwpvOuACx9BUCGNbxHa1AYM7KthWlxEsz2yiEjkQ0WvD9cog0rEkfle2-LtA60aV2Y-Kb6gWpNWbwozAiQnzNpvGwmalCdb6LFNUyC_oOSxeXquUGcegp-S49DTBggdvWnsfRQWoM2WyoBvA4pCcU7CWAX2bKkqmLYoKpSG5hS4RQQ_8GF0amPdt0&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=eczJfSFS9zjtUzx9oLPZYLcvGi6OZVKXLFottw5UTMPetFR63nEzJwAxis9J6wYCjgMv6TFMqQw7UYWEgG8SK6IGtx17Mmtz1G_hfqnT8Frr2ec9EEJBSeFKsM0U0iDIIg5vtFBmi-oxGpLEpVWzGw2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=jnZFOgT7WdQB3RTUGhg52gRj3KK73XWq4SRAJMRIiVh3nXUaWvGvgYAa0pcdEcJFg2VNMhPkxg-GniqZfj-T4LJW9UZ49CL2KW2RqgnBnpixaUwe6KqQxZNmdZ_8Q0e2bgWuWUH9QHxCl4foRcOpxMEs--pSNzseh-bdq4ZVC7ruoFnMavnGPh77hn9neJER0&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=sNyNf0I7lWqIs_oBeKFG9025AibfNpTT7NWzWomRZOSNbyyKkQcs1Q1uNoxs1TlFmPi9Mc4HX8uGjp_NNE76MipXsaWicGrp1QQDZnsAty9Lhc-H1BTMvVi-ckmANzrSMZ9Ubu_gukHq7o-74q8j6nq-ozpVYZZWotZk6ySybh1Ip3_wteMm6lAj94wHCSFQ0&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=6XXijdcpwrwU0fHPmcx_DNrlJnAYN-TiBmZMfxZRDAwTxbhIlOt8RZ_R5d4YzB0GEvU3uyjET1F99Gs33qxwdaoRHWdDbu0fxlTOygxfUA1MfNC-Rgtau4Ch7xxpxPmSLfP1N2x16KtmWknRhPPlkA2&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=VTFttKA4Yzg3ZnGlog5Fh10XimfO1yeadxje5cfvArOY_VA2LzB5elzEIyUJrr2Z5NiDDCOOZE7lG-oB44LoRSb7iJZFevp3fdwSrgp8q181_aLH13TR6IJaMxsUPSBONUS3go-JgTla7a6aDVuDsPuTzxnc2ZdChtSHBDjx5xfKONzJQopFYiltWbx0cnM90&amp;t=634859606780000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body>
+    <form name="form1" method="post" action="./Main.aspx" id="form1">
+<div>
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjY4MTc5MTU1D2QWAgIDD2QWDgIFDw8WAh4XRW5hYmxlQWpheFNraW5SZW5kZXJpbmdoFgIeBXN0eWxlBQ1kaXNwbGF5Om5vbmU7ZAIHDw8WAh8AaGRkAgkPFgIeA3NyYwUeL2ltYWdlcy9lU1NMQXR0ZW5kYW5jZWxvZ28ucG5nZAILDxQrAAIUKwACDxYCHwBoZBAWAmYCARYCFCsAAg8WAh4EVGV4dAUjTGFzdCBMb2dpbi0gMDQtSmFuLTIwMTkgMTE6NTI6MDQgQU1kZBQrAAIPFgIfAwUMV2VsY29tZSBlc3NsFgIfAQUPY3Vyc29yOnBvaW50ZXI7EBYCZgIBFgIUKwACD2QWAh8BBQ9jdXJzb3I6cG9pbnRlcjtkFCsAAg9kFgIfAQUPY3Vyc29yOnBvaW50ZXI7ZA8WAmZmFgEFdFRlbGVyaWsuV2ViLlVJLlJhZE1lbnVJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjMuMTAxNi40MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0DxYCZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDRkFgRmDw8WAh8DBSNMYXN0IExvZ2luLSAwNC1KYW4tMjAxOSAxMTo1MjowNCBBTWRkAgEPDxYCHwMFDFdlbGNvbWUgZXNzbBYCHwEFD2N1cnNvcjpwb2ludGVyOxYEZg8PZBYCHwEFD2N1cnNvcjpwb2ludGVyO2QCAQ8PZBYCHwEFD2N1cnNvcjpwb2ludGVyO2QCDQ8UKwACFCsAAg8WAh8AaGQQFghmAgECAgIDAgQCBQIGAgcWCBQrAAIPFgIeCUFjY2Vzc0tleQUBRmQQFghmAgECAgIDAgQCBQIGAgcWCBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAIPFgYeCEltYWdlVXJsBRFJY29ucy9jb21wYW55LnBuZx4FVmFsdWUFDUZvb3RlckRldGFpbHMeB1Zpc2libGVoZGQUKwACZGQUKwACD2QWAh8BBQ9jdXJzb3I6cG9pbnRlcjtkDxYIZmZmZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYCHwQFAUZkEBYgZgIBAgICAwIEAgUCBgIHAggCCQIKAgsCDAINAg4CDwIQAhECEgITAhQCFQIWAhcCGAIZAhoCGwIcAh0CHgIfFiAUKwACZGQUKwACZGQUKwACDxYCHwdoZGQUKwACDxYGHwUFGkljb25zL1NNUy1zZXR0aW5nLWljb24ucG5nHwYFEldlYlNNU1NldHRpbmdzUGFnZR8HaGRkFCsAAg8WAh8HaGRkFCsAAg8WBB8DBRNFbXBsb3llZSBNYW51YWwgU01THwdoZGQUKwACZGQUKwACDxYCHwMFB0NvbXBhbnlkZBQrAAIPFgIfAwUKRGVwYXJ0bWVudGRkFCsAAg8WAh8DBQhDYXRlZ29yeWRkFCsAAmRkFCsAAg8WAh8DBQhFbXBsb3llZWRkFCsAAg8WAh8HaGRkFCsAAg8WAh8HaGRkFCsAAmRkFCsAAmRkFCsAAg8WAh4HRW5hYmxlZGhkZBQrAAIPFgIfCGhkZBQrAAIPFgIfB2hkEBYFZgIBAgICAwIEFgUUKwACZGQUKwACZGQUKwACDxYCHwMFFEVtcGxveWVlIE11bHRpIFNoaWZ0ZGQUKwACZGQUKwACZBAWBWYCAQICAgMCBBYFFCsAAmRkFCsAAmRkFCsAAg8WBB8FBRFJY29ucy9yZXBvcnRzLnBuZx8GBRpQcmVzZW50QWJzZW50Q291bnRCeVdlZWtseWRkFCsAAg8WBh8FBRFJY29ucy9yZXBvcnRzLnBuZx8GBRtQcmVzZW50QWJzZW50Q291bnRCeU1vbnRobHkfB2hkZBQrAAIPFgYfBQURSWNvbnMvcmVwb3J0cy5wbmcfBgUfU2hpZnRSb3N0ZXJXaXNlTXVsdGlTaGlmdFJlcG9ydB8HaGRkDxYFZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQPFgVmZmZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAIPFgIfCGhkZBQrAAIPFgQfAwUORW1wbG95ZWUgU2hpZnQfCGhkZBQrAAJkZBQrAAIPFgIfAwUcRW1wbG95ZWUgQXR0ZW5kYW5jZSBSZWdpc3RlcmRkFCsAAmRkFCsAAg8WAh8DBRhFbXBsb3llZSBBdHRlbmRhbmNlIExvZ3NkZBQrAAIPFgIfAwUWRW1wbG95ZWUgTGVhdmUgU3VtbWFyeWRkFCsAAmRkFCsAAmRkDxYgZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYCHwQFAUZkEBYJZgIBAgICAwIEAgUCBgIHAggWCRQrAAIPFgIfAwUWRW1wbG95ZWUgT3V0RG9vciBFbnRyeWRkFCsAAg8WAh8DBRZFbXBsb3llZSBMZWF2ZSBFbnRyaWVzZGQUKwACZGQUKwACZGQUKwACDxYEHwMFIUVtcGxveWVlIFJlc3RyaWN0ZWQgSG9saWRheSBFbnRyeR8IaGRkFCsAAmRkFCsAAg8WBB8DBR5Bc3NpZ24gRW1wbG95ZWUgQ29tcE9mZkFjY3J1YWwfB2hkZBQrAAIPFgQfAwUVRW1wbG95ZWUgQ29tcE9mZkVudHJ5HwdoZGQUKwACZGQPFglmZmZmZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYCHwdoZBAWB2YCAQICAgMCBAIFAgYWBxQrAAJkEBYDZgIBAgIWAxQrAAJkZBQrAAJkZBQrAAJkZA8WA2ZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYCZgIBFgIUKwACZGQUKwACZGQPFgJmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYDZgIBAgIWAxQrAAJkEBYCZgIBFgIUKwACZGQUKwACZGQPFgJmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYCZgIBFgIUKwACZGQUKwACZGQPFgJmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZA8WA2ZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZBQrAAJkEBYCZgIBFgIUKwACZGQUKwACZGQPFgJmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYCZgIBFgIUKwACZGQUKwACZGQPFgJmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZA8WB2ZmZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACZBAWD2YCAQICAgMCBAIFAgYCBwIIAgkCCgILAgwCDQIOFg8UKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACDxYCHgdUb29sVGlwBTRUaGlzIG9wdGlvbiB3aWxsIHdvcmsgb25seSB3aXRoIG5ldyBmaXJtd2FyZSBkZXZpY2UuZGQUKwACZGQUKwACZGQUKwACZGQUKwACDxYEHwhoHwdoZGQUKwACDxYEHwYFEERlbGV0ZURldmljZUxvZ3MfB2hkZBQrAAJkZA8WD2ZmZmZmZmZmZmZmZmZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYhZgIBAgICAwIEAgUCBgIHAggCCQIKAgsCDAINAg4CDwIQAhECEgITAhQCFQIWAhcCGAIZAhoCGwIcAh0CHgIfAiAWIRQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAIPFgQfBQUbSWNvbnMvaW1wb3J0LWRldmljZS1sb2cucG5nHwdoZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACDxYCHwMFHENhcnJ5IEZvcndhcmQgRW1wbG95ZWUgTGVhdmVkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAIPFgQfBgUQRG9jdW1lbnRUZW1wbGF0ZR8HaGRkFCsAAmRkFCsAAmRkDxYhZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmFgEFdFRlbGVyaWsuV2ViLlVJLlJhZE1lbnVJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjMuMTAxNi40MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0FCsAAmQQFiBmAgECAgIDAgQCBQIGAgcCCAIJAgoCCwIMAg0CDgIPAhACEQISAhMCFAIVAhYCFwIYAhkCGgIbAhwCHQIeAh8WIBQrAAJkZBQrAAJkEBYTZgIBAgICAwIEAgUCBgIHAggCCQIKAgsCDAINAg4CDwIQAhECEhYTFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAg8WBB8DZR8HaGRkFCsAAg8WBB8DZR8HaGRkFCsAAg8WBB8DZR8HaGRkDxYTZmZmZmZmZmZmZmZmZmZmZmZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYKZgIBAgICAwIEAgUCBgIHAggCCRYKFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAmRkFCsAAg8WBB8DZR8HaGRkFCsAAg8WBB8DZR8HaGRkFCsAAg8WBB8DZR8HaGRkDxYKZmZmZmZmZmZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAIPFgYfBQURSWNvbnMvcmVwb3J0cy5wbmcfBgUgTGVhdmVFbnRyeVJlcG9ydFByYXRlZWtPdmVyc2Vhc2UfB2hkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkZBQrAAJkEBYDZgIBAgIWAxQrAAIPFgIfAwUORW1wbG95ZWUgR3JhcGhkZBQrAAIPFgIfAwUQRGVwYXJ0bWVudCBHcmFwaGRkFCsAAg8WAh8DBQ1Db21wYW55IEdyYXBoZGQPFgNmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACZGQUKwACZGQUKwACDxYCHwMFF0VtcGxveWVlIERldGFpbHMgUmVwb3J0ZBAWAmYCARYCFCsAAmRkFCsAAmRkDxYCZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACZGQUKwACDxYGHwUFEUljb25zL3JlcG9ydHMucG5nHwYFDmxlYXZldXBsb2FkaW5nHwdoZGQUKwACZGQUKwACZBAWA2YCAQICFgMUKwACZGQUKwACZGQUKwACZGQPFgNmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACZGQPFiBmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkEBYEZgIBAgICAxYEFCsAAmRkFCsAAmRkFCsAAmRkFCsAAg8WAh8HaGRkDxYEZmZmZhYBBXRUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNA8WCGZmZmZmZmZmFgEFdFRlbGVyaWsuV2ViLlVJLlJhZE1lbnVJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjMuMTAxNi40MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0ZBYQZg8PFgIfBAUBRmQWBAIFDw8WBh8FBRFJY29ucy9jb21wYW55LnBuZx8GBQ1Gb290ZXJEZXRhaWxzHwdoZGQCBw8PZBYCHwEFD2N1cnNvcjpwb2ludGVyO2QCAQ8PFgIfBAUBRmQWJAICDw8WAh8HaGRkAgMPDxYGHwUFGkljb25zL1NNUy1zZXR0aW5nLWljb24ucG5nHwYFEldlYlNNU1NldHRpbmdzUGFnZR8HaGRkAgQPDxYCHwdoZGQCBQ8PFgQfAwUTRW1wbG95ZWUgTWFudWFsIFNNUx8HaGRkAgcPDxYCHwMFB0NvbXBhbnlkZAIIDw8WAh8DBQpEZXBhcnRtZW50ZGQCCQ8PFgIfAwUIQ2F0ZWdvcnlkZAILDw8WAh8DBQhFbXBsb3llZWRkAgwPDxYCHwdoZGQCDQ8PFgIfB2hkZAIQDw8WAh8IaGRkAhEPDxYCHwhoZGQCEg8PFgIfB2hkFgQCAg8PFgIfAwUURW1wbG95ZWUgTXVsdGkgU2hpZnRkZAIED2QWBgICDw8WBB8FBRFJY29ucy9yZXBvcnRzLnBuZx8GBRpQcmVzZW50QWJzZW50Q291bnRCeVdlZWtseWRkAgMPDxYGHwUFEUljb25zL3JlcG9ydHMucG5nHwYFG1ByZXNlbnRBYnNlbnRDb3VudEJ5TW9udGhseR8HaGRkAgQPDxYGHwUFEUljb25zL3JlcG9ydHMucG5nHwYFH1NoaWZ0Um9zdGVyV2lzZU11bHRpU2hpZnRSZXBvcnQfB2hkZAIXDw8WAh8IaGRkAhgPDxYEHwMFDkVtcGxveWVlIFNoaWZ0HwhoZGQCGg8PFgIfAwUcRW1wbG95ZWUgQXR0ZW5kYW5jZSBSZWdpc3RlcmRkAhwPDxYCHwMFGEVtcGxveWVlIEF0dGVuZGFuY2UgTG9nc2RkAh0PDxYCHwMFFkVtcGxveWVlIExlYXZlIFN1bW1hcnlkZAICDw8WAh8EBQFGZBYKZg8PFgIfAwUWRW1wbG95ZWUgT3V0RG9vciBFbnRyeWRkAgEPDxYCHwMFFkVtcGxveWVlIExlYXZlIEVudHJpZXNkZAIEDw8WBB8DBSFFbXBsb3llZSBSZXN0cmljdGVkIEhvbGlkYXkgRW50cnkfCGhkZAIGDw8WBB8DBR5Bc3NpZ24gRW1wbG95ZWUgQ29tcE9mZkFjY3J1YWwfB2hkZAIHDw8WBB8DBRVFbXBsb3llZSBDb21wT2ZmRW50cnkfB2hkZAIDDw8WAh8HaGRkAgQPZBYGAggPDxYCHwkFNFRoaXMgb3B0aW9uIHdpbGwgd29yayBvbmx5IHdpdGggbmV3IGZpcm13YXJlIGRldmljZS5kZAIMDw8WBB8IaB8HaGRkAg0PDxYEHwYFEERlbGV0ZURldmljZUxvZ3MfB2hkZAIFD2QWBgIPDw8WBB8FBRtJY29ucy9pbXBvcnQtZGV2aWNlLWxvZy5wbmcfB2hkZAIXDw8WAh8DBRxDYXJyeSBGb3J3YXJkIEVtcGxveWVlIExlYXZlZGQCHg8PFgQfBgUQRG9jdW1lbnRUZW1wbGF0ZR8HaGRkAgYPZBYMAgEPZBYGAhAPDxYEHwNlHwdoZGQCEQ8PFgQfA2UfB2hkZAISDw8WBB8DZR8HaGRkAgIPZBYGAgcPDxYEHwNlHwdoZGQCCA8PFgQfA2UfB2hkZAIJDw8WBB8DZR8HaGRkAgwPDxYGHwUFEUljb25zL3JlcG9ydHMucG5nHwYFIExlYXZlRW50cnlSZXBvcnRQcmF0ZWVrT3ZlcnNlYXNlHwdoZGQCEg9kFgZmDw8WAh8DBQ5FbXBsb3llZSBHcmFwaGRkAgEPDxYCHwMFEERlcGFydG1lbnQgR3JhcGhkZAICDw8WAh8DBQ1Db21wYW55IEdyYXBoZGQCFQ8PFgIfAwUXRW1wbG95ZWUgRGV0YWlscyBSZXBvcnRkZAIcDw8WBh8FBRFJY29ucy9yZXBvcnRzLnBuZx8GBQ5sZWF2ZXVwbG9hZGluZx8HaGRkAgcPZBYCAgMPDxYCHwdoZGQCDw8UKwACDxYCHwBoZBAWD2YCAQICAgMCBAIFAgYCBwIIAgkCCgILAgwCDQIOFg8UKwACDxYEHwQFAU4fCQUDTmV3ZBAWCmYCAQICAgMCBAIFAgYCBwIIAgkWChQrAAIPFgIfCQUPTmV3IFN5c3RlbSBVc2VyZGQUKwACZGQUKwACDxYCHwkFC05ldyBDb21wYW55ZGQUKwACDxYCHwkFDE5ldyBDYXRlZ29yeWRkFCsAAg8WAh8JBQ5OZXcgRGVwYXJ0bWVudGRkFCsAAmRkFCsAAg8WAh8JBQlOZXcgU2hpZnRkZBQrAAIPFgIfCQUOTmV3IExlYXZlIFR5cGVkZBQrAAIPFgIfCQUSTmV3IFB1YmxpYyBIb2xpZGF5ZGQUKwACZGQPFgpmZmZmZmZmZmZmFgEFeVRlbGVyaWsuV2ViLlVJLlJhZFRvb2xCYXJCdXR0b24sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACZGQUKwACDxYCHwkFEEVtcGxveWVlIERldGFpbHNkZBQrAAIPFgIfCQUNTWVtbyBTZXR0aW5nc2RkFCsAAg8WAh8JBRBNYXN0ZXIgIFNldHRpbmdzZGQUKwACZGQUKwACDxYEHwQFAUEfCQUGQXNzaWduZBAWCGYCAQICAgMCBAIFAgYCBxYIFCsAAg8WAh8JBRBEZXBhcnRtZW50IFNoaWZ0ZGQUKwACDxYCHwkFDkVtcGxveWVlIFNoaWZ0ZGQUKwACZGQUKwACDxYCHwkFFEVtcGxveWVlIExlYXZlIEVudHJ5ZGQUKwACDxYCHwkFF0VtcGxveWVlIENvbXAgT2ZmIEVudHJ5ZGQUKwACDxYCHwkFK0VtcGxveWVlIEVtcGxveWVlcyBSZXN0cmljdGVkIEhvbGlkYXkgRW50cnlkZBQrAAIPFgIfCQUWRW1wbG95ZWUgT3V0RG9vciBFbnRyeWRkFCsAAmRkDxYIZmZmZmZmZmYWAQV5VGVsZXJpay5XZWIuVUkuUmFkVG9vbEJhckJ1dHRvbiwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZBQrAAIPFgQfBAUBRB8JBRFEZXZpY2UgTWFuYWdlbWVudGQQFgZmAgECAgIDAgQCBRYGFCsAAg8WAh8JBQdEZXZpY2VzZGQUKwACDxYCHwkFFEVtcGxveWVlIERldmljZSBMb2dzZGQUKwACZGQUKwACDxYCHwkFD0RldmljZSBDb21tYW5kc2RkFCsAAg8WAh8JBRZVcGxvYWQgdXNlcnMgdG8gRGV2aWNlZGQUKwACZGQPFgZmZmZmZmYWAQV5VGVsZXJpay5XZWIuVUkuUmFkVG9vbEJhckJ1dHRvbiwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBQrAAJkZBQrAAIPFgQfBAUBVR8JBQlVdGlsaXRpZXNkEBYMZgIBAgICAwIEAgUCBgIHAggCCQIKAgsWDBQrAAIPFgIfCQUeSW1wb3J0IEVtcGxveWVlcyBCYXNpYyBEZXRhaWxzZGQUKwACDxYCHwkFHkV4cG9ydCBFbXBsb3llZXMgQmFzaWMgRGV0YWlsc2RkFCsAAmRkFCsAAg8WAh8JBSFJbXBvcnQgRW1wbG95ZWVzIFBlcnNvbmFsIERldGFpbHNkZBQrAAIPFgIfCQUhRXhwb3J0IEVtcGxveWVlcyBQZXJzb25hbCBEZXRhaWxzZGQUKwACZGQUKwACDxYCHwkFHUltcG9ydCBFbXBsb3llZSBMZWF2ZSBTdW1tYXJ5ZGQUKwACDxYCHwkFHUV4cG9ydCBFbXBsb3llZSBMZWF2ZSBTdW1tYXJ5ZGQUKwACZGQUKwACDxYCHwkFHUNhcnJ5IGZvcndhcmQgRW1wbG95ZWVzIExlYXZlZGQUKwACDxYCHwkFGFBhcmFsbGVsIGRhdGFiYXNlIEV4cG9ydGRkFCsAAmRkDxYMZmZmZmZmZmZmZmZmFgEFeVRlbGVyaWsuV2ViLlVJLlJhZFRvb2xCYXJCdXR0b24sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTIuMy4xMDE2LjQwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYCHwkFFlJlY2FsY3VsYXRlIEF0dGVuZGFuY2VkZBQrAAIPFgIfCQUTQXR0ZW5kYW5jZSBSZWdpc3RlcmRkFCsAAg8WAh8JBQ9BdHRlbmRhbmNlIExvZ3NkZBQrAAIPFgQfBAUBUh8JBQdSZXBvcnRzZBAWC2YCAQICAgMCBAIFAgYCBwIIAgkCChYLFCsAAg8WAh8JBRdEYWlseSBBdHRlbmRhbmNlIFJlcG9ydGRkFCsAAg8WAh8JBRlNb250aGx5IEF0dGVuZGFuY2UgUmVwb3J0ZGQUKwACZGQUKwACDxYCHwkFEkxlYXZlIEVudHJ5IFJlcG9ydGRkFCsAAg8WAh8JBRVPdXQgRG9vciBFbnRyeSBSZXBvcnRkZBQrAAJkZBQrAAIPFgIfCQUUTGVhdmUgU3VtbWFyeSBSZXBvcnRkZBQrAAIPFgIfCQUNR2VuZXJhdGUgTWVtb2RkFCsAAg8WAh8JBRNSYW5kb20gQ2hlY2sgUmVwb3J0ZGQUKwACDxYCHwkFEkFibm9ybWFsaXR5IFJlcG9ydGRkFCsAAmRkDxYLZmZmZmZmZmZmZmYWAQV5VGVsZXJpay5XZWIuVUkuUmFkVG9vbEJhckJ1dHRvbiwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4zLjEwMTYuNDAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNA8WD2YCAQIBAgECAQIBZgIBZgIBZgIBAgECAWYWAgV+VGVsZXJpay5XZWIuVUkuUmFkVG9vbEJhclNwbGl0QnV0dG9uLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjMuMTAxNi40MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0BXlUZWxlcmlrLldlYi5VSS5SYWRUb29sQmFyQnV0dG9uLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjMuMTAxNi40MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0FhZmDw8WBB8EBQFOHwkFA05ld2QWDmYPDxYCHwkFD05ldyBTeXN0ZW0gVXNlcmRkAgIPDxYCHwkFC05ldyBDb21wYW55ZGQCAw8PFgIfCQUMTmV3IENhdGVnb3J5ZGQCBA8PFgIfCQUOTmV3IERlcGFydG1lbnRkZAIGDw8WAh8JBQlOZXcgU2hpZnRkZAIHDw8WAh8JBQ5OZXcgTGVhdmUgVHlwZWRkAggPDxYCHwkFEk5ldyBQdWJsaWMgSG9saWRheWRkAgIPDxYCHwkFEEVtcGxveWVlIERldGFpbHNkZAIDDw8WAh8JBQ1NZW1vIFNldHRpbmdzZGQCBA8PFgIfCQUQTWFzdGVyICBTZXR0aW5nc2RkAgYPDxYEHwQFAUEfCQUGQXNzaWduZBYMZg8PFgIfCQUQRGVwYXJ0bWVudCBTaGlmdGRkAgEPDxYCHwkFDkVtcGxveWVlIFNoaWZ0ZGQCAw8PFgIfCQUURW1wbG95ZWUgTGVhdmUgRW50cnlkZAIEDw8WAh8JBRdFbXBsb3llZSBDb21wIE9mZiBFbnRyeWRkAgUPDxYCHwkFK0VtcGxveWVlIEVtcGxveWVlcyBSZXN0cmljdGVkIEhvbGlkYXkgRW50cnlkZAIGDw8WAh8JBRZFbXBsb3llZSBPdXREb29yIEVudHJ5ZGQCCA8PFgQfBAUBRB8JBRFEZXZpY2UgTWFuYWdlbWVudGQWCGYPDxYCHwkFB0RldmljZXNkZAIBDw8WAh8JBRRFbXBsb3llZSBEZXZpY2UgTG9nc2RkAgMPDxYCHwkFD0RldmljZSBDb21tYW5kc2RkAgQPDxYCHwkFFlVwbG9hZCB1c2VycyB0byBEZXZpY2VkZAIKDw8WBB8EBQFVHwkFCVV0aWxpdGllc2QWEGYPDxYCHwkFHkltcG9ydCBFbXBsb3llZXMgQmFzaWMgRGV0YWlsc2RkAgEPDxYCHwkFHkV4cG9ydCBFbXBsb3llZXMgQmFzaWMgRGV0YWlsc2RkAgMPDxYCHwkFIUltcG9ydCBFbXBsb3llZXMgUGVyc29uYWwgRGV0YWlsc2RkAgQPDxYCHwkFIUV4cG9ydCBFbXBsb3llZXMgUGVyc29uYWwgRGV0YWlsc2RkAgYPDxYCHwkFHUltcG9ydCBFbXBsb3llZSBMZWF2ZSBTdW1tYXJ5ZGQCBw8PFgIfCQUdRXhwb3J0IEVtcGxveWVlIExlYXZlIFN1bW1hcnlkZAIJDw8WAh8JBR1DYXJyeSBmb3J3YXJkIEVtcGxveWVlcyBMZWF2ZWRkAgoPDxYCHwkFGFBhcmFsbGVsIGRhdGFiYXNlIEV4cG9ydGRkAgsPDxYCHwkFFlJlY2FsY3VsYXRlIEF0dGVuZGFuY2VkZAIMDw8WAh8JBRNBdHRlbmRhbmNlIFJlZ2lzdGVyZGQCDQ8PFgIfCQUPQXR0ZW5kYW5jZSBMb2dzZGQCDg8PFgQfBAUBUh8JBQdSZXBvcnRzZBYQZg8PFgIfCQUXRGFpbHkgQXR0ZW5kYW5jZSBSZXBvcnRkZAIBDw8WAh8JBRlNb250aGx5IEF0dGVuZGFuY2UgUmVwb3J0ZGQCAw8PFgIfCQUSTGVhdmUgRW50cnkgUmVwb3J0ZGQCBA8PFgIfCQUVT3V0IERvb3IgRW50cnkgUmVwb3J0ZGQCBg8PFgIfCQUUTGVhdmUgU3VtbWFyeSBSZXBvcnRkZAIHDw8WAh8JBQ1HZW5lcmF0ZSBNZW1vZGQCCA8PFgIfCQUTUmFuZG9tIENoZWNrIFJlcG9ydGRkAgkPDxYCHwkFEkFibm9ybWFsaXR5IFJlcG9ydGRkAhEPZBYIAgEPDxYCHwMFBGVTU0xkZAIDDw8WAh8DBU5lU1NMIEluYy4sICMyNCwgMjNyZCBtYWluLCBTaGFtYmhhdmkgQnVpbGRpbmcsIDJuZCBwaGFzZSwgSiBQIG5hZ2FyLCBCYW5nYWxvcmVkZAIFDw8WBB4LTmF2aWdhdGVVcmwFG2h0dHA6Ly93d3cuZXNzbHNlY3VyaXR5LmNvbR8DBRtodHRwOi8vd3d3LmVzc2xzZWN1cml0eS5jb21kZAIHDxYCHgRocmVmBSlodHRwOi8vd3d3LmVzc2xzZWN1cml0eS5jb20vY29udGFjdHVzLnBocGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgQFDkZvcm1EZWNvcmF0b3IxBQtSYWRNZW51X1RvcAUIUmFkTWVudTEFC21haW5Ub29sQmFyK5gqe2O/1++GeqK5X6OpGl1nJVC0o12eaQ3m5LK8/FY=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=JZhhQCqgsAJD_2q9tbdMGtbl5_d4MMIKHUAE_KU4GTCR871NeM6A9TwmvQOiFmNhkNX7E646TchP2OWMZM_O0nkVp6xPY8E3NYnLJdya--Q1&amp;t=636776922783889403" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=QpqHUoojydCRhIWAxOueKtuJhzS9VZeaqbD7MW1NH8y6l6X5DPoKiKfEQd9T1wH5l37JSmvGw2Ao2uN1jVzwRq4tasgR8Mix6EmUtBt5p3TM1tDG4f7G9NWRQKY6rAmIPHmFG2XBXZ4XoXPfzOef5EX9IBnl17bMA_jdJ7Yygio1&amp;t=ffffffff999c3159" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nbASEH8Jk9Rfb2BMjNcVtbcHbGOVcc4pi_pKeVS4eXiAMGmG88griaCZJ9iYyrgtbQ1TYrpAx2RLYV_S9EoisjO70Vsut7Rsuz4sZ7qcIN6nGwCcGdwLOx2R_YaVxzbvBcmjnVBDNXd5y5nneSHPXgON09AjH8gd-UqC_S9FXIaJItgQMOQX44hXdgi1c6VK0&amp;t=ffffffff999c3159" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xJJBP8fRYnxHS31nmVUdtQrRydGNRtwSDFCr9AOsgPUvfKpmwoUM_RezV8qiEOfPtOonUSgXACLtf6n1vWQ_OAfk6o4fIwnv-ZoVwIAN4ioOMi1OoKIN8OthvI_xnUABjtMeJwNw85X0mEeHh92Uew2&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=42hoJzAZWV-8tOgMxkEP86_uWoybdZrWS9a4fdmwYVc_ia7No4yiX08xxC-wmTNi-WywfLu2ISYynhMIpHt16t--Hway_DPgWGh17pASbEhSTHZfAz1U4KEXNOb15vpCKMO123-OIIc5RNqj3OD1AA2&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=-Ri2jKc40ykXQ2GKh-SRZ5RKxLtaEs8XREzckhRvL3cA-eQWxGHVQMNnviXrV9boPpngZHFM8zR4zy7yRiokA4BtfuYInKRd74UNLY_m7Nzzi1XdT7saWonIZlwkpsxhMuDp3KoWRLWc8cYxuKvPxtO3ijCuiWREDai-y6R5MPA1&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=C6taRpQKN4TzkquNA5Jrxs1rVigFOca3xfANsv_zpzFzFl1DiiJlbUFjn5hU-jrUaA2hOkJ6g8PL_Ue8fPUz2ZP2WSz5IGyQppyUab16a9g7F0OHabX12YGAESxKfL-_8ikrKvsFlWf20j9FtbwVae9hadXWUbFphPOBeOWFgp01&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kMe4aPGke5kgPc2zCLMeqStedAckp_kMt4xaLBvwnr9QpyekxlIliFYzxjWuc7zL11RgtrrQsg6Xw4UGjuRNJNt7QZtSgNjndE008pIBNEVMcg3YUB4nlMN2Jh0AkuxFwlemeL_Slfs86cXq8DkiwQ2&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=g_FeXRfQhkIhqF9ivcnfFvfjHr9nPIl5u5N8-ZHosYNegh0ZKyFMRMEuXGNIf22RXovvKZo79OXKGBKLjTqfni1fVzjdKaZRI_U8kThjbu748inKc9vmLS4ZsxF4EmzdJYdEQN3XHpYlGcrf30Lyrg2&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=VMPNmQoFtS01qwmIw2yt6Exy4oAozMok4rGunWBYMJa6p1oCeWA2qknyd7C0QO9lXLE4ClPtFqXjOycFdo6ZpPffsh4laQ8G4FCnDhhQATzr724JBEEJhJU3oPMCkEp5Rim3M2zzE7neIzh1ASg9BC5BScjB4YW71pZOr6YSh5w1&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=538ej6zpRbNO6ZdhtsPf22vRvauW98YsE5mJndJ-7MZmW-UN5cbYPYJr4scuhqdqF7Jdx8aBJc5ClWqjjAlXm6rywJhinKbGlHaE3gUa6uwIUn03RWqhF4R6hdxzPAT5v2WVrcXs5LzHoICSE4Pwx_m1Fd5ELpKoc2Fd43TgmZc1&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xjzZQszrGyVsDjy-Pfg_60OXD-ETjpBklVanRGdN4klnyty8ZEF-7M9IhEo5-lGQvIRJFErK_ktQYT7vzizSFoF23vPz_RmwjNv_EXfg2-3eNg_tZTLG55bTQ1aVKXQ6oqjNKuVLQ4Kuvuck7CRF6mL3yC_xME_yrHUjY_KLc_81&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=e-X6JWo9VAos8wcMQQqE9yVip-v-g08XY52z4LpiLd29OvWMGmlk1WG-mzqmsUf8DWwFo-iAWZFUVe42rknXIqI4Fixh3jBvaGv38Ovtj1tGpwHILxemh2PJtYb7Z62WXEsg42Ph4T3b7-ARCywBHg2&amp;t=1f1fff7f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Pz3vs7meE4W3BK34WCrVYc-yjNcJ0MIpZT-MZRcg3-5-Zh_UHEkxVUEcINABWMtqo0TXafPRB84AR8AVfmwllBTJEPItsBhhLTj3zLjioDpfRwFB9kQgQszQhvRyH4ZhA5n6Vtkw4Ruiykb71qOfSxL4_y823YQi94wwWVXUM7I1&amp;t=1f1fff7f" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="202EA31B" />
+</div> 
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'form1', ['tRadAjaxManager1SU',''], [], [], 90, '');
+//]]>
+</script>
+
+         <!-- 2012.3.1016.40 --><div id="RadAjaxManager1SU">
+	<span id="RadAjaxManager1" style="display:none;"></span>
+</div>
+    <div id="FormDecorator1" class="RadFormDecorator" style="display:none;">
+	<script type="text/javascript">
+//<![CDATA[
+if (typeof(WebForm_AutoFocus) != 'undefined')
+{
+	var old_WebForm_AutoFocus = WebForm_AutoFocus;
+	WebForm_AutoFocus = function(arg)
+	{
+		Sys.Application.add_load(function()
+		{
+			old_WebForm_AutoFocus(arg);
+			WebForm_AutoFocus = old_WebForm_AutoFocus;
+		});
+	}
+}
+if (typeof(Telerik) != 'undefined')
+{
+	if (Telerik.Web.UI.RadFormDecorator)
+	{
+		Telerik.Web.UI.RadFormDecorator.initializePage("FormDecorator1", "", "Office2010Blue", 65535);
+	}
+}
+//]]>
+</script><input id="FormDecorator1_ClientState" name="FormDecorator1_ClientState" type="hidden" />
+</div>
+    <div id="RadAjaxLoadingPanel1" class="RadAjax RadAjax_Office2010Blue" style="display:none;">
+	<div class="raDiv">
+
+	</div><div class="raColor raTransp">
+
+	</div>
+</div>  
+            
+    <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td>
+            <table>
+            <tr>
+            <td>
+                
+                 <img src="/images/eSSLAttendancelogo.png" id="img_Logo" height="40" style="cursor: auto" />
+            </td>
+
+            <td style="padding-left:550px;">
+                        <div id="RadMenu_Top" class="RadMenu RadMenu_Office2007" style="font-size:8pt;">
+	<ul class="rmRootGroup rmRoundedCorners rmShadows rmHorizontal">
+		<li class="rmItem rmFirst"><a href="#" class="rmLink rmRootLink"><span class="rmText">Last Login- 04-Jan-2019 11:52:04 AM</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink rmRootLink" style="cursor:pointer;"><img alt="" src="Icons/My-Profile-icon.png" class="rmLeftImage" /><span class="rmText">Welcome essl</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink" style="cursor:pointer;"><img alt="" src="Icons/password.png" class="rmLeftImage" /><span class="rmText">Change Password</span></a></li><li class="rmItem rmLast"><a href="LogOff.aspx" class="rmLink" style="cursor:pointer;"><img alt="" src="Icons/Log-off-icon.png" class="rmLeftImage" /><span class="rmText">Sign Out</span></a></li>
+			</ul>
+		</div></li>
+	</ul><input id="RadMenu_Top_ClientState" name="RadMenu_Top_ClientState" type="hidden" />
+</div>
+                    </td>
+            </tr>
+            </table>
+            </td>
+            
+        </tr>
+      
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            
+                            <div id="RadMenu1" class="RadMenu RadMenu_Office2010Blue rmSized" style="font-size:8pt;width:100%;">
+	<ul class="rmRootGroup rmHorizontal">
+		<li class="rmItem rmFirst"><a href="#" accesskey="F" class="rmLink rmRootLink"><span class="rmText">Admin</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/users.png" class="rmLeftImage" /><span class="rmText">System Users</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Mail-setting-icon.png" class="rmLeftImage" /><span class="rmText">Mail Settings</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/text%20SMS%20settings.png" class="rmLeftImage" /><span class="rmText">Memo Settings</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/password.png" class="rmLeftImage" /><span class="rmText">Change Password</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem rmLast"><a href="LogOff.aspx" class="rmLink" style="cursor:pointer;"><img alt="" src="Icons/Log-off-icon.png" class="rmLeftImage" /><span class="rmText">Sign Out</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="#" accesskey="F" class="rmLink rmRootLink"><span class="rmText">Master</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/settings.png" class="rmLeftImage" /><span class="rmText">Master Settings</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/company.png" class="rmLeftImage" /><span class="rmText">Option Settings</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/company.png" class="rmLeftImage" /><span class="rmText">Company</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/department.png" class="rmLeftImage" /><span class="rmText">Department</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/category.png" class="rmLeftImage" /><span class="rmText">Category</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/category.png" class="rmLeftImage" /><span class="rmText">Location</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/employees.png" class="rmLeftImage" /><span class="rmText">Employee</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/pubulic%20holiday.png" class="rmLeftImage" /><span class="rmText">Shift Group</span></a></li><li class="rmItem "><a href="#" class="rmLink rmDisabled rmDisabled"><img alt="" src="Icons/shifts.png" class="rmLeftImage" /><span class="rmText">Shift</span></a></li><li class="rmItem "><a href="#" class="rmLink rmDisabled rmDisabled"><img alt="" src="Icons/shifts%20Roster.png" class="rmLeftImage" /><span class="rmText">ShiftRoster</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/leave%20type.png" class="rmLeftImage" /><span class="rmText">Leave Types</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/pubulic%20holiday.png" class="rmLeftImage" /><span class="rmText">Holiday Group</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/pubulic%20holiday.png" class="rmLeftImage" /><span class="rmText">Public Holidays</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink rmDisabled rmDisabled"><img alt="" src="Icons/Department%20shift.png" class="rmLeftImage" /><span class="rmText">Department Shift</span></a></li><li class="rmItem "><a href="#" class="rmLink rmDisabled rmDisabled"><img alt="" src="Icons/employees-shifts.png" class="rmLeftImage" /><span class="rmText">Employee Shift</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/employee%20attendance%20register.png" class="rmLeftImage" /><span class="rmText">Employee Attendance Register</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/employee%20attendance%20register.png" class="rmLeftImage" /><span class="rmText">Employee Shift Register</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/attendance%20logs.png" class="rmLeftImage" /><span class="rmText">Employee Attendance Logs</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/employee%20leave%20summary.png" class="rmLeftImage" /><span class="rmText">Employee Leave Summary</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem rmLast"><a href="#" class="rmLink"><img alt="" src="Icons/Dash-Boards.png" class="rmLeftImage" /><span class="rmText">Dash Board</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="#" accesskey="F" class="rmLink rmRootLink"><span class="rmText">Leave Management</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/employee%20outdoor%20entries.png" class="rmLeftImage" /><span class="rmText">Employee OutDoor Entry</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Emploges-leave-icon.png" class="rmLeftImage" /><span class="rmText">Employee Leave Entries</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Emploges-leave-icon.png" class="rmLeftImage" /><span class="rmText">Employee Leave Credit History</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Emploges-leave-icon.png" class="rmLeftImage" /><span class="rmText">OverrideEmployeeLeaveBalance</span></a></li><li class="rmItem "><a href="#" class="rmLink rmDisabled rmDisabled"><img alt="" src="Icons/emp-rest-icon.png" class="rmLeftImage" /><span class="rmText">Employee Restricted Holiday Entry</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem rmSeparator"><span class="rmText"></span></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="#" class="rmLink rmRootLink"><span class="rmText">Device Management</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/device.png" class="rmLeftImage" /><span class="rmText">Devices</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/device-logs.png" class="rmLeftImage" /><span class="rmText">Device Logs</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/device-logs.png" class="rmLeftImage" /><span class="rmText">EmployeesDeviceLogsWithAttPhoto</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/upload%20user%20to%20devices.png" class="rmLeftImage" /><span class="rmText">Upload users to Devices</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/download%20device%20logs%20by%20specific%20date.png" class="rmLeftImage" /><span class="rmText">Download Device Logs By Specific Date</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/device.png" class="rmLeftImage" /><span class="rmText">Search User In Devices</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/delete%20user%20to%20device.png" class="rmLeftImage" /><span class="rmText">Delete Users to Device</span></a></li><li class="rmItem "><a href="#" title="This option will work only with new firmware device." class="rmLink"><img alt="This option will work only with new firmware device." src="Icons/delete%20user%20to%20device.png" class="rmLeftImage" /><span class="rmText">Block Unblock Users in Device</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/device%20commands.png" class="rmLeftImage" /><span class="rmText">Device Commands</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/import-device-log.png" class="rmLeftImage" /><span class="rmText">Import Device Logs</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="#" class="rmLink rmRootLink"><span class="rmText">Utilities</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/import-employee-details.png" class="rmLeftImage" /><span class="rmText">Import Employee Shift</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/import-employee-details.png" class="rmLeftImage" /><span class="rmText">ImportEmployeeShift-MonthWise</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/import-employee-details.png" class="rmLeftImage" /><span class="rmText">Import Employee Details</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/export-employee.png" class="rmLeftImage" /><span class="rmText">Export Employee Details</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/import-employee-details.png" class="rmLeftImage" /><span class="rmText">Import Employee other Details</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/export-employee.png" class="rmLeftImage" /><span class="rmText">Export Employee other Details</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Import%20employee%20details.png" class="rmLeftImage" /><span class="rmText">Import Employee Leave Balance</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/export%20employee%20details.png" class="rmLeftImage" /><span class="rmText">Export Employee Leave Balance</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Import%20employee%20details.png" class="rmLeftImage" /><span class="rmText">Import Employee Leave Entries</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Import%20employee%20details.png" class="rmLeftImage" /><span class="rmText">Import Employee OutDoor Entries</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Import%20employee%20details.png" class="rmLeftImage" /><span class="rmText">Import Employee Manual Entries</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/restore%20logs.png" class="rmLeftImage" /><span class="rmText">Backup Log Records from DB</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/restore%20logs.png" class="rmLeftImage" /><span class="rmText"> Restore Device Log Records</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/import-device-log.png" class="rmLeftImage" /><span class="rmText">Check Missed Device Logs</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/import-employee-details.png" class="rmLeftImage" /><span class="rmText">Import Employee Manager</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/export-employee.png" class="rmLeftImage" /><span class="rmText">Export Employee Manager</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><span class="rmText">Carry Forward Employee Leave</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/Parallels-database.png" class="rmLeftImage" /><span class="rmText">Parallel Database Export</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/MigrateeTimeTrackLite.png" class="rmLeftImage" /><span class="rmText">Migration From eTimeTrackLite</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/MigrateeTimeTrackLite.png" class="rmLeftImage" /><span class="rmText">Data Collector Service</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><span class="rmText">Customize Status Code</span></a></li><li class="rmItem "><a href="#" class="rmLink"><span class="rmText">Custom Header Text</span></a></li><li class="rmItem "><a href="#" class="rmLink"><span class="rmText">Fetch Controller Logs</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink"><span class="rmText">Attendance Month</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="#" class="rmLink rmRootLink"><span class="rmText">Reports</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Recalculate Attendance</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Daily Attendance Reports</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Basic Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Detailed Attendance Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Summary Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">In\Out Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">In Out Duration Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Present Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Absent Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Late Coming</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Early Going Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">On Comp Off</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">On Restricted Holiday</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Short Worked Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Missed Out punch report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Leave Record report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Out Door Record report</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">CSV Export Report</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Monthly Attendance Reports</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Basic Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Summary Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Detailed Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Period Wise Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Work Duration Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">OT Summary Report</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">CSV Export Report</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Weekly Attendance Reports</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Leave Entries Reports</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Out Door Entries Reports</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Restricted Holidays Entries Reports</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Compoff Entries Reports</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">WeeklyOff\Holiday Present Report(for Comp-Off)</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Leave Summary Reports</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Yearly Summary Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Classified Aggregate Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Generate Memo</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Log Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Graphic Reports</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Employee Graph</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Department Graph</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Company Graph</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Daily Detailed Status Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Daily Log Report Matrix</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Employee Details Report</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Working</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Resigned</span></a></li>
+					</ul>
+				</div></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Random Check Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Abnormality Report</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">CustomizeReport</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Client Customise Daily Reports</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Client Customise Monthly Reports</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Export to Excel</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Attendance Logs</span></a></li><li class="rmItem "><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">Device Logs</span></a></li><li class="rmItem rmLast"><a href="#" class="rmLink"><img alt="" src="Icons/reports.png" class="rmLeftImage" /><span class="rmText">All Device Logs Matrix</span></a></li>
+					</ul>
+				</div></li><li class="rmItem rmSeparator"><span class="rmText"></span></li>
+			</ul>
+		</div></li><li class="rmItem rmLast"><a href="#" class="rmLink rmRootLink"><span class="rmText">Help</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="#" class="rmLink"><span class="rmText">About SmartOffice</span></a></li><li class="rmItem "><a href="#" class="rmLink"><span class="rmText">Edit License Key</span></a></li><li class="rmItem rmLast"><a href="Identics%20User%20Manual.docx" class="rmLink"><span class="rmText">Help Manual</span></a></li>
+			</ul>
+		</div></li>
+	</ul><input id="RadMenu1_ClientState" name="RadMenu1_ClientState" type="hidden" />
+</div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+                <div id="wrapper">
+                    <div id="mainToolBarWrapper">
+                        <div id="mainToolBar" class="RadToolBar RadToolBar_Horizontal RadToolBar_Office2010Blue RadToolBar_Office2010Blue_Horizontal" style="font-size:8pt;width:100%;z-index: 90001">
+	<div class="rtbOuter rtbRoundedCorners rtbShadows">
+		<div class="rtbMiddle">
+			<div class="rtbInner">
+				<ul class="rtbUL">
+					<li class="rtbItem rtbSplBtn "><a accesskey="N" title="New" class=" rtbWrap rtbExpandDown" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><span class="rtbSplBtnActivator"><img alt="New" src="Icons/New.png" class="rtbIcon" /><span class="rtbText"><u>N</u>ew</span></span><span class="rtbChoiceArrow"></span></span></span></span></a><div class="rtbSlide" style="display:none;"><div class="RadToolBarDropDown RadToolBarDropDown_Office2010Blue rtbNoBackground"><div class="rtbScrollWrap rtbRoundedCorners rtbShadows"><ul class="rtbActive rtbGroup rtbLevel1"><li class="rtbItem "><a href="#" title="New System User" class=" rtbWrap"><img alt="New System User" src="Icons/users.png" class="rtbIcon" /><span class="rtbText">System User</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="New Company" class=" rtbWrap"><img alt="New Company" src="Icons/company.png" class="rtbIcon" /><span class="rtbText">Company</span></a></li><li class="rtbItem "><a href="#" title="New Category" class=" rtbWrap"><img alt="New Category" src="Icons/category.png" class="rtbIcon" /><span class="rtbText">Category</span></a></li><li class="rtbItem "><a href="#" title="New Department" class=" rtbWrap"><img alt="New Department" src="Icons/department.png" class="rtbIcon" /><span class="rtbText">Department</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="New Shift" class=" rtbWrap"><img alt="New Shift" src="Icons/settings.png" class="rtbIcon" /><span class="rtbText">Shift</span></a></li><li class="rtbItem "><a href="#" title="New Leave Type" class=" rtbWrap"><img alt="New Leave Type" src="Icons/leave%20type.png" class="rtbIcon" /><span class="rtbText">Leave Type</span></a></li><li class="rtbItem "><a href="#" title="New Public Holiday" class=" rtbWrap"><img alt="New Public Holiday" src="Icons/pubulic%20holiday.png" class="rtbIcon" /><span class="rtbText">Public Holiday</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li></ul></div></div></div></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem rtbBtn "><a title="Employee Details" class=" rtbWrap" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><img alt="Employee Details" src="Icons/employees.png" class="rtbIcon" /><span class="rtbText">Employees</span></span></span></span></a></li><li class="rtbItem rtbBtn "><a title="Memo Settings" class=" rtbWrap" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><img alt="Memo Settings" src="Icons/master%20settings.png" class="rtbIcon" /><span class="rtbText">Memo Settings</span></span></span></span></a></li><li class="rtbItem rtbBtn "><a title="Master  Settings" class=" rtbWrap" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><img alt="Master  Settings" src="Icons/settings.png" class="rtbIcon" /><span class="rtbText">Master  Settings</span></span></span></span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem rtbSplBtn "><a accesskey="A" title="Assign" class=" rtbWrap rtbExpandDown" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><span class="rtbSplBtnActivator"><img alt="Assign" src="Icons/Assign.png" class="rtbIcon" /><span class="rtbText"><u>A</u>ssign</span></span><span class="rtbChoiceArrow"></span></span></span></span></a><div class="rtbSlide" style="display:none;"><div class="RadToolBarDropDown RadToolBarDropDown_Office2010Blue rtbNoBackground"><div class="rtbScrollWrap rtbRoundedCorners rtbShadows"><ul class="rtbActive rtbGroup rtbLevel1"><li class="rtbItem "><a href="#" title="Department Shift" class=" rtbWrap"><img alt="Department Shift" src="Icons/Department%20shift.png" class="rtbIcon" /><span class="rtbText">Department Shift</span></a></li><li class="rtbItem "><a href="#" title="Employee Shift" class=" rtbWrap"><img alt="Employee Shift" src="Icons/employees-shifts.png" class="rtbIcon" /><span class="rtbText">Employee Shift</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Employee Leave Entry" class=" rtbWrap"><img alt="Employee Leave Entry" src="Icons/employee%20leave%20entry.png" class="rtbIcon" /><span class="rtbText">Employee Leave Entry</span></a></li><li class="rtbItem "><a href="#" title="Employee Comp Off Entry" class=" rtbWrap"><img alt="Employee Comp Off Entry" src="Icons/employee%20comp%20off%20entry.png" class="rtbIcon" /><span class="rtbText">Employee Comp Off Entry</span></a></li><li class="rtbItem "><a href="#" title="Employee Employees Restricted Holiday Entry" class=" rtbWrap"><img alt="Employee Employees Restricted Holiday Entry" src="Icons/employee%20restricted%20holidays.png" class="rtbIcon" /><span class="rtbText">Employees Restricted Holiday Entry</span></a></li><li class="rtbItem "><a href="#" title="Employee OutDoor Entry" class=" rtbWrap"><img alt="Employee OutDoor Entry" src="Icons/employee%20outdoor%20%20entries.png" class="rtbIcon" /><span class="rtbText">Employee OutDoor Entry</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li></ul></div></div></div></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem rtbSplBtn "><a accesskey="D" title="Device Management" class=" rtbWrap rtbExpandDown" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><span class="rtbSplBtnActivator"><img alt="Device Management" src="Icons/device.png" class="rtbIcon" /><span class="rtbText">Device Management</span></span><span class="rtbChoiceArrow"></span></span></span></span></a><div class="rtbSlide" style="display:none;"><div class="RadToolBarDropDown RadToolBarDropDown_Office2010Blue rtbNoBackground"><div class="rtbScrollWrap rtbRoundedCorners rtbShadows"><ul class="rtbActive rtbGroup rtbLevel1"><li class="rtbItem "><a href="#" title="Devices" class=" rtbWrap"><img alt="Devices" src="Icons/settings.png" class="rtbIcon" /><span class="rtbText">Devices</span></a></li><li class="rtbItem "><a href="#" title="Employee Device Logs" class=" rtbWrap"><img alt="Employee Device Logs" src="Icons/device.png" class="rtbIcon" /><span class="rtbText">Employee Device Logs</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Device Commands" class=" rtbWrap"><img alt="Device Commands" src="Icons/settings.png" class="rtbIcon" /><span class="rtbText">Device Commands</span></a></li><li class="rtbItem "><a href="#" title="Upload users to Device" class=" rtbWrap" style="width:200px;"><img alt="Upload users to Device" src="Icons/device-logs.png" class="rtbIcon" /><span class="rtbText">Upload users to Device</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li></ul></div></div></div></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem rtbSplBtn "><a accesskey="U" title="Utilities" class=" rtbWrap rtbExpandDown" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><span class="rtbSplBtnActivator"><img alt="Utilities" src="Icons/utility.png" class="rtbIcon" /><span class="rtbText">Utilities</span></span><span class="rtbChoiceArrow"></span></span></span></span></a><div class="rtbSlide" style="display:none;"><div class="RadToolBarDropDown RadToolBarDropDown_Office2010Blue rtbNoBackground"><div class="rtbScrollWrap rtbRoundedCorners rtbShadows"><ul class="rtbActive rtbGroup rtbLevel1"><li class="rtbItem "><a href="#" title="Import Employees Basic Details" class=" rtbWrap"><img alt="Import Employees Basic Details" src="Icons/import-employee-details.png" class="rtbIcon" /><span class="rtbText">Import Employees Basic Details</span></a></li><li class="rtbItem "><a href="#" title="Export Employees Basic Details" class=" rtbWrap"><img alt="Export Employees Basic Details" src="Icons/export-employee.png" class="rtbIcon" /><span class="rtbText">Export Employees Basic Details</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Import Employees Personal Details" class=" rtbWrap"><img alt="Import Employees Personal Details" src="Icons/import-employee-details.png" class="rtbIcon" /><span class="rtbText">Import Employees PersonalDetails</span></a></li><li class="rtbItem "><a href="#" title="Export Employees Personal Details" class=" rtbWrap"><img alt="Export Employees Personal Details" src="Icons/export-employee.png" class="rtbIcon" /><span class="rtbText">Export Employees Personal Details</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Import Employee Leave Summary" class=" rtbWrap"><img alt="Import Employee Leave Summary" src="Icons/import-employee-leave.png" class="rtbIcon" /><span class="rtbText">Import Employee Leave Summary</span></a></li><li class="rtbItem "><a href="#" title="Export Employee Leave Summary" class=" rtbWrap"><img alt="Export Employee Leave Summary" src="Icons/export-employee-leave.png" class="rtbIcon" /><span class="rtbText">Export Employee Leave Summary</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Carry forward Employees Leave" class=" rtbWrap"><span class="rtbText">Carry forward Employees Leave</span></a></li><li class="rtbItem "><a href="#" title="Parallel database Export" class=" rtbWrap"><img alt="Parallel database Export" src="Icons/Parallels-database.png" class="rtbIcon" /><span class="rtbText">Parallel database Export</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li></ul></div></div></div></li><li class="rtbItem rtbBtn "><a title="Recalculate Attendance" class=" rtbWrap" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><img alt="Recalculate Attendance" src="Icons/settings.png" class="rtbIcon" /><span class="rtbText">Recalculate Attendance</span></span></span></span></a></li><li class="rtbItem rtbBtn "><a title="Attendance Register" class=" rtbWrap" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><img alt="Attendance Register" src="Icons/attendance%20logs.png" class="rtbIcon" /><span class="rtbText">Attendance Register</span></span></span></span></a></li><li class="rtbItem rtbBtn "><a title="Attendance Logs" class=" rtbWrap" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><img alt="Attendance Logs" src="Icons/attendance%20logs.png" class="rtbIcon" /><span class="rtbText">Attendance Logs</span></span></span></span></a></li><li class="rtbItem rtbSplBtn "><a accesskey="R" title="Reports" class=" rtbWrap rtbExpandDown" href="#"><span class="rtbOut"><span class="rtbMid"><span class="rtbIn"><span class="rtbSplBtnActivator"><img alt="Reports" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Reports</span></span><span class="rtbChoiceArrow"></span></span></span></span></a><div class="rtbSlide" style="display:none;"><div class="RadToolBarDropDown RadToolBarDropDown_Office2010Blue rtbNoBackground"><div class="rtbScrollWrap rtbRoundedCorners rtbShadows"><ul class="rtbActive rtbGroup rtbLevel1"><li class="rtbItem "><a href="#" title="Daily Attendance Report" class=" rtbWrap"><img alt="Daily Attendance Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Daily Attendance Report</span></a></li><li class="rtbItem "><a href="#" title="Monthly Attendance Report" class=" rtbWrap"><img alt="Monthly Attendance Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Monthly AttendanceReport</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Leave Entry Report" class=" rtbWrap"><img alt="Leave Entry Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Leave Entry Report</span></a></li><li class="rtbItem "><a href="#" title="Out Door Entry Report" class=" rtbWrap"><img alt="Out Door Entry Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Out Door Entry Report</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li><li class="rtbItem "><a href="#" title="Leave Summary Report" class=" rtbWrap"><img alt="Leave Summary Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Leave Summary Report</span></a></li><li class="rtbItem "><a href="#" title="Generate Memo" class=" rtbWrap"><img alt="Generate Memo" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Generate Memo</span></a></li><li class="rtbItem "><a href="#" title="Random Check Report" class=" rtbWrap"><img alt="Random Check Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Random Check Report</span></a></li><li class="rtbItem "><a href="#" title="Abnormality Report" class=" rtbWrap"><img alt="Abnormality Report" src="Icons/reports.png" class="rtbIcon" /><span class="rtbText">Abnormality Report</span></a></li><li class=" rtbSeparator"><span class="rtbText"></span></li></ul></div></div></div></li>
+				</ul>
+			</div>
+		</div>
+	</div><input id="mainToolBar_ClientState" name="mainToolBar_ClientState" type="hidden" />
+</div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <iframe id="iframe_Main" scrolling="auto" src="DashBoardWithDeviceStatus.aspx"  style="border-width: 0px; border-style: none; width: 100%; height: 100%;"></iframe>
+            </td>
+        </tr>
+        <tr style="padding-bottom:10px;">
+        <td>
+        
+
+  <div style=" font-size:smaller; color: #4e5766; padding: 0px 0px 0px 0px; margin: 0px auto; text-align: center; line-height: normal;">
+  <hr  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &copy; <span id="Footer1_lbl_CompanyName">eSSL</span>. All right reserved  &nbsp;|&nbsp; <address style="display:inline;font-style:normal;font-size:7"><span id="Footer1_lbl_Address">eSSL Inc., #24, 23rd main, Shambhavi Building, 2nd phase, J P nagar, Bangalore</span></address> | <a id="Footer1_lnk_website" href="http://www.esslsecurity.com" target="_blank" style="color:#125f76;text-decoration:none;">http://www.esslsecurity.com</a>  &nbsp;|&nbsp;  <a style="color:#125f76;text-decoration:none;"  href="TermAndCondition.htm" target="_blank">	Terms of Use</a>  &nbsp;|&nbsp;  <a href="http://www.esslsecurity.com/contactus.php" id="Footer1_lnk_ContactUs" style="color:#125f76;text-decoration:none;" target="_blank">Contact Us</a>
+    </div>
+
+        </td>
+        </tr>
+    </table>
+    
+    <script type="text/javascript">
+
+        document.getElementById('iframe_Main').style.height = (screen.height - 180) + "px";
+        document.getElementById('iframe_Main').style.width = (screen.width - 30) + "px";
+
+        function NavigateToUrl(ItemName) {
+            var url = '';
+            switch (ItemName) {
+                case "SystemUsers":
+                    var url = 'SystemUsers.aspx';
+                    break;
+
+                case "MailSettings":
+                    var url = 'MailSettings.aspx';
+                    break;
+
+                case "Company":
+                    var url = 'Companies.aspx';
+                    break;
+                case "Department":
+                    var url = 'Departments.aspx';
+                    break;
+                case "LeaveType":
+                    var url = 'LeaveTypes.aspx';
+                    break;
+                case "Shift":
+                    var url = 'Shifts.aspx';
+                    break;
+                case "ShiftRoster":
+                    var url = 'ShiftRoster.aspx';
+                    break;
+                case "MultiShift":
+                    var url = 'MultiShifts.aspx';
+                    break;
+                case "MultiShiftShiftGroup":
+                    var url = 'MultiShiftShiftGroup.aspx';
+                    break;
+                case "EmployeeMultiShift":
+                    var url = 'EmployeesMultiShift.aspx';
+                    break;
+                case "DepartmentsMultiShift":
+                    var url = 'DepartmentsMultiShift.aspx';
+                    break;
+                case "MultiShift":
+                    var url = 'MultiShift.aspx';
+                    break;
+                case "MultiShiftDailyAttendanceReport":
+                    var url = 'Reports/MultiShiftDailyAttendanceReport.aspx';
+                    break;
+                case "PresentAbsentCountByDaily":
+                    var url = 'Reports/MultiShiftPresentAbsentCountReport.aspx?ReportType=Present\\Absent Count – Daily';
+                    break;
+                case "PresentAbsentCountByWeekly":
+                    var url = 'Reports/MultiShiftPresentAbsentCountReport.aspx?ReportType=Present\\Absent Count – Weekly';
+                    break;
+                case "PresentAbsentCountByMonthly":
+                    var url = 'Reports/MultiShiftPresentAbsentCountReport.aspx?ReportType=Present\\Absent Count – Monthly';
+                    break;
+                case "ShiftRosterWiseMultiShiftReport":
+                    var url = 'Reports/ShiftRosterWiseMultiShiftReport.aspx';
+                    break;
+                case "PublicHolidays":
+                    var url = 'PublicHolidays.aspx';
+                    break;
+                case "HolidayGroup":
+                    var url = 'HolidayGroup.aspx';
+                    break;
+                case "ShiftGroup":
+                    var url = 'ShiftGroup.aspx';
+                    break;
+                case "MemoSettings":
+                    var url = 'MemoSettings.aspx';
+                    break;
+                case "SMSLogs":
+                    var url = 'SMSLogs.aspx';
+                    break;
+                case "TriggerEmployeeManualSMS":
+                    var url = 'TriggerEmployeeManualSMS.aspx';
+                    break;
+                case "MessageSettings":
+                    var url = 'MessageSettings.aspx';
+                    break;
+                case "WebSMSSettingsPage":
+                    var url = 'WebSMSSettingsPage.aspx';
+                    break;
+                case "ChangePassword":
+                    var url = 'ChangePassword.aspx';
+                    break;
+                case "FooterDetails":
+                    var url = 'FooterDetails.aspx';
+                    break;
+                case "Category":
+                    var url = 'Categories.aspx';
+                    break;
+                case "Location":
+                    var url = 'Location.aspx';
+                    break;
+                case "EmployeeDetails":
+                    var url = 'EmployeeDetails.aspx';
+                    break;
+                case "RoleGroups":
+                    var url = 'RoleGroups.aspx';
+                    break;
+                case "DefineWorkFlow":
+                    var url = 'DefineWorkFlow.aspx';
+                    break;
+                case "MasterSettings":
+                    var url = 'MasterSettings.aspx';
+                    break;
+                case "OptionSettings":
+                    var url = 'OptionSettings.aspx';
+                    break;
+                case "Log Off":
+                    var url = '';
+                    break;
+                case "EmployeesShift":
+                    var url = 'EmployeesShift.aspx';
+                    break;
+                case "DepartmentsShift":
+                    var url = 'DepartmentsShift.aspx';
+                    break;
+                case "EmployeesLeaveEntries":
+                    var url = 'EmployeesLeaveEntry.aspx';
+                    break;
+                case "EmployeeLeaveCreditHistory":
+                    var url = 'EmployeeLeaveCreditHistory.aspx';
+                    break;
+                case "AssignEmployeeCompOffAccrual":
+                    var url = 'AssignEmployeeCompOffAccrual.aspx';
+                    break;
+                case "EmployeesCompOffEntry":
+                    var url = 'EmployeesCompOffEntry.aspx';
+                    break;
+                case "EmployeesRestrictedHolidayEntry":
+                    var url = 'EmployeesRestrictedHolidayEntry.aspx';
+                    break;
+                case "EmployeesOutDoorEntry":
+                    var url = 'EmployeesOutDoorEntry.aspx';
+                    break;
+                case "Devices":
+                    var url = 'Devices.aspx';
+                    break;
+                case "DeviceLogs":
+                    var url = 'EmployeesDeviceLogs.aspx';
+                    break;
+                case "UploadUserstoDevice":
+                    var url = 'UploadUserstoDevice.aspx';
+                    break;
+                case "DownloadAttLogsByEmployeeCode":
+                    var url = 'DownloadAttLogsByEmployeeCode.aspx';
+                    break;
+                case "SearchUserInDevices":
+                    var url = 'SearchUserInDevices.aspx';
+                    break;
+                case "DeleteUserstoDevice":
+                    var url = 'DeleteUserstoDevice.aspx';
+                    break;
+                case "BlockUnblockUsersInDevice":
+                    var url = 'BlockUnblockUsersInDevice.aspx';
+                    break;
+                case "DeviceCommands":
+                    var url = 'DeviceCommands.aspx';
+                    break;
+                case "EmployeesDeviceLogs":
+                    var url = 'EmployeesDeviceLogs.aspx';
+                    break;
+                case "EmployeeAttendanceRegister":
+                    var url = 'EmployeeAttendanceRegister.aspx';
+                    break;
+                case "EmployeeShiftRegister":
+                    var url = 'EmployeeShiftRegister.aspx';
+                    break;
+                case "EmployeeAttendanceLogs":
+                    var url = 'EmployeeAttendanceLogs.aspx';
+                    break;
+                case "EmployeeLeaveSummary":
+                    var url = 'EmployeeLeaveSummary.aspx';
+                    break;
+                case "DashBoard":
+                    //var url = 'DashBoard.aspx';
+                    var url = 'DashBoardWithDeviceStatus.aspx';
+
+                    break;
+                // Set vAlues for HRMS    
+                case "JobTitles":
+                    var url = 'HRMS/JobTitles.aspx';
+                    break;
+                case "Vacancies":
+                    var url = 'HRMS/Vacancies.aspx';
+                    break;
+                case "Candidates":
+                    var url = 'HRMS/Candidates.aspx';
+                    break;
+                case "Customers":
+                    var url = 'HRMS/Customers.aspx';
+                    break;
+                case "Projects":
+                    var url = 'HRMS/Projects.aspx';
+                    break;
+                case "EmployeeTimeSheets":
+                    var url = 'HRMS/EmployeeTimeSheets.aspx';
+                    break;
+                case "EmployeeTimeSheets":
+                    var url = 'HRMS/EmployeeTimeSheets.aspx';
+                    break;
+                case "Training":
+                    var url = 'HRMS/Training.aspx';
+                    break;
+                //End  
+                case "Devices":
+                    var url = 'Devices.aspx';
+                    break;
+                case "ImportDeviceLogs":
+                    var url = 'ImportDeviceLogs.aspx';
+                    break;
+                case "DeleteDeviceLogs":
+                    var url = 'DeleteDeviceLogs.aspx';
+                    break;
+                case "BackupLogRecordsfromDB":
+                    var url = 'BackupAndRestoreDeviceLogs.aspx';
+                    break;
+                case "RestoreDeviceLogRecords":
+                    var url = 'RestoreDeviceLogRecords.aspx';
+                    break;
+                case "CheckMissedDeviceLogs":
+                    var url = 'CheckMissedDeviceLogs.aspx';
+                    break;
+                case "ImportEmployeeLeaveSummary":
+                    var url = 'ImportEmployeeLeaveSummary.aspx';
+                    break;
+                case "ImportEmployeeOtherDetails":
+                    var url = 'ImportEmployeeDetails.aspx?ActionName=ImportEmployeeOtherDetails';
+                    break;
+                case "ImportEmployeeShift":
+                    var url = 'ImportEmployeeShift.aspx';
+                    break;
+                case "ImportEmployeeShiftMonthWise":
+                    var url = 'ImportEmployeeShiftMonthWise.aspx';
+                    break;
+                case "ImportEmployeeDetails":
+                    var url = 'ImportEmployeeDetails.aspx?ActionName=ImportEmployeeDetails';
+                    break;
+                case "ExportEmployeeDetails":
+                    var url = 'ExportEmployeeDetails.aspx?ActionName=ExportEmployeeDetails';
+                    break;
+                case "ExportEmployeeOtherDetails":
+                    var url = 'ExportEmployeeDetails.aspx?ActionName=ExportEmployeeOtherDetails';
+                    break;
+                case "EmployeeAnnuallyLeaveAccrual":
+                    var url = 'EmployeeAnnualLeaveAccrual.aspx';
+                    break;
+                case "ParallelDatabaseExport":
+                    var url = 'ParallelDatabaseExport.aspx';
+                    break;
+
+                case "MigrationFromeTimeTrackLite":
+                    var url = 'MigrationFromeTimeTrackLite.aspx';
+                    break;
+                case "CustomizeStatusCodeSettings":
+                    var url = 'CustomizeStatusCodeSettings.aspx';
+                    break;
+                case "FetchControllerLogsPage":
+                    var url = 'FetchControllerLogsPage.aspx';
+                    break;
+                case "AttMonth":
+                    var url = 'AttendanceMonth.aspx';
+                    break;
+                case "CustomHeaderText":
+                    var url = 'CustomHeaderText.aspx';
+                    break;
+                case "DocumentTemplate":
+                    var url = 'DocumentTemplate.aspx';
+                    break;
+                case "ImportEmployeeLeaveBalance":
+                    var url = 'ImportEmployeeLeaveBalance.aspx';
+                    break;
+                case "ExportEmployeeLeaveBalance":
+                    var url = 'ExportEmployeeLeaveBalance.aspx';
+                    break;
+
+                case "ImportEmployeeLeaveEntries":
+                    var url = 'ImportEmployeeLeaveEntries.aspx';
+                    break;
+
+                case "ImportEmployeeManager":
+                    var url = 'ImportEmployeeReportingManager.aspx';
+                    break;
+                case "ExportEmployeeManager":
+                    var url = 'ExportReportingManager.aspx';
+                    break;
+
+
+                case "ImportEmployeeOutDoorEntries":
+                    var url = 'ImportEmployeeOutDoorEntries.aspx';
+                    break;
+                case "ImportEmployeeManualEntries":
+                    var url = 'ImportEmployeeManualEntries.aspx';
+                    break;
+                // Daily Attendance Report      
+                case "RecalculateAttendance":
+                    var url = 'Reports/RecalculateAttendance.aspx';
+                    break;
+
+                case "BasicReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report';
+                    break;
+                case "DailyAttendanceReport2":
+                    var url = 'Reports/DailyAttendanceReport2.aspx';
+                    break;
+
+                case "DetailedAttendanceReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Detailed Report';
+                    break;
+
+                case "SummaryReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Summary Report';
+                    break;
+
+                case "InOutReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=In out Report';
+                    break;
+                case "DailyLogReportMatrix":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=In out Report';
+                    break;
+                case "InOutDurationReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=In Out Duration Report';
+                    break;
+                case "DailyDetailedStatusReport":
+                    var url = 'Reports/DailyDetailedStatusReport.aspx';
+                    break;
+                case "PresentReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=Present';
+                    break;
+
+                case "LateComing":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=Late Coming';
+                    break;
+
+                case "EarlyGoingReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=Early Going';
+                    break;
+                case "OnRestrictedHoliday":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=On Restricted Holiday';
+                    break;
+                case "OnCompOff":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=On Comp Off';
+                    break;
+                case "AbsentReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=Absent';
+                    break;
+
+                case "ShortWorkedReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=Short Worked';
+                    break;
+
+                case "MissedOutpunchreport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=Missed Outpunch';
+                    break;
+
+                case "LeaveRecordreport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=On Leave';
+                    break;
+
+                case "OutDoorRecordreport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=On Out Door Duty';
+                    break;
+
+                case "CSVExportReport":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=Basic Report&Status=';
+                    break;
+
+                case "ClassifiedAggregateReport":
+                    var url = 'Reports/ClassifiedAggregateReport.aspx?ReportType=ClassifiedAggregateReport&Status=';
+                    break;
+
+                // End Daily Attendance Report    
+
+                // Begin Monthly Attendance Report     
+                case "MonthlyBasicReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=Basic Report';
+                    break;
+                case "MonthlySummaryReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=Summary Report';
+                    break;
+                case "MonthlyDetailedReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=Detailed Report';
+                    break;
+                case "MonthlyCSVExportReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=CSV Export';
+                    break;
+
+                case "MonthlyCustomizeReport1Name":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=MonthlyCustomizeReport1Name';
+                    break;
+                case "MonthlyCustomizeReport2Name":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=MonthlyCustomizeReport2Name';
+                    break;
+                case "MonthlyCustomizeReport3Name":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=MonthlyCustomizeReport3Name';
+                    break;
+                case "DailyCustomizeReport1Name":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=DailyCustomizeReport1Name';
+                    break;
+                case "DailyCustomizeReport2Name":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=DailyCustomizeReport2Name';
+                    break;
+                case "DailyCustomizeReport3Name":
+                    var url = 'Reports/DailyAttendanceReport.aspx?ReportType=DailyCustomizeReport3Name';
+                    break;
+
+
+                case "PeriodWiseReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=Period Wise Report';
+                    break;
+                case "WorkDurationReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=Work Duration Report';
+                    break;
+                case "OTSummaryReport":
+                    var url = 'Reports/MonthlyAttendanceReport.aspx?ReportType=OT Summary Report';
+                    break;
+                case "WeeklyAttendanceReport":
+                    var url = 'Reports/WeeklyAttendanceReport.aspx';
+                    break;
+
+                // End Monthly Attendance report   
+                case "AbnormalityReport":
+                    var url = 'Reports/AbnormalityReport.aspx';
+                    break;
+                case "LeaveEntryReport":
+                    var url = 'Reports/LeaveEntryReport.aspx?ReportName=Employee Leave Entries&WindowAndLabelTitle=Employee Leave Entries&LeaveTypeId=0';
+                    break;
+                case "WeeklyOffHolidayPresent":
+                    var url = 'Reports/WeeklyOffHolidayPresent.aspx';
+                    break;
+                case "RestrictedHolidaysEntryReport":
+                    var url = 'Reports/LeaveEntryReport.aspx?ReportName=Employee Leave Entries&WindowAndLabelTitle=Employee Restricted Holidays Entries&LeaveTypeId=1';
+                    break;
+                case "CompoffEntries":
+                    var url = 'Reports/LeaveEntryReport.aspx?ReportName=Employee Leave Entries&WindowAndLabelTitle=Employee CompOff Entries&LeaveTypeId=2';
+                    break;
+                case "OutDoorEntryReport":
+                    var url = 'Reports/LeaveEntryReport.aspx?ReportName=Employee Out Door Entries&WindowAndLabelTitle=Employee Out Door Entries';
+                    break;
+                case "LeaveSummaryReport":
+                    var url = 'Reports/LeaveSummaryReport.aspx';
+                    break;
+                case "LeaveEntryReportPrateekOversease":
+                    var url = 'Reports/LeaveEntryReportPrateekOversease.aspx';
+                    break;
+                case "YearlySummaryReport":
+                    var url = 'Reports/YearlySummaryReport.aspx';
+                    break;
+                case "GenerateMemoReport":
+                    var url = 'Reports/GenerateMemo.aspx';
+                    break;
+                case "LogReport":
+                    var url = 'Reports/DeviceLogsReport.aspx?ReportName=Log Report';
+                    break;
+                case "GenerateMemoReport":
+                    var url = 'Reports/GenerateMemo.aspx';
+                    break;
+                case "EmployeeGraph":
+                    var url = 'Reports/GraphicalReport.aspx?ReportName=Employee Graph Report';
+                    break;
+                case "DepartmentGraph":
+                    var url = 'Reports/GraphicalReport.aspx?ReportName=Department Graph Report';
+                    break;
+                case "CompanyGraph":
+                    var url = 'Reports/GraphicalReport.aspx?ReportName=Company Graph Report';
+                    break;
+                case "EmployeeDetailsWorking":
+                    var url = 'Reports/EmployeeDetailsReport.aspx?Status=Working';
+                    break;
+                case "EmployeeDetailsResigned":
+                    var url = 'Reports/EmployeeDetailsReport.aspx?Status=Resigned';
+                    break;
+                case "RandomCheckReport":
+                    var url = 'Reports/RandomCheckReport.aspx';
+                    break;
+                case "CustomizeReport":
+                    var url = 'Reports/CustomizeReport.aspx';
+                    break;
+                case "leaveuploading":
+                    var url = 'Reports/Leave_ODFormatReport.aspx';
+                    break;
+                case "ExportToExcelAttendanceLogs":
+                    var url = 'Reports/ExportAttendanceLogsReport.aspx';
+                    break;
+                case "ExportToExcelDeviceLogs":
+                    var url = 'Reports/ExportDeviceLogsReport.aspx';
+                    break;
+                case "DeviceLogsMatrixReport":
+                    var url = 'Reports/DeviceLogsMatrixReport.aspx';
+                    break;
+                // Help Content    
+                case "AboutUs":
+                    var url = 'AboutUs.aspx';
+                    break;
+                case "EditLicenseKey":
+                    var url = 'EditLicenseKey.aspx';
+                    break;
+                case "ReportIssue":
+                    var url = 'ReportIssue.aspx';
+                    break;
+                case "ClientCustomiseDailyReport":
+                    var url = 'Reports/ClientCustomiseDailyAttendanceReport.aspx';
+                    break;
+                case "ClientCustomiseMonthlyReport":
+                    var url = 'Reports/ClientCustomiseMonthlyAttendanceReport.aspx';
+                    break;
+                case "DataCollectorServicePage":
+                    var url = 'DataCollectorServicePage.aspx';
+                    break;
+                default:
+                    url = ItemName + '.aspx';
+                    break;
+
+                //End  
+            }
+
+            if (ItemName != null && ItemName != 'Admin' && ItemName != 'Master' && ItemName != 'LeaveManagement' && ItemName != 'HRMS' && ItemName != 'DeviceManagement' && ItemName != 'Utilities' && ItemName != 'Reports' && ItemName != 'Help') {
+                iframe = $get('iframe_Main');
+                iframe.src = url;
+            }
+        }
+
+        function OnClientItemClicked(sender, args) {
+            var itemValue = args.get_item().get_value();
+            sender.close();
+            NavigateToUrl(itemValue);
+        }
+
+        function RadToolBar_OnClientItemClicked(sender, args) {
+            var itemValue = args.get_item().get_value();
+            NavigateToUrl(itemValue);
+        }
+
+
+    </script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxManager, {"_updatePanels":"","ajaxSettings":[{InitControlID : "RadMenu1",UpdatedControls : [{ControlID:"",PanelID:"RadAjaxLoadingPanel1"}]}],"clientEvents":{OnRequestStart:"",OnResponseEnd:""},"defaultLoadingPanelID":"","enableAJAX":true,"enableHistory":false,"links":[],"styles":[],"uniqueID":"RadAjaxManager1","updatePanelsRenderMode":0}, null, null, $get("RadAjaxManager1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadFormDecorator, {"clientStateFieldID":"FormDecorator1_ClientState","decoratedControls":65535,"enabled":true,"skin":"Office2010Blue"}, null, null, $get("FormDecorator1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxLoadingPanel, {"initialDelayTime":0,"isSticky":false,"minDisplayTime":0,"skin":"Office2010Blue","transparency":0,"uniqueID":"RadAjaxLoadingPanel1","zIndex":90000}, null, null, $get("RadAjaxLoadingPanel1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_skin":"Office2007","clientStateFieldID":"RadMenu_Top_ClientState","collapseAnimation":"{\"duration\":450}","enableRoundedCorners":true,"enableShadows":true,"expandAnimation":"{\"duration\":450}","itemData":[{},{"groupSettings":{"expandDirection":2},"items":[{"value":"ChangePassword"},{"navigateUrl":"LogOff.aspx"}]}]}, {"itemClicked":OnClientItemClicked}, null, $get("RadMenu_Top"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_skin":"Office2010Blue","clientStateFieldID":"RadMenu1_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"duration\":450}","itemData":[{"items":[{"value":"SystemUsers"},{"value":"MailSettings"},{"isSeparator":true},{"value":"MemoSettings"},{"value":"ChangePassword"},{"isSeparator":true},{"navigateUrl":"LogOff.aspx"}],"value":"Admin"},{"items":[{"value":"MasterSettings"},{"value":"OptionSettings"},{"isSeparator":true},{"value":"Company"},{"value":"Department"},{"value":"Category"},{"value":"Location"},{"value":"EmployeeDetails"},{"isSeparator":true},{"value":"ShiftGroup"},{"value":"Shift","enabled":false},{"value":"ShiftRoster","enabled":false},{"value":"LeaveType"},{"value":"HolidayGroup"},{"value":"PublicHolidays"},{"isSeparator":true},{"value":"DepartmentsShift","enabled":false},{"value":"EmployeesShift","enabled":false},{"isSeparator":true},{"value":"EmployeeAttendanceRegister"},{"value":"EmployeeShiftRegister"},{"value":"EmployeeAttendanceLogs"},{"value":"EmployeeLeaveSummary"},{"isSeparator":true},{"value":"DashBoard"}],"value":"Master"},{"items":[{"value":"EmployeesOutDoorEntry"},{"value":"EmployeesLeaveEntries"},{"value":"EmployeeLeaveCreditHistory"},{"value":"OverrideEmployeeLeaveBalance"},{"value":"EmployeesRestrictedHolidayEntry","enabled":false},{"isSeparator":true},{"isSeparator":true}],"value":"LeaveManagement"},{"items":[{"value":"Devices"},{"value":"DeviceLogs"},{"value":"EmployeesDeviceLogsWithAttPhoto"},{"isSeparator":true},{"value":"UploadUserstoDevice"},{"value":"DownloadAttLogsByEmployeeCode"},{"value":"SearchUserInDevices"},{"value":"DeleteUserstoDevice"},{"value":"BlockUnblockUsersInDevice"},{"value":"DeviceCommands"},{"isSeparator":true},{"value":"ImportDeviceLogs"},{"isSeparator":true}],"value":"DeviceManagement"},{"items":[{"value":"ImportEmployeeShift"},{"value":"ImportEmployeeShiftMonthWise"},{"value":"ImportEmployeeDetails"},{"value":"ExportEmployeeDetails"},{"isSeparator":true},{"value":"ImportEmployeeOtherDetails"},{"value":"ExportEmployeeOtherDetails"},{"isSeparator":true},{"value":"ImportEmployeeLeaveBalance"},{"value":"ExportEmployeeLeaveBalance"},{"isSeparator":true},{"value":"ImportEmployeeLeaveEntries"},{"value":"ImportEmployeeOutDoorEntries"},{"isSeparator":true},{"value":"ImportEmployeeManualEntries"},{"value":"BackupLogRecordsfromDB"},{"value":"RestoreDeviceLogRecords"},{"value":"CheckMissedDeviceLogs"},{"isSeparator":true},{"value":"ImportEmployeeManager"},{"value":"ExportEmployeeManager"},{"isSeparator":true},{"value":"EmployeeAnnuallyLeaveAccrual"},{"value":"ParallelDatabaseExport"},{"value":"MigrationFromeTimeTrackLite"},{"value":"DataCollectorServicePage"},{"isSeparator":true},{"value":"CustomizeStatusCodeSettings"},{"value":"CustomHeaderText"},{"value":"FetchControllerLogsPage"},{"value":"AttMonth"}],"value":"Utilities"},{"items":[{"value":"RecalculateAttendance"},{"items":[{"value":"BasicReport"},{"value":"DetailedAttendanceReport"},{"value":"SummaryReport"},{"value":"InOutReport"},{"value":"InOutDurationReport"},{"value":"PresentReport"},{"value":"AbsentReport"},{"value":"LateComing"},{"value":"EarlyGoingReport"},{"value":"OnCompOff"},{"value":"OnRestrictedHoliday"},{"value":"ShortWorkedReport"},{"value":"MissedOutpunchreport"},{"value":"LeaveRecordreport"},{"value":"OutDoorRecordreport"},{"value":"ExportToExcelAttendanceLogs"}],"value":"DailyAttendanceReports"},{"items":[{"value":"MonthlyBasicReport"},{"value":"MonthlySummaryReport"},{"value":"MonthlyDetailedReport"},{"value":"PeriodWiseReport"},{"value":"WorkDurationReport"},{"value":"OTSummaryReport"},{"value":"MonthlyCSVExportReport"}],"value":"MonthlyAttendanceReports"},{"value":"WeeklyAttendanceReport"},{"isSeparator":true},{"value":"LeaveEntryReport"},{"value":"OutDoorEntryReport"},{"value":"RestrictedHolidaysEntryReport"},{"value":"CompoffEntries"},{"value":"WeeklyOffHolidayPresent"},{"isSeparator":true},{"value":"LeaveSummaryReport"},{"value":"YearlySummaryReport"},{"value":"ClassifiedAggregateReport"},{"value":"GenerateMemoReport"},{"isSeparator":true},{"value":"LogReport"},{"items":[{"value":"EmployeeGraph"},{"value":"DepartmentGraph"},{"value":"CompanyGraph"}],"value":"GraphicReports"},{"value":"DailyDetailedStatusReport"},{"value":"DailyLogReportMatrix"},{"items":[{"value":"EmployeeDetailsWorking"},{"value":"EmployeeDetailsResigned"}],"value":"EmployeeDetailsReport"},{"isSeparator":true},{"value":"RandomCheckReport"},{"value":"AbnormalityReport"},{"value":"CustomizeReport"},{"value":"ClientCustomiseDailyReport"},{"value":"ClientCustomiseMonthlyReport"},{"isSeparator":true},{"items":[{"value":"ExportToExcelAttendanceLogs"},{"value":"ExportToExcelDeviceLogs"},{"value":"DeviceLogsMatrixReport"}]},{"isSeparator":true}],"value":"Reports"},{"items":[{"value":"AboutUs"},{"value":"EditLicenseKey"},{"navigateUrl":"Identics User Manual.docx"}],"value":"Help"}]}, {"itemClicked":OnClientItemClicked}, null, $get("RadMenu1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadToolBar, {"_cssClass":"","_skin":"Office2010Blue","attributes":{},"clientStateFieldID":"mainToolBar_ClientState","collapseAnimation":"{\"type\":0,\"duration\":450}","enableRoundedCorners":true,"enableShadows":true,"expandAnimation":"{\"duration\":450}","itemData":[{"items":[{"value":"SystemUsers","toolTip":"New System User","cssClass":" rtbWrap","imageUrl":"Icons/users.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"Company","toolTip":"New Company","cssClass":" rtbWrap","imageUrl":"Icons/company.png"},{"value":"Category","toolTip":"New Category","cssClass":" rtbWrap","imageUrl":"Icons/category.png"},{"value":"Department","toolTip":"New Department","cssClass":" rtbWrap","imageUrl":"Icons/department.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"Shift","toolTip":"New Shift","cssClass":" rtbWrap","imageUrl":"Icons/settings.png"},{"value":"LeaveType","toolTip":"New Leave Type","cssClass":" rtbWrap","imageUrl":"Icons/leave type.png"},{"value":"PublicHolidays","toolTip":"New Public Holiday","cssClass":" rtbWrap","imageUrl":"Icons/pubulic holiday.png"},{"isSeparator":true,"cssClass":" rtbSeparator"}],"value":"New","enableDefaultButton":false,"type":2,"toolTip":"New","cssClass":" rtbWrap rtbExpandDown","imageUrl":"Icons/New.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"EmployeeDetails","toolTip":"Employee Details","cssClass":" rtbWrap","imageUrl":"Icons/employees.png"},{"value":"MemoSettings","toolTip":"Memo Settings","cssClass":" rtbWrap","imageUrl":"Icons/master settings.png"},{"value":"MasterSettings","toolTip":"Master  Settings","cssClass":" rtbWrap","imageUrl":"Icons/settings.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"items":[{"value":"DepartmentsShift","toolTip":"Department Shift","cssClass":" rtbWrap","imageUrl":"Icons/Department shift.png"},{"value":"EmployeesShift","toolTip":"Employee Shift","cssClass":" rtbWrap","imageUrl":"Icons/employees-shifts.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"EmployeesLeaveEntries","toolTip":"Employee Leave Entry","cssClass":" rtbWrap","imageUrl":"Icons/employee leave entry.png"},{"value":"EmployeesCompOffEntry","toolTip":"Employee Comp Off Entry","cssClass":" rtbWrap","imageUrl":"Icons/employee comp off entry.png"},{"value":"EmployeesRestrictedHolidayEntry","toolTip":"Employee Employees Restricted Holiday Entry","cssClass":" rtbWrap","imageUrl":"Icons/employee restricted holidays.png"},{"value":"EmployeesOutDoorEntry","toolTip":"Employee OutDoor Entry","cssClass":" rtbWrap","imageUrl":"Icons/employee outdoor  entries.png"},{"isSeparator":true,"cssClass":" rtbSeparator"}],"value":"Assign","enableDefaultButton":false,"type":2,"toolTip":"Assign","cssClass":" rtbWrap rtbExpandDown","imageUrl":"Icons/Assign.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"items":[{"value":"Devices","toolTip":"Devices","cssClass":" rtbWrap","imageUrl":"Icons/settings.png"},{"value":"DeviceLogs","toolTip":"Employee Device Logs","cssClass":" rtbWrap","imageUrl":"Icons/device.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"DeviceCommands","toolTip":"Device Commands","cssClass":" rtbWrap","imageUrl":"Icons/settings.png"},{"value":"UploadUserstoDevice","toolTip":"Upload users to Device","cssClass":" rtbWrap","imageUrl":"Icons/device-logs.png"},{"isSeparator":true,"cssClass":" rtbSeparator"}],"value":"DeviceManagement","enableDefaultButton":false,"type":2,"toolTip":"Device Management","cssClass":" rtbWrap rtbExpandDown","imageUrl":"Icons/device.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"items":[{"value":"ImportEmployeeDetails","toolTip":"Import Employees Basic Details","cssClass":" rtbWrap","imageUrl":"Icons/import-employee-details.png"},{"value":"ExportEmployeeDetails","toolTip":"Export Employees Basic Details","cssClass":" rtbWrap","imageUrl":"Icons/export-employee.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"ImportEmployeeOtherDetails","toolTip":"Import Employees Personal Details","cssClass":" rtbWrap","imageUrl":"Icons/import-employee-details.png"},{"value":"ExportEmployeeOtherDetails","toolTip":"Export Employees Personal Details","cssClass":" rtbWrap","imageUrl":"Icons/export-employee.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"ImportEmployeeLeaveBalance","toolTip":"Import Employee Leave Summary","cssClass":" rtbWrap","imageUrl":"Icons/import-employee-leave.png"},{"value":"ExportEmployeeLeaveBalance","toolTip":"Export Employee Leave Summary","cssClass":" rtbWrap","imageUrl":"Icons/export-employee-leave.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"EmployeeAnnuallyLeaveAccrual","toolTip":"Carry forward Employees Leave","cssClass":" rtbWrap"},{"value":"ParallelDatabaseExport","toolTip":"Parallel database Export","cssClass":" rtbWrap","imageUrl":"Icons/Parallels-database.png"},{"isSeparator":true,"cssClass":" rtbSeparator"}],"value":"Utilities","enableDefaultButton":false,"type":2,"toolTip":"Utilities","cssClass":" rtbWrap rtbExpandDown","imageUrl":"Icons/utility.png"},{"value":"RecalculateAttendance","toolTip":"Recalculate Attendance","cssClass":" rtbWrap","imageUrl":"Icons/settings.png"},{"value":"EmployeeAttendanceRegister","toolTip":"Attendance Register","cssClass":" rtbWrap","imageUrl":"Icons/attendance logs.png"},{"value":"EmployeeAttendanceLogs","toolTip":"Attendance Logs","cssClass":" rtbWrap","imageUrl":"Icons/attendance logs.png"},{"items":[{"value":"BasicReport","toolTip":"Daily Attendance Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"value":"MonthlyBasicReport","toolTip":"Monthly Attendance Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"LeaveEntryReport","toolTip":"Leave Entry Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"value":"OutDoorEntryReport","toolTip":"Out Door Entry Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"isSeparator":true,"cssClass":" rtbSeparator"},{"value":"LeaveSummaryReport","toolTip":"Leave Summary Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"value":"GenerateMemoReport","toolTip":"Generate Memo","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"value":"RandomCheckReport","toolTip":"Random Check Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"value":"AbnormalityReport","toolTip":"Abnormality Report","cssClass":" rtbWrap","imageUrl":"Icons/reports.png"},{"isSeparator":true,"cssClass":" rtbSeparator"}],"value":"Reports","enableDefaultButton":false,"type":2,"toolTip":"Reports","cssClass":" rtbWrap rtbExpandDown","imageUrl":"Icons/reports.png"}]}, {"buttonClicked":RadToolBar_OnClientItemClicked}, null, $get("mainToolBar"));
+});
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+        function EndRequestHandler(sender, args) {
+            if (args.get_error() != undefined) {
+
+                alert(args.get_error());
+                args.set_errorHandled(true);
+            }
+        }
+    </script>
+</body>
+</html>

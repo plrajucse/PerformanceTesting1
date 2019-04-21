@@ -1,0 +1,58 @@
+// JavaScript Document
+function selectHeading(activeheading)
+{
+	// Notify the server that a new heading is active!
+	new Ajax.Request('setheading.mws', {
+  	method: 'get',
+	  parameters: {heading: activeheading}
+  });
+
+	var headings = 20
+	var display = ''
+
+	// Loop through all headings
+	for (heading=1; heading<=headings; heading++){
+		if (heading == activeheading)
+			display = ''
+		else
+			display = 'none'
+			
+		obj = document.getElementById('heading_' + heading);
+		if(obj != null)
+			obj.style.display = display;
+	}
+}
+
+function selectHeading_v1(activeheading)
+{
+	// Notify the server that a new heading is active!
+	new Ajax.Request('setheading.mws', {
+  	method: 'get',
+	  parameters: {heading: activeheading}
+  });
+
+	var headings = 20
+	var rows = 20
+	var display = ''
+
+	// Loop through all headings
+	for (heading=1; heading<=headings; heading++){
+		if (heading == activeheading)
+			display = ''
+		else
+			display = 'none'
+			
+		for (row=1; row<=rows; row++){
+			obj = document.getElementById("menu_" + heading + "s" + row );
+	
+			// Verify that the object really exists
+			if (obj != null) {
+				// Obj is a row so
+				for (i = 0; i < obj.cells.length; i++)
+				{
+					obj.style.display=display;
+				}
+			}
+		}
+	}
+}

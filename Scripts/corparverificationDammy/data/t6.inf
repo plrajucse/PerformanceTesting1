@@ -1,0 +1,13 @@
+[t6]
+FileName1=t6.txt
+URL1=http://ed.shaft.com/poller/receive
+Total=2
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6.html
+URL2=http://ed.shaft.com/combo/?browserId=other&minifierType=&languageId=en_US&b=6201&t=1395209624000&/html/js/liferay/dockbar_keyboard_interaction.js
+[ProtocolInfo]
+ProtocolId=QTWeb

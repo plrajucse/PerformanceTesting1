@@ -1,0 +1,90 @@
+Virtual User Script started at: 1/3/2019 12:06:21 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\way2smscor\way2smscorr\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(4): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.way2sms.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/helpers.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/style.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/jquery.datetimepicker.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/responsive.large.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/responsive.medium.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/responsive.small.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/responsive.extra_small.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/all-ie-only.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/simplePagination.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/css/login-styles.css?v= 0.9039636067095167" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/logo-mobile_2.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/logo-way2sms.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/way2sms-logo-1.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/whatsapp-cion.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/icon-mail.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/arrow-point-whaite.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/graphic-1.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/promote-graphic.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/ftr-logo.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=UA-131011012-1" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://code.jquery.com/jquery-3.3.1.min.js" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/internet.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.way2sms.com/resources;jsessionid=5C24335B011B8E03B1D6DA5B7A57C6AE/images/language.png" in HTML "http://www.way2sms.com/"  	[MsgId: MMSG-26659]
+Action.c(9): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:1409442E:SSL routines:ssl3_read_bytes:tlsv1 alert protocol version  	[MsgId: MMSG-26000]
+Action.c(9): Warning -27774: SSL protocol error when attempting to connect with host "cdnjs.cloudflare.com"  	[MsgId: MWAR-27774]
+Action.c(9): Warning -27760: Request "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" failed  	[MsgId: MWAR-27760]
+Action.c(9): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:1409442E:SSL routines:ssl3_read_bytes:tlsv1 alert protocol version  	[MsgId: MMSG-26000]
+Action.c(9): Warning -27774: SSL protocol error when attempting to connect with host "fonts.googleapis.com"  	[MsgId: MWAR-27774]
+Action.c(9): Warning -27760: Request "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" failed  	[MsgId: MWAR-27760]
+Action.c(9): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:1409442E:SSL routines:ssl3_read_bytes:tlsv1 alert protocol version  	[MsgId: MMSG-26000]
+Action.c(9): Warning -27774: SSL protocol error when attempting to connect with host "www.googletagmanager.com"  	[MsgId: MWAR-27774]
+Action.c(9): Warning -27760: Request "https://www.googletagmanager.com/gtag/js?id=UA-131011012-1" failed  	[MsgId: MWAR-27760]
+Action.c(9): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure  	[MsgId: MMSG-26000]
+Action.c(9): Warning -27774: SSL protocol error when attempting to connect with host "stackpath.bootstrapcdn.com"  	[MsgId: MWAR-27774]
+Action.c(9): Warning -27760: Request "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" failed  	[MsgId: MWAR-27760]
+Action.c(9): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure  	[MsgId: MMSG-26000]
+Action.c(9): Warning -27774: SSL protocol error when attempting to connect with host "code.jquery.com"  	[MsgId: MWAR-27774]
+Action.c(9): Warning -27760: Request "https://code.jquery.com/jquery-3.3.1.min.js" failed  	[MsgId: MWAR-27760]
+Action.c(9): web_url("www.way2sms.com") highest severity level was "warning", 300335 body bytes, 5782 header bytes, 525 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(19): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(19): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_remove_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(21): Previous automatically added web header for "Accept-Language" removed  	[MsgId: MMSG-26587]
+Action.c(21): web_remove/revert_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_custom_request("rappor") started  	[MsgId: MMSG-26355]
+Action.c(35): web_custom_request("rappor") was successful, 22 body bytes, 344 header bytes  	[MsgId: MMSG-26386]
+Action.c(62): web_reg_async_attributes started  	[MsgId: MMSG-26355]
+Action.c(62): web_reg_async_attributes was successful  	[MsgId: MMSG-26392]
+Action.c(70): web_custom_request("v2") started  	[MsgId: MMSG-26355]
+Action.c(70): Warning: The string '\xE96J
+\xF9 \xD2\xD4\x15\x89\xBA\x10\x1CJ
+\x9F\x04\x86U\x15\xDF\x17J?J
+M\xB5\xB9Q\x15\x80\x8D' with parameter delimiters is not a parameter.
+Action.c(70): "ID=poll_0" && "Pattern=Poll" && "PollIntervalMs=3000" now applied to URL="https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29)  	[MsgId: MMSG-35171]
+Action.c(70): Retaining cross-step download of URL="https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29)  	[MsgId: MMSG-27652]
+Action.c(70): web_custom_request("v2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(98): web_url("plugins_win.json") started  	[MsgId: MMSG-26355]
+Action.c(98): Retaining cross-step download of URL="https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29)  	[MsgId: MMSG-27652]
+Action.c(98): Error -27645: Step download timeout (400 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27645]
+Action.c(98): Retaining cross-step download of URL="https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29)  	[MsgId: MMSG-27652]
+Action.c(98): Retaining cross-step download of URL="https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29)  	[MsgId: MMSG-27652]
+Action.c(98): Retaining cross-step download of URL="https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29)  	[MsgId: MMSG-27652]
+Action.c(98): web_url("plugins_win.json") highest severity level was "ERROR", 2017 body bytes, 448 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Action.c(98): Notify: Deleting Conversation Information with ID="poll_0"
+Action.c(98): Aborting download of URL "https://clientservices.googleapis.com/uma/v2" (RelFrameId=1, Internal ID=29) of conversation with ID="poll_0"  	[MsgId: MMSG-35166]
+Action.c(98): Warning -26000: Found 1 pending Async Conversation at end of iteration. web_stop_async() has been called to abort pending downloads.  	[MsgId: MWAR-26000]
+Action.c(98): Warning -27266: Pending Web requests detected at the end of iteration and will be aborted  	[MsgId: MWAR-27266]
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>The Comprehensive R Archive Network</title>
+<link rel="stylesheet" type="text/css" href="R.css">
+</head>
+
+<body>
+
+<h1>The Comprehensive R Archive Network</h1>
+
+<div align=center>
+<table border="1" width="80%">
+  <tr>
+    <td><h3>Download and Install R</h3>
+      Precompiled binary distributions of the base system and
+      contributed packages, <strong>Windows and
+      Mac</strong> users most likely want one of these versions of R:
+	<ul>
+	  <li><a href="bin/linux/">Download R for Linux</a></li>
+	  <li><a href="bin/macosx/">Download R for (Mac) OS X</a>
+	  <li><a href="bin/windows/">Download R for Windows</a></li>
+	</ul>
+    R is part of many Linux distributions, you should check with your Linux package management system in addition to the link above.
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Source Code for all Platforms</h3>
+      Windows and Mac users most likely want to download the
+      precompiled binaries listed in the upper box, not the source
+      code. The sources have to be compiled before you can use
+      them. If you do not know what this means, you probably do not
+      want to do it!
+	<ul>
+	  <li>The latest release (2018-12-20, Eggshell Igloo)
+	      <a href="src/base/R-3/R-3.5.2.tar.gz">R-3.5.2.tar.gz</a>, read
+	      <a href="doc/manuals/r-release/NEWS.html">what's new</a> in the latest
+	      version.<p>
+ 	  <li>Sources of
+	  <a href="src/base-prerelease/">R alpha and beta releases</a>
+	  (daily snapshots, created only in time periods before a planned release).</li>
+	  <p>
+	  <li>Daily snapshots of current patched and development
+              versions are 
+	      <a
+href="https://stat.ethz.ch/R/daily" target="_blank">available
+here</a>. Please read about <a
+href="doc/manuals/r-devel/NEWS.html">new features and bug
+fixes</a> before filing corresponding feature requests or bug reports.</li>
+<p>
+	  <li>Source code of 
+	  older versions of R is <a
+	  href="src/base/" >available here</a>.<p>
+	  	  <li>Contributed extension
+	  <a href="web/packages/index.html">packages</a>
+
+	</ul>
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Questions About R</h3>
+      <ul><li>
+      If you have questions about R like how to download and install
+      the software, or what the license terms are,
+      please read our <a href="faqs.html" >answers to frequently asked
+      questions</a> before you send an email.
+	</li></ul>
+    </td>
+  </tr>
+</table>
+</div>
+
+<h2>What are R and CRAN?</h2>
+
+<p> R is &lsquo;GNU S&rsquo;, a freely available language and environment for
+statistical computing and graphics which provides a wide variety of
+statistical and graphical techniques: linear and nonlinear modelling,
+statistical tests, time series analysis, classification, clustering,
+etc. Please consult the <a href="https://www.R-project.org/"
+target="_top">R project homepage</a> for further information.
+</p>
+
+<p> CRAN is a network of ftp and web servers around the world that
+store identical, up-to-date, versions of code and documentation for
+R. Please use the CRAN <a
+href="mirrors.html">mirror</a> nearest to you to minimize network
+load.
+</p>
+
+<h2 id="submitting">Submitting to CRAN </h2>
+
+<!--<p> 
+ <font color="#FF0000">CRAN submission will be offline from Dec 21, 2018 to Jan 02, 2019
+ (CRAN team vacation and maintainance work)</font>.
+ </p>-->
+
+<p>
+To &ldquo;submit&rdquo; a package to CRAN,
+check that your submission meets the
+<a href="https://CRAN.R-project.org/web/packages/policies.html">CRAN
+  Repository Policy</a> and then use the
+<!--<a href="submit.html.vacation">-->
+<a href="https://xmpalantir.wu.ac.at/cransubmit/">
+web form</a>.
+</p>
+
+<p>
+If this fails, upload to
+<A HREF="ftp://CRAN.R-project.org/incoming/" target="_blank">ftp://CRAN.R-project.org/incoming/</A>
+and send an email to
+<A HREF="mailto:CRAN-submissions@R-project.org">CRAN-submissions@R-project.org</A> following the policy.
+Please do not attach submissions to emails, because this will clutter up
+the mailboxes of half a dozen people.
+</p>
+
+<p>
+Note that we generally do not accept submissions of precompiled
+binaries due to security reasons. All binary distribution listed above
+are compiled by selected maintainers, who are in charge for all
+binaries of their platform, respectively.
+</p>
+
+<p>
+<hr>
+<p>
+For queries about this web site, please contact 
+<a href="mailto:CRAN-admin@R-project.org">the webmaster</a>.
+</p>
+<!--#if expr="$CRAN_HOST" -->
+  <!--#echo  encoding="none" var="CRAN_HOST"--><br>
+<!--#endif -->
+</body> </html>

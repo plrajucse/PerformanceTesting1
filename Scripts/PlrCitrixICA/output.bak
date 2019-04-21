@@ -1,0 +1,268 @@
+Virtual User Script started at: 22-02-2019 16:44:03
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+22/02/2019 16:44:03 (4480:8120) - New Iteration started
+Starting action Action.
+Action.c(9): Setting connection option "ICAFILE" to "Launch.ica"
+22/02/2019 16:44:03 Action.c(9): (4480:8120) - CitrixClientImpl.dll version: 12.60.971.0
+22/02/2019 16:44:03 Action.c(9): (4480:8120) - Number of currently used GDI handles on this machine = 850
+22/02/2019 16:44:03 Action.c(9): (4480:8120) - Running Citrix processes:
+	concentr.exe, pid 9164, GDI handles in use: 41
+	receiver.exe, pid 5856, GDI handles in use: 51
+22/02/2019 16:44:03 Action.c(9): (4480:8120) - Modifying ICA file with commands "ConnectionBar=0	TWIMode=Off": done with status 0 (SUCCESS).
+22/02/2019 16:44:03 Action.c(9): (4480:8120) - Citrix ClientName is "lr-"
+22/02/2019 16:44:03 Action.c(9): (4480:8120) - WaitForEvent: Initializing wait event, time=180000, end time=142548734
+22/02/2019 16:44:04 Action.c(9): (4480:8120) - Got Connect event
+22/02/2019 16:44:04 Action.c(9): (4480:8120) - Number of currently used GDI handles on this machine = 883
+22/02/2019 16:44:04 Action.c(9): (4480:8120) - Running Citrix processes:
+	concentr.exe, pid 9164, GDI handles in use: 41
+	receiver.exe, pid 5856, GDI handles in use: 51
+	wfica32.exe, pid 6600, GDI handles in use: 23
+22/02/2019 16:44:04 Action.c(9): (4480:8120) - client resolution = 800x600, client color depth = 32 bits
+22/02/2019 16:44:04 Action.c(9): (4480:8120) - Wake Up and check new event.
+Action.c(13): Waiting for logon
+22/02/2019 16:44:04 Action.c(13): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142429421
+22/02/2019 16:44:06 Action.c(13): (4480:8120) - "Windows sign-in" is not currently in map, adding it now
+22/02/2019 16:44:06 Action.c(13): (4480:8120) - Create window name="Windows sign-in" flag=1 style=-1778384896 ext_style=2097152 ID=65570
+22/02/2019 16:44:06 Action.c(13): (4480:8120) - Created window: "Windows sign-in"  at (0, 0)
+22/02/2019 16:44:06 Action.c(13): (4480:8120) - Foreground window = 65638
+22/02/2019 16:44:07 Action.c(13): (4480:8120) - Foreground window = 0
+22/02/2019 16:44:07 Action.c(13): (4480:8120) - Destroy window: "Windows sign-in"
+22/02/2019 16:44:07 Action.c(13): (4480:8120) - removing "Windows sign-in" from LogicNameMap
+22/02/2019 16:44:07 Action.c(13): (4480:8120) - Foreground window = 0
+22/02/2019 16:44:07 Action.c(13): (4480:8120) - Get Logon event
+22/02/2019 16:44:07 Action.c(13): (4480:8120) - Wake Up and check new event.
+Action.c(13): Logon succeeded
+Action.c(17): Waiting for window "User login" to exist
+22/02/2019 16:44:07 Action.c(17): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142432843
+22/02/2019 16:44:07 Action.c(17): (4480:8120) - Foreground window = 65712
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - "EmptyBackgroundForm" is not currently in map, adding it now
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Create window name="EmptyBackgroundForm" flag=1 style=906035200 ext_style=65536 ID=65736
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Created window: "EmptyBackgroundForm"  at (0, 572)
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - "Form1" is not currently in map, adding it now
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Create window name="Form1" flag=0 style=369164288 ext_style=65536 ID=131276
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Created window: "Form1"  at (120, 170)
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Foreground window = 131276
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - "TF_FloatingLangBar_WndTitle" is not currently in map, adding it now
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Create window name="TF_FloatingLangBar_WndTitle" flag=5 style=-1677721600 ext_style=134217864 ID=131116
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Created window: "TF_FloatingLangBar_WndTitle"  at (462, 0)
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - Destroy window: "EmptyBackgroundForm"
+22/02/2019 16:44:10 Action.c(17): (4480:8120) - removing "EmptyBackgroundForm" from LogicNameMap
+22/02/2019 16:44:14 Action.c(17): (4480:8120) - Destroy window: "Form1"
+22/02/2019 16:44:14 Action.c(17): (4480:8120) - removing "Form1" from LogicNameMap
+22/02/2019 16:44:14 Action.c(17): (4480:8120) - Foreground window = 65712
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - "KWHotel Free (0.47.108)" is not currently in map, adding it now
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Create window name="KWHotel Free (0.47.108)" flag=0 style=399441920 ext_style=327936 ID=131300
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Created window: "KWHotel Free (0.47.108)"  at (0, 0)
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - "User login" is not currently in map, adding it now
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Create window name="User login" flag=0 style=382205952 ext_style=327937 ID=65772
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Created window: "User login"  at (194, 175)
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Wake Up and check new event.
+Action.c(17): Waiting for window "User login" to be foreground window
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Activate window: "User login"
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142440609
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Foreground window = 65772
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Wake Up and check new event.
+Action.c(17): Ensuring window "User login" is at (194, 175, 412, 248)
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Destroy window: "TF_FloatingLangBar_WndTitle"
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - removing "TF_FloatingLangBar_WndTitle" from LogicNameMap
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - "TF_FloatingLangBar_WndTitle" is not currently in map, adding it now
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Create window name="TF_FloatingLangBar_WndTitle" flag=5 style=-1677721600 ext_style=134217864 ID=131116
+22/02/2019 16:44:15 Action.c(17): (4480:8120) - Created window: "TF_FloatingLangBar_WndTitle"  at (462, 0)
+Action.c(20): Executing type ("admin")
+22/02/2019 16:44:15 Action.c(20): (4480:8120) - KeyDown 65 0
+22/02/2019 16:44:15 Action.c(20): (4480:8120) - KeyUp 65 0
+22/02/2019 16:44:15 Action.c(20): (4480:8120) - KeyDown 68 0
+22/02/2019 16:44:15 Action.c(20): (4480:8120) - KeyUp 68 0
+22/02/2019 16:44:15 Action.c(20): (4480:8120) - KeyDown 77 0
+22/02/2019 16:44:16 Action.c(20): (4480:8120) - KeyUp 77 0
+22/02/2019 16:44:16 Action.c(20): (4480:8120) - KeyDown 73 0
+22/02/2019 16:44:16 Action.c(20): (4480:8120) - KeyUp 73 0
+22/02/2019 16:44:16 Action.c(20): (4480:8120) - KeyDown 78 0
+22/02/2019 16:44:16 Action.c(20): (4480:8120) - KeyUp 78 0
+Action.c(23): Executing key ("TAB_KEY")
+22/02/2019 16:44:16 Action.c(23): (4480:8120) - KeyDown 9 0
+22/02/2019 16:44:16 Action.c(23): (4480:8120) - KeyUp 9 0
+Action.c(26): Executing type ("Sh@ft123")
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - KeyDown 16 0
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - Send ping: mod_1
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - KeyDown 83 1
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - Get ping ack: mod_1
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - KeyUp 83 1
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - KeyUp 16 0
+22/02/2019 16:44:16 Action.c(26): (4480:8120) - KeyDown 72 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 72 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyDown 16 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - Send ping: mod_1
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyDown 50 1
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - Get ping ack: mod_1
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 50 1
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 16 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyDown 70 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 70 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyDown 84 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 84 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyDown 49 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 49 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyDown 50 0
+22/02/2019 16:44:17 Action.c(26): (4480:8120) - KeyUp 50 0
+22/02/2019 16:44:18 Action.c(26): (4480:8120) - KeyDown 51 0
+22/02/2019 16:44:18 Action.c(26): (4480:8120) - KeyUp 51 0
+Action.c(29): Executing key ("TAB_KEY")
+22/02/2019 16:44:18 Action.c(29): (4480:8120) - KeyDown 9 0
+22/02/2019 16:44:18 Action.c(29): (4480:8120) - KeyUp 9 0
+Action.c(32): Executing key ("TAB_KEY")
+22/02/2019 16:44:18 Action.c(32): (4480:8120) - KeyDown 9 0
+22/02/2019 16:44:18 Action.c(32): (4480:8120) - KeyUp 9 0
+Action.c(36): Notify: Transaction "KWHotel Free" started.
+Action.c(38): Executing key ("ENTER_KEY")
+22/02/2019 16:44:18 Action.c(38): (4480:8120) - KeyDown 13 0
+22/02/2019 16:44:18 Action.c(38): (4480:8120) - KeyUp 13 0
+22/02/2019 16:44:18 Action.c(40): (4480:8120) - Destroy window: "User login"
+22/02/2019 16:44:18 Action.c(40): (4480:8120) - removing "User login" from LogicNameMap
+Action.c(44): Waiting for window "KWHotel Free (0.47.108) - [Calendar]" to exist
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142443859
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - Activate window: "KWHotel Free (0.47.108)"
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - Foreground window = 131300
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - "KWHotel Free (0.47.108) - [Calendar]" is not currently in map, adding it now
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - Caption change: "KWHotel Free (0.47.108)" ---> "KWHotel Free (0.47.108) - [Calendar]" = "KWHotel Free (0.47.108) - [Calendar]"
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - Wake Up and check new event.
+Action.c(44): Waiting for window "KWHotel Free (0.47.108) - [Calendar]" to be foreground window
+22/02/2019 16:44:18 Action.c(44): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142444109
+Action.c(44): Ensuring window "KWHotel Free (0.47.108) - [Calendar]" is at (0, 0, 801, 601)
+Action.c(46): Retrieved Text "Logbook" in region (348, 67, 55, 18) in the desktop window
+Action.c(47): get text......... Logbook
+Action.c(49): Retrieved Text "Meals" in region (440, 66, 36, 19) in the desktop window
+Action.c(50): get text......... Meals
+Action.c(54): Getting active window name
+Action.c(54): Active window name is "KWHotel Free (0.47.108) - [Calendar]"
+Action.c(64): Appear
+Action.c(65): Notify: Transaction "KWHotel Free" ended with a "Pass" status (Duration: 3.7661).
+Action.c(72): Waiting for bitmap (437, 64, 44, 20) to have hash value "e0873ec64ec2c7745e29524ca8bf4aae"
+22/02/2019 16:44:22 Action.c(72): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142447437
+22/02/2019 16:44:22 Action.c(72): (4480:8120) - The current bitmap value is e0873ec64ec2c7745e29524ca8bf4aae
+Action.c(73): Getting bitmap value for (35, 120, 30, 50)
+Action.c(73): Bitmap value for (35, 120, 30, 50) is "ab8b949fcea86aadb82eab1e0227a979"
+Action.c(77): Executing (null)key ("t")
+22/02/2019 16:44:22 Action.c(77): (4480:8120) - KeyDown 18 0
+22/02/2019 16:44:22 Action.c(77): (4480:8120) - Send ping: mod_4
+22/02/2019 16:44:22 Action.c(77): (4480:8120) - KeyDown 84 4
+22/02/2019 16:44:22 Action.c(77): (4480:8120) - Get ping ack: mod_4
+22/02/2019 16:44:22 Action.c(77): (4480:8120) - KeyUp 84 4
+22/02/2019 16:44:22 Action.c(77): (4480:8120) - KeyUp 18 0
+Action.c(80): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:22 Action.c(80): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:22 Action.c(80): (4480:8120) - KeyUp 40 0
+Action.c(83): Executing key ("ENTER_KEY")
+22/02/2019 16:44:23 Action.c(83): (4480:8120) - KeyDown 13 0
+22/02/2019 16:44:23 Action.c(83): (4480:8120) - KeyUp 13 0
+Action.c(88): Executing (null)key ("f")
+22/02/2019 16:44:23 Action.c(88): (4480:8120) - KeyDown 18 0
+22/02/2019 16:44:23 Action.c(88): (4480:8120) - Send ping: mod_4
+22/02/2019 16:44:23 Action.c(88): (4480:8120) - KeyDown 70 4
+22/02/2019 16:44:23 Action.c(88): (4480:8120) - Get ping ack: mod_4
+22/02/2019 16:44:23 Action.c(88): (4480:8120) - KeyUp 70 4
+22/02/2019 16:44:23 Action.c(88): (4480:8120) - KeyUp 18 0
+Action.c(90): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:23 Action.c(90): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:23 Action.c(90): (4480:8120) - KeyUp 40 0
+Action.c(92): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:23 Action.c(92): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:23 Action.c(92): (4480:8120) - KeyUp 40 0
+Action.c(94): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:23 Action.c(94): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:23 Action.c(94): (4480:8120) - KeyUp 40 0
+Action.c(96): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:24 Action.c(96): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:24 Action.c(96): (4480:8120) - KeyUp 40 0
+Action.c(98): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:24 Action.c(98): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:24 Action.c(98): (4480:8120) - KeyUp 40 0
+Action.c(100): Executing key ("DOWN_ARROW_KEY")
+22/02/2019 16:44:24 Action.c(100): (4480:8120) - KeyDown 40 0
+22/02/2019 16:44:24 Action.c(100): (4480:8120) - KeyUp 40 0
+Action.c(102): Executing key ("ENTER_KEY")
+22/02/2019 16:44:24 Action.c(102): (4480:8120) - KeyDown 13 0
+22/02/2019 16:44:24 Action.c(102): (4480:8120) - KeyUp 13 0
+Action.c(106): Waiting for window "Warning" to exist
+22/02/2019 16:44:24 Action.c(106): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142449828
+22/02/2019 16:44:26 Action.c(106): (4480:8120) - "KWHotel Free (0.47.108) - [Customers]" is not currently in map, adding it now
+22/02/2019 16:44:26 Action.c(106): (4480:8120) - Caption change: "KWHotel Free (0.47.108) - [Calendar]" ---> "KWHotel Free (0.47.108) - [Customers]" = "KWHotel Free (0.47.108) - [Customers]"
+22/02/2019 16:44:26 Action.c(106): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - "Warning" is not currently in map, adding it now
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Create window name="Warning" flag=0 style=382205952 ext_style=65793 ID=65988
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Created window: "Warning"  at (190, 200)
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Wake Up and check new event.
+Action.c(106): Waiting for window "Warning" to be foreground window
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Activate window: "Warning"
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142452203
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Foreground window = 65988
+22/02/2019 16:44:27 Action.c(106): (4480:8120) - Wake Up and check new event.
+Action.c(106): Ensuring window "Warning" is at (190, 200, 421, 201)
+Action.c(109): Executing key ("TAB_KEY")
+22/02/2019 16:44:27 Action.c(109): (4480:8120) - KeyDown 9 0
+22/02/2019 16:44:27 Action.c(109): (4480:8120) - KeyUp 9 0
+Action.c(112): Executing key ("ENTER_KEY")
+22/02/2019 16:44:27 Action.c(112): (4480:8120) - KeyDown 13 0
+22/02/2019 16:44:27 Action.c(112): (4480:8120) - KeyUp 13 0
+Action.c(116): Waiting for window "Update Application" to exist
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142452703
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - Activate window: "KWHotel Free (0.47.108) - [Customers]"
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - Foreground window = 131300
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - Destroy window: "Warning"
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - removing "Warning" from LogicNameMap
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - Destroy window: "KWHotel Free (0.47.108) - [Customers]"
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - removing "KWHotel Free (0.47.108) - [Customers]" from LogicNameMap
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - Foreground window = 0
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - Destroy window: "TF_FloatingLangBar_WndTitle"
+22/02/2019 16:44:27 Action.c(116): (4480:8120) - removing "TF_FloatingLangBar_WndTitle" from LogicNameMap
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - "Update Application" is not currently in map, adding it now
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Create window name="Update Application" flag=0 style=382337024 ext_style=327936 ID=131302
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Created window: "Update Application"  at (101, 88)
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Wake Up and check new event.
+Action.c(116): Waiting for window "Update Application" to be foreground window
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Activate window: "Update Application"
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142454031
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Foreground window = 131302
+22/02/2019 16:44:28 Action.c(116): (4480:8120) - Wake Up and check new event.
+Action.c(116): Ensuring window "Update Application" is at (101, 88, 598, 423)
+22/02/2019 16:44:28 Action.c(117): (4480:8120) - "TF_FloatingLangBar_WndTitle" is not currently in map, adding it now
+22/02/2019 16:44:28 Action.c(117): (4480:8120) - Create window name="TF_FloatingLangBar_WndTitle" flag=5 style=-1677721600 ext_style=134217864 ID=131116
+22/02/2019 16:44:28 Action.c(117): (4480:8120) - Created window: "TF_FloatingLangBar_WndTitle"  at (462, 0)
+Action.c(119): Executing key ("ENTER_KEY")
+22/02/2019 16:44:29 Action.c(119): (4480:8120) - KeyDown 13 0
+22/02/2019 16:44:29 Action.c(119): (4480:8120) - KeyUp 13 0
+22/02/2019 16:44:29 Action.c(120): (4480:8120) - Destroy window: "Update Application"
+22/02/2019 16:44:29 Action.c(120): (4480:8120) - removing "Update Application" from LogicNameMap
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Foreground window = 0
+Action.c(122): Logging off
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Calling Logoff()
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - WaitForEvent: Initializing wait event, time=60000, end time=142454296
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Foreground window = 0
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Inside OnDisconnectEvent()
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Number of currently used GDI handles on this machine = 910
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Running Citrix processes:
+	concentr.exe, pid 9164, GDI handles in use: 41
+	receiver.exe, pid 5856, GDI handles in use: 51
+	wfica32.exe, pid 6600, GDI handles in use: 55
+22/02/2019 16:44:29 Action.c(122): (4480:8120) - Got Disconnect event
+Action.c(122): CITRIX: ASSERT: "__thiscall CSession::~CSession(void)" at Session.cpp(163). Text: "SUCCEEDED(SessionEventImpl::DispEventUnadvise(m_session, &DIID__ISessionEvents))"
+22/02/2019 16:44:30 Action.c(122): (4480:8120) - Wake Up and check new event.
+22/02/2019 16:44:30 Action.c(122): (4480:8120) - WaitForEvent result = 0
+22/02/2019 16:44:30 Action.c(122): (4480:8120) - Already disconnected, no need to logoff again
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

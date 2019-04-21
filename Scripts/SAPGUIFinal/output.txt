@@ -1,0 +1,70 @@
+Virtual User Script started at: 2/19/2019 4:17:59 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Notify: Parameter Substitution: parameter "pServerName" =  "10.10.10.20"
+Action.c(4): Opened new connection to server "PLRaju1CST [10.10.10.20]"
+Action.c(8): Selected active connection "con[0]"
+Action.c(10): Selected active session "ses[0]"
+Action.c(12): Selected active window "wnd[0]"
+Action.c(14): Resized window to 25x138
+Action.c(24): Notify: Parameter Substitution: parameter "pUser" =  "SHAFT16"
+Action.c(24): Logged on as "SHAFT16"
+Notify: Found SapGui component by ID "tbar[0]/okcd"
+Action.c(34): Set OKCode "/nmm02"
+Action.c(39): Sent virtual key "0"
+Action.c(46): Sent virtual key "4"
+Action.c(53): Selected active window "wnd[1]"
+Notify: Found SapGui component by ID "tbar[0]/btn[0]"
+Action.c(55): Pressed button "Continue   (Enter)"
+Notify: Found SapGui component by ID "usr"
+Action.c(63): Scrolled active window to line 0
+Notify: Found SapGui component by ID "usr/lbl[1,11]"
+Action.c(68): Set focus on "usr/lbl[1,11]"
+Action.c(73): Sent virtual key "2"
+Action.c(80): Selected active window "wnd[0]"
+Notify: Found SapGui component by ID "usr/ctxtRMMG1-AENNR"
+Action.c(82): Set focus on "usr/ctxtRMMG1-AENNR"
+Action.c(87): Sent virtual key "0"
+Action.c(94): Selected active window "wnd[1]"
+Notify: Found SapGui component by ID "usr/tblSAPLMGMMTC_VIEW"
+Notify: Table - Found row 0
+Action.c(96): Table - Selected row 0
+Notify: Found SapGui component by ID "usr/tblSAPLMGMMTC_VIEW"
+Notify: Table - Found row 1
+Action.c(103): Table - Selected row 1
+Notify: Found SapGui component by ID "usr/tblSAPLMGMMTC_VIEW"
+Notify: Found SapGui component by ID "usr/tblSAPLMGMMTC_VIEW"
+Notify: Table - Found SapGui component at position (1, 0)
+Action.c(110): Table - Set focus on "(1, 'View')"
+Notify: Found SapGui component by ID "tbar[0]/btn[0]"
+Action.c(119): Pressed button "Continue   (Enter)"
+Action.c(127): Selected active window "wnd[0]"
+Action.c(129): Notify: Parameter Substitution: parameter "pGross" =  "994"
+Notify: Found SapGui component by ID "usr/tabsTABSPR1/tabpSP01/ssubTABFRA1:SAPLMGMM:2004/subSUB4:SAPLMGD1:2007/txtMARA-BRGEW"
+Action.c(129): Set text of "Gross Weight" to "994"
+Action.c(137): Notify: Parameter Substitution: parameter "pNet" =  "208"
+Notify: Found SapGui component by ID "usr/tabsTABSPR1/tabpSP01/ssubTABFRA1:SAPLMGMM:2004/subSUB4:SAPLMGD1:2007/txtMARA-NTGEW"
+Action.c(137): Set text of "Net Weight" to "208"
+Notify: Found SapGui component by ID "usr/tabsTABSPR1/tabpSP01/ssubTABFRA1:SAPLMGMM:2004/subSUB4:SAPLMGD1:2007/txtMARA-NTGEW"
+Action.c(144): Set focus on "usr/tabsTABSPR1/tabpSP01/ssubTABFRA1:SAPLMGMM:2004/subSUB4:SAPLMGD1:2007/txtMARA-NTGEW"
+Notify: Found SapGui component by ID "tbar[0]/btn[11]"
+Action.c(149): Pressed button "Save   (Ctrl+S)"
+Notify: Found SapGui component by ID "sbar"
+Action.c(155): The text of the status bar is "Material 1108 changed"
+Action.c(155): Notify: Saving Parameter "paramStatusBarText = Material 1108 changed".
+Notify: Found SapGui component by ID "sbar"
+Notify: Found SapGui component by ID "sbar"
+Notify: Found SapGui component by ID "mbar/menu[4]/menu[12]"
+Action.c(163): Selected menu item "Log off"
+Action.c(171): Selected active window "wnd[1]"
+Notify: Found SapGui component by ID "usr/btnSPOP-OPTION1"
+Action.c(173): Pressed button "Yes"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,272 @@
+[API Trapper      (  b4: 110)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( e60: 4c4)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( f44: 7dc)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( f44: b74)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( f44: b74)] Load Network Traffic Analyzers:
+[Network Analyzer ( f44: b74)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( f44: b74)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( f44: b74)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( f44: b74)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( f44: b74)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( f44: b74)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( f44: b74)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( f44: b74)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( f44: e1c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Net An. Warning  ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( f44: 1b8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 1b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( f44: e1c)] "GET /webtours"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 269 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 506 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /webtours/"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 663 bytes  (Service=HTTP)
+[Net An. Warning  ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( f44: e1c)] "GET /webtours/header.html"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer ( f44: 294)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 294)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /webtours/images/webtours.png"   
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Client -> Server @ : 355 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 354 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Client -> Server @ : 375 bytes (Service=HTTP)
+[Network Analyzer ( f44: 294)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 1b8)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/home.html"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( f44: 1b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( f44: 294)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Server -> Client : 1752 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /favicon.ico"   
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Net An. Warning  ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( f44: b74)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( f44: b74)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: b74)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( f44: b74)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: b74)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( f44: e1c)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( f44: e1c)]   (Sid:  2) Connection Terminated (by Server)
+[Web Request      ( f44: e1c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Client -> Server @ : 579 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Client -> Server @ : 480 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 1159 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Client -> Server @ : 506 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  5) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  5) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  6) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Client -> Server @ : 497 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Client -> Server @ : 510 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  6) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 281 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/classes/"   
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/classes/"   
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( f44: e1c)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( f44: e1c)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( f44: e1c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( e60:1470)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e60:1470)] Load Network Traffic Analyzers:
+[Network Analyzer ( e60:1470)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( e60:1470)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( e60:1470)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( e60:1470)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( e60:1470)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( e60:1470)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( e60:1470)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( e60:1470)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e60: 14c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 3e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( e60:1470)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 3e4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( e60:1470)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( f44: 294)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 294)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( f44: e1c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( f44: e1c)]   (Sid:  8) Client -> Server @ : 832 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  8) Server -> Client : 2710 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( f44: 3b4)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( f44: e1c)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( f44:126c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44:126c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( f44: e1c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( f44: e1c)]   (Sid:  9) Client -> Server @ : 723 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  9) Server -> Client : 2966 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer ( f44:160c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Net An. Error    ( f44: 3b4)] SSLAccept(ssl_id = 195319344 = 0BA45630) Failed, ctx = 0A627A80, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( f44: 3b4)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( f44: e1c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( e60: d68)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    ( e60: d68)] SSLAccept(ssl_id = 2660222280048 = 0000026B619AA170) Failed, ctx = 0000026B5EC38B00, err = "before SSL initialization", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( e60: d68)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( f44: 348)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( e60: 14c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( f44:160c)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      ( f44: e1c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 2784 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: 348)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( f44: e1c)]   (Sid: 11) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 11) Server -> Client : 465 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 11) Server -> Client : 634 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Server -> Client : 4184 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer ( f44: e1c)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( f44:126c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44: 294)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.44
+[Network Analyzer ( f44:126c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( f44: e1c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Client -> Server @ : 882 bytes (Service=HTTP)
+[Network Analyzer ( f44: 294)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 2849 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      ( f44: e1c)] "GET /WebTours/home.html"   
+[Network Analyzer ( f44: e1c)]   (Sid: 13) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 13) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer ( f44: e1c)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)

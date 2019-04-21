@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.php",
+                "infFile": "t1.inf",
+                "time": 1548828591771
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Go shopping",
+                "infFile": "t2.inf",
+                "time": 1548828607711
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: cart.php",
+                "infFile": "t3.inf",
+                "time": 1548828612046
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Checkout",
+                "infFile": "t4.inf",
+                "time": 1548828613163
+            }
+        ],
+        "transactions": []
+    }
+]

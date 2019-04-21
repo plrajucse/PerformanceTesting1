@@ -1,0 +1,98 @@
+Virtual User Script started at: 1/3/2019 5:24:30 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\bankingmegase\bakingcor\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(14): web_url("banking.megasol.se") started  	[MsgId: MMSG-26355]
+Action.c(14): Found resource "http://banking.megasol.se/style/loginstyle.css" in HTML "http://banking.megasol.se/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "http://banking.megasol.se/js/login.js" in HTML "http://banking.megasol.se/"  	[MsgId: MMSG-26659]
+Action.c(14): Notify: Saving Parameter "corlogintoken = 5DS0MVXSN".
+Action.c(14): Found resource "http://banking.megasol.se/images/login_logo.gif" in HTML "http://banking.megasol.se/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "http://banking.megasol.se/images/login_logo_bottom.gif" in HTML "http://banking.megasol.se/"  	[MsgId: MMSG-26659]
+Action.c(14): web_url("banking.megasol.se") was successful, 23722 body bytes, 1330 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): web_remove_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(24): Previous automatically added web header for "Accept-Language" removed  	[MsgId: MMSG-26587]
+Action.c(24): web_remove/revert_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(30): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(30): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(39): web_submit_data("login.mws") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "corlogintoken" =  "5DS0MVXSN"
+Action.c(39): Found resource "http://banking.megasol.se/style/detailstyle.css?version=8" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://banking.megasol.se/js/common.js" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://banking.megasol.se/js/menu.js" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://banking.megasol.se/js/prototype.js" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://banking.megasol.se/images/menutop.gif" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://banking.megasol.se/images/menubottom.gif" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://banking.megasol.se/images/help.gif" in HTML "http://banking.megasol.se/login.mws"  	[MsgId: MMSG-26659]
+Action.c(39): web_submit_data("login.mws") was successful, 223135 body bytes, 2130 header bytes  	[MsgId: MMSG-26386]
+Action.c(70): web_reg_async_attributes started  	[MsgId: MMSG-26355]
+Action.c(70): web_reg_async_attributes was successful  	[MsgId: MMSG-26392]
+Action.c(98): web_stop_async started  	[MsgId: MMSG-26355]
+Action.c(98): Notify: Deleting Conversation Information with ID="poll_0"
+Action.c(98): web_stop_async was successful  	[MsgId: MMSG-26392]
+Action.c(103): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(103): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(109): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(112): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(112): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(115): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(115): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(118): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(118): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(122): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(122): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(124): web_url("AccountDeposit.mws") started  	[MsgId: MMSG-26355]
+Action.c(124): Resource "http://banking.megasol.se/style/detailstyle.css?version=8" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Resource "http://banking.megasol.se/js/common.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Resource "http://banking.megasol.se/js/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Resource "http://banking.megasol.se/js/prototype.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Resource "http://banking.megasol.se/images/menutop.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Resource "http://banking.megasol.se/images/menubottom.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Resource "http://banking.megasol.se/images/help.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(124): Notify: Saving Parameter "depositacc = C".
+Action.c(124): Notify: Saving Parameter "typeofdesposit = Cheque".
+Action.c(124): Notify: Saving Parameter "sendertype = P".
+Action.c(124): Notify: Saving Parameter "identificationtype = A".
+Action.c(124): Notify: Saving Parameter "countryofsendingbank = Australia\r\n".
+Action.c(124): web_url("AccountDeposit.mws") was successful, 54874 body bytes, 262 header bytes  	[MsgId: MMSG-26386]
+Action.c(136): web_submit_data("AccountDeposit.mws_2") started  	[MsgId: MMSG-26355]
+Action.c(136): Notify: Parameter Substitution: parameter "typeofdesposit" =  "Cheque"
+Action.c(136): Notify: Parameter Substitution: parameter "depositacc" =  "C"
+Action.c(136): Warning -26490: File name in a multipart submit is missing or empty. Using an empty file  	[MsgId: MWAR-26490]
+Action.c(136): Notify: Parameter Substitution: parameter "sendertype" =  "P"
+Action.c(136): Notify: Parameter Substitution: parameter "identificationtype" =  "A"
+Action.c(136): Notify: Parameter Substitution: parameter "countryofsendingbank" =  "Australia\r\n"
+Action.c(136): Resource "http://banking.megasol.se/style/detailstyle.css?version=8" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://banking.megasol.se/js/common.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://banking.megasol.se/js/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://banking.megasol.se/js/prototype.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://banking.megasol.se/images/menutop.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://banking.megasol.se/images/menubottom.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://banking.megasol.se/images/help.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): web_submit_data("AccountDeposit.mws_2") highest severity level was "warning", 55163 body bytes, 262 header bytes  	[MsgId: MMSG-26388]
+Action.c(174): web_url("Log out") started  	[MsgId: MMSG-26355]
+Action.c(174): Resource "http://banking.megasol.se/style/loginstyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(174): Resource "http://banking.megasol.se/js/login.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(174): Resource "http://banking.megasol.se/images/login_logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(174): Resource "http://banking.megasol.se/images/login_logo_bottom.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(174): web_url("Log out") was successful, 5393 body bytes, 336 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 5460), ended OK."

@@ -1,0 +1,71 @@
+Virtual User Script started at : 2019-02-12 17:06:12
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: Chromium 63.0.3239.132, initialized on 2019/02/12 at 17:06:12 (1549971372.583s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "launch" started.
+t=00002364ms: Step 1: Navigate to "http://127.0.0.1:1080/webtours/" started    [MsgId: MMSG-205180]
+t=00003935ms: Step 1: Navigate to http://127.0.0.1:1080/webtours/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00003981ms: Step 2: Verify Web Tours Welcome to...'s Visible Text contains Web Tours Welcome to the...atix Corporation started    [MsgId: MMSG-205180]
+t=00004372ms: Step 2: Verify Web Tours Welcome to...'s Visible Text contains Web Tours Welcome to the...atix Corporation successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "launch" ended with a "Pass" status (Duration: 2.0260 Think Time: 0.0260 Wasted Time: 0.5780).
+Notify: Transaction "login" started.
+t=00004892ms: Step 4: Type TC.getParam("p_us") in Username textbox started    [MsgId: MMSG-205180]
+t=00004949ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00007234ms: Step 4: Type jojo in Username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00007756ms: Step 6: Type ******************* in Password passwordbox started    [MsgId: MMSG-205180]
+t=00007795ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous "Generic API" step instead.    [MsgId: MWAR-205179]
+t=00010115ms: Step 6: Type **** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00010634ms: Step 7: Click on Login button started    [MsgId: MMSG-205180]
+t=00011587ms: Step 7: Click on Login button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "login" ended with a "Pass" status (Duration: 6.7180 Wasted Time: 2.2510).
+t=00011645ms: Step 8: Verify [object HTMLQuoteElement]'s Visible Text contains jojo started    [MsgId: MMSG-205180]
+t=00012062ms: Step 8: Verify [object HTMLQuoteElement]'s Visible Text contains jojo successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "click on flight" started.
+t=00012582ms: Step 9: Click on Search Flights Button image started    [MsgId: MMSG-205180]
+t=00013518ms: Step 9: Click on Search Flights Button image successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "click on flight" ended with a "Pass" status (Duration: 0.9600 Wasted Time: 0.5060).
+Notify: Transaction "choose sor and dest" started.
+t=00014041ms: Step 10: Select Frankfurt from Departure City  listbox started    [MsgId: MMSG-205180]
+t=00014394ms: Step 10: Select Frankfurt from Departure City  listbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00014914ms: Step 11: Select London from Arrival City  listbox started    [MsgId: MMSG-205180]
+t=00015314ms: Step 11: Select London from Arrival City  listbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00015351ms: Step 12: Wait until AisleAisle label exists started    [MsgId: MMSG-205180]
+t=00015720ms: Step 12: Wait until AisleAisle label exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00016238ms: Step 13: Click on findFlights button started    [MsgId: MMSG-205180]
+t=00016985ms: Step 13: Click on findFlights button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "choose sor and dest" ended with a "Pass" status (Duration: 2.9680 Think Time: 0.0170 Wasted Time: 2.0960).
+t=00017504ms: Step 14: Mouse down on 123;217;02/13/2019 radio started    [MsgId: MMSG-205180]
+t=00018068ms: Step 14: Mouse down on 123;217;02/13/2019 radio successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00018588ms: Step 15: Click on 123;217;02/13/2019 radio started    [MsgId: MMSG-205180]
+t=00018981ms: Step 15: Click on 123;217;02/13/2019 radio successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00019499ms: Step 17: Mouse down on reserveFlights button started    [MsgId: MMSG-205180]
+t=00020121ms: Step 17: Mouse down on reserveFlights button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00020643ms: Step 18: Click on reserveFlights button started    [MsgId: MMSG-205180]
+t=00021130ms: Step 18: Click on reserveFlights button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00021151ms: Step 19: Wait until reserveFlights button exists started    [MsgId: MMSG-205180]
+t=00049334ms: Error -205177: TypeError: Cannot read property 'toUpperCase' of undefined
+TypeError: Cannot read property 'toUpperCase' of undefined
+    at Element._platformUpdate (<anonymous>:18092:89)
+    at Element.update (<anonymous>:17777:9)
+    at Element.updateFromUser (<anonymous>:17883:9)
+    at Function.updateTestObjectFromUser (<anonymous>:15088:30)
+    at <anonymous>:15178:14
+    at Object.dispatch (<anonymous>:2939:15)
+    at new window.TC_NS.Event (<anonymous>:2990:27)
+    at Function.dispatch (<anonymous>:3004:12)
+    at Object.receive (chrome-extension://opmdjnhpgoamlkjpphnnhohdcgnimbbj/RRE/content/DRRECommunication/DRRECommunication.js:148:45)
+    at chrome-extension://opmdjnhpgoamlkjpphnnhohdcgnimbbj/RRE/content/DRRECommunication/DRRECommunicationAgent.js:56:33
+While calling handlers in TC_NS.RuleEngine dispatch, event=[TC_NS.Event type="agent/update-test-object-from-user" target="[object Window]"], handler=
+function (args) {
+		if (!evalTestObjectProlog(args))
+			return TC_NS.Log.debug("Failed to activate TO: args.testObjId=" + args.testObjId);
+		TC_NS.Step.updateTestObjectFromUser({
+			stepTestObject: TC_NS.TestObject.activeTO,
+			testObjId: args.testObjId,
+			identProfile: args.identProfile,
+			newTestObjectId: args.newTestObjectId,
+			callback: args.callback
+		});
+	}    [MsgId: MERR-205177]
+Ending Vuser...
+Vuser Terminated.

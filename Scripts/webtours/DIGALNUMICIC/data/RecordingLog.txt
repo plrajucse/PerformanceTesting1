@@ -1,0 +1,301 @@
+[API Trapper      ( 510:16d8)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1718:23a0)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( cac:13b8)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( cac:1d48)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( cac:1d48)] Load Network Traffic Analyzers:
+[Network Analyzer ( cac:1d48)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( cac:1d48)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( cac:1d48)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( cac:1d48)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( cac:1d48)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( cac:1d48)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( cac:1d48)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( cac:1d48)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( cac:1838)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Warning  ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( cac:1b30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( cac:1838)] "GET /webtours"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 269 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 506 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /webtours/"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 663 bytes  (Service=HTTP)
+[Net An. Warning  ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( cac:1838)] "GET /webtours/header.html"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer ( cac:1b30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Net An. Warning  ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( cac:1d48)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( cac:1d48)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Web Request      ( cac:1838)] "GET /webtours/images/webtours.png"   
+[Network Analyzer ( cac:1838)]   (Sid:  2) Client -> Server @ : 355 bytes (Service=HTTP)
+[Network Analyzer ( cac:1d48)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( cac:1838)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer ( cac:1838)]   (Sid:  3) Client -> Server @ : 354 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  2) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  3) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 375 bytes (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/home.html"   
+[Network Analyzer ( cac:1838)]   (Sid:  2) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /favicon.ico"   
+[Network Analyzer ( cac:1838)]   (Sid:  1) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( cac:118c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:118c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      ( cac:1838)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( cac:1838)]   (Sid:  4) Client -> Server @ : 577 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  4) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( cac:1838)]   (Sid:  4) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer ( cac:1b30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid:  4) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( cac:1838)]   (Sid:  5) Client -> Server @ : 475 bytes (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  4) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( cac:1b30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: 370)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: cb4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( cac:1838)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( cac: 370)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( cac:1838)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  7) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer ( cac: cb4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid:  6) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  4) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  7) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  6) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  5) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid:  5) Connection Terminated (by Server)
+[Web Request      ( cac:1838)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( cac:1838)]   (Sid:  8) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  8) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( cac:1838)]   (Sid:  8) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer ( cac: cb4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: cb4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid:  8) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( cac:1838)]   (Sid:  9) Client -> Server @ : 498 bytes (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  8) Client -> Server @ : 510 bytes (Service=HTTP)
+[Network Analyzer ( cac: cb4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: cb4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid:  8) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( cac:1838)]   (Sid: 10) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 10) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  9) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  9) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( cac:1838)]   (Sid:  9) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  9) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/classes/"   
+[Network Analyzer ( cac:1838)]   (Sid:  9) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  9) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/classes/"   
+[Network Analyzer ( cac:1838)]   (Sid:  9) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  9) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer ( cac:1838)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer ( cac: a44)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: a44)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( cac:1838)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( cac:1838)]   (Sid: 11) Client -> Server @ : 829 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 11) Server -> Client : 2704 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( cac: cb4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1d48)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: cb4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( cac:1838)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( cac:1838)]   (Sid: 12) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer ( cac:1d48)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid: 12) Server -> Client : 2966 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (1718: ad0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1718: ad0)] Load Network Traffic Analyzers:
+[Network Analyzer (1718: ad0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1718: ad0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1718: ad0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1718: ad0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1718: ad0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1718: ad0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1718: ad0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1718: ad0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1718:12bc)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:1588)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718: ad0)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:1588)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1718: ad0)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1718:1e4c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1718: 1bc)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1718:16c4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.24.243:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.24.243:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.24.243:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:16c4)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:12cc)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:16c4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:10e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Error    (1718:1e4c)] SSLAccept(ssl_id = 1420694459904 = 0000014AC7FD1600) Failed, ctx = 0000014AC566AB50, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1718:1e4c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1718: 1bc)] SSLAccept(ssl_id = 1420694294400 = 0000014AC7FA8F80) Failed, ctx = 0000014AC566AB50, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1718: 1bc)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1718: f30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:12bc)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1718:12bc)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1718: f30)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1718:1c5c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1718:1c5c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Warning  (1718:12cc)] Request Connection: Remote Server @ 117.18.232.200:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (1718:12bc)] "GET /ieflipahead/ie10/rules.xml?mkt=en-US"   
+[Network Analyzer (1718:12bc)]   (Sid:  3) Client -> Server @ : 363 bytes (SSL)(Service=HTTP)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 27.34.251.202:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 2663 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 3701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 4624 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1718:12cc)] Request Connection: Remote Server @ 117.18.232.200:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8112 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 3488 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 27.34.251.202:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 5760 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Server -> Client : 1813 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1718:12cc)] Request Connection: Remote Server @ 117.18.232.200:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:12cc)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 27.34.251.202:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:10e4)] Request Connection: Remote Server @ 27.34.251.202:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718: f30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:1588)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718: f30)] Request Connection: Remote Server @ 23.77.21.104:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1718:1588)] Request Connection: Remote Server @ 23.77.21.104:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1718:2144)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1718:10e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:16c4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:1610)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 104.18.24.243:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 27.34.251.200:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 104.18.24.243:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 27.34.251.200:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 104.18.24.243:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:10e4)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 27.34.251.200:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:16c4)] Request Connection: Remote Server @ 27.34.251.200:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:16c4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:10e4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 117.18.232.200:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:16c4)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 117.18.232.200:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:10e4)] Request Connection: Remote Server @ 117.18.232.200:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:10e4)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:222c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Warning  (1718:222c)] Request Connection: Remote Server @ 27.34.251.200:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:222c)] Request Connection: Remote Server @ 27.34.251.200:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:2144)] SSLAccept(ssl_id = 1420695495456 = 0000014AC80CE320) Failed, ctx = 0000014AC8013150, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1718:2144)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1718:1610)] SSLAccept(ssl_id = 1420695456144 = 0000014AC80C4990) Failed, ctx = 0000014AC8013150, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1718:1610)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1718:16c4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer (1718:12bc)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (1718:12bc)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (1718:16c4)] Request Connection: Remote Server @ 23.77.21.104:443   (Service=)  (Sid=  6)  PROXIED!
+[Net An. Error    (1718:1fa8)] SSL_connect(ssl_id = 1420695486720 = 0000014AC80CC100) Failed, ctx = 0000014AC8013ED0, err = "SSLv3/TLS write client hello", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (1718:1fa8)]   (Sid:  6) SSL handshake with remote server Failed!
+[Net An. Warning  (1718:222c)] Request Connection: Remote Server @ 27.34.251.200:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:222c)] Request Connection: Remote Server @ 27.34.251.200:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:222c)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Net An. Warning  (1718:222c)] Request Connection: Remote Server @ 27.34.251.202:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:222c)] Request Connection: Remote Server @ 27.34.251.202:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1718:222c)] Request Connection: Remote Server @ 27.34.251.202:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1718:222c)] Request Connection: Remote Server @ 27.34.251.202:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1718:12bc)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( cac:1b30)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid: 13) Connection Terminated (by Client)
+[Web Request      ( cac:1838)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( cac:1838)]   (Sid: 14) Client -> Server @ : 877 bytes (Service=HTTP)
+[Network Analyzer ( cac: cb4)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac: cb4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid: 14) Server -> Client : 2843 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( cac:1838)]   (Sid: 14) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 14) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 14) Connection Terminated (by Server)
+[Web Request      ( cac:1838)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( cac:1838)]   (Sid: 15) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 15) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( cac:1838)]   (Sid: 15) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer ( cac:1d48)] Address lookup for DESKTOP-KHJQF8S = 192.168.0.14
+[Network Analyzer ( cac:1d48)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( cac:1838)]   (Sid: 15) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( cac:1838)] "GET /WebTours/home.html"   
+[Network Analyzer ( cac:1838)]   (Sid: 16) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( cac:1838)]   (Sid: 16) Server -> Client : 194 bytes  (Service=HTTP)

@@ -1,0 +1,152 @@
+﻿.OutlookTopBar
+{
+     background-image: url(Img/outlookBarTop.gif);
+     background-color: white;
+     background-repeat: repeat-x;
+     padding-top: 3px;
+     border: 1px solid #002D96;
+     width: 180px;
+     font-size: 11px;
+     padding-left: 4px;
+}
+ 
+.OutlookTable
+{
+     background-color:#c4dafa;
+     margin-top:4px;
+}
+ 
+.MailSubject
+{
+     color: #808080;
+}
+ 
+.SelectedRow_Outlook .MailSubject
+{
+     color: white;
+}
+ 
+.RadGrid th input
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 12px;
+}
+
+
+
+.AboutHeader
+{
+	position: relative;
+	height: 133px;
+	padding: 20px;
+}
+
+.AboutSiteMap
+{
+	height: 135px;
+	padding: 20px 20px 0;
+}
+
+/* Footer styles */
+
+.footer
+{
+	
+	font-size: 10px;
+	background: #050505 url('Images/Icon.jpg') no-repeat 0 0;
+	color: #464646;
+}
+
+div.footer .note
+{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.AboutHeader span.note, 
+.AboutFooter span.note,
+.footer span.note
+{
+	color: #464646;
+	display: block;
+	padding-bottom: 10px;
+}
+.footer a,
+.AboutHeader a, 
+.AboutSiteMap .Default a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer a:hover,
+.AboutHeader a:hover, 
+.AboutSiteMap .Default a:hover
+{
+	text-decoration: underline;
+}
+
+.AboutFooter
+{
+	padding: 13px 20px 0;
+}
+
+.AboutHeader h2
+{
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 16px;
+	margin: 0 0 16px;
+	padding: 0;
+}
+
+.AboutHeader a img
+{
+	border: 0;
+}
+
+.AboutHeader span.title
+{
+	color: #badd00;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.AboutHeader span.title a
+{
+	color: #badd00;
+	text-decoration: none;
+}
+
+.AboutHeader span.title a:hover
+{
+	text-decoration: underline;
+}
+
+.AboutHeader span.note, 
+.AboutFooter span.note,
+.footer span.note
+{
+	color: #464646;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.AboutHeader .DownloadSource
+{
+	position: absolute;
+	right: 40px;
+	bottom: 35px;
+	background: url('Images/source_button.png') no-repeat 0 0;
+	width: 144px;
+	height: 40px;
+	display: block;
+}
+
+.AboutHeader .DownloadSource:hover
+{
+	background-position: 0 -40px;
+}
+

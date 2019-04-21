@@ -1,0 +1,2096 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-chrome-uma-reportinginfo",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-chrome-uma-log-sha1",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "purpose",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/proto"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.google.octet-stream-compressible"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 71,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jan-02-2019",
+    "RecordingDuration": 225735,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1546413840,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 11678021,
+    "TotalBytesSent": 176168,
+    "TotalRequests": 181,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "way2sms.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "182.18.171.150",
+          "IncludeInScript": true,
+          "Name": "www.way2sms.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 860,
+              "EventId": 9054,
+              "HttpStatus": 200,
+              "Size": 32378,
+              "URL": "http://www.way2sms.com/resources/images/icons-sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 844,
+              "EventId": 9050,
+              "HttpStatus": 200,
+              "Size": 12722,
+              "URL": "http://www.way2sms.com/resources/images/img-sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 906,
+              "EventId": 9047,
+              "HttpStatus": 200,
+              "Size": 4894,
+              "URL": "http://www.way2sms.com/resources/images/language.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1078,
+              "EventId": 9042,
+              "HttpStatus": 200,
+              "Size": 1145,
+              "URL": "http://www.way2sms.com/resources/images/icon-mail.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 297,
+              "EventId": 9036,
+              "HttpStatus": 200,
+              "Size": 57393,
+              "URL": "http://www.way2sms.com/resources/images/promote-graphic.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 157,
+              "EventId": 9034,
+              "HttpStatus": 200,
+              "Size": 1448,
+              "URL": "http://www.way2sms.com/resources/images/ftr-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 9032,
+              "HttpStatus": 200,
+              "Size": 1503,
+              "URL": "http://www.way2sms.com/resources/images/internet.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 9026,
+              "HttpStatus": 200,
+              "Size": 141273,
+              "URL": "http://www.way2sms.com/resources/images/graphic-1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 110,
+              "EventId": 9024,
+              "HttpStatus": 200,
+              "Size": 1007,
+              "URL": "http://www.way2sms.com/resources/images/arrow-point-whaite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 9021,
+              "HttpStatus": 200,
+              "Size": 1261,
+              "URL": "http://www.way2sms.com/resources/images/whatsapp-cion.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 9019,
+              "HttpStatus": 200,
+              "Size": 3420,
+              "URL": "http://www.way2sms.com/resources/images/way2sms-logo-1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 344,
+              "EventId": 9008,
+              "HttpStatus": 200,
+              "Size": 1557,
+              "URL": "http://www.way2sms.com/resources/images/logo-way2sms.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 8995,
+              "HttpStatus": 200,
+              "Size": 12014,
+              "URL": "http://www.way2sms.com/resources/css/login-styles.css?v=%200.25310034193071196"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 516,
+              "EventId": 8963,
+              "HttpStatus": 200,
+              "Size": 3079,
+              "URL": "http://www.way2sms.com/resources/css/helpers.css?v=%200.25310034193071196"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 8949,
+              "HttpStatus": 200,
+              "Size": 16561,
+              "URL": "http://www.way2sms.com/Logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 328,
+              "EventId": 8807,
+              "HttpStatus": 200,
+              "Size": 670,
+              "URL": "http://www.way2sms.com/GroupContacts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 797,
+              "EventId": 8800,
+              "HttpStatus": 200,
+              "Size": 347,
+              "URL": "http://www.way2sms.com/getContacts?token=undefined&_=1546414013876"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 797,
+              "EventId": 8798,
+              "HttpStatus": 200,
+              "Size": 8396,
+              "URL": "http://www.way2sms.com/resources/images/chrome-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 265,
+              "EventId": 8795,
+              "HttpStatus": 200,
+              "Size": 2313,
+              "URL": "http://www.way2sms.com/resources/images/smile12.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 375,
+              "EventId": 8788,
+              "HttpStatus": 200,
+              "Size": 2351,
+              "URL": "http://www.way2sms.com/resources/images/smile11.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 3250,
+              "EventId": 8736,
+              "HttpStatus": 200,
+              "Size": 7083,
+              "URL": "http://www.way2sms.com/resources/images/way2sms-logo-extn.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 2297,
+              "EventId": 8705,
+              "HttpStatus": 200,
+              "Size": 2434,
+              "URL": "http://www.way2sms.com/resources/images/smile10.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 2297,
+              "EventId": 8702,
+              "HttpStatus": 200,
+              "Size": 4894,
+              "URL": "http://www.way2sms.com/resources/images/language.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 2297,
+              "EventId": 8700,
+              "HttpStatus": 200,
+              "Size": 1503,
+              "URL": "http://www.way2sms.com/resources/images/internet.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 2375,
+              "EventId": 8697,
+              "HttpStatus": 200,
+              "Size": 2264,
+              "URL": "http://www.way2sms.com/resources/images/smile9.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 969,
+              "EventId": 8688,
+              "HttpStatus": 200,
+              "Size": 18347,
+              "URL": "http://www.way2sms.com/resources/images/image-sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 500,
+              "EventId": 8665,
+              "HttpStatus": 200,
+              "Size": 2426,
+              "URL": "http://www.way2sms.com/resources/images/smile8.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 391,
+              "EventId": 8662,
+              "HttpStatus": 200,
+              "Size": 2416,
+              "URL": "http://www.way2sms.com/resources/images/smile7.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 500,
+              "EventId": 8660,
+              "HttpStatus": 200,
+              "Size": 2407,
+              "URL": "http://www.way2sms.com/resources/images/smile6.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 515,
+              "EventId": 8657,
+              "HttpStatus": 200,
+              "Size": 2374,
+              "URL": "http://www.way2sms.com/resources/images/smile5.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 281,
+              "EventId": 8646,
+              "HttpStatus": 200,
+              "Size": 2416,
+              "URL": "http://www.way2sms.com/resources/images/smile4.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 8638,
+              "HttpStatus": 200,
+              "Size": 2406,
+              "URL": "http://www.way2sms.com/resources/images/smile2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 140,
+              "EventId": 8635,
+              "HttpStatus": 200,
+              "Size": 2457,
+              "URL": "http://www.way2sms.com/resources/images/smile3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 8632,
+              "HttpStatus": 200,
+              "Size": 2371,
+              "URL": "http://www.way2sms.com/resources/images/smile1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 8624,
+              "HttpStatus": 200,
+              "Size": 425,
+              "URL": "http://www.way2sms.com/resources/images/close_mobile.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 531,
+              "EventId": 8618,
+              "HttpStatus": 200,
+              "Size": 3009,
+              "URL": "http://www.way2sms.com/resources/images/logo_way2sms.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 500,
+              "EventId": 8615,
+              "HttpStatus": 200,
+              "Size": 11470,
+              "URL": "http://www.way2sms.com/resources/js/SendSMSJS.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 516,
+              "EventId": 8613,
+              "HttpStatus": 200,
+              "Size": 3233,
+              "URL": "http://www.way2sms.com/resources/js/detect-private-browsing.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 500,
+              "EventId": 8611,
+              "HttpStatus": 200,
+              "Size": 62357,
+              "URL": "http://www.way2sms.com/resources/js/commonJS.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 515,
+              "EventId": 8609,
+              "HttpStatus": 200,
+              "Size": 1208,
+              "URL": "http://www.way2sms.com/resources/css/simplePagination.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 610,
+              "EventId": 8607,
+              "HttpStatus": 200,
+              "Size": 91,
+              "URL": "http://www.way2sms.com/resources/css/all-ie-only.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1641,
+              "EventId": 8593,
+              "HttpStatus": 200,
+              "Size": 3191,
+              "URL": "http://www.way2sms.com/resources/css/responsive.extra_small.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1641,
+              "EventId": 8589,
+              "HttpStatus": 200,
+              "Size": 1666,
+              "URL": "http://www.way2sms.com/resources/css/responsive.small.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1672,
+              "EventId": 8585,
+              "HttpStatus": 200,
+              "Size": 5796,
+              "URL": "http://www.way2sms.com/resources/css/responsive.medium.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1563,
+              "EventId": 8582,
+              "HttpStatus": 200,
+              "Size": 2640,
+              "URL": "http://www.way2sms.com/resources/css/responsive.large.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1516,
+              "EventId": 8578,
+              "HttpStatus": 200,
+              "Size": 5483,
+              "URL": "http://www.way2sms.com/resources/css/jquery.datetimepicker.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 8571,
+              "HttpStatus": 200,
+              "Size": 29929,
+              "URL": "http://www.way2sms.com/resources/css/style.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 8563,
+              "HttpStatus": 200,
+              "Size": 3079,
+              "URL": "http://www.way2sms.com/resources/css/helpers.css?v=%200.24491861793937464"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 625,
+              "EventId": 8547,
+              "HttpStatus": 200,
+              "Size": 13074,
+              "URL": "http://www.way2sms.com/send-sms"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 110,
+              "EventId": 8545,
+              "HttpStatus": 200,
+              "Size": 21,
+              "URL": "http://www.way2sms.com/smstoss"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 1047,
+              "EventId": 8531,
+              "HttpStatus": 200,
+              "Size": 2159,
+              "URL": "http://www.way2sms.com/getMsgGreatings"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 875,
+              "EventId": 8529,
+              "HttpStatus": 200,
+              "Size": 263,
+              "URL": "http://www.way2sms.com/resources/images/down-arrow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 725,
+              "HttpStatus": 200,
+              "Size": 670,
+              "URL": "http://www.way2sms.com/GroupContacts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 723,
+              "HttpStatus": 200,
+              "Size": 347,
+              "URL": "http://www.way2sms.com/getContacts?token=undefined&_=1546413906883"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 297,
+              "EventId": 703,
+              "HttpStatus": 200,
+              "Size": 2416,
+              "URL": "http://www.way2sms.com/resources/images/smile7.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 690,
+              "HttpStatus": 200,
+              "Size": 2313,
+              "URL": "http://www.way2sms.com/resources/images/smile12.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 688,
+              "HttpStatus": 200,
+              "Size": 8396,
+              "URL": "http://www.way2sms.com/resources/images/chrome-icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 685,
+              "HttpStatus": 200,
+              "Size": 2434,
+              "URL": "http://www.way2sms.com/resources/images/smile10.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 683,
+              "HttpStatus": 200,
+              "Size": 2351,
+              "URL": "http://www.way2sms.com/resources/images/smile11.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 668,
+              "HttpStatus": 200,
+              "Size": 2264,
+              "URL": "http://www.way2sms.com/resources/images/smile9.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 664,
+              "HttpStatus": 200,
+              "Size": 2426,
+              "URL": "http://www.way2sms.com/resources/images/smile8.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 658,
+              "HttpStatus": 200,
+              "Size": 2407,
+              "URL": "http://www.way2sms.com/resources/images/smile6.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 655,
+              "HttpStatus": 200,
+              "Size": 7083,
+              "URL": "http://www.way2sms.com/resources/images/way2sms-logo-extn.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 594,
+              "EventId": 651,
+              "HttpStatus": 200,
+              "Size": 3009,
+              "URL": "http://www.way2sms.com/resources/images/logo_way2sms.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 639,
+              "HttpStatus": 200,
+              "Size": 4894,
+              "URL": "http://www.way2sms.com/resources/images/language.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 631,
+              "HttpStatus": 200,
+              "Size": 1503,
+              "URL": "http://www.way2sms.com/resources/images/internet.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 628,
+              "HttpStatus": 200,
+              "Size": 18347,
+              "URL": "http://www.way2sms.com/resources/images/image-sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 391,
+              "EventId": 621,
+              "HttpStatus": 200,
+              "Size": 11470,
+              "URL": "http://www.way2sms.com/resources/js/SendSMSJS.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 619,
+              "HttpStatus": 200,
+              "Size": 2374,
+              "URL": "http://www.way2sms.com/resources/images/smile5.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 615,
+              "HttpStatus": 200,
+              "Size": 2416,
+              "URL": "http://www.way2sms.com/resources/images/smile4.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 611,
+              "HttpStatus": 200,
+              "Size": 2371,
+              "URL": "http://www.way2sms.com/resources/images/smile1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 608,
+              "HttpStatus": 200,
+              "Size": 2457,
+              "URL": "http://www.way2sms.com/resources/images/smile3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 604,
+              "HttpStatus": 200,
+              "Size": 2406,
+              "URL": "http://www.way2sms.com/resources/images/smile2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 601,
+              "HttpStatus": 200,
+              "Size": 425,
+              "URL": "http://www.way2sms.com/resources/images/close_mobile.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 94,
+              "EventId": 594,
+              "HttpStatus": 200,
+              "Size": 62357,
+              "URL": "http://www.way2sms.com/resources/js/commonJS.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 93,
+              "EventId": 591,
+              "HttpStatus": 200,
+              "Size": 3233,
+              "URL": "http://www.way2sms.com/resources/js/detect-private-browsing.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 93,
+              "EventId": 589,
+              "HttpStatus": 200,
+              "Size": 1208,
+              "URL": "http://www.way2sms.com/resources/css/simplePagination.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 587,
+              "HttpStatus": 200,
+              "Size": 85,
+              "URL": "http://www.way2sms.com/resources/css/all-ie-only.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 571,
+              "HttpStatus": 200,
+              "Size": 5789,
+              "URL": "http://www.way2sms.com/resources/css/responsive.medium.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 109,
+              "EventId": 568,
+              "HttpStatus": 200,
+              "Size": 2640,
+              "URL": "http://www.way2sms.com/resources/css/responsive.large.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 94,
+              "EventId": 566,
+              "HttpStatus": 200,
+              "Size": 3191,
+              "URL": "http://www.way2sms.com/resources/css/responsive.extra_small.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 79,
+              "EventId": 563,
+              "HttpStatus": 200,
+              "Size": 1666,
+              "URL": "http://www.way2sms.com/resources/css/responsive.small.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 554,
+              "HttpStatus": 200,
+              "Size": 5492,
+              "URL": "http://www.way2sms.com/resources/css/jquery.datetimepicker.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 551,
+              "HttpStatus": 200,
+              "Size": 29892,
+              "URL": "http://www.way2sms.com/resources/css/style.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 3090,
+              "URL": "http://www.way2sms.com/resources/css/helpers.css?v=%200.14505387512793666"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 527,
+              "HttpStatus": 200,
+              "Size": 13070,
+              "URL": "http://www.way2sms.com/send-sms"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 34,
+              "URL": "http://www.way2sms.com/re-login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 507,
+              "HttpStatus": 200,
+              "Size": 1489,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/favicon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1468,
+              "EventId": 370,
+              "HttpStatus": 200,
+              "Size": 32378,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/icons-sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 358,
+              "HttpStatus": 200,
+              "Size": 12722,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/img-sprite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 516,
+              "EventId": 260,
+              "HttpStatus": 200,
+              "Size": 1448,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/ftr-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 218,
+              "EventId": 237,
+              "HttpStatus": 200,
+              "Size": 1503,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/internet.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 188,
+              "EventId": 234,
+              "HttpStatus": 200,
+              "Size": 4894,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/language.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 198,
+              "HttpStatus": 200,
+              "Size": 57393,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/promote-graphic.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 203,
+              "EventId": 191,
+              "HttpStatus": 200,
+              "Size": 141273,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/graphic-1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 1007,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/arrow-point-whaite.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 1261,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/whatsapp-cion.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 1557,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/logo-way2sms.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 170,
+              "HttpStatus": 200,
+              "Size": 1145,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/icon-mail.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 164,
+              "HttpStatus": 200,
+              "Size": 3420,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/way2sms-logo-1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 160,
+              "HttpStatus": 200,
+              "Size": 3730,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/images/logo-mobile_2.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1062,
+              "EventId": 127,
+              "HttpStatus": 200,
+              "Size": 1666,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/responsive.small.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 579,
+              "EventId": 116,
+              "HttpStatus": 200,
+              "Size": 1202,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/simplePagination.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 578,
+              "EventId": 114,
+              "HttpStatus": 200,
+              "Size": 91,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/all-ie-only.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 547,
+              "EventId": 111,
+              "HttpStatus": 200,
+              "Size": 12014,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/login-styles.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 172,
+              "EventId": 100,
+              "HttpStatus": 200,
+              "Size": 3191,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/responsive.extra_small.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 110,
+              "EventId": 81,
+              "HttpStatus": 200,
+              "Size": 29929,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/style.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 110,
+              "EventId": 79,
+              "HttpStatus": 200,
+              "Size": 5483,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/jquery.datetimepicker.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 5796,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/responsive.medium.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 71,
+              "HttpStatus": 200,
+              "Size": 2640,
+              "URL": "http://www.way2sms.com/resources;jsessionid=437654014AE882531F07BE11FEE09315/css/responsive.large.css?v=%200.527394271909664"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 110,
+              "EventId": 16,
+              "HttpStatus": 200,
+              "Size": 16605,
+              "URL": "http://www.way2sms.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "jquery.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "205.185.208.52",
+          "IncludeInScript": true,
+          "Name": "code.jquery.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 250,
+              "EventId": 364,
+              "HttpStatus": 200,
+              "Size": 30288,
+              "URL": "https://code.jquery.com/jquery-3.3.1.min.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.35",
+          "IncludeInScript": true,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 188,
+              "EventId": 187,
+              "HttpStatus": 200,
+              "Size": 69547,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 188,
+              "EventId": 182,
+              "HttpStatus": 200,
+              "Size": 69547,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.35",
+          "IncludeInScript": true,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 3140,
+              "EventId": 8728,
+              "HttpStatus": 200,
+              "Size": 15552,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 3016,
+              "EventId": 8726,
+              "HttpStatus": 200,
+              "Size": 15344,
+              "URL": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 459,
+              "HttpStatus": 200,
+              "Size": 14720,
+              "URL": "https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 457,
+              "HttpStatus": 200,
+              "Size": 14564,
+              "URL": "https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 435,
+              "HttpStatus": 200,
+              "Size": 14048,
+              "URL": "https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 425,
+              "HttpStatus": 200,
+              "Size": 14544,
+              "URL": "https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhp.woff2"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googletagservices.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.34",
+          "IncludeInScript": true,
+          "Name": "www.googletagservices.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 879,
+              "HttpStatus": 200,
+              "Size": 27407,
+              "URL": "https://www.googletagservices.com/activeview/js/current/osd_listener.js?cache=r20110914"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 660,
+              "HttpStatus": 200,
+              "Size": 9686,
+              "URL": "https://www.googletagservices.com/tag/js/gpt.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googletagmanager.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.200",
+          "IncludeInScript": true,
+          "Name": "www.googletagmanager.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 354,
+              "HttpStatus": 200,
+              "Size": 32165,
+              "URL": "https://www.googletagmanager.com/gtag/js?id=UA-131011012-1"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googlesyndication.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.65",
+          "IncludeInScript": true,
+          "Name": "tpc.googlesyndication.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1110,
+              "EventId": 8694,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 78,
+              "EventId": 833,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 822,
+              "HttpStatus": 200,
+              "Size": 1737,
+              "URL": "http://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.65",
+          "IncludeInScript": true,
+          "Name": "tpc.googlesyndication.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 3172,
+              "EventId": 8732,
+              "HttpStatus": 200,
+              "Size": 344,
+              "URL": "https://tpc.googlesyndication.com/pagead/images/abg/icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 3203,
+              "EventId": 8730,
+              "HttpStatus": 200,
+              "Size": 2982,
+              "URL": "https://tpc.googlesyndication.com/pagead/images/abg/en.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 125,
+              "EventId": 937,
+              "HttpStatus": 200,
+              "Size": 1255,
+              "URL": "https://tpc.googlesyndication.com/pagead/js/r20181205/r20110914/client/ext/m_window_focus_non_hydra.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 935,
+              "HttpStatus": 200,
+              "Size": 18426,
+              "URL": "https://tpc.googlesyndication.com/simgad/11360951914814314105"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 923,
+              "HttpStatus": 200,
+              "Size": 3401,
+              "URL": "https://tpc.googlesyndication.com/pagead/js/r20181205/r20110914/client/ext/m_qs_click_protection.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 15,
+              "EventId": 862,
+              "HttpStatus": 200,
+              "Size": 12246,
+              "URL": "https://tpc.googlesyndication.com/pagead/js/r20181205/r20110914/abg_lite.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 841,
+              "HttpStatus": 200,
+              "Size": 24923,
+              "URL": "https://tpc.googlesyndication.com/pagead/gadgets/html5/ssrh.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.34",
+          "IncludeInScript": true,
+          "Name": "pagead2.googlesyndication.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 609,
+              "EventId": 8793,
+              "HttpStatus": 403,
+              "Size": 67,
+              "URL": "http://pagead2.googlesyndication.com/pagead/osd.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 831,
+              "HttpStatus": 403,
+              "Size": 67,
+              "URL": "http://pagead2.googlesyndication.com/pagead/osd.js"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.138",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 2266,
+              "EventId": 8707,
+              "HttpStatus": 200,
+              "Size": 591,
+              "URL": "https://fonts.googleapis.com/css?family=Roboto:300,400,500&lang=en"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 578,
+              "EventId": 120,
+              "HttpStatus": 200,
+              "Size": 657,
+              "URL": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.196.163",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 703,
+              "EventId": 3024,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 2283,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 1492,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 955,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 266,
+              "EventId": 613,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 1140,
+              "EventId": 520,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 107,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=71"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.200.132",
+          "IncludeInScript": true,
+          "Name": "www.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2296,
+              "EventId": 8712,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.google.com/ads/measurement/l?ebcid=ALh7CaQNVuu6JTaIbhoM28Rjc0nbksMfs-N46eD0EEBYUgI_XEXXuINTmdrX45PeDtzFdqb6OJGSg9OUF0X5WqXWEfYiDXx5AA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 5202,
+              "HttpStatus": 302,
+              "Size": 246,
+              "URL": "https://www.google.com/pagead/drt/ui"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.46",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 125,
+              "EventId": 8534,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "https://clients4.google.com/chrome-sync/experimentstatus"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 408,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clients4.google.com/rappor"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.46",
+          "IncludeInScript": true,
+          "Name": "clients1.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 2266,
+              "EventId": 8539,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZv7qSG2HPMFEjLUozD5AkIy1r7PhLJCMtAQVWBCQjLcZosPwkFA=="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 47,
+              "EventId": 743,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZD29ZHVa79wsjLV_XoR8kIy2gI7YjJCMt_HC0iCQUExm1Elb8BwtzPyMtqAZF7iQjLc5BTHokFBMZv7qSG2HPMFEjLUozD5AkIy1r7PhLJCMtAQVWBCQjLcZosPwkFA=="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 63,
+              "EventId": 489,
+              "HttpStatus": 200,
+              "Size": 50,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZbhOxULRqywkjLSAiIh0kIy2qCiEWJCMtzkFMeiQUExm1Elb8BwtzPyMtqAZF7iQjLc5BTHokFBMZfQ40oMVGhoYjLaoKIRYkIy1f16EfJCMtoCO2IyQjLfxwtIgkFA=="
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.31.205",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 2015,
+              "EventId": 133,
+              "HttpStatus": 200,
+              "Size": 288,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=durations_metrics&json=standard"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.167.142",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 719,
+              "EventId": 9052,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j72&a=1609063693&t=pageview&_s=1&dl=http%3A%2F%2Fwww.way2sms.com%2FLogout&ul=en-us&de=UTF-8&dt=Free%20SMS%2C%20Send%20Free%20SMS%2C%20Free%20SMS%20to%20india%2C%20Send%20Free%20SMS%20to%20india%2C%20Free%20text%20messaging%2C%20Send%20free%20SMS%20from%20PC%20to%20Mobile%2C%20Bulk%20SMS%2C%20Corporate%20SMS%2C%20SMS%20for%20Business%20need%2C%20SMS%20for%20Corporate%2C%20SMS%20API%2C%20SMS%20for%20Business%20need%20in%20india.&sd=24-bit&sr=1024x768&vp=1007x657&je=0&_u=AACAAUAB~&jid=&gjid=&cid=343269645.1546413864&tid=UA-131011012-1&_gid=241202237.1546413864&gtm=2oubc0&z=238191782"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1703,
+              "EventId": 8771,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/r/collect?v=1&_v=j72&a=1149502262&t=pageview&_s=1&dl=http%3A%2F%2Fwww.way2sms.com%2Fsend-sms&ul=en-us&de=UTF-8&dt=Free%20SMS%2C%20Send%20Free%20SMS%2C%20Free%20SMS%20to%20india%2C%20Send%20Free%20SMS%20to%20india%2C%20Free%20text%20messaging%2C%20Send%20free%20SMS%20from%20PC%20to%20Mobile%2C%20Bulk%20SMS%2C%20Corporate%20SMS%2C%20SMS%20for%20Business%20need%2C%20SMS%20for%20Corporate%2C%20SMS%20API%2C%20SMS%20for%20Business%20need%20in%20india.&sd=24-bit&sr=1024x768&vp=1007x657&je=0&_u=AACAAUAB~&jid=721345146&gjid=1621011408&cid=343269645.1546413864&tid=UA-131011012-1&_gid=241202237.1546413864&_r=1&gtm=2oubc0&z=44483898"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 634,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j72&a=336259263&t=pageview&_s=1&dl=http%3A%2F%2Fwww.way2sms.com%2Fsend-sms&ul=en-us&de=UTF-8&dt=Free%20SMS%2C%20Send%20Free%20SMS%2C%20Free%20SMS%20to%20india%2C%20Send%20Free%20SMS%20to%20india%2C%20Free%20text%20messaging%2C%20Send%20free%20SMS%20from%20PC%20to%20Mobile%2C%20Bulk%20SMS%2C%20Corporate%20SMS%2C%20SMS%20for%20Business%20need%2C%20SMS%20for%20Corporate%2C%20SMS%20API%2C%20SMS%20for%20Business%20need%20in%20india.&sd=24-bit&sr=1024x768&vp=1007x657&je=0&_u=AACAAUAB~&jid=&gjid=&cid=343269645.1546413864&tid=UA-131011012-1&_gid=241202237.1546413864&gtm=2oubc0&z=1947844672"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 510,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j72&a=904146271&t=pageview&_s=1&dl=http%3A%2F%2Fwww.way2sms.com%2F&ul=en-us&de=UTF-8&dt=Free%20SMS%2C%20Send%20Free%20SMS%2C%20Free%20SMS%20to%20india%2C%20Send%20Free%20SMS%20to%20india%2C%20Free%20text%20messaging%2C%20Send%20free%20SMS%20from%20PC%20to%20Mobile%2C%20Bulk%20SMS%2C%20Corporate%20SMS%2C%20SMS%20for%20Business%20need%2C%20SMS%20for%20Corporate%2C%20SMS%20API%2C%20SMS%20for%20Business%20need%20in%20india.&sd=24-bit&sr=1024x768&vp=1007x657&je=0&_u=IEBAAcABAAAAAC~&jid=836858124&gjid=822860906&cid=343269645.1546413864&tid=UA-131011012-1&_gid=241202237.1546413864&_r=1&gtm=2oubc0&z=1833674336"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 492,
+              "HttpStatus": 200,
+              "Size": 17404,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.160.134",
+          "IncludeInScript": true,
+          "Name": "static.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 1013,
+              "HttpStatus": 200,
+              "Size": 657187,
+              "URL": "https://static.doubleclick.net/dynamic/5/83162684/16235225394399202847_8675348365655758132.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 996,
+              "HttpStatus": 200,
+              "Size": 2720239,
+              "URL": "https://static.doubleclick.net/dynamic/5/83162684/1529099808651963460_8179179998581525663.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 171,
+              "EventId": 990,
+              "HttpStatus": 200,
+              "Size": 2343493,
+              "URL": "https://static.doubleclick.net/dynamic/5/83162684/291261725546270920_9195422076687482511.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 976,
+              "HttpStatus": 200,
+              "Size": 1467548,
+              "URL": "https://static.doubleclick.net/dynamic/5/83162684/15057702665965456302_15313248739847393774.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 972,
+              "HttpStatus": 200,
+              "Size": 615191,
+              "URL": "https://static.doubleclick.net/dynamic/5/83162684/12310390111887008943_10284365863354828450.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 969,
+              "HttpStatus": 200,
+              "Size": 2044832,
+              "URL": "https://static.doubleclick.net/dynamic/5/83162684/17611255392140401286_15141454214320069093.jpeg"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.98",
+          "IncludeInScript": true,
+          "Name": "securepubads.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2281,
+              "EventId": 8710,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://securepubads.g.doubleclick.net/pagead/adview?ai=C2_Wk4GcsXMMj1ZOtAZC1jsgEhq_rslTP0rnUkgj4tIzm0wgQASDj_fQiYOXK5YO0DqABsZKhzwPIAQGpAu5EZ3r61E4-4AIAqAMByAMKqgTgAU_QsDT7RBapLklerX_yDdQD7DrnxXNvgL-vSGj0_ploTu512H2ch8CxJVJh3LUm1BV82VSbaxzSJ-6sn4SLy_CaP1sdKqnf-zxLWazWzb1Yy9JDtcawdUinlsaafyXg2e9vqkCbxWq8Tk-W90QWTfNBCeHp-mzASr7d7iF49qS25Lct1nOp2YtO8DJtTafTm3u9SL58gtfmpb7s2QCpE1KZP0lzSm6-C0FHGY_wSNJkEa5TdCdijq9FHIHvouusOcLKq8_ezxDIBHlkTLjm-hbCLRh2uCAbLzAugP-fIuPhwATcjuHz7QHgBAGSBQQIBBgBkgUECAUYBIAHnpqyHKgHjs4bqAfVyRuoB6gGqAe50huoB9nLG6gHz8wbqAemvhvYBwHyBwQQwo9m0ggHCIBhEAEYAYAKAdgTAg&sigh=KwJn8yxniwM&tpd=AGWhJmu018Yez68rRng02CBAy2jpjF45KUMjFD8DnTt9DhOvag"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 578,
+              "EventId": 8667,
+              "HttpStatus": 200,
+              "Size": 10112,
+              "URL": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=850421030822844&correlator=3167476350363437&output=json_html&callback=googletag.impl.pubads.callbackProxy1&impl=fifs&json_a=1&eid=21061864%2C21062377%2C21062453&vrg=285&guci=2.2.0.0.2.2.0.0&plat=1%3A32776%2C2%3A16809992&sc=0&sfv=1-0-31&iu_parts=55450251%2Cw2s_sendms_ext_2017&enc_prev_ius=%2F0%2F1&prev_iu_szs=728x90&cookie=ID%3Dd729dc49c226da0f%3AT%3D1546413942%3AS%3DALNI_MbLkmXxzxmb7frH1pKDy0ex_tnZHA&bc=7&abxe=1&lmt=1546414013&dt=1546414013822&dlt=1546414008178&idt=4252&frm=20&biw=1007&bih=657&oid=3&adxs=260&adys=687&adks=4280396453&ucis=1&ifi=1&u_tz=330&u_his=2&u_h=768&u_w=1024&u_ah=728&u_aw=1024&u_cd=24&u_nplug=3&u_nmime=4&u_sd=1&flash=0&url=http%3A%2F%2Fwww.way2sms.com%2Fsend-sms&ref=http%3A%2F%2Fwww.way2sms.com%2Fsend-sms&dssz=7&icsg=170&std=0&csl=215&vis=1&scr_x=0&scr_y=0&psz=433x90&msz=728x-1&ga_vid=343269645.1546413864&ga_sid=1546414014&ga_hid=1149502262&fws=4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 281,
+              "EventId": 947,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://securepubads.g.doubleclick.net/pagead/adview?ai=CQa7CdmcsXMmLJ9eFrtoPgdy3mAiHh93RVPzzhp-cCL_hHhABIOP99CJg5crlg7QOoAHw8JX6A8gBCeACAKgDAcgDCKoE4wFP0BGwSc4f7jsX_adtOyAnawWcyqLDRbJtf2FqUyu6dpbd-q8oCzsaVqT27ton2ZlsTHmE_2FDr6BBpgZZv3AKHuP77Mawdnb3k0SwpKzy7TtxzeMTjCDunC78c6PM5hMm9GLJss4_1DOKoXNdxyAJESvsIiMEcpm4OlV5dnhQI-6Hhc_U2TWsYLn60zkLKJO5N-di6J3FlmgIcwwIhPxLLCtM2qvVgFGWxp0TwiuNjZAfbFs-Bjxmpr7EiZmvwxJh3TdsZgg2zq9pIElXdbGQbuMiaJJQgBrk5RZfHTVDlTld-MAEssyKsN4B4AQBkgUECAQYAZIFBAgFGASSBQQIBRgYkgUFCAUYqAGgBi6AB-3RijeoB47OG6gHqAaoB9nLG6gHz8wbqAemvhvYBwDyBwQQ78Es0ggHCIBhEAEYAYAKAdgTCg&sigh=XQFPXHDB-iM&template_id=494&tpd=AGWhJmuUibR7G3D48kg1-f_nACKjkFY12lwjr6X1dIOFfm4h0g"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 375,
+              "EventId": 810,
+              "HttpStatus": 200,
+              "Size": 13249,
+              "URL": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=1157723034281267&correlator=3207286799490344&output=json_html&callback=googletag.impl.pubads.callbackProxy1&impl=fifs&json_a=1&eid=21062287&vrg=285&guci=2.2.0.0.2.2.0.0&plat=1%3A32776%2C2%3A16809992&sc=0&sfv=1-0-31&iu_parts=55450251%2Cw2s_sendms_ext_2017&enc_prev_ius=%2F0%2F1&prev_iu_szs=728x90&cookie_enabled=1&bc=7&abxe=1&lmt=1546413908&dt=1546413908665&dlt=1546413904826&idt=3790&frm=20&biw=1007&bih=657&oid=3&adxs=260&adys=687&adks=4280396453&ucis=1&ifi=1&u_tz=330&u_his=2&u_h=768&u_w=1024&u_ah=728&u_aw=1024&u_cd=24&u_nplug=3&u_nmime=4&u_sd=1&flash=0&url=http%3A%2F%2Fwww.way2sms.com%2Fsend-sms&ref=http%3A%2F%2Fwww.way2sms.com%2F&dssz=17&icsg=690239&std=0&vis=1&scr_x=0&scr_y=0&psz=433x90&msz=728x-1&ga_vid=343269645.1546413864&ga_sid=1546413909&ga_hid=336259263&fws=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 790,
+              "HttpStatus": 200,
+              "Size": 21933,
+              "URL": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_285.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 110,
+              "EventId": 727,
+              "HttpStatus": 200,
+              "Size": 64605,
+              "URL": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_285.js"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.34",
+          "IncludeInScript": true,
+          "Name": "googleads.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 5320,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://googleads.g.doubleclick.net/pagead/drt/si"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 1783,
+              "HttpStatus": 200,
+              "Size": 145,
+              "URL": "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.200.134",
+          "IncludeInScript": true,
+          "Name": "ad.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 750,
+              "EventId": 4154,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://ad.doubleclick.net/ddm/trackimp/N349404.134426GOOGLEDISPLAYNETWO/B10447464.236584493;dc_pre=CMr4gPHIzt8CFQI_Kwod7z8Pkw;dc_trk_aid=434030946;dc_trk_cid=110243344;ord=2163839685;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 1721,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://ad.doubleclick.net/ddm/trackimp/N349404.134426GOOGLEDISPLAYNETWO/B10447464.236584493;dc_trk_aid=434030946;dc_trk_cid=110243344;ord=2163839685;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cloudflare.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.19.198.151",
+          "IncludeInScript": true,
+          "Name": "cdnjs.cloudflare.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 562,
+              "EventId": 118,
+              "HttpStatus": 200,
+              "Size": 1533,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bootstrapcdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "209.197.3.15",
+          "IncludeInScript": true,
+          "Name": "stackpath.bootstrapcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/woff2",
+              "DownloadTime": 109,
+              "EventId": 411,
+              "HttpStatus": 200,
+              "Size": 77171,
+              "URL": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1032,
+              "EventId": 344,
+              "HttpStatus": 200,
+              "Size": 7050,
+              "URL": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "ampproject.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.26.193",
+          "IncludeInScript": true,
+          "Name": "cdn.ampproject.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 500,
+              "EventId": 8928,
+              "HttpStatus": 200,
+              "Size": 12653,
+              "URL": "https://cdn.ampproject.org/rtv/011812051624460/v0/amp-form-0.1.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 500,
+              "EventId": 8926,
+              "HttpStatus": 200,
+              "Size": 1602,
+              "URL": "https://cdn.ampproject.org/rtv/011812051624460/v0/amp-fit-text-0.1.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 32,
+              "EventId": 8883,
+              "HttpStatus": 200,
+              "Size": 41338,
+              "URL": "https://cdn.ampproject.org/rtv/011812051624460/v0/amp-analytics-0.1.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 297,
+              "EventId": 8858,
+              "HttpStatus": 200,
+              "Size": 7754,
+              "URL": "https://cdn.ampproject.org/rtv/011812051624460/amp4ads-host-v0.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 8810,
+              "HttpStatus": 200,
+              "Size": 86897,
+              "URL": "https://cdn.ampproject.org/rtv/011812051624460/amp4ads-v0.js"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 3
+}

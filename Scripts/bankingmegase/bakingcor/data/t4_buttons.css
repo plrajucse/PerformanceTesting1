@@ -1,0 +1,75 @@
+
+/*GENERAL*/
+div.button, div.bigbutton, div.hugebutton
+{
+	float: left;
+	height: 21px;
+	margin: 0 0 0 0;
+}
+
+a.button, a.button:link, a.button:visited, a.button:active, a.bigbutton, a.bigbutton:link, a.bigbutton:visited, a.bigbutton:active, a.hugebutton, a.hugebutton:link, a.hugebutton:visited, a.hugebutton:active
+{
+	display:block;
+	margin:0; 
+	padding:0;
+	height:100%;
+	overflow:hidden;
+	
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 8pt;
+	
+	line-height:21px;
+	text-align:center;
+	color:#000000;
+}
+
+a.button:hover, a.bigbutton:hover, a.hugebutton:hover
+{
+	background-image: none;
+	color:#CC0000;
+}
+
+/*NORMAL*/
+div.button
+{
+	background: url('../images/button.gif') -80px 0 no-repeat;
+	margin-right: 15px;
+	width: 80px;
+}
+
+a.button, a.button:visited, a.button:active
+{
+	width:80px;
+	background: url('../images/button.gif') top left no-repeat;
+}
+
+/**BIG BUTTON**/
+div.bigbutton
+{
+	background: url('../images/bigbutton.gif') -115px 0 no-repeat;
+	margin-right: 15px;
+	width: 115px; 
+}
+
+a.bigbutton, a.bigbutton:visited, a.bigbutton:active
+{
+	width:115px;
+	background: url('../images/bigbutton.gif') top left no-repeat;
+}
+
+/**HUGE BUTTON**/
+div.hugebutton
+{
+	background: url('../images/hugebutton.gif') -150px 0 no-repeat;
+	margin-right: 15px;
+	width: 150px; 
+}
+
+a.hugebutton, a.hugebutton:visited, a.hugebutton:active
+{
+	width:150px;
+	background: url('../images/hugebutton.gif') top left no-repeat;
+}
+
