@@ -1,0 +1,26 @@
+Virtual User Script started at: 2/28/2019 5:20:27 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\BOR_SC004_Account\\default.cfg"  	[MsgId: MMSG-27141]
+BOR_ModuleApproach.h(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+BOR_ModuleApproach.h(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+BOR_ModuleApproach.h(8): web_reg_save_param started  	[MsgId: MMSG-26355]
+BOR_ModuleApproach.h(8): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+BOR_ModuleApproach.h(10): web_reg_find started  	[MsgId: MMSG-26355]
+BOR_ModuleApproach.h(10): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+BOR_ModuleApproach.h(12): Notify: Transaction "BOR_SC001_T001_Launch" started.
+BOR_ModuleApproach.h(13): web_url("Launch") started  	[MsgId: MMSG-26355]
+BOR_ModuleApproach.h(13): Error -27722: Step download timeout (120 seconds) has expired when downloading resource "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MERR-27722]
+BOR_ModuleApproach.h(13): Aborting pending download of URL="http://demo.borland.com/InsuranceWebExtJS/" (RelFrameId=1, Internal ID=1)  	[MsgId: MMSG-27650]
+BOR_ModuleApproach.h(13): Error -26377: No match found for the requested parameter "cJsessionId". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+BOR_ModuleApproach.h(13): Registered web_reg_find successful for "Text=Our innovative"  	[MsgId: MMSG-26362]
+BOR_ModuleApproach.h(13): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+BOR_ModuleApproach.h(13): web_url("Launch") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+BOR_ModuleApproach.h(13): Notify: Transaction "BOR_SC001_T001_Launch" ended with a "Fail" status (Duration: 120.9680 Wasted Time: 0.1725).
+BOR_ModuleApproach.h(13): Notify: Transaction "BOR_SC001_T001_Launch" has 3 error message(s).
+BOR_ModuleApproach.h(13): Notify: The 1st error message associated with transaction "BOR_SC001_T001_Launch" is "Error -27722: Step download timeout (120 seconds) has expired when downloading resource "http://demo.borland.com/InsuranceWebExtJS/""
+BOR_ModuleApproach.h(13): Notify: The 2nd error message associated with transaction "BOR_SC001_T001_Launch" is "Error -26377: No match found for the requested parameter "cJsessionId". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+BOR_ModuleApproach.h(13): Notify: The 3rd error message associated with transaction "BOR_SC001_T001_Launch" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Abort was called from an action.

@@ -1,0 +1,140 @@
+/*
+    BASICS
+*/
+
+*                           { padding: 0;  margin: 0; }
+body                        { font-family: Arial, Helvetica, Verdana, Sans-serif; font-size: 12px;
+                              line-height: 19px; color: #666666; background: #ffffff; vertical-align: middle;
+                              height: 100% }
+h1                          { font-size: 18px; margin-bottom: 10px; }
+h2                          { font-size: 14px; margin-bottom: 5px; }
+img                         { border: none; }
+ul                          { list-style: none;}
+li                          { background: url(../images/pimp2.gif) no-repeat 0px 10px;
+                              padding-left: 10px; line-height: 26px; color: #303A3C; }
+li a                        { text-decoration: underline; color: #303A3C; }
+li a:hover                  { text-decoration: none; }
+
+/*
+    FORMS
+*/
+
+input, select               { color: #779bcf; background: #d6e0fe; border: 1px solid #781351;
+                              height: 20px; width: 120px; margin-bottom: 5px; }
+select                      { width: 187px; }
+input.cbutton               { border: none; width: 80px; height: 20px; }
+input.cbutton2              { border: none; width: 56px; height: 22px; }
+
+label                       { float: left; width: 120px; text-align: right; font-weight: bold;
+                              display: inline; margin-right: 5px; }
+fieldset                    { border: 1px solid #781351; width: 35em; margin-top: 10px; padding-left: 5px;}
+fieldset div                { margin-bottom: 5px; }
+legend                      { color: #fff; background: #1472ac; border: 1px solid #366893;
+                              padding: 2px 6px; margin-left: 5px; margin-bottom: 8px; }
+
+/*
+   CUSTOM CLASSES
+*/ 
+
+.abstract                   { margin-bottom: 14px; }
+.nobr                       { float: left; }
+.clear                      { clear: both; }
+
+.infobox-1                  { background: url(../images/ltc.gif) no-repeat left top #E7E8E8; }
+.infobox-2                  { background: url(../images/lbc.gif) no-repeat left bottom; }
+.infobox-3                  { background: url(../images/rtc.gif) no-repeat right top; }
+.infobox-4                  { background: url(../images/rbc.gif) no-repeat right bottom; }
+.infobox-content            { margin-left: 15px; padding-top: 16px; padding-bottom: 17px; width: 430px }
+
+.infobox2-1                 { background: url(../images/ltc1.gif) no-repeat left top #30393C; }
+.infobox2-2                 { background: url(../images/lbc1.gif) no-repeat left bottom; }
+.infobox2-3                 { background: url(../images/rtc1.gif) no-repeat right top; }
+.infobox2-4                 { background: url(../images/rbc1.gif) no-repeat right bottom; }
+.infobox2-content           { width: 230px; padding-top: 11px; margin-left: 13px; padding-bottom: 3px; }
+.infobox2-content a         { color: #AEC9D8; text-decoration: none; font-size: 11px; }
+
+table.radio                 { float: left; }
+.radio input                { text-align: left; margin-right: 0em; margin: none; border: none;
+                              width: auto; height: auto; background: transparent; vertical-align: middle; }
+.radio label                { float: none; width: auto; text-align: left; font-weight: normal; margin: none;
+                              vertical-align: middle; }
+
+label.login                 { width: 70px; text-align: left; margin: 0px; }
+label.menu                  { float: none; width: 150px; }
+
+.message-error              { color: red; font-size: 11px; line-height: 14px; margin-bottom: 3px;
+                              background: none; padding-left: 5px; }
+.message-info               { color: green; font-size: 11px; line-height: 14px; margin-bottom: 3px;
+                              background: none; padding-left: 0; }
+
+.highlight                  { color: #1885B1; font-weight: bold; }
+.date                       { color: #1885B1; font-size: 11px; padding-left: 15px;
+                              background: url(../images/pimp3.gif) no-repeat left; }
+   
+.newsletter-heading         { color: #A6E6FF; font-size: 17px; }
+.newsletter-heading span    { color: #ffffff; font-size: 17px; }
+.newsletter                 { color: #AEC9D8; font-size: 11px; }
+
+.line                       { height: 0px; border-top: 1px solid #dddddd; border-bottom: 0px;
+                              border-left: 0px; border-right: 0px; padding-bottom: 10px; margin-top: 8px; }
+
+img.heading                 { margin-bottom: 14px; }
+
+a.link-door                 { color: #303A3C; text-decoration: none; font-weight: bold; font-size: 11px;
+                              background: url(../images/pimp1.gif) no-repeat right;
+                              padding-right: 19px; }
+
+/*
+    UNIQUE ELEMENTS
+*/
+
+#header                     { height: 66px; background: #ffffff url(../images/header.png); }
+#container                  { text-align: center; width: 740px; margin: auto; }
+#content                    { text-align: left; margin: auto; margin-top: 10px; float: left; line-height: 18px; }
+#content-main               { text-align: left; margin: auto; margin-left: 50px; float: left; height: 100%; }
+#lower-content              { clear: both; }
+
+#lower-content .column-left { width: 440px; margin-right: 50px; float: left; }
+#lower-content .column-right{ width: 230px; float: right; display: inline;}
+
+#login                      { width: 200px; height: 166px;
+                              background: url(../images/h_back2.jpg) no-repeat left top;
+                              padding: 5px 15px 5px 15px; float: right; }
+#login-messages             { height: 33px; width: 190px; padding-left: 0; }
+
+#tiles                      { float: left; margin-right: 5px; }
+
+#footer                     { font-family: Tahoma, Arial, Helvetica, Sans-serif; font-size: 10px; color: #c9c9c9;
+                              border-top: 1px solid #efefef; line-height: 18px; width: 740px; margin-left: auto;
+                              margin-right: auto; margin-top: 20px; text-align: left; clear: both; }
+#footer a                   { color: #656C76; text-decoration: none; }
+#footer a:hover             { text-decoration: underline; }
+#footer .column-left        { float: left; }
+#footer .column-right       { float: right; }
+
+#quicklink                  { float: right; vertical-align: top; padding-top: 10px; }
+#navigation                 { text-align: left; vartical-align:top; }
+#nav                        { height: 35px; padding-top: 10px; float: left; }
+#nav ul                     { list-style: none; padding: 0; margin: 0; }
+#nav li                     { float: left; margin: 0 0.15em; background: none; padding: 0; }
+#nav li a                   { background: url(../images/css-nav.gif) #fff bottom left repeat-x; height: 2em; 
+                              line-height: 2em; float: left; width: 9em; display: block; text-align: center;
+                              border: 0.1em solid #dcdce9; color: #0d2474; text-decoration: none; }
+#nav li a:hover             { background: url(../images/css-nav.gif) #fff bottom left repeat-x; height: 2em;
+                              line-height: 2em; float: left; width: 9em;display: block;  text-align: center;
+                              border: 0.1em solid #dcdce9; color: #1849f4; text-decoration: none; }
+
+#left-nav                   { float: left; margin-top: 10px; margin-left: 2px; width: 150px; }
+#left-nav ul                { border-color: black; border-width: 1px; list-style: none; margin: 0; padding: 0; }
+#left-nav li                { border-bottom: 1px solid #3144ff; font-size: 90%; background: none;
+                              margin: 0; padding: 0; }
+#left-nav li a:link,
+#left-nav li a:visited      { display: block; padding-left: 5px; border-left: 12px solid #8d98ab;
+                              border-right: 1px solid #8d98ab; background-color: #cde1ff;
+                              color: #363636; text-decoration: none; }
+#left-nav li a:hover        { background-color: #687b85; color: #FFFFFF; }
+
+#carModelsDIV               { float: left; }
+#carMakesDIV                { float: left; }
+#quoteTableDIV              { width: 500px; }
+#birthDatePickerDIV         { float: left }

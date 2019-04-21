@@ -1,0 +1,101 @@
+Virtual User Script started at: 2/27/2019 6:53:06 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Dell\Documents\VuGen\Scripts\BOR_SC003_ShowAllAgents\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(13): Notify: Transaction "BOR_SC001_T001_Launch" started.
+vuser_init.c(14): web_url("InsuranceWebExtJS") started  	[MsgId: MMSG-26355]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/css/style.css" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/tiles.png" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=27848245248DFB5C4154F63BF9424DCB" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=27848245248DFB5C4154F63BF9424DCB" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/profile.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): web_url("InsuranceWebExtJS") was successful, 108297 body bytes, 3312 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(23): Notify: Transaction "BOR_SC001_T001_Launch" ended with a "Pass" status (Duration: 1.7486 Wasted Time: 0.2219).
+vuser_init.c(27): Notify: Transaction "BOR_SC001_T002_LogIn" started.
+vuser_init.c(29): web_submit_data("index.jsf;jsessionid=62E6E969C6D914D187A21F89589E3912") started  	[MsgId: MMSG-26355]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/images/tiles.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/details.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=62E6E969C6D914D187A21F89589E3912"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/logout.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=62E6E969C6D914D187A21F89589E3912"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/images/profile.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): Resource "http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(29): web_submit_data("index.jsf;jsessionid=62E6E969C6D914D187A21F89589E3912") was successful, 5909 body bytes, 1037 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(47): Notify: Transaction "BOR_SC001_T002_LogIn" ended with a "Pass" status (Duration: 0.5286 Wasted Time: 0.1161).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): Notify: Transaction "BOR_SC001_T003_AgentLookUp" started.
+Action.c(8): web_url("agent_lookup.jsf") started  	[MsgId: MMSG-26355]
+Action.c(8): Resource "http://demo.borland.com/InsuranceWebExtJS/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Resource "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/tilesV.png" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/search.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/or.jpg" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("agent_lookup.jsf") was successful, 90911 body bytes, 1209 header bytes  	[MsgId: MMSG-26386]
+Action.c(18): Notify: Transaction "BOR_SC001_T003_AgentLookUp" ended with a "Pass" status (Duration: 1.0228 Wasted Time: 0.1339).
+Action.c(22): Notify: Transaction "BOR_SC003_T004_ShowAllAgents" started.
+Action.c(24): web_submit_data("agent_lookup.jsf_2") started  	[MsgId: MMSG-26355]
+Action.c(24): Found resource "http://demo.borland.com/InsuranceWebExtJS/ext/resources/css/ext-all.css" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(24): Resource "http://demo.borland.com/InsuranceWebExtJS/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Found resource "http://demo.borland.com/InsuranceWebExtJS/ext/adapter/ext/ext-base-debug.js" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(24): Found resource "http://demo.borland.com/InsuranceWebExtJS/ext/ext-all-debug.js" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(24): Found resource "http://demo.borland.com/InsuranceWebExtJS/javascript/serializer.js" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(24): Resource "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Found resource "http://demo.borland.com/InsuranceWebExtJS/javascript/agentTable.js" in HTML "http://demo.borland.com/InsuranceWebExtJS/agent_lookup.jsf"  	[MsgId: MMSG-26659]
+Action.c(24): Resource "http://demo.borland.com/InsuranceWebExtJS/images/tilesV.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): web_submit_data("agent_lookup.jsf_2") was successful, 1545207 body bytes, 1873 header bytes  	[MsgId: MMSG-26386]
+Action.c(39): web_custom_request("agentData.jsf") started  	[MsgId: MMSG-26355]
+Action.c(39): web_custom_request("agentData.jsf") was successful, 883 body bytes, 328 header bytes  	[MsgId: MMSG-26386]
+Action.c(52): Notify: Transaction "BOR_SC003_T004_ShowAllAgents" ended with a "Pass" status (Duration: 2.5932 Wasted Time: 0.5453).
+Action.c(56): Notify: Transaction "BOR_SC001_T005_Home" started.
+Action.c(58): web_url("index.jsf") started  	[MsgId: MMSG-26355]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/tiles.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/details.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/logout.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/profile.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): Resource "http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(58): web_url("index.jsf") was successful, 2573 body bytes, 364 header bytes  	[MsgId: MMSG-26386]
+Action.c(68): Notify: Transaction "BOR_SC001_T005_Home" ended with a "Pass" status (Duration: 0.3201 Wasted Time: 0.0743).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(4): Notify: Transaction "BOR_SC001_T006_LogOut" started.
+vuser_end.c(6): web_submit_data("index.jsf_2") started  	[MsgId: MMSG-26355]
+vuser_end.c(6): Redirecting "http://demo.borland.com/InsuranceWebExtJS/index.jsf" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_end.c(6): To location "http://demo.borland.com/InsuranceWebExtJS/index.jsf"  	[MsgId: MMSG-26693]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/images/tiles.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/login.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/index.jsf"  	[MsgId: MMSG-26659]
+vuser_end.c(6): Found resource "http://demo.borland.com/InsuranceWebExtJS/images/signup.gif" in HTML "http://demo.borland.com/InsuranceWebExtJS/index.jsf"  	[MsgId: MMSG-26659]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/images/profile.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): Resource "http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(6): web_submit_data("index.jsf_2") was successful, 5924 body bytes, 1441 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(21): Notify: Transaction "BOR_SC001_T006_LogOut" ended with a "Pass" status (Duration: 0.6810 Wasted Time: 0.1037).
+Ending action vuser_end.
+Vuser Terminated.

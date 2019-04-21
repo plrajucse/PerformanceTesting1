@@ -1,0 +1,98 @@
+Ext.onReady(function(){
+	
+	document.location.href.match(/xml/) ? resumeFunc("xml") : resumeFunc({responseText:"application/json"});
+    
+    function resumeFunc(msg){
+    	
+    	var recordDef = Ext.data.Record.create(
+    			[
+    			 {name: 'FirstName', mapping: 'FirstName', type:'string' },
+    			 {name: 'LastName', mapping: 'LastName', type:'string'},
+    			 {name: 'City', mapping: 'City', type:'string'},
+    			 {name: 'State', mapping: 'State', type:'string'},
+    			 {name: 'Address', mapping: 'Address', type:'string'},
+    			 {name: 'ZipCode', mapping: 'ZipCode', type:'string'},
+    			 {name: 'Phone', mapping: 'Phone', type:'string'}
+    			]
+    		);
+    		
+    		var serializationHttpProxy = new Ext.data.HttpProxy({
+    			url: 'serialization',
+    			method: 'POST'
+    		});
+    		serializationHttpProxy.on ( 'beforeload', function ( t, p ) { p.nocache = 1; p.method = msg; } );
+
+    		var store_ActionItems = new Ext.data.Store({
+    			proxy: serializationHttpProxy,    		
+    			autoLoad: false
+    		});    		 
+    		
+    		var quoteHttpProxy = new Ext.data.HttpProxy({
+    			url: document.location.href.match(/xml/) ? 'data/agentXmlData.jsf' : 'data/agentData.jsf',
+    			 method: 'POST'
+    		});
+    		quoteHttpProxy.on ( 'beforeload', function ( t, p ) { p.nocache = 1; p.method = msg; } );
+    		quoteHttpProxy.getConnection().on('requestexception', requestFailed);    		   	
+    		var dataReader;
+    		if(msg == "xml"){    			
+    			dataReader = new Ext.data.XmlReader({record: 'row'}, recordDef );
+    		}
+    		else
+    			dataReader = new Ext.data.JsonReader({root: ''},	recordDef );
+    		
+    		var quoteDataStore = new Ext.data.Store({		
+    			proxy: quoteHttpProxy,
+    			reader: dataReader,
+    			autoLoad: true
+    		});
+    		
+    		quoteDataStore.on('loadexception', loadFailedModel);
+    						 
+    	    var grid = new Ext.grid.GridPanel({
+    			store: quoteDataStore,
+    			columns: [
+    			          {header: 'First name',  	dataIndex: 'FirstName', sortable: true, width:80 },
+    			          {header: 'Last name',  	dataIndex: 'LastName', sortable: true, width:120 },
+    			          {header: 'City', 	dataIndex: 'City', sortable: true},
+    			          {header: 'State',  	dataIndex: 'State', sortable: true, width:50}    			          
+    			          ],
+    			width: 370,
+    		    listeners:{
+    			  	rowdblclick : function(grid,rowIndex){    	    	
+    	    			rec = grid.getStore().getAt(rowIndex);    	    			
+    	    		  var win = new Ext.Window({
+				      width:420,
+				      height:150,
+				      title:""+rec.get('FirstName')+" "+rec.get('LastName'),
+				      items:
+				      [
+						new Ext.Panel({
+							autoHeight:false,
+							height: 130,
+							html: "<table style='border-spacing:5pt;font-size:medium' ><tr><td><b>Name:</b></td><td>"+rec.get('FirstName')+" "+rec.get('LastName')+"</td></tr><tr><td><b>Address: </b></td><td>"+rec.get('Address')+","+rec.get('City')+" "+rec.get('ZipCode')+"</td></tr><tr><td><b>State: </b></td><td>"+rec.get('State')+"</td></tr><tr><td><b>Phone: </b></td><td>"+rec.get('Phone')+"</td></tr></table>"
+						})
+				      ]
+				   });
+    	    	   win.show();
+    			      		}    			      		
+    			      	},
+    	        renderTo: 'agentTableDIV',
+    			title: 'Insurance Co. Agents ('+msg.responseText+')',		
+    			autoHeight: true,
+    			frame: true
+    		});    	   
+    	    grid.render();    	    	
+    }
+
+    function requestFailed(connection, response, options) {
+		Ext.MessageBox.alert('Error Message', 
+				"Please contact support with the following: " + 
+				"Status: " + response.status + 
+				", Status Text: " + response.statusText);
+	}
+    
+    function loadFailedModel(proxy, options, response, error) {
+		alert(error);
+    }
+
+});

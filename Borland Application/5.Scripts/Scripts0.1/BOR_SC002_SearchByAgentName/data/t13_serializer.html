@@ -1,0 +1,57 @@
+
+function encode(type, obj){
+	if(type == 'json'){	
+		return Ext.encode(obj);
+	}
+	else{
+		var ret = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><dataset>";
+		for(i in obj){
+			ret = ret+"<"+i+">"+obj[i]+"</"+i+">";			
+		}
+		ret = ret+"</dataset>";
+		return ret;
+	}
+}
+
+function decode(type, toDecode){
+	if(type == 'json'){				
+		return Ext.decode(toDecode);		
+	}
+	else{
+		if (typeof DOMParser == "undefined") {
+			var xmlobject = new ActiveXObject("Microsoft.XMLDOM");
+			xmlobject.async="false";
+			xmlobject.loadXML(toDecode);
+			var root = xmlobject.getElementsByTagName('dataset')[0];
+			
+			var x = new Array();
+			for (var node = 0; node < root.childNodes.length; node++) {
+				var n = root.childNodes.item(node);
+				for (var node2 = 0; node2 < n.childNodes.length; node2++) {
+					var n2 = n.childNodes[node2];
+					var tag = n2.nodeName;		
+					var value = n2.text;					
+					if(x[node] == null)
+						x[node] = new Object();
+					x[node][n2.nodeName] =  n2.text;				
+				}			
+			}
+			return(x);
+		}
+		else{		
+			var xmlobject = (new DOMParser()).parseFromString(toDecode, "text/xml");
+			var root = xmlobject.getElementsByTagName('dataset')[0];
+			var x = new Array();
+			for (var node = 0; node < root.childNodes.length; node++) {
+				var n = root.childNodes.item(node);			
+				for (var node2 = 0; node2 < n.childNodes.length; node2++) {
+					var n2 = n.childNodes.item(node2);
+					if(x[node] == null)
+						x[node] = new Object();
+					x[node][n2.localName] =  n2.textContent;				
+				}			
+			}
+			return(x);
+		}
+	}
+}

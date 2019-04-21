@@ -1,0 +1,176 @@
+Ext.onReady(function(){
+	resumeFunc({responseText: "application/json"});
+    
+    function resumeFunc(msg){
+    	
+    	var recordDef = Ext.data.Record.create(
+    			[
+    			 {name: 'Id', mapping: 'Id', type:'string' },
+    			 {name: 'Type', mapping: 'Type', type:'string' },
+    			 {name: 'Make', mapping: 'Make', type:'string'},
+    			 {name: 'Year', mapping: 'Year', type:'string'},
+    			 {name: 'Model', mapping: 'Model', type:'string'},
+    			 {name: 'Financing'},
+    			 {name: 'Quote', mapping: 'Quote', type:'string'}		 		 
+    			]
+    		);
+    		
+    		var quoteHttpProxy = new Ext.data.HttpProxy({url: 'data/quoteData.jsf'});
+    		quoteHttpProxy.getConnection().on('requestexception', requestFailed);
+    		
+    		var dataReader = new Ext.data.JsonReader({id: 'Id', root: ''},	recordDef );
+
+    		var quoteDataStore = new Ext.data.Store({
+    			proxy: quoteHttpProxy,
+    			reader: dataReader    			
+    		});    		
+    		quoteDataStore.on('loadexception', loadFailedModel);
+    		var selectionID; 
+    		var glRec;
+    		var newQuoteValue;
+    		var communicationObj;
+    		var cm = new Ext.grid.ColumnModel([
+    		    {
+	    			id:'type',
+	    			header: "Type",
+	    			dataIndex:'Type',
+	    			width: 40
+    			},
+    			{
+    				id:'make',
+    				header:"Make",
+    				dataIndex:'Make'    				
+    			},
+    			{
+    				id:'model',
+    				header:"Model",
+    				dataIndex:'Model'
+    			},
+    			{
+    				id:'year',
+    				header: "Year",
+    				dataIndex: 'Year',
+    				sortable: false,
+    				width:50
+    			},
+    			{
+    				id:'finance',
+    				header:"Finance",
+    				dataIndex:'Financing',
+    				width:60,
+    				editor: new Ext.form.ComboBox({
+ 		               typeAhead: true,
+ 		               triggerAction: 'all',
+ 		               transform:'financeOpt',
+ 		               lazyRender:true,
+ 		               listClass: 'x-combo-list-small',
+ 		               listeners:{
+    						select:
+	          				{fn:function(combo, value, rec){
+    							communicationObj = {
+    									id: selectionID,
+    									newValue: value.data.value    									
+    							}							
+    							Ext.Ajax.request({
+    							url: "data/newQuote.jsf",
+							    params: {data: encode("json", communicationObj)},
+							    disableCaching: false,
+							    success: function(msg){
+							    	
+							    	var responseObj = decode("json", msg.responseText);
+							    	newQuoteValue = responseObj[0].newQuoteValue;
+							    	Ext.MessageBox.confirm('Confirm', 'Your Quote will be changed to '+responseObj[0].newQuoteValue+'$. Do you want to change your quote?', showResult);
+							    }
+    							})
+	      					}
+	          			}    				   
+    				}
+ 		            })
+    			},
+    			{
+    				id:'quote',
+    				header:'Quote',
+    				dataIndex:'Quote'  				
+    			}    			
+    		]);
+    		
+    		cm.defaultSortable = true;
+    		var grid = new Ext.grid.EditorGridPanel({
+    			store: quoteDataStore,
+    			cm: cm,
+    			renderTo: 'quoteTableDIV',
+    			title: 'Purchased Quotes ('+msg.responseText+')',    				
+    			height: 150,
+    			autoScroll: false,
+    			frame: true,
+    			clicksToEdit:1,
+    			sm: new Ext.grid.RowSelectionModel({
+    				singleSelect: true,
+    				listeners: {
+    				rowselect: function(sm, row, rec) {
+    				selectionID =rec.get('Id');
+    				glRec = rec;
+    			}}
+    			})
+    		});
+    		quoteDataStore.load();
+    		grid.render();
+    	  	    
+    	    function showResult(btn,newVal){
+    	        if(btn == 'yes'){    	        	
+    	        	glRec.set('Quote',newQuoteValue);
+    	        	Ext.Ajax.request({
+						url: "data/commitQuote.jsf",
+					    params: {data: encode("json",communicationObj)},
+					    disableCaching: false,
+					    success: function(msg){							    							    	
+					    	var responseObj = decode("json",msg.responseText);
+					    	if(responseObj[0].action == "commited"){
+			    	        	Ext.Msg.show({
+			    	        		title:'Info',
+			    	        		msg: 'Changes applied successfully.',
+			    	        		icon: Ext.MessageBox.INFO,
+			    	        		buttons: Ext.Msg.OK
+			    	        	});
+					    	}
+					    	else{
+					    		Ext.Msg.show({
+			    	        		title:'Info',
+			    	        		msg: 'Changes rejected.\nPlease contact your agent.',
+			    	        		icon: Ext.MessageBox.INFO,
+			    	        		buttons: Ext.Msg.OK
+			    	        	});					    		
+					    	}					    
+					    }
+						})
+    	        	glRec.commit();
+    	        }
+    	        else{
+    	        	glRec.reject();    	        
+    	        	Ext.Msg.show({
+    	        		title:'Abort',
+    	        		msg: 'No changes performed.',
+    	        		icon: Ext.MessageBox.WARNING,
+    	        		buttons: Ext.Msg.OK
+    	        	});
+    	        }
+    	    };
+    }
+        
+    function requestFailed(connection, response, options) {
+		Ext.MessageBox.alert('Error Message', 
+				"Please contact support with the following: " + 
+				"Status: " + response.status + 
+				", Status Text: " + response.statusText);
+	}
+    
+    function loadFailedModel(proxy, options, response, error) {
+    	Ext.MessageBox.alert('Error Message', 
+				"Please contact support with the following: " + 
+				"Status: " + response.status + 
+				", Status Text: " + response.statusText);
+    }    
+    
+
+
+});

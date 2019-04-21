@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Launch",
+                "infFile": "t1.inf",
+                "time": 1551354779346
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: LogIn",
+                "infFile": "t2.inf",
+                "time": 1551354786478
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "BOR_SC001_T001_Launch",
+                "rawStartTime": 1551354769975,
+                "rawEndTime": 1551354781126,
+                "thinkTime": 0.0,
+                "wastedTime": 0.23773598670959474
+            },
+            {
+                "transactionName": "BOR_SC001_T002_LogIn",
+                "rawStartTime": 1551354785132,
+                "rawEndTime": 1551354787589,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11187005043029785
+            }
+        ]
+    }
+]

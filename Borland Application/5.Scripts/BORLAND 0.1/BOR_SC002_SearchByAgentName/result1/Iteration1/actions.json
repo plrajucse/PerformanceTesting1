@@ -1,0 +1,29 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: agent_lookup.jsf",
+                "infFile": "t3.inf",
+                "time": 1551273862175
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "BOR_SC001_T003_AgentLookUp",
+                "rawStartTime": 1551273861096,
+                "rawEndTime": 1551273862176,
+                "thinkTime": 0.0,
+                "wastedTime": 0.18642187118530274
+            },
+            {
+                "transactionName": "BOR_SC002_T004_SearchByAgentName",
+                "rawStartTime": 1551273862181,
+                "rawEndTime": 1551273927347,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01082921028137207
+            }
+        ]
+    }
+]

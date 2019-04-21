@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: InsuranceWebExtJS",
+                "infFile": "t1.inf",
+                "time": 1551273743774
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: index.jsf;jsessionid=1F549FC00D90127249E85446F44006FC",
+                "infFile": "t2.inf",
+                "time": 1551273744344
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "BOR_SC001_T001_Launch",
+                "rawStartTime": 1551273741194,
+                "rawEndTime": 1551273743775,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1986997127532959
+            },
+            {
+                "transactionName": "BOR_SC001_T002_LogIn",
+                "rawStartTime": 1551273743775,
+                "rawEndTime": 1551273744344,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11232447624206543
+            }
+        ]
+    }
+]

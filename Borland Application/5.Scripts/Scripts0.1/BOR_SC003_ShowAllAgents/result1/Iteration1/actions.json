@@ -1,0 +1,54 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: AgentLookUp",
+                "infFile": "t3.inf",
+                "time": 1551347869696
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: ShowAllAgents",
+                "infFile": "t4.inf",
+                "time": 1551347880255
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: agentData.jsf",
+                "infFile": "t5.inf",
+                "time": 1551347884563
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Home",
+                "infFile": "t6.inf",
+                "time": 1551347890295
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "BOR_SC001_T003_AgentLookUp",
+                "rawStartTime": 1551347867947,
+                "rawEndTime": 1551347873623,
+                "thinkTime": 0.0,
+                "wastedTime": 0.19254589080810548
+            },
+            {
+                "transactionName": "BOR_SC003_T004_ShowAllAgents",
+                "rawStartTime": 1551347876770,
+                "rawEndTime": 1551347882833,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4959902763366699
+            },
+            {
+                "transactionName": "BOR_SC001_T005_Home",
+                "rawStartTime": 1551347889063,
+                "rawEndTime": 1551347891992,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09602618217468262
+            }
+        ]
+    }
+]
